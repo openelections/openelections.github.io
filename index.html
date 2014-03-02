@@ -16,7 +16,11 @@
 			var h = 360;
 
 			//Define map projection
-			var projection = d3.geo.albersUsa()
+
+      var geo;
+      var stateStatuses = {};
+
+      var projection = d3.geo.albersUsa()
 								   .translate([w/2, h/2])
 								   .scale([600]);
 
@@ -26,28 +30,35 @@
 							 
 			//Define quantize scale to sort data values into buckets of color
 			var color = d3.scale.ordinal()
-								.range(["rgb(237,248,233)","rgb(116,196,118)","rgb(0,109,44)"]);
+								.range(["rgb(237,248,233)","rgb(116,196,118)","rgb(0,109,44)"])
 								//Colors taken from colorbrewer.js, included in the D3 download
+                //Set input domain for color scale
+                .domain(["Not Started","Partial", "Up-to-date"]);
 
-			//Create SVG element
-			var svg = d3.select("body")
-						.append("svg")
+
+      //Create SVG element
+      var body = d3.select("body")
+
+      var svg = body.append("svg")
 						.attr("width", w)
 						.attr("height", h);
 
+      var infoBox = body.append('div')
+
 			//Load in agriculture data
-			d3.csv("openelection_volunteers.csv", function(data) {
+//			d3.csv("openelection_volunteers.csv", processCSV)
 
-        var stateStatuses = {}
+      d3.json("js/sample_metadata_status.json", processJSON);
 
-        data.forEach(function(row) {
+
+      function processJSON(data) {
+        data.objects.forEach(function(row) {
           stateStatuses[row.state] = row
         })
+        loadGeo()
+      }
 
-				//Set input domain for color scale
-				color.domain(["Not Started","Partial", "Up-to-date"]);
-
-//        var metadata_status =
+      function loadGeo() {
 				//Load in GeoJSON data
 				d3.json("js/us-states.json", function(json) {
 
@@ -60,30 +71,28 @@
             }
           })
 
+          geo = json;
+          render()
+        })
+      }
 
-					//Bind data and create one path per GeoJSON feature
-					svg.selectAll("path")
-					   .data(json.features)
-					   .enter()
-					   .append("path")
-					   .attr("d", path)
-					   .style("fill", function(d) {
-					   		//Get data value
-//                console.log(d.properties)
-					   		var value = d.properties.status;
-					   		
-					   		if (value) {
-					   			//If value exists…
-						   		return color(value);
-					   		} else {
-					   			//If value is undefined…
-						   		return "#ccc";
-					   		}
-					   });
-			
-				});
-			
-			});
+      function render() {
+        //Bind data and create one path per GeoJSON feature
+        svg.selectAll("path")
+           .data(geo.features)
+           .enter()
+           .append("path")
+           .attr("d", path)
+           .style("fill", function(d) {
+              var value = d.properties.status;
+              return value ? color(value) : '#ccc'
+           })
+            .on('mouseover', function(d) {
+              var dd = d.properties
+              infoBox.html(dd.state + ': ' + dd.status + '<br>' +  dd.volunteers)
+            })
+
+			};
 			
 		</script>
 	</body>
