@@ -12,13 +12,13 @@
 		<script type="text/javascript">
 
 			//Width and height
-			var w = 500;
-			var h = 300;
+			var w = 600;
+			var h = 360;
 
 			//Define map projection
 			var projection = d3.geo.albersUsa()
 								   .translate([w/2, h/2])
-								   .scale([500]);
+								   .scale([600]);
 
 			//Define path generator
 			var path = d3.geo.path()
@@ -45,7 +45,7 @@
         })
 
 				//Set input domain for color scale
-				color.domain(["Partial", "Up-to-date", "Not Started"]);
+				color.domain(["Not Started","Partial", "Up-to-date"]);
 
 //        var metadata_status =
 				//Load in GeoJSON data
@@ -60,34 +60,6 @@
             }
           })
 
-//					//Merge the openelection data and GeoJSON
-//					//Loop through once for each ag. data value
-//					for (var i = 0; i < data.length; i++) {
-//
-//            var state = stateStatuses[]
-//
-//						//Grab state name
-////						var dataState = data[i].state;
-//
-//						//Grab data value, and convert from string to float
-//						var dataValue = parseFloat(data[i].value);
-//
-//						//Find the corresponding state inside the GeoJSON
-//						for (var j = 0; j < json.features.length; j++) {
-//
-//							var jsonState = json.features[j].properties.name;
-//
-//							if (dataState == jsonState) {
-//
-//								//Copy the data value into the JSON
-//								json.features[j].properties.value = dataValue;
-//
-//								//Stop looking through the JSON
-//								break;
-//
-//							}
-//						}
-//					}
 
 					//Bind data and create one path per GeoJSON feature
 					svg.selectAll("path")
