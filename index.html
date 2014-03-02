@@ -9,6 +9,7 @@
 		</style>
 	</head>
 	<body>
+  <div id="map"></div>
 		<script type="text/javascript">
 
 			//Width and height
@@ -37,13 +38,13 @@
 
 
       //Create SVG element
-      var body = d3.select("body")
+      var mapdiv = d3.select("#map")
 
-      var svg = body.append("svg")
+      var svg = mapdiv.append("svg")
 						.attr("width", w)
 						.attr("height", h);
 
-      var infoBox = body.append('div')
+      var infoBox = mapdiv.append('div')
 
 			//Load in agriculture data
 //			d3.csv("openelection_volunteers.csv", processCSV)
@@ -89,7 +90,7 @@
            })
             .on('mouseover', function(d) {
               var dd = d.properties
-              infoBox.html(dd.state + ': ' + dd.status + '<br>' +  dd.volunteers)
+              infoBox.html('<strong>' + dd.state + '</strong><br> Metadata Status: ' + dd.status + '<br> Lead Volunteer(s): ' +  dd.volunteers)
             })
 
 			};
