@@ -24,3 +24,6 @@ Ideas for design:
     - Icons indicating file type
     - Dropdown menu to download all the data for a particular year or election type 
     - Filter by election type
+
+OpenElections Data Process:
+https://docs.google.com/drawings/d/1BajHKetb5-_Ap-c0RZmMUh9LsMxDX9uZLNCnzfjTZp8/edit
