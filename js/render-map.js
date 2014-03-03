@@ -25,16 +25,16 @@ var color = d3.scale.ordinal()
 
 
 //Create SVG element
-var mapdiv = d3.select("#map")
+var mapdiv = d3.select("#map");
 
 var svg = mapdiv.append("svg")
     .attr("width", w)
     .attr("height", h);
 
-var infoBox = mapdiv.append('div')
+var sidebar = d3.select('#sidebar');
 
-//Load in agriculture data
-//			d3.csv("openelection_volunteers.csv", processCSV)
+//var left = d3.select("#main");
+//var sidebar = left.append('div').attr("class","col-md-4 column");
 
 d3.json("js/sample_metadata_status.json", processJSON);
 
@@ -77,8 +77,17 @@ function render() {
         .attr("stroke", "white")
         .attr("stroke-width", 1)
         .on('mouseover', function(d) {
-            var dd = d.properties
-            infoBox.html('<strong>' + dd.state + '</strong><br> Metadata Status: ' + dd.status + '<br> Volunteer(s): ' +  dd.volunteers)
+            var dd = d.properties;
+            sidebar.html('<strong>' + dd.state + '</strong><br> Metadata Status: ' + dd.status + '<br> Volunteer(s): ' +  dd.volunteers);
+            sidebar.attr("class", "infobox row clearfix col-md-4 column")
+
         })
+        .on('mouseout', function(d) {
+            var dd = d.properties;
+            sidebar.html(' ');
+            sidebar.attr("class", "row clearfix col-md-4 column")
+
+        })
+
 
 };
