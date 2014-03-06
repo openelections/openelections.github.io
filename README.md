@@ -10,7 +10,7 @@ The finished product will include the following:
 - Names of each U.S. state's adopter(s)
 - Count of how many elections have been covered for a particular state
 - Date for when the data was last updated for a particular state
-- Raw result files available for download by state, year and election type (i.e. demoratic or republican primary, general, special, runoff)
+- Raw result files available for download by state, year and election type (i.e. Democratic or Republican primary, general, special, runoff)
 - List of available file types for each state, year and election
 - Direct link to the source for each state, year and election
 - Way to download national data or all the states
@@ -29,7 +29,7 @@ The finished product will include the following:
 ### Metadata API
 
 This will eventually be wired to live data via an endpoint of the
-[OpenElections MEtadata API](http://blog.openelections.net/an-improved-metadata-api/).
+[OpenElections Metadata API](http://blog.openelections.net/an-improved-metadata-api/).
 
 Here's an example request for one state's metadata:
 
