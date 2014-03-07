@@ -79,13 +79,13 @@ function render() {
         .on('mouseover', function(d) {
             var dd = d.properties;
             sidebar.html('<strong>' + dd.state + '</strong><br> Metadata Status: ' + dd.status + '<br> Volunteer(s): ' +  dd.volunteers);
-            sidebar.attr("class", "infobox row clearfix col-md-4 column")
+            sidebar.attr("class", "infobox col-md-4")
 
         })
         .on('mouseout', function(d) {
             var dd = d.properties;
             sidebar.html(' ');
-            sidebar.attr("class", "row clearfix col-md-4 column")
+            sidebar.attr("class", "col-md-4")
 
         })
 
