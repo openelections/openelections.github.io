@@ -3,6 +3,21 @@
 Web entry point for [OpenElections](http://openelections.net) project status
 and data.
 
+# Development
+
+The HTML uses protocol-independent URLs for popular libraries that are loaded
+from various CDNs.  Unfortunately, this breaks local previewing of the page
+when loading the file in your browser.
+
+In order to use protocol-independent URLs and allow local preview, change
+directory to wherever you've checked out this repository and run
+
+```
+python -m SimpleHTTPServer 8000
+```
+
+Then you can access this project in your browser at http://localhost:8000.
+
 ## Spec
 
 The finished product will include the following:

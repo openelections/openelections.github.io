@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OpenElections: Certified election results. For everyone.</title>
-    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="//d3js.org/d3.v3.min.js"></script>
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css"/>
@@ -22,6 +22,10 @@
       <div id="sidebar" class="col-md-4"></div>
     </div>
   </div>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
   <script src="js/render-map.js"></script>
+  <script>
+  openelex.renderMap();
+  </script>
   </body>
 </html>
