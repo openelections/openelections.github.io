@@ -15,12 +15,11 @@
     height: 400,
     mapContainer: '#map',
     sidebarEl: '#sidebar',
-    statusJSON: 'js/sample_metadata_status.json'
+    statusJSON: 'data/state_status.json'
   };
 
   var renderMap = openelex.renderMap = function(options) {
     opts = _.defaults({}, options, defaults);
-    console.log(opts);
 
     //Define map projection
 
@@ -37,7 +36,7 @@
       .range(["rgb(237,248,233)","rgb(116,196,118)","rgb(0,109,44)"])
       //Colors taken from colorbrewer.js, included in the D3 download
       //Set input domain for color scale
-      .domain(["Not Started","Partial", "Up-to-date"]);
+      .domain(["not started","partial", "up-to-date"]);
 
 
     //Create SVG element
@@ -56,8 +55,9 @@
   };
 
   function processJSON(data) {
-    data.objects.forEach(function(row) {
-      stateStatuses[row.state] = row;
+    _.each(data, function(state) {
+      stateStatuses[state.name] = state;
+
     });
     loadGeo();
   }
@@ -79,21 +79,32 @@
   }
 
   function render() {
-    //Bind data and create one path per GeoJSON feature
+    var tpl = _.template("<strong><%= state %></strong><br> Metadata Status: <%= status %><br> Volunteer(s): <%= volunteers %>");
+    
+    // Bind data and create one path per GeoJSON feature
     svg.selectAll("path")
       .data(geo.features)
       .enter()
       .append("path")
       .attr("d", path)
       .style("fill", function(d) {
-        var value = d.properties.status;
+        var value = d.properties.metadata_status;
         return value ? color(value) : '#ccc';
       })
       .attr("stroke", "white")
       .attr("stroke-width", 1)
       .on('mouseover', function(d) {
         var dd = d.properties;
-        sidebar.html('<strong>' + dd.state + '</strong><br> Metadata Status: ' + dd.status + '<br> Volunteer(s): ' +  dd.volunteers);
+        // Extract volunteer names
+        var volunteers = _.map(dd.volunteers, function(v) {
+          return v.full_name;
+        });
+        console.debug(volunteers);
+        sidebar.html(tpl({
+          state: dd.name,
+          status: dd.metadata_status,
+          volunteers: volunteers.join(', ')
+        }));
         sidebar.attr("class", "infobox col-md-4");
       })
       .on('mouseout', function(d) {
