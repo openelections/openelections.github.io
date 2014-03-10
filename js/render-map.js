@@ -1,93 +1,116 @@
+(function(window, document, _, d3) {
+  // Create a namespace for our app
+  var openelex = {};
+  window.openelex = openelex;
 
-//Width and height
-var w = 600;
-var h = 360;
+  var stateStatuses = {};
+  var geo;
+  var svg;
+  var path;
+  var color;
+  var sidebar;
 
-//Define map projection
+  var defaults = {
+    width: 600,
+    height: 400,
+    mapContainer: '#map',
+    sidebarEl: '#sidebar',
+    statusJSON: 'data/state_status.json'
+  };
 
-var geo;
-var stateStatuses = {};
+  var renderMap = openelex.renderMap = function(options) {
+    opts = _.defaults({}, options, defaults);
 
-var projection = d3.geo.albersUsa()
-    .translate([w/2, h/2])
-    .scale([800]);
+    //Define map projection
 
-//Define path generator
-var path = d3.geo.path()
-    .projection(projection);
+    var projection = d3.geo.albersUsa()
+      .translate([opts.width / 2, opts.height / 2])
+      .scale([800]);
 
-//Define quantize scale to sort data values into buckets of color
-var color = d3.scale.ordinal()
-    .range(["rgb(237,248,233)","rgb(116,196,118)","rgb(0,109,44)"])
-    //Colors taken from colorbrewer.js, included in the D3 download
-    //Set input domain for color scale
-    .domain(["Not Started","Partial", "Up-to-date"]);
+    //Define path generator
+    path = d3.geo.path()
+      .projection(projection);
 
-
-//Create SVG element
-var mapdiv = d3.select("#map");
-
-var svg = mapdiv.append("svg")
-    .attr("width", w)
-    .attr("height", h);
-
-var sidebar = d3.select('#sidebar');
-
-//var left = d3.select("#main");
-//var sidebar = left.append('div').attr("class","col-md-4 column");
-
-d3.json("js/sample_metadata_status.json", processJSON);
+    //Define quantize scale to sort data values into buckets of color
+    color = d3.scale.ordinal()
+      .range(["rgb(237,248,233)","rgb(116,196,118)","rgb(0,109,44)"])
+      //Colors taken from colorbrewer.js, included in the D3 download
+      //Set input domain for color scale
+      .domain(["not started","partial", "up-to-date"]);
 
 
-function processJSON(data) {
-    data.objects.forEach(function(row) {
-        stateStatuses[row.state] = row
-    })
-    loadGeo()
-}
+    //Create SVG element
+    var mapdiv = d3.select(opts.mapContainer);
 
-function loadGeo() {
+    svg = mapdiv.append("svg")
+      .attr("width", opts.width)
+      .attr("height", opts.height);
+
+    sidebar = d3.select(opts.sidebarEl);
+
+    //var left = d3.select("#main");
+    //var sidebar = left.append('div').attr("class","col-md-4 column");
+
+    d3.json(opts.statusJSON, processJSON);
+  };
+
+  function processJSON(data) {
+    _.each(data, function(state) {
+      stateStatuses[state.name] = state;
+
+    });
+    loadGeo();
+  }
+
+  function loadGeo() {
     //Load in GeoJSON data
-    d3.json("js/us-states.json", function(json) {
+    d3.json("data/us-states.json", function(json) {
+      json.features.forEach(function(feature) {
+        if (stateStatuses[feature.properties.name]) {
+          feature.properties = stateStatuses[feature.properties.name];
+        } else {
+          console.log("No match", feature.properties.name);
+        }
+      });
 
-        json.features.forEach(function(feature) {
-            if (stateStatuses[feature.properties.name]) {
-                feature.properties = stateStatuses[feature.properties.name]
-            } else {
-                console.log("No match", feature.properties.name)
-            }
-        })
+      geo = json;
+      render();
+    });
+  }
 
-        geo = json;
-        render()
-    })
-}
-
-function render() {
-    //Bind data and create one path per GeoJSON feature
+  function render() {
+    var tpl = _.template("<strong><%= state %></strong><br> Metadata Status: <%= status %><br> Volunteer(s): <%= volunteers %>");
+    
+    // Bind data and create one path per GeoJSON feature
     svg.selectAll("path")
-        .data(geo.features)
-        .enter()
-        .append("path")
-        .attr("d", path)
-        .style("fill", function(d) {
-            var value = d.properties.status;
-            return value ? color(value) : '#ccc'
-        })
-        .attr("stroke", "white")
-        .attr("stroke-width", 1)
-        .on('mouseover', function(d) {
-            var dd = d.properties;
-            sidebar.html('<strong>' + dd.state + '</strong><br> Metadata Status: ' + dd.status + '<br> Volunteer(s): ' +  dd.volunteers);
-            sidebar.attr("class", "infobox row clearfix col-md-4 column")
-
-        })
-        .on('mouseout', function(d) {
-            var dd = d.properties;
-            sidebar.html(' ');
-            sidebar.attr("class", "row clearfix col-md-4 column")
-
-        })
-
-
-};
+      .data(geo.features)
+      .enter()
+      .append("path")
+      .attr("d", path)
+      .style("fill", function(d) {
+        var value = d.properties.metadata_status;
+        return value ? color(value) : '#ccc';
+      })
+      .attr("stroke", "white")
+      .attr("stroke-width", 1)
+      .on('mouseover', function(d) {
+        var dd = d.properties;
+        // Extract volunteer names
+        var volunteers = _.map(dd.volunteers, function(v) {
+          return v.full_name;
+        });
+        console.debug(volunteers);
+        sidebar.html(tpl({
+          state: dd.name,
+          status: dd.metadata_status,
+          volunteers: volunteers.join(', ')
+        }));
+        sidebar.attr("class", "infobox col-md-4");
+      })
+      .on('mouseout', function(d) {
+        var dd = d.properties;
+        sidebar.html(' ');
+        sidebar.attr("class", "col-md-4");
+      });
+  }
+})(window, document, _, d3);
