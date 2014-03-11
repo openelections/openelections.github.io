@@ -11,8 +11,6 @@
   var sidebar;
 
   var defaults = {
-    width: 600,
-    height: 400,
     mapContainer: '#map',
     sidebarEl: '#sidebar',
     statusJSON: 'data/state_status.json'
@@ -21,11 +19,21 @@
   var renderMap = openelex.renderMap = function(options) {
     opts = _.defaults({}, options, defaults);
 
-    //Define map projection
+    var mapdiv = d3.select(opts.mapContainer);
+    var aspect = 0.6;
+    if (!opts.width) {
+      opts.width = mapdiv.node().offsetWidth;
+      console.log(opts.width);
+    }
+    if (!opts.height) {
+      opts.height = aspect * opts.width;
+    }
 
+    //Define map projection
+    
     var projection = d3.geo.albersUsa()
       .translate([opts.width / 2, opts.height / 2])
-      .scale([800]);
+      .scale(getScale(opts.width));
 
     //Define path generator
     path = d3.geo.path()
@@ -38,21 +46,32 @@
       //Set input domain for color scale
       .domain(["not started","partial", "up-to-date"]);
 
-
-    //Create SVG element
-    var mapdiv = d3.select(opts.mapContainer);
-
+    // Create SVG element
     svg = mapdiv.append("svg")
       .attr("width", opts.width)
       .attr("height", opts.height);
 
     sidebar = d3.select(opts.sidebarEl);
 
-    //var left = d3.select("#main");
-    //var sidebar = left.append('div').attr("class","col-md-4 column");
-
     d3.json(opts.statusJSON, processJSON);
+
+    d3.select(window).on('resize', function() {
+      var width = mapdiv.node().offsetWidth;
+      var height = width * aspect;
+      projection.translate([width / 2, height / 2])
+        .scale(getScale(width));
+      svg.attr("width", width)
+        .attr("height", height);
+      svg.selectAll('path').attr('d', path);
+    });
   };
+
+  /**
+   * Returns the scale for the map's projection based on its width.
+   */
+  function getScale(width) {
+    return (width / 800) * 1000;
+  }
 
   function processJSON(data) {
     _.each(data, function(state) {
@@ -99,7 +118,6 @@
         var volunteers = _.map(dd.volunteers, function(v) {
           return v.full_name;
         });
-        console.debug(volunteers);
         sidebar.html(tpl({
           state: dd.name,
           status: dd.metadata_status,
