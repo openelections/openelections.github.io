@@ -112,7 +112,7 @@
       })
       .attr("stroke", "white")
       .attr("stroke-width", 1)
-      .on('mouseover', function(d) {
+      .on('click', function(d) {
         var dd = d.properties;
         // Extract volunteer names
         var volunteers = _.map(dd.volunteers, function(v) {
@@ -124,11 +124,6 @@
           volunteers: volunteers.join(', ')
         }));
         sidebar.attr("class", "infobox col-md-4");
-      })
-      .on('mouseout', function(d) {
-        var dd = d.properties;
-        sidebar.html(' ');
-        sidebar.attr("class", "col-md-4");
       });
   }
 })(window, document, _, d3);
