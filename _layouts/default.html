@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenElections: Certified election results. For everyone.</title>
+
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    {% include header.html %} 
+
+    <div class="container">
+      <div class="row">
+        <div id="main" class="col-md-8">
+          {{ foo }}
+          {{ content }}
+        </div>
+        <div id="sidebar" class="col-md-4"></div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    {% for src in page.footer_scripts %}
+    <script src="{{ src }}"></script>
+    {% endfor %}
+    {% if page.footer_script_include %}
+    {% include {{page.footer_script_include}} %}
+    {% endif %}
+  </body>
+</html>

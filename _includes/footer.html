@@ -1,0 +1,28 @@
+<div id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Twitter</h4>
+            <a class="twitter-timeline" href="https://twitter.com/openelex" height="360" data-widget-id="355761297922596864" data-chrome="noheader nofooter transparent">Tweets by @openelex</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+      <div class="col-md-4">
+        <h4>Buzz</h4>
+        <ul class="links">
+        {% for link in site.data.buzz_links %}
+          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <h4>Links</h4>
+        <ul class="links">
+        {% for link in site.data.links %}
+          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
