@@ -1,0 +1,13 @@
+body {
+  color #333;
+  /* This would match the blog background color. */
+  /* background-color: #efefef; */
+
+  font-family: museosans,sans-serif; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+
+  font-family: museoslab,Georgia,times,serif;
+}

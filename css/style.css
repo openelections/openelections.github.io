@@ -2,68 +2,8 @@
 ---
 
 {% include css/font.css %}
-
-body {
-  color #333;
-  /* This would match the blog background color. */
-  /* background-color: #efefef; */
-
-  font-family: museosans,sans-serif; 
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #444;
-
-  font-family: museoslab,Georgia,times,serif;
-}
-
-.navbar {
-  /* Get rid of bottom padding so there's no gap below logo */
-  margin-bottom: 0;
-}
-
-.navbar-header:after {
-  clear: none;
-}
-
-.navbar-nav>li>a.external:before {
-  content: '> ';
-}
-
-.navbar-icons>li {
-  float: left;
-}
-
-#logo-wrapper {
-  margin-bottom: 10px;
-
-  background-color: #dfd1cd;
-}
-
-#footer {
-  padding: 40px 0;
-
-  background-color: rgb(224, 224, 224);
-}
-
-#footer h4 {
-  padding-bottom: 10px;
-  border-bottom: 1px solid #999;
-}
-
-#footer .links {
-  padding-left: 0;
-
-  list-style-type: none;
-}
-
-#footer .links li {
-  padding: 5px 0;
-}
-
-#footer .links li a {
-  color: #777;
-}
-
+{% include css/base.css %}
+{% include css/header.css %}
+{% include css/footer.css %}
 {% include css/people.css %}
 {% include css/map.css %}

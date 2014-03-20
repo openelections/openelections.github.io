@@ -1,0 +1,22 @@
+.navbar {
+  /* Get rid of bottom padding so there's no gap below logo */
+  margin-bottom: 0;
+}
+
+.navbar-header:after {
+  clear: none;
+}
+
+.navbar-nav>li>a.external:before {
+  content: '> ';
+}
+
+.navbar-icons>li {
+  float: left;
+}
+
+#logo-wrapper {
+  margin-bottom: 10px;
+
+  background-color: #dfd1cd;
+}
