@@ -8,7 +8,7 @@ layout: default
 {% for person in site.data.team %}
 <div class="person core-team">
   {% if person.image %}
-  <img src="img/people/{{ person.image }}" class="headshot">
+  <img src="{{ site.baseurl }}/img/people/{{ person.image }}" class="headshot">
   {% endif %}
 
   <h3>{{ person.name }}, {{ person.role }}</h3>
@@ -26,7 +26,7 @@ layout: default
 {% for person in site.data.volunteers %}
 <div class="person">
   {% if person.image %}
-  <img src="img/people/{{ person.image }}" class="headshot">
+  <img src="{{ site.baseurl }}/img/people/{{ person.image }}" class="headshot">
   {% endif %}
 
   <p>
