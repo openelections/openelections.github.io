@@ -21,7 +21,7 @@
         {% if p.url != "/index.html" %}
         {% if p.url contains "css" %}
         {% else %}
-        <li><a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>{{ p.title }}</a></li>
+        <li {% if p.url == page.url %}class="active"{% endif %}><a href="{{ p.url }}">{{ p.title }}</a></li>
         {% endif %}
         {% endif %}
         {% endfor %}
