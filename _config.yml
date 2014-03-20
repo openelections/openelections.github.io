@@ -1,3 +1,4 @@
 name: OpenElections 
 markdown: redcarpet
 pygments: true
+url: '/'
