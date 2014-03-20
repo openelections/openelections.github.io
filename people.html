@@ -1,0 +1,40 @@
+---
+title: People
+layout: default
+---
+
+<h2 id="core-team">Core Team</h2>
+
+{% for person in site.data.team %}
+<div class="person">
+  {% if person.image %}
+  <img src="img/people/{{ person.image }}" class="headshot">
+  {% endif %}
+
+  <h3>{{ person.name }}, {{ person.role }}</h3>
+    {{ person.description | markdownify }}
+
+    {% if person.twitter %}
+    <a href="https://twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a>
+    {% endif %}
+  </p>
+</div>
+{% endfor %}
+
+<h2 id="volunteers">Volunteers</h2>
+
+{% for person in site.data.volunteers %}
+<div class="person">
+  {% if person.image %}
+  <img src="img/people/{{ person.image }}" class="headshot">
+  {% endif %}
+
+  <p>
+    <strong>{{ person.name }}</strong> {{ person.description }}
+
+    {% if person.twitter %}
+    <a href="https://twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a>
+    {% endif %}
+  </p>
+</div>
+{% endfor %}

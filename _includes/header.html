@@ -17,11 +17,16 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <!-- TODO: Add links -->
-        <!--
-        <li class="active"><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        -->
+        {% for p in site.pages %}
+        {% if p.url != "/index.html" %}
+        {% if p.url contains "css" %}
+        {% else %}
+        <li><a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>{{ p.title }}</a></li>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+        <li><a href="https://github.com/openelections" class="external">GitHub</a></li>
+        <li><a href="http://docs.openelections.net/" class="external">Documentation</a></li>
       </ul>
     </div>
 

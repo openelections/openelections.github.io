@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6 {
   clear: none;
 }
 
+.navbar-nav>li>a.external:before {
+  content: '> ';
+}
+
 .navbar-icons>li {
   float: left;
 }
@@ -61,4 +65,5 @@ h1, h2, h3, h4, h5, h6 {
   color: #777;
 }
 
+{% include css/people.css %}
 {% include css/map.css %}

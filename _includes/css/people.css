@@ -1,0 +1,13 @@
+.person {
+  min-height: 80px;
+  clear: both;
+  margin-bottom: 40px;
+}
+
+.person .headshot {
+  display: block;
+  float: left;
+  margin-right: 20px;
+}
+
+
