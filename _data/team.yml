@@ -1,0 +1,15 @@
+- name: Serdar Tumgoren
+  role: Project Lead
+  description: Serdar Tumgoren is a data journalist at the Associated Press, where he works on newsroom tools and data projects. He previously worked at The Washington Post and Congressional Quarterly, where he focused on political and election-related data and Web applications. Prior to becoming a full-time data geek, he worked as a local government reporter in Connecticut, California and New Jersey. He lives with his wife and son in San Francisco.
+  twitter: zstumgoren
+  image: serdar.jpg
+- name: Derek Willis
+  description: Derek Willis is an interactive developer with The New York Times, working mainly on political and election-related applications. He maintains The Times’ congressional and campaign finance data and contributes to other projects. Willis has worked at The Washington Post, The Center for Public Integrity, Congressional Quarterly and The Palm Beach Post. He lives in Silver Spring, Md., with his wife and daughter. More at [blog.thescoop.org](http://blog.thescoop.org/).
+  role: Project Lead
+  image: derek1.jpg
+  twitter: derekwillis
+- name: Sara Schnadt
+  role: Project Manager
+  description: Sara Schnadt is a technology project developer, information architect, data visualization designer and new media artist. She has worked as Director of Communications and Outreach at 18th Street Arts Center in Los Angeles, and co-founder and Chief Technologist for the Chicago Artists Resource (CAR) website at the Chicago Department of Cultural Affairs. At CAR she oversaw software design and development, content design and management and a large online community of contributors. More on her art at [saraschnadt.com](http://saraschnadt.com).
+  image: sara.jpg
+  twitter: SaraSchnadt 

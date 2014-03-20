@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %} 
+
+    <div class="container">
+      <div class="row">
+        <div id="main" class="col-md-12">
+            <h1>{% if page.display_title %}{{ page.display_title }}{% else %}{{ page.title }}{% endif %}</h1>
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    {% include scripts.html %}
+  </body>
+</html>
