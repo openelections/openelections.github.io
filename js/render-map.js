@@ -7,7 +7,6 @@
   var geo;
   var svg;
   var path;
-  var color;
   var sidebar;
 
   var defaults = {
@@ -23,7 +22,6 @@
     var aspect = 0.6;
     if (!opts.width) {
       opts.width = mapdiv.node().offsetWidth;
-      console.log(opts.width);
     }
     if (!opts.height) {
       opts.height = aspect * opts.width;
@@ -38,13 +36,6 @@
     //Define path generator
     path = d3.geo.path()
       .projection(projection);
-
-    //Define quantize scale to sort data values into buckets of color
-    color = d3.scale.ordinal()
-      .range(["rgb(237,248,233)","rgb(116,196,118)","rgb(0,109,44)"])
-      //Colors taken from colorbrewer.js, included in the D3 download
-      //Set input domain for color scale
-      .domain(["not started","partial", "up-to-date"]);
 
     // Create SVG element
     svg = mapdiv.append("svg")
@@ -97,8 +88,21 @@
     });
   }
 
+  function slugify(val) {
+    if (!val) {
+      return '';
+    }
+    else {
+      var slug = val.toLowerCase();
+      return slug.replace(/\s+/, '-');
+    }
+  }
+
   function render() {
-    var tpl = _.template("<strong><%= state %></strong><br> Metadata Status: <%= status %><br> Volunteer(s): <%= volunteers %>");
+    var tpl = _.template("<h3><%= state %></h3>" +
+      "<dl>" +
+      "<dt>Metadata Status</dt><dd><%= status %></dd>" + 
+      "<dt>Volunteer(s)</dt><dd><%= volunteers %></dd>");
     
     // Bind data and create one path per GeoJSON feature
     svg.selectAll("path")
@@ -106,9 +110,10 @@
       .enter()
       .append("path")
       .attr("d", path)
-      .style("fill", function(d) {
-        var value = d.properties.metadata_status;
-        return value ? color(value) : '#ccc';
+      .attr("class", function(d) {
+        var cls = slugify(d.properties.metadata_status);
+        cls = cls || 'not-started';
+        return cls;
       })
       .attr("stroke", "white")
       .attr("stroke-width", 1)

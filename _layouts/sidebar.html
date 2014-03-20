@@ -12,7 +12,11 @@
             <h1>{% if page.display_title %}{{ page.display_title }}{% else %}{{ page.title }}{% endif %}</h1>
           {{ content }}
         </div>
-        <aside id="sidebar" class="col-md-4"></aside>
+        <aside id="sidebar" class="col-md-4">
+          {% if page.sidebar_include %}
+          {% include {{page.sidebar_include}} %}
+          {% endif %}
+        </aside>
       </div>
     </div>
 
