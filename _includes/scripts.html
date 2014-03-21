@@ -3,6 +3,14 @@
 {% for src in page.footer_scripts %}
 <script src="{{ src }}"></script>
 {% endfor %}
+<script>
+$(function() {
+  $('a.new-window').click(function(evt) {
+    evt.preventDefault();
+    window.open(this.href, '_blank');
+  });
+});
+</script>
 {% if page.footer_script_include %}
 {% include {{page.footer_script_include}} %}
 {% endif %}

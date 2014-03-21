@@ -1,4 +1,7 @@
 .navbar {
+  /* Use a thinner header than the Bootstrap default of 40px */
+  min-height: 30px;
+
   /* Get rid of bottom padding so there's no gap below logo */
   margin-bottom: 0;
 }
@@ -16,7 +19,23 @@
 }
 
 #logo-wrapper {
+  padding: 30px 0;
   margin-bottom: 10px;
 
   background-color: #dfd1cd;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .navbar-nav>li:first-child>a {
+    margin-left: -15px;
+  }
+
+  .navbar-icons>li:last-child>a {
+    padding-right: 0;
+  }
 }

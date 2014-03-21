@@ -2,7 +2,10 @@
   url: 'mailto:openelections@gmail.com'
 - title: Google Group
   url: https://groups.google.com/forum/?fromgroups#!forum/openelections
+  class: 'new-window'
 - title: Documentation
   url: http://docs.openelections.net/
+  class: 'new-window'
 - title: OpenElections on GitHub
   url: https://github.com/openelections
+  class: 'new-window'

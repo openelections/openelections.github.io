@@ -128,7 +128,7 @@
           status: dd.metadata_status,
           volunteers: volunteers.join(', ')
         }));
-        sidebar.attr("class", "infobox col-md-4");
+        sidebar.classed("infobox", true);
       });
   }
 })(window, document, _, d3);
