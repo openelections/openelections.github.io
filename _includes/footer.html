@@ -19,7 +19,7 @@
         <h4>Links</h4>
         <ul class="links">
         {% for link in site.data.links %}
-          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+          <li><a href="{{ link.url }}" {% if link.class %}class="{{ link.class }}"{% endif %}>{{ link.title }}</a></li>
         {% endfor %}
         </ul>
       </div>
