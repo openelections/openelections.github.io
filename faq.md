@@ -1,6 +1,7 @@
 ---
 layout: default
 title: FAQs
+permalink: /faq/
 ---
 
 Q: Will you be providing live, real-time election results?  

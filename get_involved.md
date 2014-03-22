@@ -1,6 +1,7 @@
 ---
 title: Get Involved
 layout: default
+permalink: /get-involved/
 ---
 
 With a network of volunteers, we will be creating the first ever comprehensive and free resource that gives journalists and the public access to historical election results for federal and state-wide races.

@@ -2,9 +2,10 @@
 layout: default
 title: About
 display_title: Welcome to OpenElections
+permalink: /about/
 ---
 
-![](img/whatamericalookslike-2012election-chrishoward.jpg)
+![]({{baseurl}}/img/whatamericalookslike-2012election-chrishoward.jpg)
 
 ### Our goal is to create the first free, comprehensive, standardized, linked set of election data for the United States, including federal and statewide offices.
 
