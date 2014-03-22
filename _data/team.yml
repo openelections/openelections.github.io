@@ -12,4 +12,9 @@
   role: Project Manager
   description: Sara Schnadt is a technology project developer, information architect, data visualization designer and new media artist. She has worked as Director of Communications and Outreach at 18th Street Arts Center in Los Angeles, and co-founder and Chief Technologist for the Chicago Artists Resource (CAR) website at the Chicago Department of Cultural Affairs. At CAR she oversaw software design and development, content design and management and a large online community of contributors. More on her art at [saraschnadt.com](http://saraschnadt.com).
   image: sara.jpg
-  twitter: SaraSchnadt 
+  twitter: SaraSchnadt
+- name: Geoff Hing
+  role: Developer
+  description: Geoff Hing is a technologist and cultural worker who lives in Chicago.  He works developing technologies that intersect with community information needs, civic data and participatory governance.  His work reflects connections with engineering, journalism and do-it-yourself culture. He joins OpenElections from recent work for Floodlight Project and The Work Department.  In the past he has done data-driven technology projects with Food Genius and Metro Chicago Information Center.
+  image: GeoffHing.jpg
+  twitter: geoffhing
