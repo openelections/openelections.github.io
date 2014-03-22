@@ -12,5 +12,5 @@ For this effort, we are looking for volunteers to help identify and format resul
 * [Getting Involved – The Nitty Gritty](http://docs.openelections.net/getting-involved/)
 * [Metadata Entry Screencast](http://docs.openelections.net/metadata-screencast/)
 * [Metadata Field List](http://docs.openelections.net/election-metadata/)
-* [Contributing Code] (http://http://docs.openelections.net/guide/)
+* [Contributing Code] (http://docs.openelections.net/guide/)
 * [Glossary](http://docs.openelections.net/glossary/)
