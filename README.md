@@ -25,7 +25,7 @@ In order to use protocol-independent URLs and allow local preview, change
 directory to wherever you've checked out this repository and run
 
 ```
-jekyll serve --watch --baseurl '' 8000
+jekyll serve --watch --baseurl '' -P 8000
 ```
 
 Then you can access this project in your browser at http://localhost:8000.
