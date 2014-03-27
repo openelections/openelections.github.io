@@ -25,6 +25,11 @@
   background-color: #dfd1cd;
 }
 
+#logo-wrapper img {
+  width: 100%;
+  max-width: 371px;
+}
+
 @media (min-width: 768px) {
   .navbar-nav>li>a {
     padding-top: 5px;
