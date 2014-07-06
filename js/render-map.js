@@ -1,6 +1,4 @@
-(function(window, document, _, d3) {
-  // Create a namespace for our app
-  var openelex = {};
+(function(window, document, _, d3, openelex) {
   window.openelex = openelex;
 
   var stateStatuses = {};
@@ -14,6 +12,12 @@
     sidebarEl: '#sidebar',
     statusJSON: 'data/state_status.json'
   };
+
+  var metadataTpl = _.template("<h3><%= state %></h3>" +
+    "<dl class='metadata'>" +
+    "<dt>Metadata Status</dt><dd><%= status %></dd>" + 
+    "<dt>Volunteer(s)</dt><dd><%= volunteers %></dd>" +
+    "</dl>");
 
   var renderMap = openelex.renderMap = function(options) {
     opts = _.defaults({}, options, defaults);
@@ -99,11 +103,6 @@
   }
 
   function render() {
-    var tpl = _.template("<h3><%= state %></h3>" +
-      "<dl>" +
-      "<dt>Metadata Status</dt><dd><%= status %></dd>" + 
-      "<dt>Volunteer(s)</dt><dd><%= volunteers %></dd>");
-    
     // Bind data and create one path per GeoJSON feature
     svg.selectAll("path")
       .data(geo.features)
@@ -123,12 +122,16 @@
         var volunteers = _.map(dd.volunteers, function(v) {
           return v.full_name;
         });
-        sidebar.html(tpl({
+        renderSidebar({
           state: dd.name,
           status: dd.metadata_status,
           volunteers: volunteers.join(', ')
-        }));
-        sidebar.classed("infobox", true);
+        });
       });
   }
-})(window, document, _, d3);
+
+  function renderSidebar(attrs) {
+    sidebar.html(metadataTpl(attrs));
+    sidebar.classed("infobox", true);
+  }
+})(window, document, _, d3, window.openelex || {});

@@ -1,0 +1,25 @@
+th.year-heading:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  content: "\f054";
+  font-size: 0.8em;
+  margin-right: 4px;
+}
+
+th.year-heading.open:before {
+  content: "\f078";
+}
+
+tr.election {
+  display: none;
+}
+
+tr.election.open {
+  display: table-row;
+}
