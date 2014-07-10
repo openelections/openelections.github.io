@@ -1,4 +1,28 @@
-#legend dt {
+.btn-toggle,
+.btn-toggle:focus,
+.btn-toggle:hover {
+  border-color: transparent;
+  box-shadow: none;
+  outline: 0;
+}
+
+.btn-toggle {
+  color: #fff;
+  background-color: #999; /* Light gray */
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.metadata .btn-metadata,
+.results .btn-results {
+  background-color: #333; /* Dark gray */
+}
+
+#legend-results {
+  display: none; 
+}
+
+.legend dt {
   width: 40px;
   height: 20px;
 
@@ -6,7 +30,7 @@
   margin-bottom: 10px;
 }
 
-#legend dd {
+.legend dd {
   font-weight: bold;
   padding: 0 40px 0 45px;
   margin-bottom: 10px;
@@ -16,17 +40,17 @@
   padding-bottom: 40px;
 }
 
-.not-started {
+.not-started, .metadata .metadata-not-started, .results .results-not-started {
   background-color: #32348c;
   fill: #32348c;
 }
 
-.partial {
+.partial, .raw, .metadata .metadata-partial, .results .results-raw {
   background-color: #258bd1; 
   fill: #258bd1; 
 }
 
-.up-to-date {
+.up-to-date, .clean, .metadata .metadata-up-to-date, .results .results-clean {
   background-color: #8bac91;
   fill: #8bac91;
 }
@@ -35,17 +59,38 @@
   margin-top: 20px;
 }
 
+.infobox.results .metadata,
+.infobox.metadata .results {
+  display: none;
+}
+
+dt.results-status,
+dt.detail-link {
+  display: none;
+}
+
+dd.results-status,
+dd.detail-link {
+  text-transform: uppercase; 
+  font-weight: bold;
+}
+
+/* Note: Arrow icons are ef6c7f */
+dd.detail-link a {
+  color: #ed4c6b;
+}
+
 @media screen and (min-width: 520px) {
   body.map #sidebar {
     text-align: right;
   }
 
-  #legend {
+  .legend {
     margin-top: 30px;
     margin-bottom: 80px;
   }
 
-  #legend dd {
+  .legend dd {
     float: left;
     padding-left: 5px;
   }

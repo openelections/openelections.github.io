@@ -5,24 +5,41 @@
   var geo;
   var svg;
   var path;
+  var mapdiv;
   var sidebar;
+  var toggle;
+  var metadataLegend, resultsLegend;
 
   var defaults = {
     mapContainer: '#map',
+    metadataLegendEl: '#legend-metadata',
+    resultsLegendEl: '#legend-results',
     sidebarEl: '#sidebar',
     statusJSON: 'data/state_status.json'
   };
 
   var metadataTpl = _.template("<h3><%= state %></h3>" +
     "<dl class='metadata'>" +
-    "<dt>Metadata Status</dt><dd><%= status %></dd>" + 
+    "<dt>Metadata Status</dt><dd><%= metadata_status %></dd>" + 
     "<dt>Volunteer(s)</dt><dd><%= volunteers %></dd>" +
+    "</dl>" +
+    "<dl class='results'>" +
+    "<dt class='results-status'>Results Status</dt><dd class='results-status'><%= results_status %></dd>" +
+    "<dt class='detail-link'>Detailed Data</dt><dd class='detail-link'><a href='<%= detail_url %>'>Detailed Data</a></dd>" +
     "</dl>");
+
+  var dispatcher = d3.dispatch('maptype'); 
 
   var renderMap = openelex.renderMap = function(options) {
     opts = _.defaults({}, options, defaults);
 
-    var mapdiv = d3.select(opts.mapContainer);
+    mapdiv = d3.select(opts.mapContainer);
+    toggle = d3.select(mapdiv[0][0].parentNode)
+                     .insert('div', opts.metadataLegendEl)
+                     .attr('id', 'toggle');
+    metadataLegend = d3.select(opts.metadataLegendEl);
+    resultsLegend = d3.select(opts.resultsLegendEl);
+
     var aspect = 0.6;
     if (!opts.width) {
       opts.width = mapdiv.node().offsetWidth;
@@ -89,6 +106,8 @@
 
       geo = json;
       render();
+      renderToggle(toggle);
+      setMapType('metadata');
     });
   }
 
@@ -110,9 +129,9 @@
       .append("path")
       .attr("d", path)
       .attr("class", function(d) {
-        var cls = slugify(d.properties.metadata_status);
-        cls = cls || 'not-started';
-        return cls;
+        var metadataClass = 'metadata-' + (slugify(d.properties.metadata_status) || 'not-started');
+        var resultsClass = 'results-' + (slugify(d.properties.results_status) || 'not-started');
+        return metadataClass + " " + resultsClass;
       })
       .attr("stroke", "white")
       .attr("stroke-width", 1)
@@ -124,7 +143,9 @@
         });
         renderSidebar({
           state: dd.name,
-          status: dd.metadata_status,
+          detail_url: '/results/#' + dd.postal.toLowerCase(),
+          results_status: resultsStatusLabel(dd.results_status),
+          metadata_status: dd.metadata_status,
           volunteers: volunteers.join(', ')
         });
       });
@@ -134,4 +155,70 @@
     sidebar.html(metadataTpl(attrs));
     sidebar.classed("infobox", true);
   }
+
+  /**
+   * Render the control that toggles between the metadata and results view.
+   *
+   * @param el {d3.selection} el D3 selection for the container element where
+   *   the toggle control will be rendered.
+   */
+  function renderToggle(el) {
+    var metaBtn = el.append('button')
+      .attr('class', 'btn-toggle btn-metadata')
+      .text("Metadata");
+    var resultsBtn = el.append('button')
+      .attr('class', 'btn-toggle btn-results')
+      .text("Data");
+
+    metaBtn.on('click', function() {
+      dispatcher.maptype('metadata');
+    });
+
+    resultsBtn.on('click', function() {
+      dispatcher.maptype('results');
+    });
+    return el;
+  }
+
+  /**
+   * Event handler for when the map type is changed.
+   */
+  function setMapType(maptype) {
+    var containerClasses;
+
+    if (maptype === 'metadata') {
+      metadataLegend.style('display', 'block');
+      resultsLegend.style('display', 'none');
+      containerClasses = { 
+        'metadata': true,
+        'results': false
+      };
+    }
+    else {
+      metadataLegend.style('display', 'none');
+      resultsLegend.style('display', 'block');
+      containerClasses = {
+        'metadata': false,
+        'results': true
+      };
+    }
+
+    toggle.classed(containerClasses);
+    mapdiv.classed(containerClasses);
+    sidebar.classed(containerClasses);
+  }
+
+  function resultsStatusLabel(s) {
+    if (s === 'raw') {
+       return "Raw Data";
+    }
+    else if (s === 'clean') {
+       return "Clean Data";
+    }
+    else {
+      return "Not Started";
+    }
+  }
+
+  dispatcher.on('maptype', setMapType);
 })(window, document, _, d3, window.openelex || {});
