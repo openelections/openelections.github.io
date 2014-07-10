@@ -54,8 +54,13 @@
     model: Election,
 
     initialize: function(models, options) {
+      this._years = {};
+      if (models) {
+        _.each(models, this.addYear, this);
+      }
+
       this._dataRoot = options.dataRoot;
-      this.on('add', this.handleAdd, this);
+      this.on('add', this.addYear, this);
     },
 
     url: function() {
@@ -68,7 +73,7 @@
       return this;
     },
 
-    handleAdd: function(model) {
+    addYear: function(model) {
       this._years[model.get('year')] = true;
     },
 
@@ -76,6 +81,28 @@
       return _.map(_.keys(this._years).sort(), function(yearS) {
         return parseInt(yearS);
       });
+    },
+
+    filterOffice: function(office) {
+      var filterArgs = {};
+      var filtered;
+
+      if (office === 'any') {
+        filtered = new Elections(this.models, {
+          state: this._state,
+          dataRoot: this._dataRoot
+        });
+      }
+      else {
+        filterArgs[office] = true;
+        filtered = new Elections(this.where(filterArgs), {
+          state: this._state,
+          dataRoot: this._dataRoot
+        });
+      }
+
+      this.trigger('filter', filtered);
+      return filtered;
     }
   });
 
@@ -102,17 +129,19 @@
     initialize: function(options) {
       this.renderInitial();
 
+      this.filteredCollection = this.collection;
       this.collection.on('sync', this.render, this);
+      this.collection.on('filter', this.handleFilter, this);
     },
 
     render: function() {
-      var years = this.collection.years();
+      var years = this.filteredCollection.years();
       this._$tbody.empty();
       _.each(years, function(year) {
         var $tr = $('<tr>').appendTo(this._$tbody);
         $('<th colspan="5" class="year-heading" data-year="' + year + '">' + year + '</th>').appendTo($tr);
 
-        _.each(this.collection.where({year: year}), function(elections) {
+        _.each(this.filteredCollection.where({year: year}), function(elections) {
             var $tr = $('<tr class="election" data-year="' + year + '">').appendTo(this._$tbody);
             $tr.append($('<td>' + elections.get('start_date') + '</td>'));
             $tr.append($('<td>' + elections.get('race_type') + '</td>'));
@@ -168,6 +197,57 @@
     collapseYear: function(year) {
       this.$('th.year-heading[data-year="' + year + '"]').removeClass('open');
       this._$tbody.find('tr.election[data-year="' + year + '"]').removeClass('open');
+    },
+
+    handleFilter: function(filtered) {
+      this.filteredCollection = filtered;
+      this.render();
+    }
+  });
+
+  var OfficeFilterView = Backbone.View.extend({
+    attributes: {
+      'id': 'office-filter-container'
+    },
+
+    options: {
+      offices: [
+        ['any', "Any Office"],
+        ['prez', "President"],
+        ['senate', "U.S. Senate"],
+        ['house', "U.S. House"],
+        ['gov', "Governor"],
+        ['state_officers', "State Officers"],
+        ['state_leg', "State Legislature"]
+      ]
+    },
+
+    events: {
+      'change select': 'handleChange'
+    },
+
+    render: function() {
+      var $select = $('<select>')
+        .attr('id', 'office-filter')
+        .appendTo(this.$el);
+      var $label = $('<label>')
+        .attr('for', 'office-filter')
+        .text("Filter by Office Type")
+        .insertBefore($select); 
+      _.each(this.options.offices, function(office) {
+        var val = office[0];
+        var label = office[1];
+        var $opt = $('<option>')
+          .attr('value', val)
+          .text(label)
+          .appendTo($select);
+      }, this);
+      return this;
+    },
+
+    handleChange: function(evt) {
+      var val = $(evt.target).val();
+      this.collection.filterOffice(val);
     }
   });
 
@@ -203,6 +283,10 @@
       this._tableView = new ResultsTableView({
         collection: this._collection
       });
+      this._officeFilterView = new OfficeFilterView({
+        collection: this._collection 
+      });
+      $(el).append(this._officeFilterView.render().$el);
       $(el).append(this._tableView.$el);
 
       // Wire-up event handlers

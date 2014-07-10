@@ -1,3 +1,7 @@
+label[for="office-filter"] {
+  margin-right: 10px;
+}
+
 th.year-heading:before {
   display: inline-block;
   font-family: FontAwesome;
