@@ -60,23 +60,30 @@
 }
 
 .infobox.results .metadata,
-.infobox.metadata .results {
+.infobox.results .results-detail,
+.infobox.metadata .results, 
+.infobox.metadata .results-detail, 
+.infobox.results-detail .metadata,
+.infobox.results-detail .results {
   display: none;
 }
 
 dt.results-status,
-dt.detail-link {
+dt.detail-link,
+dt.map-link {
   display: none;
 }
 
 dd.results-status,
-dd.detail-link {
+dd.detail-link,
+dd.map-link {
   text-transform: uppercase; 
   font-weight: bold;
 }
 
 /* Note: Arrow icons are ef6c7f */
-dd.detail-link a {
+dd.detail-link a,
+dd.map-link a {
   color: #ed4c6b;
 }
 

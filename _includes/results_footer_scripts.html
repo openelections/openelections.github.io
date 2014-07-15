@@ -1,9 +1,12 @@
+<script src="{{ site.baseurl }}/js/states.js"></script>
 <script src="{{ site.baseurl }}/js/results.js"></script>
 <script>
 $(function() {
   var app = new openelex.ResultsApp('#results-container', {
     root: "/results/",
-    dataRoot: "/data"
+    dataRoot: "/data",
+    statusJSON: '/data/state_status-20140909.json',
+    sidebarEl: '#sidebar'
   });
 });
 </script>

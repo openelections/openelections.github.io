@@ -9,24 +9,14 @@
   var sidebar;
   var toggle;
   var metadataLegend, resultsLegend;
+  var statesCollection, stateMetadataView; 
 
   var defaults = {
     mapContainer: '#map',
     metadataLegendEl: '#legend-metadata',
     resultsLegendEl: '#legend-results',
-    sidebarEl: '#sidebar',
-    statusJSON: 'data/state_status.json'
+    sidebarEl: '#sidebar'
   };
-
-  var metadataTpl = _.template("<h3><%= state %></h3>" +
-    "<dl class='metadata'>" +
-    "<dt>Metadata Status</dt><dd><%= metadata_status %></dd>" + 
-    "<dt>Volunteer(s)</dt><dd><%= volunteers %></dd>" +
-    "</dl>" +
-    "<dl class='results'>" +
-    "<dt class='results-status'>Results Status</dt><dd class='results-status'><%= results_status %></dd>" +
-    "<dt class='detail-link'>Detailed Data</dt><dd class='detail-link'><a href='<%= detail_url %>'>Detailed Data</a></dd>" +
-    "</dl>");
 
   var dispatcher = d3.dispatch('maptype'); 
 
@@ -39,6 +29,15 @@
                      .attr('id', 'toggle');
     metadataLegend = d3.select(opts.metadataLegendEl);
     resultsLegend = d3.select(opts.resultsLegendEl);
+    statesCollection = new openelex.States(null, {
+      url: options.statusJSON
+    });
+    statesCollection.once('sync', loadGeo);
+    stateMetadataView = new openelex.StateMetadataView({
+      el: opts.sidebarEl,
+      collection: statesCollection,
+    });
+    statesCollection.fetch();
 
     var aspect = 0.6;
     if (!opts.width) {
@@ -65,8 +64,6 @@
 
     sidebar = d3.select(opts.sidebarEl);
 
-    d3.json(opts.statusJSON, processJSON);
-
     d3.select(window).on('resize', function() {
       var width = mapdiv.node().offsetWidth;
       var height = width * aspect;
@@ -85,25 +82,11 @@
     return (width / 800) * 1000;
   }
 
-  function processJSON(data) {
-    _.each(data, function(state) {
-      stateStatuses[state.name] = state;
-
-    });
-    loadGeo();
-  }
-
+  /**
+   * Load in GeoJSON data
+   */
   function loadGeo() {
-    //Load in GeoJSON data
     d3.json("data/us-states.json", function(json) {
-      json.features.forEach(function(feature) {
-        if (stateStatuses[feature.properties.name]) {
-          feature.properties = stateStatuses[feature.properties.name];
-        } else {
-          console.log("No match", feature.properties.name);
-        }
-      });
-
       geo = json;
       render();
       renderToggle(toggle);
@@ -129,31 +112,20 @@
       .append("path")
       .attr("d", path)
       .attr("class", function(d) {
-        var metadataClass = 'metadata-' + (slugify(d.properties.metadata_status) || 'not-started');
-        var resultsClass = 'results-' + (slugify(d.properties.results_status) || 'not-started');
-        return metadataClass + " " + resultsClass;
+        var state = statesCollection.findWhere({
+          name: d.properties.name
+        });
+        if (state) {
+          var metadataClass = 'metadata-' + (slugify(state.get('metadata_status')) || 'not-started');
+          var resultsClass = 'results-' + (slugify(state.get('results_status')) || 'not-started');
+          return metadataClass + " " + resultsClass;
+        }
       })
       .attr("stroke", "white")
       .attr("stroke-width", 1)
       .on('click', function(d) {
-        var dd = d.properties;
-        // Extract volunteer names
-        var volunteers = _.map(dd.volunteers, function(v) {
-          return v.full_name;
-        });
-        renderSidebar({
-          state: dd.name,
-          detail_url: '/results/#' + dd.postal.toLowerCase(),
-          results_status: resultsStatusLabel(dd.results_status),
-          metadata_status: dd.metadata_status,
-          volunteers: volunteers.join(', ')
-        });
+        stateMetadataView.setState(d.properties.name).render();
       });
-  }
-
-  function renderSidebar(attrs) {
-    sidebar.html(metadataTpl(attrs));
-    sidebar.classed("infobox", true);
   }
 
   /**
@@ -206,18 +178,6 @@
     toggle.classed(containerClasses);
     mapdiv.classed(containerClasses);
     sidebar.classed(containerClasses);
-  }
-
-  function resultsStatusLabel(s) {
-    if (s === 'raw') {
-       return "Raw Data";
-    }
-    else if (s === 'clean') {
-       return "Clean Data";
-    }
-    else {
-      return "Not Started";
-    }
   }
 
   dispatcher.on('maptype', setMapType);

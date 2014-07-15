@@ -278,6 +278,10 @@
       this._collection = new Elections(null, {
         dataRoot: options.dataRoot
       });
+      this._statesCollection = new openelex.States(null, {
+        url: options.statusJSON
+      });
+      this._statesCollection.fetch();
 
       // Create sub-views
       this._tableView = new ResultsTableView({
@@ -286,6 +290,12 @@
       this._officeFilterView = new OfficeFilterView({
         collection: this._collection 
       });
+      this._sidebarView = new openelex.StateMetadataView({
+        el: options.sidebarEl,
+        collection: this._statesCollection
+      });
+      this._sidebarView.$el.addClass('results-detail');
+
       $(el).append(this._officeFilterView.render().$el);
       $(el).append(this._tableView.$el);
 
@@ -294,11 +304,15 @@
 
       // Create and initialize routers
       this._router = new ResultsRouter();
-      Backbone.history.start({root: options.root});
+
+      this._statesCollection.once('sync', function() {
+        Backbone.history.start({root: options.root});
+      });
     },
 
     handleState: function(state) {
       this._collection.setState(state).fetch();
+      this._sidebarView.setState(state).render();
     }
   });
 
