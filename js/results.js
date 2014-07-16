@@ -19,6 +19,14 @@
    * @param {string} state - State abbreviation.  For example, "md".
    */
 
+  /**
+   * @event filter:office
+   *
+   * Triggered when an office is selected.
+   *
+   * @param {string} office - Office slug.
+   */
+
   // Routers
 
   var ResultsRouter = Backbone.Router.extend({
@@ -50,7 +58,7 @@
 
   // Collections
 
-  var Elections = Backbone.Collection.extend({
+  var Elections = openelex.Elections = Backbone.Collection.extend({
     model: Election,
 
     initialize: function(models, options) {
@@ -103,6 +111,33 @@
 
       this.trigger('filter', filtered);
       return filtered;
+    },
+
+    filterElections: function(filterArgs) {
+      var office = filterArgs.office;
+      var dateStart = filterArgs.dateStart;
+      var dateEnd = filterArgs.dateEnd;
+      var models = this.filter(function(model) {
+        var officeMatches = true;
+        var dateMatches = true;
+
+        if (office) {
+          officeMatches = office === 'any' || model.get(office) === true;
+        }
+
+        if (dateStart && dateEnd) {
+          dateMatches = (model.get('start_date') >= dateStart &&
+            model.get('start_date') <= dateEnd);
+        }
+
+        return officeMatches && dateMatches;
+      });
+      var filtered = new Elections(models, {
+        state: this._state,
+        dataRoot: this._dataRoot,
+      });
+      this.trigger('filter', filtered);
+      return filtered;
     }
   });
 
@@ -131,7 +166,7 @@
 
       this.filteredCollection = this.collection;
       this.collection.on('sync', this.render, this);
-      this.collection.on('filter', this.handleFilter, this);
+      Backbone.on('filter:office', this.filterOffice, this);
     },
 
     render: function() {
@@ -199,9 +234,12 @@
       this._$tbody.find('tr.election[data-year="' + year + '"]').removeClass('open');
     },
 
-    handleFilter: function(filtered) {
-      this.filteredCollection = filtered;
+    filterOffice: function(office) {
+      this.filteredCollection = this.collection.filterElections({
+        office: office
+      });
       this.render();
+      return this;
     }
   });
 
@@ -247,7 +285,7 @@
 
     handleChange: function(evt) {
       var val = $(evt.target).val();
-      this.collection.filterOffice(val);
+      Backbone.trigger('filter:office', val);
     }
   });
 
@@ -287,9 +325,7 @@
       this._tableView = new ResultsTableView({
         collection: this._collection
       });
-      this._officeFilterView = new OfficeFilterView({
-        collection: this._collection 
-      });
+      this._officeFilterView = new OfficeFilterView();
       this._sidebarView = new openelex.StateMetadataView({
         el: options.sidebarEl,
         collection: this._statesCollection
@@ -315,5 +351,4 @@
       this._sidebarView.setState(state).render();
     }
   });
-
 })(window, document, jQuery, _, Backbone, window.openelex || {});
