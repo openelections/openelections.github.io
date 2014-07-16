@@ -27,6 +27,12 @@
    * @param {string} office - Office slug.
    */
 
+  // Utility functions
+
+  function toTitleCase(str) {
+    return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+  }
+
   // Routers
 
   var ResultsRouter = Backbone.Router.extend({
@@ -62,13 +68,17 @@
     model: Election,
 
     initialize: function(models, options) {
+      options = options || {};
+
+      this.comparator = options.comparator || 'start_date';
       this._years = {};
+      this._dates = {};
       if (models) {
-        _.each(models, this.addYear, this);
+        _.each(models, this.addDates, this);
       }
 
       this._dataRoot = options.dataRoot;
-      this.on('add', this.addYear, this);
+      this.on('add', this.addDates, this);
     },
 
     url: function() {
@@ -78,17 +88,23 @@
     setState: function(state) {
       this._state = state;
       this._years = {};
+      this._dates = {};
       return this;
     },
 
-    addYear: function(model) {
+    addDates: function(model) {
       this._years[model.get('year')] = true;
+      this._dates[model.get('start_date')] = true;
     },
 
     years: function() {
       return _.map(_.keys(this._years).sort(), function(yearS) {
         return parseInt(yearS);
       });
+    },
+
+    dates: function() {
+      return _.keys(this._dates).sort();
     },
 
     filterOffice: function(office) {
@@ -162,11 +178,14 @@
     },
 
     initialize: function(options) {
+      this._filterArgs = {};
       this.renderInitial();
 
       this.filteredCollection = this.collection;
+
       this.collection.on('sync', this.render, this);
       Backbone.on('filter:office', this.filterOffice, this);
+      Backbone.on('filter:dates', this.filterDates, this);
     },
 
     render: function() {
@@ -235,11 +254,79 @@
     },
 
     filterOffice: function(office) {
-      this.filteredCollection = this.collection.filterElections({
+      this._filterArgs = _.extend(this._filterArgs, {
         office: office
       });
-      this.render();
+      return this.applyFilters();
+    },
+
+    filterDates: function(dateStart, dateEnd) {
+      this._filterArgs = _.extend(this._filterArgs, {
+        dateStart: dateStart,
+        dateEnd: dateEnd
+      });
+      return this.applyFilters();
+    },
+
+    applyFilters: function(filters) {
+      filters = filters || this._filterArgs;
+      this.filteredCollection = this.collection.filterElections(filters);
+      return this.render();
+    }
+  });
+
+  var DateFilterView = Backbone.View.extend({
+    attributes: {
+      'id': 'date-filter-container'
+    },
+
+    initialize: function(options) {
+      this.collection.on('sync', this.render, this);
+    },
+
+    render: function() {
+      this.dates = this.collection.dates();
+      this.$slider = this.$slider || this.initSlider(this.dates);
+      this.$el.append(this.$slider);
+      this.$elections = $('<div>').addClass('elections').prependTo(this.$el);
+      this.collection.each(function(election, i, collection) {
+        var left = (i / (collection.length - 1)) * 100 + '%'; 
+        $('<div>').addClass('election')
+          .addClass(election.get('race_type'))
+          .attr('title', election.get('start_date') + " " + toTitleCase(election.get('race_type')))
+          .css('left', left)
+          .appendTo(this.$elections);
+      }, this);
       return this;
+    },
+
+    initSlider: function(dates) {
+      var year, prevYear, left;
+      var $slider = $('<div>').addClass('date-slider').slider({
+        range: true,
+        min: 0,
+        max: dates.length - 1,
+        values: [0, dates.length - 1],
+        change: _.bind(this.handleSliderChange, this)
+      });
+
+      for (var i = 0; i < dates.length; i++) {
+        year = dates[i].split('-')[0];
+        if (year != prevYear) {
+          left = (i / (dates.length - 1)) * 100 + '%';
+          $('<label>').text(year).addClass('year').css('left', left).appendTo($slider);
+        }
+
+        prevYear = year;
+      }
+
+      return $slider;
+    },
+
+    handleSliderChange: function(evt, ui) {
+      var $slider = $(evt.target);
+      var values = $slider.slider('values');
+      Backbone.trigger('filter:dates', this.dates[values[0]], this.dates[values[1]]);
     }
   });
 
@@ -325,6 +412,9 @@
       this._tableView = new ResultsTableView({
         collection: this._collection
       });
+      this._dateFilterView = new DateFilterView({
+        collection: this._collection
+      });
       this._officeFilterView = new OfficeFilterView();
       this._sidebarView = new openelex.StateMetadataView({
         el: options.sidebarEl,
@@ -332,6 +422,7 @@
       });
       this._sidebarView.$el.addClass('results-detail');
 
+      $(el).append(this._dateFilterView.$el);
       $(el).append(this._officeFilterView.render().$el);
       $(el).append(this._tableView.$el);
 
