@@ -93,9 +93,10 @@
 
 .date-slider label {
   position: absolute;
-  width: 20px;
+  min-width: 20px;
   border-left: #000 1px solid;
   margin-top: 15px;
   padding-left: 2px;
-  text-align: center;
+  /* HACK: Set background color to white to hide overlapping years */
+  background-color: #fff;
 }

@@ -416,7 +416,8 @@
         year = dates[i].split('-')[0];
         if (year != prevYear) {
           left = (i / (dates.length - 1)) * 100 + '%';
-          $('<label>').text(year).addClass('year').css('left', left).appendTo($slider);
+          $('<label>').text(year).attr('title', year)
+            .addClass('year').css('left', left).appendTo($slider);
         }
 
         prevYear = year;
