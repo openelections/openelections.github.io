@@ -2,3 +2,7 @@ name: OpenElections
 markdown: redcarpet
 pygments: true
 baseurl: '' 
+exclude:
+    - README.md
+    - Gemfile
+    - Gemfile.lock
