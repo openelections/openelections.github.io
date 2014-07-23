@@ -28,7 +28,7 @@
       "</dl>" + 
       "<dl class='results-detail'>" +
       "<dt class='results-status'>Results Status</dt><dd class='results-status'><%= results_status %></dd>" +
-      "<dt class='map-link'>Map Link</dt><dd class='map-link'><a href='/'>Map</a></dd>" +
+      "<dt class='map-link'>Map Link</dt><dd class='map-link'><a href='/'>Data Map</a></dd>" +
       "</dl>"),
 
     render: function() {

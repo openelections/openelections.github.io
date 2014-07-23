@@ -1,3 +1,7 @@
+.results-heading {
+  text-transform: uppercase;
+}
+
 label[for="office-filter"] {
   margin-right: 10px;
 }

@@ -54,12 +54,35 @@
   margin-left: -2.5px;
 }
 
-#date-filter-container .election.primary {
-  background-color: #32348c;
+#legend-race-type dd {
+  /* Less padding on the right to fit legend all on one line */
+  padding-right: 20px;
 }
 
+#legend-race-type .primary,
+#date-filter-container .election.primary {
+  background-color: #32348c; /* purple */
+}
+
+#legend-race-type .primary.special,
+#date-filter-container .election.primary.special {
+  background-color: #7b84ba; /* light purple */
+}
+
+#legend-race-type .general,
 #date-filter-container .election.general {
-  background-color: #258bd1;
+  background-color: #258bd1; /* blue */
+}
+
+#legend-race-type .general.special,
+#date-filter-container .election.general.special {
+  background-color: #81c5e2; /* light blue */
+}
+
+#legend-race-type .runoff,
+#date-filter-container .general-runoff,
+#date-filter-container .primary-runoff {
+  background-color: #8bac91; /* green */
 }
 
 .date-slider {

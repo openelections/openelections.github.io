@@ -4,6 +4,8 @@
 (function(window, document, $, _, Backbone, openelex) {
   window.openelex = openelex;
 
+  // @todo Add congressional district column
+  // @todo Reorder to match spec
   var REPORTING_LEVELS = ['county', 'state_legislative', 'precinct'];
 
   // Global events.
@@ -158,6 +160,86 @@
   });
 
   // Views
+  
+  var ResultsHeadingView = Backbone.View.extend({
+    tagName: 'h3',
+
+    attributes: {
+      class: 'results-heading'
+    },
+
+    options: {
+      // A map of office slugs, as defined in the JSON and the dashboard
+      // to labels that will be seen by the user
+      officeLabels: {
+        any: "All",
+        prez: "Presidential",
+        senate: "U.S. Senate",
+        house: "U.S. House",
+        gov: "Gubenatorial",
+        state_offices: "State Officer",
+        state_leg: "Stage Legislature"
+      }
+    },
+
+    initialize: function(options) {
+      _.extend(this.options, options);
+      this._filterArgs = {
+        office: 'any'
+      };
+
+      this.collection.on('sync', this.render, this);
+      Backbone.on('filter:office', this.filterOffice, this);
+      Backbone.on('filter:dates', this.filterDates, this);
+
+      this.renderInitial();
+    },
+
+    renderInitial: function() {
+      this.$el.text("All Races");
+      return this;
+    },
+
+    render: function() {
+      var officeLabel, startYear, endYear;
+
+      // No filtering has been done yet, we need to get the date range from
+      // the collection.
+      if (!(this._filterArgs.dateStart && this._filterArgs.dateEnd)) {
+        _.extend(this._filterArgs, this._getInitialDates());
+      }
+
+      officeLabel = this.options.officeLabels[this._filterArgs.office];
+      startYear = this._filterArgs.dateStart.slice(0, 4);
+      endYear = this._filterArgs.dateEnd.slice(0, 4);
+
+      this.$el.text(officeLabel + " Races " + startYear + " - " + endYear);
+
+      return this;
+    },
+
+    _getInitialDates: function() {
+      return {
+        dateStart: this.collection.first().get('start_date'), 
+        dateEnd: this.collection.last().get('start_date') 
+      };
+    },
+
+    filterOffice: function(office) {
+      this._filterArgs = _.extend(this._filterArgs, {
+        office: office
+      });
+      return this.render();
+    },
+
+    filterDates: function(dateStart, dateEnd) {
+      this._filterArgs = _.extend(this._filterArgs, {
+        dateStart: dateStart,
+        dateEnd: dateEnd
+      });
+      return this.render();
+    }
+  });
 
   var ResultsTableView = Backbone.View.extend({
     tagName: 'table',
@@ -291,11 +373,22 @@
       this.$elections = $('<div>').addClass('elections').prependTo(this.$el);
       this.collection.each(function(election, i, collection) {
         var left = (i / (collection.length - 1)) * 100 + '%'; 
-        $('<div>').addClass('election')
+        var title = election.get('start_date') + " ";
+        var $bar;
+
+        if (election.get('special')) {
+          title += "Special ";
+        } 
+        title += toTitleCase(election.get('race_type'));
+
+        $bar = $('<div>').addClass('election')
           .addClass(election.get('race_type'))
-          .attr('title', election.get('start_date') + " " + toTitleCase(election.get('race_type')))
-          .css('left', left)
-          .appendTo(this.$elections);
+          .attr('title', title)
+          .css('left', left);
+        if (election.get('special')) {
+          $bar.addClass('special');
+        }
+        this.$elections.append($bar);
       }, this);
       return this;
     },
@@ -409,6 +502,9 @@
       this._statesCollection.fetch();
 
       // Create sub-views
+      this._headingView = new ResultsHeadingView({
+        collection: this._collection
+      });
       this._tableView = new ResultsTableView({
         collection: this._collection
       });
@@ -423,6 +519,7 @@
       this._sidebarView.$el.addClass('results-detail');
 
       $(el).append(this._dateFilterView.$el);
+      $(el).append(this._headingView.$el);
       $(el).append(this._officeFilterView.render().$el);
       $(el).append(this._tableView.$el);
 
