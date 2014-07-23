@@ -1,5 +1,11 @@
 .results-heading {
   text-transform: uppercase;
+  float: left;
+}
+
+#office-filter-container {
+  margin-top: 20px; /* This should match the margin on .results-heading */
+  text-align: right;
 }
 
 label[for="office-filter"] {
@@ -30,4 +36,8 @@ tr.election {
 
 tr.election.open {
   display: table-row;
+}
+
+tr.election a {
+  color: #ed4c6b; /* pink */
 }

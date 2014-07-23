@@ -4,9 +4,7 @@
 (function(window, document, $, _, Backbone, openelex) {
   window.openelex = openelex;
 
-  // @todo Add congressional district column
-  // @todo Reorder to match spec
-  var REPORTING_LEVELS = ['county', 'state_legislative', 'precinct'];
+  var REPORTING_LEVELS = ['county', 'precinct', 'state_legislative', 'congressional_district'];
 
   // Global events.
   //
@@ -61,6 +59,19 @@
      reportingLevelUrl: function(level, raw) {
        var attr = raw ? 'results_raw' : 'results';
        return this.get(attr)[level];
+     },
+
+     raceLabel: function() {
+       var label = "";
+       var raceTypeBits = this.get('race_type').split('-');
+       if (this.get('special')) {
+         label += "Special ";
+       }
+       label += toTitleCase(raceTypeBits[0]);
+       if (raceTypeBits.length > 1 && raceTypeBits[1] === "runoff") {
+         label += " Runoff";
+       }
+       return label;
      }
   });
 
@@ -254,8 +265,8 @@
 
     options: {
       headerRows: [
-        ["Date", "Race", "Results", "", ""],
-        ["", "", "County", "State Legislative", "Precinct"]
+        ["Date", "Race", "Results", "", "", ""],
+        ["", "", "County", "Precinct", "State Legislative", "Congressional District"]
       ],
     },
 
@@ -285,14 +296,14 @@
         var $tr = $('<tr>').appendTo(this._$tbody);
         $('<th colspan="5" class="year-heading" data-year="' + year + '">' + year + '</th>').appendTo($tr);
 
-        _.each(this.filteredCollection.where({year: year}), function(elections) {
+        _.each(this.filteredCollection.where({year: year}), function(election) {
             var $tr = $('<tr class="election" data-year="' + year + '">').appendTo(this._$tbody);
-            $tr.append($('<td>' + elections.get('start_date') + '</td>'));
-            $tr.append($('<td>' + elections.get('race_type') + '</td>'));
+            $tr.append($('<td>' + election.get('start_date') + '</td>'));
+            $tr.append($('<td>' + election.raceLabel() + '</td>'));
 
             _.each(REPORTING_LEVELS, function(level) {
               // @todo Add URLs for clean data, but we only have raw for now, so don't worry about it
-              var url = elections.reportingLevelUrl(level, true);
+              var url = election.reportingLevelUrl(level, true);
               if (url) {
                 $tr.append('<td><a href="' + url + '"><span class="glyphicon glyphicon-download"></span></a></td>'); 
               }
@@ -385,10 +396,7 @@
         var title = election.get('start_date') + " ";
         var $bar;
 
-        if (election.get('special')) {
-          title += "Special ";
-        } 
-        title += toTitleCase(election.get('race_type'));
+        title += election.raceLabel(); 
 
         $bar = $('<div>').addClass('election')
           .addClass(election.get('race_type'))

@@ -1,12 +1,13 @@
 .ui-slider {
   border: 1px solid #aaaaaa;
+  background-color: #999; /* Light gray */
 }
 
 .ui-slider .ui-slider-handle {
   position: absolute;
   z-index: 2;
-  width: 1.2em;
-  height: 1.2em;
+  width: 1em;
+  height: 1em;
   cursor: default;
 
   /* Make the border a circle */
@@ -22,12 +23,12 @@
   display: block;
   border: 0;
   background-position: 0 0;
-  background: #cccccc;
+  background: #333; /* Dark gray */
 }
 
 .ui-slider-horizontal .ui-slider-handle {
-  top: -.3em;
-  margin-left: -.6em;
+  top: -.2em;
+  margin-left: -.5em;
 }
 
 .ui-slider-horizontal .ui-slider-range {
@@ -37,7 +38,7 @@
 
 #date-filter-container {
   position: relative;
-  height: 100px;
+  height: 150px;
 }
 
 #date-filter-container .elections {
@@ -49,7 +50,7 @@
   position: absolute;
   top: 0;
   width: 5px;
-  height: 30px;
+  height: 80px;
   background-color: red;
   margin-left: -2.5px;
 }
@@ -87,8 +88,12 @@
 
 .date-slider {
   position: absolute;
-  top: 34px;
+  top: 84px;
   width: 100%;
+}
+
+.ui-slider-horizontal {
+  height: 0.7em;
 }
 
 .date-slider label {
