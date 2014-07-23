@@ -184,11 +184,8 @@
 
     initialize: function(options) {
       _.extend(this.options, options);
-      this._filterArgs = {
-        office: 'any'
-      };
 
-      this.collection.on('sync', this.render, this);
+      this.collection.on('sync', this.handleSync, this);
       Backbone.on('filter:office', this.filterOffice, this);
       Backbone.on('filter:dates', this.filterDates, this);
 
@@ -198,6 +195,13 @@
     renderInitial: function() {
       this.$el.text("All Races");
       return this;
+    },
+
+    handleSync: function() {
+      this._filterArgs = {
+        office: 'any'
+      };
+      return this.render();
     },
 
     render: function() {
@@ -263,11 +267,15 @@
       this._filterArgs = {};
       this.renderInitial();
 
-      this.filteredCollection = this.collection;
-
-      this.collection.on('sync', this.render, this);
+      this.collection.on('sync', this.handleSync, this);
       Backbone.on('filter:office', this.filterOffice, this);
       Backbone.on('filter:dates', this.filterDates, this);
+    },
+
+    handleSync: function() {
+      this._filterArgs = {};
+      this.filteredCollection = this.collection;
+      return this.render();
     },
 
     render: function() {
@@ -367,8 +375,9 @@
     },
 
     render: function() {
+      this.$el.empty();
       this.dates = this.collection.dates();
-      this.$slider = this.$slider || this.initSlider(this.dates);
+      this.$slider = this.initSlider(this.dates);
       this.$el.append(this.$slider);
       this.$elections = $('<div>').addClass('elections').prependTo(this.$el);
       this.collection.each(function(election, i, collection) {
@@ -445,20 +454,20 @@
     },
 
     render: function() {
-      var $select = $('<select>')
+      this.$select = $('<select>')
         .attr('id', 'office-filter')
         .appendTo(this.$el);
       var $label = $('<label>')
         .attr('for', 'office-filter')
         .text("Filter by Office Type")
-        .insertBefore($select); 
+        .insertBefore(this.$select); 
       _.each(this.options.offices, function(office) {
         var val = office[0];
         var label = office[1];
         var $opt = $('<option>')
           .attr('value', val)
           .text(label)
-          .appendTo($select);
+          .appendTo(this.$select);
       }, this);
       return this;
     },
@@ -466,6 +475,10 @@
     handleChange: function(evt) {
       var val = $(evt.target).val();
       Backbone.trigger('filter:office', val);
+    },
+
+    reset: function() {
+      this.$select.val('any');
     }
   });
 
@@ -537,6 +550,7 @@
     handleState: function(state) {
       this._collection.setState(state).fetch();
       this._sidebarView.setState(state).render();
+      this._officeFilterView.reset();
     }
   });
 })(window, document, jQuery, _, Backbone, window.openelex || {});
