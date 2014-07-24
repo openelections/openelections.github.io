@@ -271,7 +271,7 @@
     },
 
     events: {
-      "click .year-heading": 'handleClickYear'
+      "click th.year-heading": 'handleClickYear'
     },
 
     initialize: function(options) {
@@ -293,8 +293,8 @@
       var years = this.filteredCollection.years();
       this._$tbody.empty();
       _.each(years, function(year) {
-        var $tr = $('<tr>').appendTo(this._$tbody);
-        $('<th colspan="5" class="year-heading" data-year="' + year + '">' + year + '</th>').appendTo($tr);
+        var $tr = $('<tr class="year-heading">').appendTo(this._$tbody);
+        $('<th colspan="6" class="year-heading" data-year="' + year + '">' + year + '</th>').appendTo($tr);
 
         _.each(this.filteredCollection.where({year: year}), function(election) {
             var $tr = $('<tr class="election" data-year="' + year + '">').appendTo(this._$tbody);
@@ -305,10 +305,10 @@
               // @todo Add URLs for clean data, but we only have raw for now, so don't worry about it
               var url = election.reportingLevelUrl(level, true);
               if (url) {
-                $tr.append('<td><a href="' + url + '"><span class="glyphicon glyphicon-download"></span></a></td>'); 
+                $tr.append('<td class="download"><a href="' + url + '"><span class="glyphicon glyphicon-download"></span></a></td>'); 
               }
               else {
-                $tr.append('<td>');
+                $tr.append('<td class="download">');
               }
             }, this);
         }, this);
@@ -528,7 +528,8 @@
         collection: this._collection
       });
       this._tableView = new ResultsTableView({
-        collection: this._collection
+        collection: this._collection,
+        id: 'results-table'
       });
       this._dateFilterView = new DateFilterView({
         collection: this._collection

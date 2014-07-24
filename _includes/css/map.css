@@ -1,3 +1,7 @@
+#toggle {
+  margin-bottom: 10px;
+}
+
 .btn-toggle,
 .btn-toggle:focus,
 .btn-toggle:hover {
@@ -8,14 +12,23 @@
 
 .btn-toggle {
   color: #fff;
-  background-color: #999; /* Light gray */
+  background-color: #cacaca; /* Light gray */
   font-weight: bold;
   text-transform: uppercase;
+  font-size: 0.74em;
+  padding: 1px 2px;
 }
 
 .metadata .btn-metadata,
 .results .btn-results {
-  background-color: #333; /* Dark gray */
+  background-color: #4f4f4f; /* Dark gray */
+}
+
+.legend {
+  clear: both;
+  /* Correctly honor top-margin after the floated elements */
+  float: none;
+  display: inline-block;
 }
 
 #legend-results {
@@ -31,28 +44,32 @@
 }
 
 .legend dd {
-  font-weight: bold;
   padding: 0 40px 0 45px;
   margin-bottom: 10px;
+
+  font-size: 1.3em;
+  line-height: 1.2em;
+  font-weight: bold;
 }
 
 #map {
+  /* Set so that total space between map and footer is ~75px */
   padding-bottom: 40px;
 }
 
 .not-started, .metadata .metadata-not-started, .results .results-not-started {
-  background-color: #32348c;
-  fill: #32348c;
+  background-color: #30358c; /* Purple */
+  fill: #30358c;
 }
 
 .partial, .raw, .metadata .metadata-partial, .results .results-raw {
-  background-color: #258bd1; 
+  background-color: #258bd1; /* Blue */ 
   fill: #258bd1; 
 }
 
 .up-to-date, .clean, .metadata .metadata-up-to-date, .results .results-clean {
-  background-color: #8bac91;
-  fill: #8bac91;
+  background-color: #79a888; /* Green */
+  fill: #79a888;
 }
 
 .default-instructions {
@@ -74,11 +91,25 @@ dt.map-link {
   display: none;
 }
 
+
 dd.results-status,
 dd.detail-link,
 dd.map-link {
   text-transform: uppercase; 
-  font-weight: bold;
+  font-family: museoslab;
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+
+dd.results-status {
+  color: #4f4f4f;
+}
+
+dd.detail-link,
+dd.map-link {
+  margin-top: 20px;
+
+  color: #ed4c6b; /* Pink */
 }
 
 /* Note: Arrow icons are ef6c7f */
@@ -92,14 +123,31 @@ dd.map-link a {
     text-align: right;
   }
 
+  body.map #main > h2:first-child {
+    float: left;
+  }
+  
+  #toggle {
+    float: left;
+    margin-top: 24px; /* Match margin-top of h2 */
+    margin-left: 25px;
+  }
+
   .legend {
-    margin-top: 30px;
-    margin-bottom: 80px;
+    width: 100%;
+    margin-top: 20px;
+    /* Set this so there's ~75px of space between the bottom of the legend */
+    /* and the top of the map. */
+    margin-bottom: 40px;
   }
 
   .legend dd {
     float: left;
-    padding-left: 5px;
+    padding-left: 10px;
+  }
+
+  body.map .legend dd {
+    width: 170px;
   }
 
   .default-instructions {
@@ -108,11 +156,7 @@ dd.map-link a {
     padding-top: 12px;
   }
 
-  .infobox h2 {
-    padding-top: 8px;
-  }
-
   .infobox dl {
-    margin-top: 30px;
+    margin-top: 10px;
   }
 }

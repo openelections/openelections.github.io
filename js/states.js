@@ -17,7 +17,7 @@
       class: 'infobox'
     },
 
-    template: _.template("<h3><%= state %></h3>" +
+    template: _.template("<h2><%= state %></h2>" +
       "<dl class='metadata'>" +
       "<dt>Metadata Status</dt><dd><%= metadata_status %></dd>" + 
       "<dt>Volunteer(s)</dt><dd><%= volunteers %></dd>" +

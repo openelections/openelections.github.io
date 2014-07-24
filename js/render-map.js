@@ -159,7 +159,7 @@
     var containerClasses;
 
     if (maptype === 'metadata') {
-      metadataLegend.style('display', 'block');
+      metadataLegend.style('display', 'inline-block');
       resultsLegend.style('display', 'none');
       containerClasses = { 
         'metadata': true,
@@ -168,7 +168,7 @@
     }
     else {
       metadataLegend.style('display', 'none');
-      resultsLegend.style('display', 'block');
+      resultsLegend.style('display', 'inline-block');
       containerClasses = {
         'metadata': false,
         'results': true
