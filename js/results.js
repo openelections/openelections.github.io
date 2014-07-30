@@ -305,7 +305,7 @@
               // @todo Add URLs for clean data, but we only have raw for now, so don't worry about it
               var url = election.reportingLevelUrl(level, true);
               if (url) {
-                $tr.append('<td class="download"><a href="' + url + '"><span class="glyphicon glyphicon-download"></span></a></td>'); 
+                $tr.append('<td class="download"><a href="' + url + '"><img src="../img/icon/pink_arrow_down.png"></a></td>'); 
               }
               else {
                 $tr.append('<td class="download">');

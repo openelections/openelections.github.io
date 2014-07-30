@@ -69,20 +69,12 @@ th.year-heading {
 
 th.year-heading:before {
   display: inline-block;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  content: "\f054";
-  font-size: 0.8em;
-  margin-right: 4px;
+  content: url('../img/icon/grey_arrow_right.png');
+  margin-right: 10px;
 }
 
 th.year-heading.open:before {
-  content: "\f078";
+  content: url('../img/icon/grey_arrow_down.png');
 }
 
 tr.election {
@@ -103,4 +95,6 @@ tr.election a {
 
 td.download {
   text-align: center;
+  /* Smaller top padding to align icon with text */
+  padding-top: 2px !important;
 }

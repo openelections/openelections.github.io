@@ -112,10 +112,25 @@ dd.map-link {
   color: #ed4c6b; /* Pink */
 }
 
-/* Note: Arrow icons are ef6c7f */
 dd.detail-link a,
 dd.map-link a {
   color: #ed4c6b;
+}
+
+dd.detail-link a:after,
+dd.map-link a:after {
+  position: relative;
+  /* Push the image down to align with the text */
+  top: 2px;
+  padding-left: 4px;
+}
+
+dd.detail-link a:after {
+  content: url('../img/icon/pink_arrow_right.png');
+}
+
+dd.map-link a:after {
+  content: url('../img/icon/pink_arrow_left.png');
 }
 
 @media screen and (min-width: 520px) {
