@@ -6,6 +6,25 @@
 
   var REPORTING_LEVELS = ['county', 'precinct', 'state_legislative', 'congressional_district'];
 
+  var OFFICES = [
+    ['any', "Any Office"],
+    ['prez', "President"],
+    ['senate', "U.S. Senate"],
+    ['house', "U.S. House"],
+    ['gov', "Governor"],
+    ['state_officers', "State Officers"],
+    ['state_leg', "State Legislature"]
+  ];
+
+  var RACE_TYPES = [
+    ['any', "Any Race Type"],
+    ['primary', "Primary"],
+    ['special_primary', "Special Primary"],
+    ['general', "General"],
+    ['special_general', "Special General"],
+    ['runoff', "Run-off"]
+  ];
+
   // Global events.
   //
   // These are triggered over the Backbone object, used as a global event
@@ -31,6 +50,16 @@
 
   function toTitleCase(str) {
     return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+  }
+
+  /**
+   * If a string is non-empty, add a space after it.
+   *
+   * This is useful when concatenating strings where bit might be empty.
+   */
+  function addSpace(str, suffix) {
+    suffix = suffix || ' ';
+    return str ? str + suffix : str;
   }
 
   // Routers
@@ -64,14 +93,23 @@
      raceLabel: function() {
        var label = "";
        var raceTypeBits = this.get('race_type').split('-');
-       if (this.get('special')) {
+       if (this.isSpecial()) {
          label += "Special ";
        }
        label += toTitleCase(raceTypeBits[0]);
-       if (raceTypeBits.length > 1 && raceTypeBits[1] === "runoff") {
+       if (this.isRunoff()) {
          label += " Runoff";
        }
        return label;
+     },
+
+     isSpecial: function() {
+       return this.get('special');
+     },
+
+     isRunoff: function() {
+       var raceTypeBits = this.get('race_type').split('-');
+       return (raceTypeBits.length > 1 && raceTypeBits[1] === "runoff");
      }
   });
 
@@ -120,6 +158,7 @@
       return _.keys(this._dates).sort();
     },
 
+    /*
     filterOffice: function(office) {
       var filterArgs = {};
       var filtered;
@@ -141,14 +180,17 @@
       this.trigger('filter', filtered);
       return filtered;
     },
+    */
 
     filterElections: function(filterArgs) {
       var office = filterArgs.office;
       var dateStart = filterArgs.dateStart;
       var dateEnd = filterArgs.dateEnd;
+      var raceType = this._parseRaceType(filterArgs.raceType);
       var models = this.filter(function(model) {
         var officeMatches = true;
         var dateMatches = true;
+        var raceTypeMatches = true;
 
         if (office) {
           officeMatches = office === 'any' || model.get(office) === true;
@@ -159,7 +201,20 @@
             model.get('start_date') <= dateEnd);
         }
 
-        return officeMatches && dateMatches;
+        if (raceType && raceType.raceType !== 'any') {
+          if (raceType.raceType === 'runoff') {
+            raceTypeMatches = model.isRunoff();
+          }
+          else {
+            raceTypeMatches = model.get('race_type') === raceType.raceType;
+          }
+
+          if (raceType.special) {
+            raceTypeMatches = raceTypeMatches && model.isSpecial();
+          }
+        }
+
+        return officeMatches && dateMatches && raceTypeMatches;
       });
       var filtered = new Elections(models, {
         state: this._state,
@@ -167,6 +222,34 @@
       });
       this.trigger('filter', filtered);
       return filtered;
+    },
+
+    /**
+     * Parse the race type string from the front end into an object we can
+     * use to filter models.
+     *
+     * This is needed because the way race types are presented on the front
+     * end is flattened from how they are stored in the models.
+     */
+    _parseRaceType: function(raceType) {
+      var filters, raceTypeBits;
+
+      if (_.isUndefined(raceType)) {
+        return null;
+      }
+     
+      filters = {};
+      raceTypeBits = raceType.split('_');
+
+      if (raceTypeBits[0] === "special") {
+        filters.special = true;
+        filters.raceType = raceTypeBits[1];
+      }
+      else {
+        filters.raceType = raceTypeBits[0];
+      }
+
+      return filters;
     }
   });
 
@@ -182,15 +265,16 @@
     options: {
       // A map of office slugs, as defined in the JSON and the dashboard
       // to labels that will be seen by the user
-      officeLabels: {
-        any: "All",
+      officeLabels: _.extend(_.object(OFFICES), {
+        any: "",
         prez: "Presidential",
-        senate: "U.S. Senate",
-        house: "U.S. House",
         gov: "Gubenatorial",
-        state_offices: "State Officer",
-        state_leg: "Stage Legislature"
-      }
+        state_offices: "State Officer"
+      }),
+
+      raceTypeLabels: _.extend(_.object(RACE_TYPES), {
+        any: ""
+      })
     },
 
     initialize: function(options) {
@@ -199,6 +283,7 @@
       this.collection.on('sync', this.handleSync, this);
       Backbone.on('filter:office', this.filterOffice, this);
       Backbone.on('filter:dates', this.filterDates, this);
+      Backbone.on('filter:race_type', this.filterRaceType, this);
 
       this.renderInitial();
     },
@@ -210,13 +295,14 @@
 
     handleSync: function() {
       this._filterArgs = {
-        office: 'any'
+        office: 'any',
+        raceType: 'any'
       };
       return this.render();
     },
 
     render: function() {
-      var officeLabel, startYear, endYear;
+      var prefix, raceTypeLabel, officeLabel, startYear, endYear;
 
       // No filtering has been done yet, we need to get the date range from
       // the collection.
@@ -224,11 +310,13 @@
         _.extend(this._filterArgs, this._getInitialDates());
       }
 
-      officeLabel = this.options.officeLabels[this._filterArgs.office];
+      raceTypeLabel = addSpace(this.options.raceTypeLabels[this._filterArgs.raceType]);
+      officeLabel = addSpace(this.options.officeLabels[this._filterArgs.office]);
+      prefix = raceTypeLabel && officeLabel ? "" : "All "; 
       startYear = this._filterArgs.dateStart.slice(0, 4);
       endYear = this._filterArgs.dateEnd.slice(0, 4);
 
-      this.$el.text(officeLabel + " Races " + startYear + " - " + endYear);
+      this.$el.text(raceTypeLabel + officeLabel + "Races " + startYear + " - " + endYear);
 
       return this;
     },
@@ -251,6 +339,13 @@
       this._filterArgs = _.extend(this._filterArgs, {
         dateStart: dateStart,
         dateEnd: dateEnd
+      });
+      return this.render();
+    },
+
+    filterRaceType: function(raceType) {
+      this._filterArgs = _.extend(this._filterArgs, {
+        raceType: raceType
       });
       return this.render();
     }
@@ -281,6 +376,7 @@
       this.collection.on('sync', this.handleSync, this);
       Backbone.on('filter:office', this.filterOffice, this);
       Backbone.on('filter:dates', this.filterDates, this);
+      Backbone.on('filter:race_type', this.filterRaceType, this);
     },
 
     handleSync: function() {
@@ -370,6 +466,13 @@
       return this.applyFilters();
     },
 
+    filterRaceType: function(raceType) {
+      this._filterArgs = _.extend(this._filterArgs, {
+        raceType: raceType
+      });
+      return this.applyFilters();
+    },
+
     applyFilters: function(filters) {
       filters = filters || this._filterArgs;
       this.filteredCollection = this.collection.filterElections(filters);
@@ -442,38 +545,24 @@
     }
   });
 
-  var OfficeFilterView = Backbone.View.extend({
-    attributes: {
-      'id': 'office-filter-container'
-    },
-
-    options: {
-      offices: [
-        ['any', "Any Office"],
-        ['prez', "President"],
-        ['senate', "U.S. Senate"],
-        ['house', "U.S. House"],
-        ['gov', "Governor"],
-        ['state_officers', "State Officers"],
-        ['state_leg', "State Legislature"]
-      ]
-    },
-
+  var SelectFilterView = Backbone.View.extend({
     events: {
       'change select': 'handleChange'
     },
 
     render: function() {
+      var selectId = this.options.attribute + '-filter';
+
       this.$select = $('<select>')
-        .attr('id', 'office-filter')
+        .attr('id', selectId)
         .appendTo(this.$el);
       var $label = $('<label>')
-        .attr('for', 'office-filter')
-        .text("Filter by Office Type")
+        .attr('for', selectId)
+        .text(this.options.label)
         .insertBefore(this.$select); 
-      _.each(this.options.offices, function(office) {
-        var val = office[0];
-        var label = office[1];
+      _.each(this.options.options, function(option) {
+        var val = option[0];
+        var label = option[1];
         var $opt = $('<option>')
           .attr('value', val)
           .text(label)
@@ -484,11 +573,40 @@
 
     handleChange: function(evt) {
       var val = $(evt.target).val();
-      Backbone.trigger('filter:office', val);
+      var eventName = 'filter:' + this.options.attribute;
+      Backbone.trigger(eventName, val);
     },
 
     reset: function() {
-      this.$select.val('any');
+      this.$select.val(this.options.options[0][0]);
+    }
+  });
+
+  var OfficeFilterView = SelectFilterView.extend({
+    attributes: {
+      'id': 'office-filter-container'
+    },
+
+    options: {
+      attribute: 'office',
+
+      label: "Office Type",
+
+      options: OFFICES     
+    }
+  });
+
+  var RaceTypeFilterView = SelectFilterView.extend({
+    attributes: {
+      'id': 'race-type-filter-container'
+    },
+
+    options: {
+      attribute: 'race_type',
+      
+      label: "Race Type",
+
+      options: RACE_TYPES 
     }
   });
 
@@ -536,6 +654,7 @@
         collection: this._collection
       });
       this._officeFilterView = new OfficeFilterView();
+      this._raceTypeFilterView = new RaceTypeFilterView();
       this._sidebarView = new openelex.StateMetadataView({
         el: options.sidebarEl,
         collection: this._statesCollection
@@ -544,6 +663,7 @@
 
       $(el).append(this._dateFilterView.$el);
       $(el).append(this._headingView.$el);
+      $(el).append(this._raceTypeFilterView.render().$el);
       $(el).append(this._officeFilterView.render().$el);
       $(el).append(this._tableView.$el);
 

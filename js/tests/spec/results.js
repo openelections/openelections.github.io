@@ -95,5 +95,43 @@ describe("Elections collection", function() {
         })).toBeDefined();
       });
     });
+
+    it("Should filter by race type", function() {
+      // Match only general races
+      var filtered = collection.filterElections({
+        raceType: 'general'
+      });
+      var startDates = [
+        "2000-11-07",
+        "2002-11-05",
+        "2004-11-02",
+        "2006-11-07",
+        // This one is a special general
+        "2008-06-17",
+        "2008-11-04",
+        "2010-11-02",
+        "2012-11-06"
+      ];
+      expect(filtered.length).toEqual(startDates.length);
+      startDates.forEach(function(date) {
+        expect(filtered.findWhere({
+          'start_date': date
+        })).toBeDefined();
+      });
+
+      // Match Special General races
+      filtered = collection.filterElections({
+        raceType: 'special_general'
+      });
+      startDates = [
+        "2008-06-17"
+      ];
+      expect(filtered.length).toEqual(startDates.length);
+      startDates.forEach(function(date) {
+        expect(filtered.findWhere({
+          'start_date': date
+        })).toBeDefined();
+      });
+    });
   });
 });

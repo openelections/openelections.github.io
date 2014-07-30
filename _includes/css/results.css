@@ -1,16 +1,27 @@
 .results-heading {
   text-transform: uppercase;
   float: left;
+  /* This is floated so margins will collapse. Use padding to create space */
+  /* between the heading and the table */
+  padding-bottom: 50px;
 }
 
-#office-filter-container {
+#office-filter-container,
+#race-type-filter-container {
+  float: right;
+  margin-left: 20px;
   margin-top: 20px; /* This should match the margin on .results-heading */
   text-align: right;
 }
 
-label[for="office-filter"] {
+#office-filter-container label,
+#race-type-filter-container label {
   margin-right: 10px;
   color: #22262a;
+}
+
+label[for="office-filter"]:before {
+  content: "Filter by ";
 }
 
 #results-table {
