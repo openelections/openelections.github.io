@@ -305,7 +305,8 @@
               // @todo Add URLs for clean data, but we only have raw for now, so don't worry about it
               var url = election.reportingLevelUrl(level, true);
               if (url) {
-                $tr.append('<td class="download"><a href="' + url + '"><img src="../img/icon/pink_arrow_down.png"></a></td>'); 
+                // @todo Update this with some kind of widget to select data format
+                $tr.append('<td class="download"><a href="' + url + '" title="Download CSV"><img src="../img/icon/pink_arrow_down.png"></a></td>'); 
               }
               else {
                 $tr.append('<td class="download">');
