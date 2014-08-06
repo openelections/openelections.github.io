@@ -615,9 +615,8 @@
       this._collection = new Elections(null, {
         dataRoot: options.dataRoot
       });
-      this._statesCollection = new openelex.States(null, {
-        url: options.statusJSON
-      });
+      this._statesCollection = new openelex.States();
+      this._statesCollection.url = options.statusJSON;
       this._statesCollection.fetch();
 
       // Create sub-views

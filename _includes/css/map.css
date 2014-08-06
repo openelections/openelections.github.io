@@ -81,7 +81,9 @@
 .infobox.metadata .results, 
 .infobox.metadata .results-detail, 
 .infobox.results-detail .metadata,
-.infobox.results-detail .results {
+.infobox.results-detail .results,
+.metadata .table-states.results,
+.results .table-states.metadata {
   display: none;
 }
 

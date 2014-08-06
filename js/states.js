@@ -1,15 +1,20 @@
 (function(window, document, $, _, Backbone, openelex) {
   window.openelex = openelex;
 
-  openelex.States = Backbone.Collection.extend({
-    url: 'data/state_status.json',
+  var STATUS_LABELS = {
+    partial: "In progress",
+    'up-to-date': "Up-to-date",
+    raw: "Raw Data",
+    clean: "Clean Data"
+  };
 
-    initialize: function(models, options) {
-      options = options || {};
-      if (options.url) {
-        this.url = options.url;
-      }
-    }
+  var statusLabel = openelex.statusLabel = function(s) {
+    var label = STATUS_LABELS[s];
+    return label || "Not Started";
+  };
+
+  openelex.States = Backbone.Collection.extend({
+    url: 'data/state_status.json'
   });
 
   openelex.StateMetadataView = Backbone.View.extend({
@@ -39,8 +44,8 @@
       this.$el.html(this.template({
         state: this.model.get('name'),
         detail_url: '/results/#' + this.model.get('postal').toLowerCase(),
-        results_status: this.resultsStatusLabel(this.model.get('results_status')),
-        metadata_status: this.model.get('metadata_status'),
+        results_status: statusLabel(this.model.get('results_status')),
+        metadata_status: statusLabel(this.model.get('metadata_status')),
         volunteers: volunteers.join(', ')
       }));
 
@@ -49,18 +54,6 @@
       return this;
     },
      
-    resultsStatusLabel: function(s) {
-      if (s === 'raw') {
-        return "Raw Data";
-      }
-      else if (s === 'clean') {
-        return "Clean Data";
-      }
-      else {
-        return "Not Started";
-      }
-    },
-
     /**
      * Set the state who's metadata will be rendered in this view.
      *
@@ -70,6 +63,72 @@
     setState: function(state) {
       this.model = this.collection.findWhere({name: state}) || this.collection.findWhere({postal: state.toUpperCase()});
       return this;
+    }
+  });
+
+  var StateTable = Backbone.View.extend({
+    options: {
+      rowTemplate: _.template('<tr><td><%= name %></td><td><%= status %></td></tr>')
+    },
+
+    initialize: function() {
+      this.collection.on('sync', this.render, this);  
+    },
+
+    tagName: 'table',
+
+    attributes: {
+      class: 'table'
+    },
+
+    render: function() {
+      var $thead = $('<thead>');
+      var $tbody = $('<tbody>');
+
+      this.$el.empty();
+      
+      $thead.append("<tr><th>State</th><th>Status</th></tr>");
+      this.collection.each(function(state) {
+        $tbody.append(this.renderRow(state));
+      }, this);
+      this.$el.append($thead);
+      this.$el.append($tbody);
+
+      return this;
+    },
+
+    renderRow: function(d) {
+      return $(this.options.rowTemplate(this.rowData(d)));
+    },
+
+    rowData: function(d) {
+      return {}; 
+    }
+  });
+
+  openelex.StateMetadataTableView = StateTable.extend({
+    attributes: {
+      class: 'table-states metadata table'
+    },
+
+    rowData: function(d) {
+      return {
+        name: d.get('name'),
+        status: statusLabel(d.get('metadata_status')) 
+      };
+    }
+  });
+
+  openelex.StateResultsTableView = StateTable.extend({
+    attributes: {
+      class: 'table-states results table'
+    },
+
+    rowData: function(d) {
+      return {
+        name: d.get('name'),
+        status: statusLabel(d.get('results_status')) 
+      };
     }
   });
 })(window, document, jQuery, _, Backbone, window.openelex || {});

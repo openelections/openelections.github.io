@@ -1,7 +1,22 @@
 <script src="{{ site.baseurl }}/js/states.js"></script>
 <script src="{{ site.baseurl }}/js/render-map.js"></script>
 <script>
-openelex.renderMap({
-  statusJSON: 'data/state_status-20140909.json'
+$(function() {
+  var states = new openelex.States();
+  var metaTable = new openelex.StateMetadataTableView({
+     collection: states
+  });
+  var resultsTable = new openelex.StateResultsTableView({
+      collection: states
+  });
+
+  states.url = 'data/state_status-20140909.json';
+  $('#map').after(metaTable.$el);
+  metaTable.$el.after(resultsTable.$el);
+  openelex.renderMap({
+    states: states
+  });
+
+  states.fetch();
 });
 </script>

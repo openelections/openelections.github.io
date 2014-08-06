@@ -6,6 +6,7 @@
   var svg;
   var path;
   var mapdiv;
+  var body = d3.select('body');
   var sidebar;
   var toggle;
   var metadataLegend, resultsLegend;
@@ -29,15 +30,12 @@
                      .attr('id', 'toggle');
     metadataLegend = d3.select(opts.metadataLegendEl);
     resultsLegend = d3.select(opts.resultsLegendEl);
-    statesCollection = new openelex.States(null, {
-      url: options.statusJSON
-    });
+    statesCollection = options.states;
     statesCollection.once('sync', loadGeo);
     stateMetadataView = new openelex.StateMetadataView({
       el: opts.sidebarEl,
       collection: statesCollection,
     });
-    statesCollection.fetch();
 
     var aspect = 0.6;
     if (!opts.width) {
@@ -175,6 +173,7 @@
       };
     }
 
+    body.classed(containerClasses);
     toggle.classed(containerClasses);
     mapdiv.classed(containerClasses);
     sidebar.classed(containerClasses);
