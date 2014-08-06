@@ -22,7 +22,7 @@
       class: 'infobox'
     },
 
-    template: _.template("<h2><%= state %></h2>" +
+    template: _.template("<h2 class='stateface stateface-<%= postal %>'><%= state %></h2>" +
       "<dl class='metadata'>" +
       "<dt>Metadata Status</dt><dd><%= metadata_status %></dd>" + 
       "<dt>Volunteer(s)</dt><dd><%= volunteers %></dd>" +
@@ -40,10 +40,12 @@
       var volunteers = _.map(this.model.get('volunteers'), function(v) {
         return v.full_name;
       });
+      var postal = this.model.get('postal').toLowerCase();
 
       this.$el.html(this.template({
         state: this.model.get('name'),
-        detail_url: '/results/#' + this.model.get('postal').toLowerCase(),
+        postal: postal,
+        detail_url: '/results/#' + postal,
         results_status: statusLabel(this.model.get('results_status')),
         metadata_status: statusLabel(this.model.get('metadata_status')),
         volunteers: volunteers.join(', ')
