@@ -149,7 +149,7 @@
     },
 
     years: function() {
-      return _.map(_.keys(this._years).sort(), function(yearS) {
+      return _.map(_.keys(this._years).sort().reverse(), function(yearS) {
         return parseInt(yearS);
       });
     },
@@ -157,30 +157,6 @@
     dates: function() {
       return _.keys(this._dates).sort();
     },
-
-    /*
-    filterOffice: function(office) {
-      var filterArgs = {};
-      var filtered;
-
-      if (office === 'any') {
-        filtered = new Elections(this.models, {
-          state: this._state,
-          dataRoot: this._dataRoot
-        });
-      }
-      else {
-        filterArgs[office] = true;
-        filtered = new Elections(this.where(filterArgs), {
-          state: this._state,
-          dataRoot: this._dataRoot
-        });
-      }
-
-      this.trigger('filter', filtered);
-      return filtered;
-    },
-    */
 
     filterElections: function(filterArgs) {
       var office = filterArgs.office;
@@ -390,9 +366,11 @@
       this._$tbody.empty();
       _.each(years, function(year) {
         var $tr = $('<tr class="year-heading">').appendTo(this._$tbody);
+        var elections = this.filteredCollection.where({year: year});
+
         $('<th colspan="6" class="year-heading" data-year="' + year + '">' + year + '</th>').appendTo($tr);
 
-        _.each(this.filteredCollection.where({year: year}), function(election) {
+        _.each(elections, function(election) {
             var $tr = $('<tr class="election" data-year="' + year + '">').appendTo(this._$tbody);
             $tr.append($('<td>' + election.get('start_date') + '</td>'));
             $tr.append($('<td>' + election.raceLabel() + '</td>'));
