@@ -115,7 +115,7 @@
 
   // Collections
 
-  var Elections = openelex.Elections = Backbone.Collection.extend({
+  var Elections = Backbone.Collection.extend({
     model: Election,
 
     initialize: function(models, options) {
@@ -365,33 +365,69 @@
       var years = this.filteredCollection.years();
       this._$tbody.empty();
       _.each(years, function(year) {
-        var $tr = $('<tr class="year-heading">').appendTo(this._$tbody);
-        var elections = this.filteredCollection.where({year: year});
+        var elections = this.filteredCollection.where({year: year}).reverse();
 
-        $('<th colspan="6" class="year-heading" data-year="' + year + '">' + year + '</th>').appendTo($tr);
+        this._$tbody.append(this.renderYearHeading(year));
 
         _.each(elections, function(election) {
-            var $tr = $('<tr class="election" data-year="' + year + '">').appendTo(this._$tbody);
-            $tr.append($('<td>' + election.get('start_date') + '</td>'));
-            $tr.append($('<td>' + election.raceLabel() + '</td>'));
-
-            _.each(REPORTING_LEVELS, function(level) {
-              // @todo Add URLs for clean data, but we only have raw for now, so don't worry about it
-              var url = election.reportingLevelUrl(level, true);
-              if (url) {
-                // @todo Update this with some kind of widget to select data format
-                $tr.append('<td class="download"><a href="' + url + '" title="Download CSV"><img src="../img/icon/pink_arrow_down.png"></a></td>'); 
-              }
-              else {
-                $tr.append('<td class="download">');
-              }
-            }, this);
+          this._$tbody.append(this.renderElectionRow(year, election));
         }, this);
       }, this);
 
       this.expandYear(years[0]);
 
       return this;
+    },
+
+    renderYearHeading: function(year) {
+      var $tr = $('<tr class="year-heading">');
+
+      $('<th colspan="6" class="year-heading" data-year="' + year + '">' + year + '</th>').appendTo($tr);
+
+      return $tr;
+    },
+
+    renderElectionRow: function(year, election) {
+      var $tr = $('<tr class="election" data-year="' + year + '">').appendTo(this._$tbody);
+      $tr.append($('<td>' + election.get('start_date') + '</td>'));
+      $tr.append($('<td>' + election.raceLabel() + '</td>'));
+
+      _.each(REPORTING_LEVELS, function(level) {
+        $('<td class="download">').append(this.renderDownloadWidget(election, level))
+          .appendTo($tr);
+      }, this);
+
+      return $tr;
+    },
+
+    renderDownloadWidget: function(election, level) {
+      // @todo Add URLs for clean data, but we only have raw for now, so don't worry about it
+      var url = election.reportingLevelUrl(level, true);
+
+      // @todo Update this with some kind of widget to select data format.
+      // For now, just return a link
+      if (url) {
+        return $('<a href="' + url + '" title="Download CSV"><img src="../img/icon/pink_arrow_down.png"></a>');
+      }
+      else if (election.get(this.statusAttr(level)) === 'yes') {
+        return $('<img src="../img/icon/lt_grey_download_arrow.png">');
+      }
+      else {
+        return null;
+      }
+    },
+
+    statusAttr: function(level) {
+      var lookupLevel = "" + level;
+
+      if (lookupLevel === 'congressional_district') {
+        lookupLevel = 'cong_dist';
+      }
+      else if (lookupLevel === 'state_legislative') {
+        lookupLevel = 'state_leg';
+      }
+
+      return lookupLevel + '_level_status';
     },
 
     renderInitial: function() {
@@ -595,7 +631,6 @@
   function ResultsApp(el, options) {
     this.initialize.apply(this, arguments);
   }
-  openelex.ResultsApp = ResultsApp;
 
   _.extend(ResultsApp.prototype, {
     /**
@@ -660,5 +695,11 @@
       this._sidebarView.setState(state).render();
       this._officeFilterView.reset();
     }
+  });
+
+  _.extend(openelex, {
+    Elections: Elections,
+    ResultsTableView: ResultsTableView,
+    ResultsApp: ResultsApp
   });
 })(window, document, jQuery, _, Backbone, window.openelex || {});
