@@ -8,26 +8,38 @@ footer_scripts:
 footer_script_include: index_footer_scripts.html
 sidebar_include: index_sidebar.html 
 body_class: map
-hide_default_heading: true 
+hide_default_heading: true
+metadata_statuses:
+    -
+        class: "not-started"
+        title: "Not started"
+        description: ""
+    -
+        class: "partial"
+        title: "In progress"
+        description: ""
+    -
+        class: "up-to-date"
+        title: "Up-to-date"
+        description: ""
+results_statuses:
+    -
+        class: "not-started"
+        title: "Not started"
+        description: ""
+    -
+        class: "raw"
+        title: "Raw"
+        description: ""
+    -
+        class: "clean"
+        title: "Clean"
+        description: ""
 ---
 <h2>Status of data collection</h2>
 
-<dl id="legend-metadata" class="legend">
-    <dt class="not-started"></dt>
-    <dd>Not started</dd>
-    <dt class="partial"></dt>
-    <dd>In progress</dt>
-    <dt class="up-to-date"></dt>
-    <dd>Up-to-date</dd>
-</dl>
+{% include legend.html legend_id="legend-metadata" statuses=page.metadata_statuses %}
 
-<dl id="legend-results" class="legend">
-    <dt class="not-started"></dt>
-    <dd>Not started</dd>
-    <dt class="raw"></dt>
-    <dd>Raw</dt>
-    <dt class="clean"></dt>
-    <dd>Clean</dd>
-</dl>
+{% include legend.html legend_id="legend-results" statuses=page.results_statuses %}
 
 <div id="map"></div>

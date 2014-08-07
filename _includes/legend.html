@@ -1,0 +1,6 @@
+<dl id="{{ include.legend_id }}" class="legend">
+    {% for status in include.statuses %}
+    <dt class="{{ status.class }}" title="{{ status.title }}" data-toggle="popover" data-content="{{ status.description }}" data-trigger="hover"></dt>
+    <dd title="{{ status.title }}" data-toggle="popover" data-content="{{ status.description }}" data-trigger="hover" data-placement="bottom">{{ status.title }}</dd>
+    {% endfor %}
+</dl>
