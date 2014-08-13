@@ -1,7 +1,7 @@
 /**
  * Display available election results and download links.
  */
-(function(window, document, $, _, Backbone, openelex) {
+(function(window, document, $, _, Backbone, d3, openelex) {
   window.openelex = openelex;
 
   var REPORTING_LEVELS = ['county', 'precinct', 'state_legislative', 'congressional_district'];
@@ -24,6 +24,8 @@
     ['special_general', "Special General"],
     ['runoff', "Run-off"]
   ];
+
+  var RACE_TYPE_LABELS = _.object(RACE_TYPES);
 
   // Global events.
   //
@@ -60,6 +62,17 @@
   function addSpace(str, suffix) {
     suffix = suffix || ' ';
     return str ? str + suffix : str;
+  }
+
+  /**
+   * Naive pluralization function.
+   */
+  function pluralize(s, count) {
+    if (count === 1) {
+      return s;
+    }
+
+    return s + 's';
   }
 
   // Routers
@@ -110,6 +123,22 @@
      isRunoff: function() {
        var raceTypeBits = this.get('race_type').split('-');
        return (raceTypeBits.length > 1 && raceTypeBits[1] === "runoff");
+     },
+
+     normalizedRaceType: function() {
+       var raceType;
+
+       if (this.isRunoff()) {
+         return 'runoff';
+       }
+
+       raceType = this.get('race_type');
+
+       if (this.isSpecial()) {
+         raceType = 'special_' + raceType;
+       }
+
+       return raceType;
      }
   });
 
@@ -160,8 +189,8 @@
 
     filterElections: function(filterArgs) {
       var office = filterArgs.office;
-      var dateStart = filterArgs.dateStart;
-      var dateEnd = filterArgs.dateEnd;
+      var dateStart = filterArgs.dateStart.length === 4 ? filterArgs.dateStart + '-01-01' : filterArgs.dateStart;
+      var dateEnd = filterArgs.dateEnd.length === 4 ? filterArgs.dateEnd + '-12-31' : filterArgs.dateEnd;
       var raceType = this._parseRaceType(filterArgs.raceType);
       var models = this.filter(function(model) {
         var officeMatches = true;
@@ -226,6 +255,52 @@
       }
 
       return filters;
+    },
+
+    /**
+     * Get a list of result summaries, with one entry per year, ordered by year.
+     */
+    yearSummary: function() {
+      var summaries = [];
+      var prevYear;
+      var yearEntry;
+
+      this.each(function(election) {
+        var year = election.get('year');
+
+        if (prevYear !== year) {
+          if (yearEntry) {
+            summaries.push(yearEntry);
+          }
+
+          yearEntry = this._initialSummaryEntry(year);
+          prevYear = year;
+        }
+
+        yearEntry = this._incSummaryEntry(yearEntry, election.normalizedRaceType());
+      }, this);
+
+      summaries.push(yearEntry);
+
+      return summaries;
+    },
+
+    _initialSummaryEntry: function(year) {
+      return {
+        year: year,
+        runoff: 0,
+        general: 0,
+        special_general: 0,
+        primary: 0,
+        special_primary: 0
+      };
+    },
+
+    _incSummaryEntry: function(o, prop) {
+      var newO = _.clone(o);
+      newO[prop] = newO[prop] || 0;
+      newO[prop] += 1;
+      return newO;
     }
   });
 
@@ -248,7 +323,7 @@
         state_offices: "State Officer"
       }),
 
-      raceTypeLabels: _.extend(_.object(RACE_TYPES), {
+      raceTypeLabels: _.extend({}, RACE_TYPE_LABELS, {
         any: ""
       })
     },
@@ -289,8 +364,8 @@
       raceTypeLabel = addSpace(this.options.raceTypeLabels[this._filterArgs.raceType]);
       officeLabel = addSpace(this.options.officeLabels[this._filterArgs.office]);
       prefix = raceTypeLabel && officeLabel ? "" : "All "; 
-      startYear = this._filterArgs.dateStart.slice(0, 4);
-      endYear = this._filterArgs.dateEnd.slice(0, 4);
+      startYear = this._filterArgs.dateStart;
+      endYear = this._filterArgs.dateEnd;
 
       this.$el.text(raceTypeLabel + officeLabel + "Races " + startYear + " - " + endYear);
 
@@ -299,8 +374,8 @@
 
     _getInitialDates: function() {
       return {
-        dateStart: this.collection.first().get('start_date'), 
-        dateEnd: this.collection.last().get('start_date') 
+        dateStart: this.collection.first().get('start_date').slice(0, 4), 
+        dateEnd: this.collection.last().get('start_date').slice(0, 4) 
       };
     },
 
@@ -494,68 +569,597 @@
     }
   });
 
-  var DateFilterView = Backbone.View.extend({
-    attributes: {
-      'id': 'date-filter-container'
-    },
+  /**
+   * Visualization of elections in a year over time. 
+   *
+   * This should be called on a selection that is joined to data that
+   * is a list of objects that look like this:
+   * 
+   * {
+   *   general: 1,
+   *   primary: 1
+   *   runoff: 2
+   *   special_general: 1
+   *   special_primary: 0
+   *   year: 2000
+   * }
+   *
+   * That is, each data element has a year property and a property for each
+   * election type whose value is the number of elections of that type in a
+   * year.
+   *
+   * This implementation is based on the pattern described by Mike Bostock in 
+   * [Towards Reusable Charts](http://bost.ocks.org/mike/chart/).
+   */
+  function electionsVisualization(options) {
+    // Configuration
 
+    // Private
+    var height = 162;
+    var margin = { top: 27, right: 0, bottom: 30, left: 0 };
+    var legendWidth = 120;
+    var legendMargin = { top: 0, right: 0, bottom: 0, left: 30 };
+    // Maximum width of year bars.  This is needed because the number of years
+    // with elections (the horizontal axis of this visualization) can vary
+    // widely from state to state.  On narrower displays, the bar width will
+    // be calculated as a percentage of the total width.
+    var maxBarWidth = 47;
+    // Space between year bars 
+    var barPadding = 0.1;
+    // Space outside of year bars
+    var barOuterPadding = 0;
+    // List of election types.  These should match the properties of
+    // the items in the data list.
+    // The order of these types defines the vertical ordering in the
+    // rendered visualization.
+    var electionTypes = [
+      'primary',
+      'special_primary',
+      'general',
+      'special_general',
+      'runoff'
+    ];
+    // Maximum number of special or runoff elections in a year.  
+    // This is used to size the shape representing the number of elections.
+    var maxSpecialElections = 4;
+    // Maximum number of primary or general elections in a year.
+    var maxRegularElections = 2;
+
+    // Public
+
+    // Dispatcher used to share events between views
+    var dispatcher = d3.dispatch('filterdates');
+
+    /**
+     * Factory for a rendering function for the shape for type of election in
+     * a year.
+     *
+     * The returned function has the following getter/setter methods:
+     *
+     * x: d3 scale function used to determine the x coordinate of the shape
+     *   relative to the entire chart.
+     * dim: d3 scale function used to determine the width and height of the
+     *   shape.
+     * electionType: the type of election.  This should correspond to a property
+     *   of the data objects.  It is used to set the class of the shape.
+     * onEnter: Function that will be executed for every element in the
+     *   selection on entering that element.  This is where code for
+     *   creating the svg element for hte shape should go.
+     * calcDim: Function that returns the dimension of the shape.
+     *
+     */
+    function renderElectionShape() {
+      var x;
+      var dim;
+      var electionType;
+      var onEnter;
+      var calcDim = function(d) {
+        return dim(d[electionType]);
+      };
+      var calcX;
+      var calcY;
+      var label = function(d) {
+        var count = d[electionType];
+        return count + " " + RACE_TYPE_LABELS[electionType].toLowerCase() + " " + pluralize("election", count); 
+      };
+
+      function render(selection) {
+        selection.enter().call(onEnter);
+      }
+
+      render.calcDim = function(val) {
+        if (!arguments.length) return calcDim;
+        calcDim = val; 
+        return render; 
+      };
+
+      render.label = function(val) {
+        if (!arguments.length) return label;
+        label = val; 
+        return render; 
+      };
+
+      render.x = function(val) {
+        if (!arguments.length) return x;
+        x = val; 
+        return render; 
+      };
+
+      render.y = function(val) {
+        if (!arguments.length) return y;
+        y = val; 
+        return render; 
+      };
+
+      render.dim = function(val) {
+        if (!arguments.length) return dim;
+        dim = val; 
+        return render; 
+      };
+
+      render.electionType = function(val) {
+        if (!arguments.length) return electionType;
+        electionType = val; 
+        return render; 
+      };
+
+      render.onEnter = function(val) {
+        if (!arguments.length) return onEnter;
+        onEnter = val; 
+        return render; 
+      };
+
+      render.calcX = function(val) {
+        if (!arguments.length) return calcX;
+        calcX = val; 
+        return render; 
+      };
+
+      render.calcY = function(val) {
+        if (!arguments.length) return calcY;
+        calcY = val; 
+        return render; 
+      };
+
+      return render;
+    }
+
+    /**
+     * Factory for a rendering function that renders a square for a
+     * year's election type.
+     */
+    function renderSquare() {
+      var render = renderElectionShape()
+        .calcX(function(d) {
+          return render.x()(d.year) + (render.x().rangeBand() / 2) - (render.calcDim()(d) / 2);
+        })
+        .calcY(function(d) {
+          return render.y()(render.electionType()) - (render.calcDim()(d) / 2);
+        });
+
+      render.onEnter(function(selection) {
+        selection.append('rect')
+          .attr('class', render.electionType().replace('_', '-'))
+          .attr('x', render.calcX())
+          .attr('y', render.calcY())
+          .attr('width', render.calcDim())
+          .attr('height', render.calcDim())
+          .append('title')
+            .text(function(d) { return render.label()(d); });
+      });
+      return render;
+    }
+
+    /**
+     * Factory for a rendering function that renders a circle for a
+     * year's election type.
+     */
+    function renderCircle() {
+      var render = renderElectionShape()
+        .calcX(function(d) {
+          var x = render.x();
+          return x(d.year) + (x.rangeBand() / 2);
+        })
+        .calcY(function(d) {
+          return render.y()(render.electionType()); 
+        });
+
+      render.onEnter(function(selection) {
+        selection.append('circle')
+          .attr('class', render.electionType().replace('_', '-'))
+          .attr('cx', render.calcX())
+          .attr('cy', render.calcY())
+          .attr('r', function(d) { return render.calcDim()(d) / 2; })
+          .append('title')
+            .text(function(d) { return render.label()(d); });
+      });
+      return render;
+    }
+
+    /**
+     * Brush-based control to select a range of years.
+     *
+     * It should be instantiated like this:
+     *
+     * var slider = yearSlider()
+     *   .x(x);
+     *
+     * And invoked on a selection like this:
+     *
+     * selection.call(slider);
+     *
+     */
+    function yearSlider() {
+      var sliderHandleSize = 11;
+      var sliderHeight = 4;
+      var brush, x, width;
+
+      /**
+       * Convert a value from the range of the x scale to the year (domain)
+       * value.
+       *
+       * @param {Number} d x coordinate
+       *
+       * @returns {Number} Year from scale domain that maps to the x coordinate 
+       */
+      function xtoyear(d, xScale) {
+        var barWidth = xScale.rangeBand();
+        var w = barWidth + (barWidth * barPadding);
+        var i = Math.floor(d / w);
+        var domain = xScale.domain();
+
+        if (i >= domain.length) {
+          return null;
+        }
+
+        return domain[i];
+      }
+
+      function brushmove() {
+        // Snapping for brush handles, based on
+        // http://bl.ocks.org/mbostock/6232620
+        var extent0 = brush.extent();
+        var start, end, extentWidth, extent1;
+
+        if (d3.event.mode === 'move') {
+          // If dragging, preserve the width of the extent
+          start = x(xtoyear(extent0[0], x));
+          extentWidth = extent0[1] - extent0[0];
+          end = x(xtoyear(start + extentWidth, x)) || width;
+          extent1 = [start, end];
+        }
+        else {
+          // otherwise, if resizing, round both values
+          extent1 = extent0.map(function(d) {
+            var yr = xtoyear(d, x);
+
+            if (yr === null) {
+              return width;
+            }
+
+            return x(yr);
+          });
+        }
+
+        d3.select(this).call(brush.extent(extent1));
+      }
+
+      function brushend() {
+        var extent = brush.extent();
+        var years = x.domain();
+        var start = xtoyear(extent[0], x);
+        var end = xtoyear(extent[1], x) || years[years.length - 1];
+
+        dispatcher.filterdates(start, end);
+      }
+
+      function control(selection) {
+        brush = d3.svg.brush()
+          .x(x)
+          .extent([0, width])
+          .on('brush', brushmove)
+          .on('brushend', brushend);
+        selection.call(brush);
+
+        // Make the brush handles circles
+        selection.selectAll('.resize').append('circle')
+            .attr('transform', 'translate(0, ' + sliderHeight / 2 + ')')
+            .attr('r', sliderHandleSize / 2);
+
+        // Make the background visible
+        selection.selectAll('.background')
+            .style({'visibility': 'visible'});
+
+        selection.selectAll('rect')
+            .attr('height', sliderHeight);
+      }
+
+      control.x = function(val) {
+        if (!arguments.length) return x;
+        x = val;
+        width = x.rangeExtent()[1];
+        return control; 
+      };
+
+      return control;
+    }
+
+    function electionTypeLegend() {
+      var shapeMap = {
+        'primary': 'circle',
+        'special_primary': 'square',
+        'general': 'circle',
+        'special_general': 'square',
+        'runoff': 'square'
+      };
+      var y;
+      var textPadding = 8;
+      var shapeSize = function() {
+        return 24;
+      };
+      var title = "Race Types";
+
+      function renderItem(selection) {
+        selection.each(function(electionType) {
+          var sel = d3.select(this);
+          if (shapeMap[electionType] === 'circle') {
+            sel.call(renderCircle);
+          }
+          else if (shapeMap[electionType] === 'square') {
+            sel.call(renderSquare);
+          }
+
+          sel.append('text')
+            .attr('transform', 'translate(' + (shapeSize() + textPadding) + ',' + y(electionType) + ')')
+            .attr('dy', '0.25em')
+            .text(RACE_TYPE_LABELS[electionType]);
+        });
+      }
+
+      function renderSquare(selection) {
+        var size = shapeSize();
+        selection.append('rect')
+          .attr('class', function(d) { return d.replace('_', '-'); })
+          .attr('x', 0)
+          .attr('y', function(d) { return y(d) - (size / 2); })
+          .attr('width', size)
+          .attr('height', size);
+      }
+
+      function renderCircle(selection) {
+        var size = shapeSize();
+        selection.append('circle')
+          .attr('class', function(d) { return d.replace('_', '-'); })
+          .attr('cx', size / 2)
+          .attr('cy', function(d) { return y(d); })
+          .attr('r', size / 2);
+      }
+
+      function render(selection) {
+        selection.each(function() {
+          var sel = d3.select(this);
+          sel.append('g')
+              .attr('class', 'legend-items')
+              .attr('transform', 'translate(' + 0 + ',' + margin.top + ')') 
+            .selectAll('.legend-item')
+              .data(electionTypes)
+            .enter().append('g')
+              .attr('class', 'legend-item')
+              .call(renderItem);
+          sel.append('text')
+              .attr('class', 'legend-title')
+              .text(title);
+
+        });
+      }
+
+      render.y = function(val) {
+        if (!arguments.length) return y;
+        y = val; 
+        return render; 
+      };
+
+      return render;
+    }
+
+    function viz(selection) {
+      selection.each(function(data) {
+        var containerWidth = parseInt(d3.select(this).style('width'), 10);
+        // Set the width of the chart portion of the visualization to either
+        // fill the width of the container, minus the legend width, if there
+        // are a lot of years in the data.
+        //
+        // If there aren't a lot of years, ensure that each bar is maxBarWidth
+        // wide.
+        var width = d3.min([containerWidth - legendMargin.left - legendWidth - legendMargin.right - margin.left - margin.right,
+          data.length * maxBarWidth
+        ]);
+        var svg = d3.select(this).append('svg')
+            .attr('class', 'elections-viz')
+            .attr('width', containerWidth)
+            .attr('height', height + margin.top + margin.bottom)
+            // Explicitely set overflow to be visible on this container element
+            // so the slider handles don't get cut off.  This seems like a simpler
+            // way to handle this than calculating margins to accomodate it.
+            .style({'overflow': 'visible'});
+        // The inner container for the element.  Most of the other elements will        // go here. 
+        var chart = svg.append('g')
+            .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+        var years = data.map(function(d) { return d.year; }); 
+        // d3.time.scale() seems like a better fit for the data, but it
+        // doesn't provide the convenience of rangeBands.  Let's use
+        // d3.scale.ordinal.
+        var x = d3.scale.ordinal()
+          .domain(years)
+          .rangeBands([0, width], barPadding, barOuterPadding);
+        var y = d3.scale.ordinal()
+          .domain(electionTypes)
+          .rangePoints([0, height], 1.0);
+        var maxElecSize = d3.min([(height / electionTypes.length) * 0.8,
+          x.rangeBand()]);
+        // We have separate scales for special/runoff and primary/general
+        // elections. This is so the primary/general elections are visually
+        // prominent, even when they are fewer in number than the
+        // special elections.
+        //
+        // We call clamp() on these scales so that values over our expected
+        // maximum are rendered the same size as the shape of the maximum.
+        var regularElecSize = d3.scale.linear()
+          .domain([0, maxRegularElections])
+          .range([0, maxElecSize])
+          .clamp(true);
+        var specialElecSize = d3.scale.linear()
+          .domain([0, maxSpecialElections])
+          .range([0, maxElecSize])
+          .clamp(true);
+        var renderRunoff = renderSquare()
+          .electionType('runoff')
+          .x(x)
+          .y(y)
+          .dim(specialElecSize);
+        var renderSpecialGeneral = renderSquare()
+          .electionType('special_general')
+          .x(x)
+          .y(y)
+          .dim(specialElecSize);
+        var renderGeneral = renderCircle()
+          .electionType('general')
+          .x(x)
+          .y(y)
+          .dim(regularElecSize);
+        var renderSpecialPrimary = renderSquare()
+          .electionType('special_primary')
+          .x(x)
+          .y(y)
+          .dim(specialElecSize);
+        var renderPrimary = renderCircle()
+          .electionType('primary')
+          .x(x)
+          .y(y)
+          .dim(regularElecSize);
+
+        var xAxis = d3.svg.axis()
+          .scale(x)
+          .orient('bottom')
+          .tickSize(15, 0);
+
+        // Slider element
+        var slider = yearSlider()
+          .x(x);
+
+        var renderLegend = electionTypeLegend()
+          .y(y);
+
+        var ticks, sliderg;
+
+        chart.selectAll('.bar')
+            .data(data)
+          .enter().append('rect')
+            .attr('class', 'bar')
+            .attr('x', function(d) { return x(d.year); })
+            .attr('height', height) 
+            .attr('width', x.rangeBand());
+
+        chart.append('g')
+            .attr('class', 'hlines')
+          .selectAll('.hline')
+            .data(electionTypes)
+          .enter().append('line')
+            .attr('class', 'hline')
+            .attr('x1', 0)
+            .attr('y1', function(d) { return y(d); })
+            .attr('x2', width)
+            .attr('y2', function(d) { return y(d); });
+
+        chart.selectAll('.runoff')
+            .data(data)
+          .call(renderRunoff);
+          
+        chart.selectAll('.special-general')
+            .data(data)
+          .call(renderSpecialGeneral);
+
+        chart.selectAll('.general')
+            .data(data)
+          .call(renderGeneral);
+
+        chart.selectAll('.special-primary')
+            .data(data)
+          .call(renderSpecialPrimary);
+
+        chart.selectAll('.primary')
+            .data(data)
+          .call(renderPrimary);
+
+        // Append the x axis and move it to the bottom of the visualization
+        // Save a selection of all the tick g elements
+        ticks = chart.append("g")
+            .attr('class', 'x axis')
+            .attr('transform', 'translate(0,' + height + ')')
+            .call(xAxis)
+          .selectAll('.tick');
+
+        // Shift the ticks from the center of the year bar (the default) to
+        // the beginning.
+        ticks.attr('transform', function(d) { return 'translate(' + x(d) + ',0)'; });
+        // Left-align the tick text
+        ticks.selectAll("text")
+            .style("text-anchor", "start");
+
+        // Append the slider
+        // It's important that this is added after the axis, so the slider
+        // handles appear over the tickmarks
+        sliderg = chart.append('g')
+            .attr('class', 'brush slider')
+            .attr('transform', 'translate(0,' + height + ')')
+            .call(slider);
+
+        // Append the election type legend
+        legendg = svg.append('g')
+            .attr('class', 'legend')
+            .attr('transform', 'translate(' + (width + legendMargin.left) + ',' + 0 + ')')
+            .call(renderLegend);
+      });
+    }
+
+    viz.dispatcher = function(val) {
+      if (!arguments.length) return dispatcher;
+      dispatcher = val;
+      return viz;
+    };
+
+    return viz;
+  }
+
+  var ResultsVisualizationView = Backbone.View.extend({
     initialize: function(options) {
+      // Create the d3 chart function.  This will do most of the work.
+      this.viz = electionsVisualization();
+
+      // Proxy the d3 dispatched events to Backbone events
+      this.viz.dispatcher().on('filterdates', _.bind(this.handleFilterDates, this));
       this.collection.on('sync', this.render, this);
+
+      // Redraw the graphic when the window is resized
+      $(window).on('resize.results', _.bind(this.debouncedRender, this));
     },
 
     render: function() {
       this.$el.empty();
-      this.dates = this.collection.dates();
-      this.$slider = this.initSlider(this.dates);
-      this.$el.append(this.$slider);
-      this.$elections = $('<div>').addClass('elections').prependTo(this.$el);
-      this.collection.each(function(election, i, collection) {
-        var left = (i / (collection.length - 1)) * 100 + '%'; 
-        var title = election.get('start_date') + " ";
-        var $bar;
 
-        title += election.raceLabel(); 
+      d3.select(this.el)
+        .datum(this.collection.yearSummary())
+        .call(this.viz);
 
-        $bar = $('<div>').addClass('election')
-          .addClass(election.get('race_type'))
-          .attr('title', title)
-          .css('left', left);
-        if (election.get('special')) {
-          $bar.addClass('special');
-        }
-        this.$elections.append($bar);
-      }, this);
       return this;
     },
 
-    initSlider: function(dates) {
-      var year, prevYear, left;
-      var $slider = $('<div>').addClass('date-slider').slider({
-        range: true,
-        min: 0,
-        max: dates.length - 1,
-        values: [0, dates.length - 1],
-        change: _.bind(this.handleSliderChange, this)
-      });
+    debouncedRender: _.debounce(function() {
+      return this.render();
+    }, 500),
 
-      for (var i = 0; i < dates.length; i++) {
-        year = dates[i].split('-')[0];
-        if (year != prevYear) {
-          left = (i / (dates.length - 1)) * 100 + '%';
-          $('<label>').text(year).attr('title', year)
-            .addClass('year').css('left', left).appendTo($slider);
-        }
-
-        prevYear = year;
-      }
-
-      return $slider;
-    },
-
-    handleSliderChange: function(evt, ui) {
-      var $slider = $(evt.target);
-      var values = $slider.slider('values');
-      Backbone.trigger('filter:dates', this.dates[values[0]], this.dates[values[1]]);
+    handleFilterDates: function(start, end) {
+      Backbone.trigger('filter:dates', start.toString(), end.toString());
     }
   });
 
@@ -662,7 +1266,7 @@
         collection: this._collection,
         id: 'results-table'
       });
-      this._dateFilterView = new DateFilterView({
+      this._resultsVizView = new ResultsVisualizationView({
         collection: this._collection
       });
       this._officeFilterView = new OfficeFilterView();
@@ -673,7 +1277,7 @@
       });
       this._sidebarView.$el.addClass('results-detail');
 
-      $(el).append(this._dateFilterView.$el);
+      $(el).append(this._resultsVizView.$el);
       $(el).append(this._headingView.$el);
       $(el).append(this._raceTypeFilterView.render().$el);
       $(el).append(this._officeFilterView.render().$el);
@@ -698,8 +1302,9 @@
   });
 
   _.extend(openelex, {
+    Election: Election,
     Elections: Elections,
     ResultsTableView: ResultsTableView,
     ResultsApp: ResultsApp
   });
-})(window, document, jQuery, _, Backbone, window.openelex || {});
+})(window, document, jQuery, _, Backbone, d3, window.openelex || {});

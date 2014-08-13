@@ -1,0 +1,75 @@
+$legend-title-font-size: 12px;
+$legend-label-font-size: 12px;
+$timeline-number-font-size: 9px;
+
+.elections-viz {
+  .hlines {
+    .hline {
+      stroke-width: 1;
+      stroke: $light-gray-2;  
+    }
+  }
+
+  .bar {
+    fill: $light-gray-3;
+  }
+
+  .runoff {
+    fill: $runoff-elec-color;
+  }
+
+  .special-primary {
+    fill: $special-primary-elec-color;
+  }
+
+  .primary {
+    fill: $primary-elec-color;
+  }
+
+  .special-general {
+    fill: $special-general-elec-color;
+  }
+
+  .general {
+    fill: $general-elec-color;
+  }
+
+  .axis {
+    line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+    .domain {
+      fill: none;
+      stroke: none;
+    }
+  }
+
+  .tick {
+    text {
+      font-size: $timeline-number-font-size;
+    }
+  }
+
+  .legend-item {
+    text {
+      font-size: $legend-label-font-size;
+    }
+  }
+}
+
+.slider {
+  .background {
+    fill: $light-gray-2;
+  }
+
+  .extent {
+    fill: $dark-gray-2;
+  }
+
+  .resize circle {
+    fill: $highlight-color;
+  }
+}

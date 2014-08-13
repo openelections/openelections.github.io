@@ -1,15 +1,57 @@
+describe("Election model", function() {
+  describe("normalizedRaceType method", function() {
+    it("returns 'runoff' for any kind of runoff election", function() {
+      var model = new openelex.Election({
+        race_type: 'primary-runoff'
+      });
+      expect(model.normalizedRaceType()).toEqual('runoff');
+      model.set('race_type', 'general-runoff');
+      expect(model.normalizedRaceType()).toEqual('runoff');
+    });
+
+    it("returns 'general' for a non-runoff, non-special general election", function() {
+      var model = new openelex.Election({
+        race_type: 'general'
+      });
+      expect(model.normalizedRaceType()).toEqual('general');
+    });
+
+    it("returns 'primary' for a non-runoff, non-special primary election", function() {
+      var model = new openelex.Election({
+        race_type: 'primary'
+      });
+      expect(model.normalizedRaceType()).toEqual('primary');
+    });
+
+    it("prepends 'special' to the race type for special elections", function() {
+      var model = new openelex.Election({
+        race_type: 'general',
+        special: true
+      });
+      expect(model.normalizedRaceType()).toEqual('special_general');
+      model.set('race_type', 'primary');
+      expect(model.normalizedRaceType()).toEqual('special_primary');
+    });
+
+  });
+});
+
 describe("Elections collection", function() {
   var collection;
 
-  beforeEach(function(done) {
+  function fetchStateData(state, done) {
     collection = new openelex.Elections(null, {
       dataRoot: 'data' 
     });
     collection.once('sync', done);
-    collection.setState('md').fetch();
-  });
+    collection.setState(state).fetch();
+  }
 
   describe("electionDates method", function() {
+    beforeEach(function(done) {
+      fetchStateData('md', done);
+    });
+
     it("Should return a list of unique dates of elections in the collection", function() {
       var dates = [
         "2000-03-07",
@@ -37,6 +79,10 @@ describe("Elections collection", function() {
   });
 
   describe("filterElections method", function() {
+    beforeEach(function(done) {
+      fetchStateData('md', done);
+    });
+
     it("Should filter by office", function() {
       var filtered = collection.filterElections({
         office: "prez"
@@ -132,6 +178,36 @@ describe("Elections collection", function() {
           'start_date': date
         })).toBeDefined();
       });
+    });
+  });
+
+  describe("yearSummary method", function() {
+    beforeEach(function(done) {
+      fetchStateData('fl', done);
+    });
+
+    it("Should return an array with one item per year", function() {
+      var startYear = 2000;
+      var endYear = 2012;
+      var numYears = endYear - startYear;
+      var summaries = collection.yearSummary();
+      var i;
+
+      expect(summaries.length).toEqual(numYears);
+      for (i = 0; i < numYears; i++) {
+        expect(summaries[i].year).toEqual(startYear + i); 
+      }
+    });
+
+    it("has entries that reflect the number of elections of each type for the year", function() {
+      var summaries = collection.yearSummary();
+      var summary = summaries[0]; // 2000
+      
+      expect(summary.runoff).toEqual(3);
+      expect(summary.general).toEqual(1);
+      expect(summary.special_general).toEqual(2);
+      expect(summary.primary).toEqual(2);
+      expect(summary.special_primary).toEqual(1);
     });
   });
 });
