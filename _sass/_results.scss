@@ -1,0 +1,112 @@
+.results-heading {
+  text-transform: uppercase;
+  float: left;
+  // This is floated so margins will collapse. Use padding to create space
+  // between the heading and the table
+  padding-bottom: 50px;
+}
+
+#office-filter-container,
+#race-type-filter-container {
+  float: right;
+  margin-left: 20px;
+  margin-top: 20px; // This should match the margin on .results-heading
+  text-align: right;
+
+  label {
+    margin-right: 10px;
+    color: #22262a;
+  }
+}
+
+label[for="office-filter"]:before {
+  content: "Filter by ";
+}
+
+#results-table {
+  margin-top: 30px;
+
+  td {
+    border-top-color: #dedfe0;
+  }
+
+  thead {
+    th {
+      font-family: $font-stack-serif; 
+      font-weight: normal;
+      color: #22262a;
+      padding: 2px 8px;
+      border-color: #6a6e72;
+      border-top: none;
+    }
+
+    tr:first-child {
+      border: none;
+
+      th {
+        font-size: 1.1em;
+        border: none;
+        padding: 0 8px;
+
+        // Define min-width on "Date" and "Race" column heading cells to avoid
+        // content hopping around when result rows are expanded
+        &:first-child {
+          min-width: 140px;
+        }
+
+        &:nth-child(2) {
+          min-width: 85px;
+        }
+      }
+    }
+  }
+
+  tbody {
+    td, th {
+      padding: 4px 8px;
+    }
+  }
+}
+
+tr.year-heading + tr td {
+  border-top-color: #b2b2b2 !important;
+}
+
+th.year-heading {
+  font-size: 1.1em;
+  color: #22262a;
+
+  &:before {
+    display: inline-block;
+    content: url('../img/icon/grey_arrow_right.png');
+    margin-right: 10px;
+  }
+
+  &.open:before {
+    content: url('../img/icon/grey_arrow_down.png');
+  }
+
+}
+
+
+tr.election {
+  display: none;
+
+  &.open {
+    display: table-row;
+  }
+
+  td {
+    color: #5e5e5e;
+  }
+
+  a {
+    color: $highlight-color; 
+  }
+}
+
+td.download {
+  text-align: center;
+  // Smaller top padding to align icon with text
+  padding-top: 2px !important;
+}

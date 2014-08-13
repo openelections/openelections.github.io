@@ -1,0 +1,26 @@
+#footer {
+  margin-top: 20px;
+  padding: 40px 0;
+
+  background-color: $footer-background-color; 
+
+  h4 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #999;
+  }
+
+  .links {
+    padding-left: 0;
+
+    list-style-type: none;
+
+    li {
+      padding: 5px 0;
+
+      a {
+        color: $footer-link-color; 
+      }
+    }
+  }
+
+}

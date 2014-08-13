@@ -5,27 +5,37 @@ and data.
 
 ## Development
 
-### Building the site
+### Installing dependencies
 
 This site is built using the [Jekyll](http://jekyllrb.com/) static site builder.
+
+To install Jekyll and some other dependencies, first make sure you have gem and
+bundler installed.
+
+```
+gem install bundler
+```
+
+Then use bundler to install the dependencies
+
+```
+cd ~/workspace/openelections.github.io
+bundle install
+```
+
+### Building the site
+
 
 To build the site, run:
 
 ```
-jekyll build
+bundle exec jekyll build
 ```
 
 ### Previewing the site
 
-The HTML uses protocol-independent URLs for popular libraries that are loaded
-from various CDNs.  Unfortunately, this breaks local previewing of the page
-when loading the file in your browser.
-
-In order to use protocol-independent URLs and allow local preview, change
-directory to wherever you've checked out this repository and run
-
 ```
-jekyll serve --watch --baseurl '' -P 8000
+bundle exec jekyll serve --watch --baseurl '' -P 8000
 ```
 
 Then you can access this project in your browser at http://localhost:8000.

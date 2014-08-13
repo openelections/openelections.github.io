@@ -1,6 +1,6 @@
 name: OpenElections 
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 baseurl: '' 
 exclude:
     - README.md

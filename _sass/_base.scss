@@ -1,0 +1,39 @@
+$font-stack-sans: museosans, sans-serif;
+$font-stack-serif: museoslab, Georgia, times, serif;
+
+$light-gray: #cacaca;
+$light-gray-2: #ccc;
+$dark-gray: #4f4f4f;
+$dark-gray-2: #6a6e72;
+$purple: #30358c;
+$light-purple: #7b84ba;
+$blue: #258bd1;
+$light-blue: #81c5e2;
+$green: #79a888;
+$pink: #ed4c6b;
+
+$primary-color: #333;
+$header-color: #444;
+$footer-background-color: rgb(224, 224, 224);
+$footer-link-color: #777; 
+$not-started-color: $purple;
+$partial-color: $blue;
+$up-to-date-color: $green;
+$highlight-color: $pink;
+$primary-elec-color: $purple;
+$special-primary-elec-color: $light-purple;
+$general-elec-color: $blue;
+$special-general-elec-color: $light-blue;
+$runoff-elec-color: $green;
+
+body {
+  color: $primary-color; 
+
+  font-family: $font-stack-sans; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $header-color; 
+
+  font-family: $font-stack-serif; 
+}

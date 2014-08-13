@@ -12,7 +12,7 @@
 
 .btn-toggle {
   color: #fff;
-  background-color: #cacaca; /* Light gray */
+  background-color: $light-gray; 
   font-weight: bold;
   text-transform: uppercase;
   font-size: 0.74em;
@@ -21,12 +21,12 @@
 
 .metadata .btn-metadata,
 .results .btn-results {
-  background-color: #4f4f4f; /* Dark gray */
+  background-color: $dark-gray;
 }
 
 .legend {
   clear: both;
-  /* Correctly honor top-margin after the floated elements */
+  // Correctly honor top-margin after the floated elements
   float: none;
   display: inline-block;
 }
@@ -53,23 +53,23 @@
 }
 
 #map {
-  /* Set so that total space between map and footer is ~75px */
+  // Set so that total space between map and footer is ~75px
   padding-bottom: 40px;
 }
 
 .not-started, .metadata .metadata-not-started, .results .results-not-started {
-  background-color: #30358c; /* Purple */
-  fill: #30358c;
+  background-color: $not-started-color; 
+  fill: $not-started-color; 
 }
 
 .partial, .raw, .metadata .metadata-partial, .results .results-raw {
-  background-color: #258bd1; /* Blue */ 
-  fill: #258bd1; 
+  background-color: $partial-color;
+  fill: $partial-color; 
 }
 
 .up-to-date, .clean, .metadata .metadata-up-to-date, .results .results-clean {
-  background-color: #79a888; /* Green */
-  fill: #79a888;
+  background-color: $up-to-date-color; 
+  fill: $up-to-date-color; 
 }
 
 .default-instructions {
@@ -98,33 +98,31 @@ dd.results-status,
 dd.detail-link,
 dd.map-link {
   text-transform: uppercase; 
-  font-family: museoslab;
+  font-family: $font-stack-serif; 
   font-size: 1.3em;
   line-height: 1.3em;
 }
 
 dd.results-status {
-  color: #4f4f4f;
+  color: $dark-gray;
 }
 
 dd.detail-link,
 dd.map-link {
   margin-top: 20px;
 
-  color: #ed4c6b; /* Pink */
-}
+  color: $highlight-color;
 
-dd.detail-link a,
-dd.map-link a {
-  color: #ed4c6b;
-}
+  a {
+    color: $highlight-color;
 
-dd.detail-link a:after,
-dd.map-link a:after {
-  position: relative;
-  /* Push the image down to align with the text */
-  top: 2px;
-  padding-left: 4px;
+    &:after {
+      position: relative;
+      // Push the image down to align with the text
+      top: 2px;
+      padding-left: 4px;
+    }
+  }
 }
 
 dd.detail-link a:after {
@@ -136,14 +134,16 @@ dd.map-link a:after {
 }
 
 @media screen and (min-width: 520px) {
-  body.map #sidebar {
-    text-align: right;
+  body.map {
+    #sidebar {
+      text-align: right;
+    }
+
+    #main > h2:first-child {
+      float: left;
+    }
   }
 
-  body.map #main > h2:first-child {
-    float: left;
-  }
-  
   #toggle {
     float: left;
     margin-top: 24px; /* Match margin-top of h2 */
@@ -153,14 +153,14 @@ dd.map-link a:after {
   .legend {
     width: 100%;
     margin-top: 20px;
-    /* Set this so there's ~75px of space between the bottom of the legend */
-    /* and the top of the map. */
+    // Set this so there's ~75px of space between the bottom of the legend
+    // and the top of the map.
     margin-bottom: 40px;
-  }
 
-  .legend dd {
-    float: left;
-    padding-left: 10px;
+    dd {
+      float: left;
+      padding-left: 10px;
+    }
   }
 
   body.map .legend dd {

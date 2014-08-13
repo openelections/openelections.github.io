@@ -23,24 +23,27 @@
   margin-bottom: 20px;
 
   background-color: #dfd1cd;
-}
 
-#logo-wrapper img {
-  width: 100%;
-  max-width: 371px;
+  img {
+    width: 100%;
+    max-width: 371px;
+  }
+
 }
 
 @media (min-width: 768px) {
-  .navbar-nav>li>a {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
+  .navbar-nav > li {
+    > a {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
 
-  .navbar-nav>li:first-child>a {
-    margin-left: -15px;
-  }
+    &:first-child > a {
+      margin-left: -15px;
+    }
 
-  .navbar-icons>li:last-child>a {
-    padding-right: 0;
+    &:last-child > a {
+      padding-right: 0;
+    }
   }
 }
