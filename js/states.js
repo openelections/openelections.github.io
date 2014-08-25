@@ -13,8 +13,26 @@
     return label || "Not Started";
   };
 
+  var State = openelex.State = Backbone.Model.extend({
+    metadataVolunteerNames: function() {
+      return this._volunteerNames(this.get('metadata_volunteers'));
+    },
+
+    devVolunteerNames: function() {
+      return this._volunteerNames(this.get('dev_volunteers'));
+    },
+
+    _volunteerNames: function(volunteers) {
+      return _.map(volunteers, function(v) {
+        return v.full_name;
+      });
+    }
+  });
+
   openelex.States = Backbone.Collection.extend({
-    url: 'data/state_status.json'
+    url: 'data/state_status.json',
+
+    model: State
   });
 
   openelex.StateMetadataView = Backbone.View.extend({
@@ -25,10 +43,11 @@
     template: _.template("<h2 class='stateface stateface-<%= postal %>'><%= state %></h2>" +
       "<dl class='metadata'>" +
       "<dt>Metadata Status</dt><dd><%= metadata_status %></dd>" + 
-      "<dt>Volunteer(s)</dt><dd><%= volunteers %></dd>" +
+      "<dt>Volunteer(s)</dt><dd><%= metadata_volunteers %></dd>" +
       "</dl>" +
       "<dl class='results'>" +
       "<dt class='results-status'>Results Status</dt><dd class='results-status'><%= results_status %></dd>" +
+      "<dt>Volunteer(s)</dt><dd><%= dev_volunteers %></dd>" +
       "<dt class='detail-link'>Detailed Data</dt><dd class='detail-link'><a href='<%= detail_url %>'>Detailed Data</a></dd>" +
       "</dl>" + 
       "<dl class='results-detail'>" +
@@ -37,9 +56,6 @@
       "</dl>"),
 
     render: function() {
-      var volunteers = _.map(this.model.get('volunteers'), function(v) {
-        return v.full_name;
-      });
       var postal = this.model.get('postal').toLowerCase();
 
       this.$el.html(this.template({
@@ -48,7 +64,8 @@
         detail_url: '/results/#' + postal,
         results_status: statusLabel(this.model.get('results_status')),
         metadata_status: statusLabel(this.model.get('metadata_status')),
-        volunteers: volunteers.join(', ')
+        metadata_volunteers: this.model.metadataVolunteerNames().join(', '),
+        dev_volunteers: this.model.devVolunteerNames().join(', ')
       }));
 
       this.$el.addClass(this.attributes.class);
@@ -70,7 +87,7 @@
 
   var StateTable = Backbone.View.extend({
     options: {
-      rowTemplate: _.template('<tr><td><%= name %></td><td><%= status %></td></tr>')
+      rowTemplate: _.template('<tr><td><%= name %></td><td><%= status %></td><td><%= volunteers %></td></tr>')
     },
 
     initialize: function() {
@@ -89,7 +106,7 @@
 
       this.$el.empty();
       
-      $thead.append("<tr><th>State</th><th>Status</th></tr>");
+      $thead.append("<tr><th>State</th><th>Status</th><th>Volunteers</th></tr>");
       this.collection.each(function(state) {
         $tbody.append(this.renderRow(state));
       }, this);
@@ -116,7 +133,8 @@
     rowData: function(d) {
       return {
         name: d.get('name'),
-        status: statusLabel(d.get('metadata_status')) 
+        status: statusLabel(d.get('metadata_status')),
+        volunteers: d.metadataVolunteerNames().join(', ')
       };
     }
   });
@@ -129,7 +147,8 @@
     rowData: function(d) {
       return {
         name: d.get('name'),
-        status: statusLabel(d.get('results_status')) 
+        status: statusLabel(d.get('results_status')),
+        volunteers: d.devVolunteerNames().join(', ')
       };
     }
   });
