@@ -1014,7 +1014,7 @@
           .rangeBands([0, width], barPadding, barOuterPadding);
         var y = d3.scale.ordinal()
           .domain(electionTypes)
-          .rangePoints([0, height], 1.0);
+          .rangePoints([0, height], 2.0);
         var maxElecSize = d3.min([(height / electionTypes.length) * 0.8,
           x.rangeBand()]);
         // We have separate scales for special/runoff and primary/general
