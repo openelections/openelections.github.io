@@ -22,6 +22,10 @@
       return this._volunteerNames(this.get('dev_volunteers'));
     },
 
+    detailUrl: function() {
+      return '/results/#' + this.get('postal').toLowerCase();
+    },
+
     _volunteerNames: function(volunteers) {
       return _.map(volunteers, function(v) {
         return v.full_name;
@@ -61,7 +65,7 @@
       this.$el.html(this.template({
         state: this.model.get('name'),
         postal: postal,
-        detail_url: '/results/#' + postal,
+        detail_url: this.model.detailUrl(),
         results_status: statusLabel(this.model.get('results_status')),
         metadata_status: statusLabel(this.model.get('metadata_status')),
         metadata_volunteers: this.model.metadataVolunteerNames().join(', '),
@@ -87,7 +91,7 @@
 
   var StateTable = Backbone.View.extend({
     options: {
-      rowTemplate: _.template('<tr><td><%= name %></td><td><%= status %></td><td><%= volunteers %></td></tr>')
+      rowTemplate: _.template('<tr><td><a href="<%= detail_url %>"><%= name %></a></td><td><%= status %></td><td><%= volunteers %></td></tr>')
     },
 
     initialize: function() {
@@ -133,6 +137,7 @@
     rowData: function(d) {
       return {
         name: d.get('name'),
+        detail_url: d.detailUrl(),
         status: statusLabel(d.get('metadata_status')),
         volunteers: d.metadataVolunteerNames().join(', ')
       };
@@ -147,6 +152,7 @@
     rowData: function(d) {
       return {
         name: d.get('name'),
+        detail_url: d.detailUrl(),
         status: statusLabel(d.get('results_status')),
         volunteers: d.devVolunteerNames().join(', ')
       };

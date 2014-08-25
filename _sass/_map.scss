@@ -182,3 +182,11 @@ dd.map-link a:after {
     margin-top: 10px;
   }
 }
+
+// Table version of status map
+.table-states {
+  td:first-child a {
+    color: $highlight-color;
+    font-weight: bold;
+  }
+}
