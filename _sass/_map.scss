@@ -12,7 +12,7 @@
 
 .btn-toggle {
   color: #fff;
-  background-color: $light-gray; 
+  background-color: $light-gray;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 0.74em;
@@ -32,7 +32,7 @@
 }
 
 #legend-results {
-  display: none; 
+  display: none;
 }
 
 .legend dt {
@@ -58,18 +58,23 @@
 }
 
 .not-started, .metadata .metadata-not-started, .results .results-not-started {
-  background-color: $not-started-color; 
-  fill: $not-started-color; 
+  background-color: $not-started-color;
+  fill: $not-started-color;
 }
 
-.partial, .raw, .metadata .metadata-partial, .results .results-raw {
+.partial, .metadata .metadata-partial, .results .results-partial {
   background-color: $partial-color;
-  fill: $partial-color; 
+  fill: $partial-color;
 }
 
-.up-to-date, .clean, .metadata .metadata-up-to-date, .results .results-clean {
-  background-color: $up-to-date-color; 
-  fill: $up-to-date-color; 
+.up-to-date, .raw, .metadata .metadata-up-to-date, .results .results-raw {
+  background-color: $up-to-date-color;
+  fill: $up-to-date-color;
+}
+
+.clean, .results .results-clean {
+  background-color: $highlight-color;
+  fill: $highlight-color;
 }
 
 .default-instructions {
@@ -97,8 +102,8 @@ dt.map-link {
 dd.results-status,
 dd.detail-link,
 dd.map-link {
-  text-transform: uppercase; 
-  font-family: $font-stack-serif; 
+  text-transform: uppercase;
+  font-family: $font-stack-serif;
   font-size: 1.3em;
   line-height: 1.3em;
 }
@@ -146,7 +151,7 @@ dd.map-link a:after {
 
   #toggle {
     float: left;
-    margin-top: 24px; /* Match margin-top of h2 */
+    margin-top: 24px; // Match margin-top of h2
     margin-left: 25px;
   }
 
