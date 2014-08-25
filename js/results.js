@@ -151,8 +151,7 @@
       options = options || {};
 
       this.comparator = options.comparator || 'start_date';
-      this._years = {};
-      this._dates = {};
+      this._initInternal();
       if (models) {
         _.each(models, this.addDates, this);
       }
@@ -161,26 +160,36 @@
       this.on('add', this.addDates, this);
     },
 
+    _initInternal: function() {
+      this._years = {};
+      this._yearList = null; 
+      this._dates = {};
+    },
+
     url: function() {
       return this._dataRoot + '/elections-' + this._state + '.json';
     },
 
     setState: function(state) {
       this._state = state;
-      this._years = {};
-      this._dates = {};
+      this._initInternal();
       return this;
     },
 
     addDates: function(model) {
       this._years[model.get('year')] = true;
       this._dates[model.get('start_date')] = true;
+      this._yearList = null;
     },
 
     years: function() {
-      return _.map(_.keys(this._years).sort().reverse(), function(yearS) {
-        return parseInt(yearS);
-      });
+      if (this._yearList === null) {
+        this._yearList = _.map(_.keys(this._years).sort().reverse(), function(yearS) {
+          return parseInt(yearS);
+        });
+      }
+      
+      return this._yearList;
     },
 
     dates: function() {
@@ -261,16 +270,21 @@
      * Get a list of result summaries, with one entry per year, ordered by year.
      */
     yearSummary: function() {
-      var summaries = [];
+      var summaries = {};
+      var summaryList = [];
       var prevYear;
       var yearEntry;
+      var years = this.years();
+      var start = _.last(years);
+      var end = years[0];
+      var year;
 
       this.each(function(election) {
-        var year = election.get('year');
+        year = election.get('year');
 
         if (prevYear !== year) {
           if (yearEntry) {
-            summaries.push(yearEntry);
+            summaries[prevYear] = yearEntry;
           }
 
           yearEntry = this._initialSummaryEntry(year);
@@ -280,9 +294,13 @@
         yearEntry = this._incSummaryEntry(yearEntry, election.normalizedRaceType());
       }, this);
 
-      summaries.push(yearEntry);
+      summaries[year] = yearEntry;
 
-      return summaries;
+      _.each(_.range(start, end + 1), function(year) {
+        summaryList.push(summaries[year] || this._initialSummaryEntry(year));
+      }, this);
+
+      return summaryList; 
     },
 
     _initialSummaryEntry: function(year) {
@@ -599,13 +617,15 @@
     var margin = { top: 27, right: 0, bottom: 30, left: 0 };
     var legendWidth = 120;
     var legendMargin = { top: 0, right: 0, bottom: 0, left: 30 };
-    // Maximum width of year bars.  This is needed because the number of years
+    // Maximum width of year bands.  This is needed because the number of years
     // with elections (the horizontal axis of this visualization) can vary
     // widely from state to state.  On narrower displays, the bar width will
     // be calculated as a percentage of the total width.
-    var maxBarWidth = 47;
+    var maxBandWidth = 30;
     // Space between year bars 
     var barPadding = 0.1;
+    // maxBandWidth = 30 and barPadding = 0.1 will create gray bars ~27px wide
+    // and spaces ~3px wide.
     // Space outside of year bars
     var barOuterPadding = 0;
     // List of election types.  These should match the properties of
@@ -969,10 +989,10 @@
         // fill the width of the container, minus the legend width, if there
         // are a lot of years in the data.
         //
-        // If there aren't a lot of years, ensure that each bar is maxBarWidth
+        // If there aren't a lot of years, ensure that each band is maxBandWidth
         // wide.
         var width = d3.min([containerWidth - legendMargin.left - legendWidth - legendMargin.right - margin.left - margin.right,
-          data.length * maxBarWidth
+          data.length * maxBandWidth
         ]);
         var svg = d3.select(this).append('svg')
             .attr('class', 'elections-viz')
