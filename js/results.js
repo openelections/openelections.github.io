@@ -639,11 +639,23 @@
       'special_general',
       'runoff'
     ];
-    // Maximum number of special or runoff elections in a year.  
+    // Expected maximum number of special or runoff elections in a year.  
     // This is used to size the shape representing the number of elections.
     var maxSpecialElections = 4;
-    // Maximum number of primary or general elections in a year.
+    // Expected maximum number of primary or general elections in a year.
     var maxRegularElections = 2;
+    var specialElectionDomain = d3.range(0, maxSpecialElections + 1);
+    var regularElectionDomain = d3.range(0, maxRegularElections + 1);
+    // The shapes representing special elections will decrease in size by
+    // this amount
+    var specialElectionScaleFactor = 0.36;
+    // The shapes representing regular elections will decrease in size by
+    // this amount
+    var regularElectionScaleFactor = 0.36;
+    // Multiply this value times the width of the vertical bars to get the
+    // width of the largest election shape. 
+    var maxRegularElectionSizeFactor = 0.89; // 27 * .89 ~= 24
+    var maxSpecialElectionSizeFactor = 0.78; // 27 * .78 ~= 21
 
     // Public
 
@@ -914,10 +926,13 @@
       };
       var y;
       var textPadding = 8;
-      var shapeSize = function() {
-        return 24;
-      };
       var title = "Race Types";
+      // Use the first size for circles in the legend
+      var circleScaleIndex = 1;
+      // Use the second size for squares in the legend
+      var squareScaleIndex = 2;
+      var circleScale, squareScale;
+      var circleSize, squareSize, maxSize;
 
       function renderItem(selection) {
         selection.each(function(electionType) {
@@ -930,34 +945,36 @@
           }
 
           sel.append('text')
-            .attr('transform', 'translate(' + (shapeSize() + textPadding) + ',' + y(electionType) + ')')
+            .attr('transform', 'translate(' + (maxSize + textPadding) + ',' + y(electionType) + ')')
             .attr('dy', '0.25em')
             .text(RACE_TYPE_LABELS[electionType]);
         });
       }
 
       function renderSquare(selection) {
-        var size = shapeSize();
         selection.append('rect')
           .attr('class', function(d) { return d.replace('_', '-'); })
-          .attr('x', 0)
-          .attr('y', function(d) { return y(d) - (size / 2); })
-          .attr('width', size)
-          .attr('height', size);
+          .attr('x', (maxSize - squareSize) / 2)
+          .attr('y', function(d) { return y(d) - (squareSize / 2); })
+          .attr('width', squareSize)
+          .attr('height', squareSize);
       }
 
       function renderCircle(selection) {
-        var size = shapeSize();
         selection.append('circle')
           .attr('class', function(d) { return d.replace('_', '-'); })
-          .attr('cx', size / 2)
+          .attr('cx', circleSize / 2)
           .attr('cy', function(d) { return y(d); })
-          .attr('r', size / 2);
+          .attr('r', circleSize / 2);
       }
 
       function render(selection) {
         selection.each(function() {
           var sel = d3.select(this);
+          squareSize = squareScale(squareScaleIndex);
+          circleSize = circleScale(circleScaleIndex);
+          maxSize = d3.max([squareSize, circleSize]);
+
           sel.append('g')
               .attr('class', 'legend-items')
               .attr('transform', 'translate(' + 0 + ',' + margin.top + ')') 
@@ -979,7 +996,37 @@
         return render; 
       };
 
+      render.circleScale = function(val) {
+        if (!arguments.length) return circleScale;
+        circleScale = val; 
+        return render; 
+      };
+
+      render.squareScale = function(val) {
+        if (!arguments.length) return squareScale;
+        squareScale = val; 
+        return render; 
+      };
+
       return render;
+    }
+
+    /**
+     * Generate an array, appropriate for the range of an election size scale.
+     */
+    function sizeRange(d, max, pctChg) {
+      // Starting with the maximum, each item should decrease by the pct
+      // change
+      var range = d.map(function(val) {
+        return max * Math.exp(-1 * pctChg * val);
+      }).reverse();
+
+      // Zero should map to zero
+      if (d[0] === 0) {
+        range[0] = 0;
+      }
+
+      return range;
     }
 
     function viz(selection) {
@@ -1015,8 +1062,6 @@
         var y = d3.scale.ordinal()
           .domain(electionTypes)
           .rangePoints([0, height], 2.0);
-        var maxElecSize = d3.min([(height / electionTypes.length) * 0.8,
-          x.rangeBand()]);
         // We have separate scales for special/runoff and primary/general
         // elections. This is so the primary/general elections are visually
         // prominent, even when they are fewer in number than the
@@ -1025,12 +1070,12 @@
         // We call clamp() on these scales so that values over our expected
         // maximum are rendered the same size as the shape of the maximum.
         var regularElecSize = d3.scale.linear()
-          .domain([0, maxRegularElections])
-          .range([0, maxElecSize])
+          .domain(regularElectionDomain)
+          .rangeRound(sizeRange(regularElectionDomain, x.rangeBand() * maxRegularElectionSizeFactor, regularElectionScaleFactor))
           .clamp(true);
         var specialElecSize = d3.scale.linear()
-          .domain([0, maxSpecialElections])
-          .range([0, maxElecSize])
+          .domain(specialElectionDomain)
+          .rangeRound(sizeRange(specialElectionDomain, x.rangeBand() * maxSpecialElectionSizeFactor, specialElectionScaleFactor))
           .clamp(true);
         var renderRunoff = renderSquare()
           .electionType('runoff')
@@ -1068,7 +1113,9 @@
           .x(x);
 
         var renderLegend = electionTypeLegend()
-          .y(y);
+          .y(y)
+          .squareScale(specialElecSize)
+          .circleScale(regularElecSize);
 
         var ticks, sliderg;
 
