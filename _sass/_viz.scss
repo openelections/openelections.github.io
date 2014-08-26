@@ -1,5 +1,6 @@
 $legend-title-font-size: 12px;
 $legend-label-font-size: 12px;
+$legend-number-font-size: 9px;
 $timeline-number-font-size: 9px;
 
 .elections-viz {
@@ -56,6 +57,16 @@ $timeline-number-font-size: 9px;
   .legend-item {
     text {
       font-size: $legend-label-font-size;
+    }
+  }
+
+  .regular-item, .special-item {
+    text {
+      font-size: $legend-number-font-size;
+    }
+
+    circle, rect {
+      fill: $light-gray-2;
     }
   }
 }
