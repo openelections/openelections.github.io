@@ -151,8 +151,7 @@
       options = options || {};
 
       this.comparator = options.comparator || 'start_date';
-      this._years = {};
-      this._dates = {};
+      this._initInternal();
       if (models) {
         _.each(models, this.addDates, this);
       }
@@ -161,26 +160,36 @@
       this.on('add', this.addDates, this);
     },
 
+    _initInternal: function() {
+      this._years = {};
+      this._yearList = null;
+      this._dates = {};
+    },
+
     url: function() {
       return this._dataRoot + '/elections-' + this._state + '.json';
     },
 
     setState: function(state) {
       this._state = state;
-      this._years = {};
-      this._dates = {};
+      this._initInternal();
       return this;
     },
 
     addDates: function(model) {
       this._years[model.get('year')] = true;
       this._dates[model.get('start_date')] = true;
+      this._yearList = null;
     },
 
     years: function() {
-      return _.map(_.keys(this._years).sort().reverse(), function(yearS) {
-        return parseInt(yearS);
-      });
+      if (this._yearList === null) {
+        this._yearList = _.map(_.keys(this._years).sort().reverse(), function(yearS) {
+          return parseInt(yearS);
+        });
+      }
+
+      return this._yearList;
     },
 
     dates: function() {
@@ -242,7 +251,7 @@
       if (_.isUndefined(raceType)) {
         return null;
       }
-     
+
       filters = {};
       raceTypeBits = raceType.split('_');
 
@@ -261,16 +270,21 @@
      * Get a list of result summaries, with one entry per year, ordered by year.
      */
     yearSummary: function() {
-      var summaries = [];
+      var summaries = {};
+      var summaryList = [];
       var prevYear;
       var yearEntry;
+      var years = this.years();
+      var start = _.last(years);
+      var end = years[0];
+      var year;
 
       this.each(function(election) {
-        var year = election.get('year');
+        year = election.get('year');
 
         if (prevYear !== year) {
           if (yearEntry) {
-            summaries.push(yearEntry);
+            summaries[prevYear] = yearEntry;
           }
 
           yearEntry = this._initialSummaryEntry(year);
@@ -280,9 +294,13 @@
         yearEntry = this._incSummaryEntry(yearEntry, election.normalizedRaceType());
       }, this);
 
-      summaries.push(yearEntry);
+      summaries[year] = yearEntry;
 
-      return summaries;
+      _.each(_.range(start, end + 1), function(year) {
+        summaryList.push(summaries[year] || this._initialSummaryEntry(year));
+      }, this);
+
+      return summaryList;
     },
 
     _initialSummaryEntry: function(year) {
@@ -305,7 +323,7 @@
   });
 
   // Views
-  
+
   var ResultsHeadingView = Backbone.View.extend({
     tagName: 'h3',
 
@@ -363,7 +381,7 @@
 
       raceTypeLabel = addSpace(this.options.raceTypeLabels[this._filterArgs.raceType]);
       officeLabel = addSpace(this.options.officeLabels[this._filterArgs.office]);
-      prefix = raceTypeLabel && officeLabel ? "" : "All "; 
+      prefix = raceTypeLabel && officeLabel ? "" : "All ";
       startYear = this._filterArgs.dateStart;
       endYear = this._filterArgs.dateEnd;
 
@@ -374,8 +392,8 @@
 
     _getInitialDates: function() {
       return {
-        dateStart: this.collection.first().get('start_date').slice(0, 4), 
-        dateEnd: this.collection.last().get('start_date').slice(0, 4) 
+        dateStart: this.collection.first().get('start_date').slice(0, 4),
+        dateEnd: this.collection.last().get('start_date').slice(0, 4)
       };
     },
 
@@ -511,7 +529,7 @@
         var tr = $('<tr>').appendTo(thead);
 
         _.each(row, function(col) {
-          var th = $("<th>" + col + "</th>").appendTo(tr); 
+          var th = $("<th>" + col + "</th>").appendTo(tr);
         }, this);
       }, this);
       this._$tbody = $('<tbody>').appendTo(this.$el);
@@ -570,11 +588,11 @@
   });
 
   /**
-   * Visualization of elections in a year over time. 
+   * Visualization of elections in a year over time.
    *
    * This should be called on a selection that is joined to data that
    * is a list of objects that look like this:
-   * 
+   *
    * {
    *   general: 1,
    *   primary: 1
@@ -588,7 +606,7 @@
    * election type whose value is the number of elections of that type in a
    * year.
    *
-   * This implementation is based on the pattern described by Mike Bostock in 
+   * This implementation is based on the pattern described by Mike Bostock in
    * [Towards Reusable Charts](http://bost.ocks.org/mike/chart/).
    */
   function electionsVisualization(options) {
@@ -597,15 +615,20 @@
     // Private
     var height = 162;
     var margin = { top: 27, right: 0, bottom: 30, left: 0 };
-    var legendWidth = 120;
+    var legendWidth = 110;
     var legendMargin = { top: 0, right: 0, bottom: 0, left: 30 };
-    // Maximum width of year bars.  This is needed because the number of years
+    // If the outer container is less than this width, hide the election
+    // count legend
+    var electionCountLegendBreakPoint = 640;
+    // Maximum width of year bands.  This is needed because the number of years
     // with elections (the horizontal axis of this visualization) can vary
     // widely from state to state.  On narrower displays, the bar width will
     // be calculated as a percentage of the total width.
-    var maxBarWidth = 47;
-    // Space between year bars 
+    var maxBandWidth = 29;
+    // Space between year bars
     var barPadding = 0.1;
+    // maxBandWidth = 29 and barPadding = 0.1 will create gray bars ~27px wide
+    // and spaces ~3px wide.
     // Space outside of year bars
     var barOuterPadding = 0;
     // List of election types.  These should match the properties of
@@ -619,11 +642,23 @@
       'special_general',
       'runoff'
     ];
-    // Maximum number of special or runoff elections in a year.  
+    // Expected maximum number of special or runoff elections in a year.  
     // This is used to size the shape representing the number of elections.
     var maxSpecialElections = 4;
-    // Maximum number of primary or general elections in a year.
+    // Expected maximum number of primary or general elections in a year.
     var maxRegularElections = 2;
+    var specialElectionDomain = d3.range(0, maxSpecialElections + 1);
+    var regularElectionDomain = d3.range(0, maxRegularElections + 1);
+    // The shapes representing special elections will decrease in size by
+    // this amount
+    var specialElectionScaleFactor = 0.36;
+    // The shapes representing regular elections will decrease in size by
+    // this amount
+    var regularElectionScaleFactor = 0.36;
+    // Multiply this value times the width of the vertical bars to get the
+    // width of the largest election shape. 
+    var maxRegularElectionSizeFactor = 0.89; // 27 * .89 ~= 24
+    var maxSpecialElectionSizeFactor = 0.78; // 27 * .78 ~= 21
 
     // Public
 
@@ -660,7 +695,7 @@
       var calcY;
       var label = function(d) {
         var count = d[electionType];
-        return count + " " + RACE_TYPE_LABELS[electionType].toLowerCase() + " " + pluralize("election", count); 
+        return count + " " + RACE_TYPE_LABELS[electionType].toLowerCase() + " " + pluralize("election", count);
       };
 
       function render(selection) {
@@ -669,56 +704,56 @@
 
       render.calcDim = function(val) {
         if (!arguments.length) return calcDim;
-        calcDim = val; 
-        return render; 
+        calcDim = val;
+        return render;
       };
 
       render.label = function(val) {
         if (!arguments.length) return label;
-        label = val; 
-        return render; 
+        label = val;
+        return render;
       };
 
       render.x = function(val) {
         if (!arguments.length) return x;
-        x = val; 
-        return render; 
+        x = val;
+        return render;
       };
 
       render.y = function(val) {
         if (!arguments.length) return y;
-        y = val; 
-        return render; 
+        y = val;
+        return render;
       };
 
       render.dim = function(val) {
         if (!arguments.length) return dim;
-        dim = val; 
-        return render; 
+        dim = val;
+        return render;
       };
 
       render.electionType = function(val) {
         if (!arguments.length) return electionType;
-        electionType = val; 
-        return render; 
+        electionType = val;
+        return render;
       };
 
       render.onEnter = function(val) {
         if (!arguments.length) return onEnter;
-        onEnter = val; 
-        return render; 
+        onEnter = val;
+        return render;
       };
 
       render.calcX = function(val) {
         if (!arguments.length) return calcX;
-        calcX = val; 
-        return render; 
+        calcX = val;
+        return render;
       };
 
       render.calcY = function(val) {
         if (!arguments.length) return calcY;
-        calcY = val; 
-        return render; 
+        calcY = val;
+        return render;
       };
 
       return render;
@@ -761,7 +796,7 @@
           return x(d.year) + (x.rangeBand() / 2);
         })
         .calcY(function(d) {
-          return render.y()(render.electionType()); 
+          return render.y()(render.electionType());
         });
 
       render.onEnter(function(selection) {
@@ -800,7 +835,7 @@
        *
        * @param {Number} d x coordinate
        *
-       * @returns {Number} Year from scale domain that maps to the x coordinate 
+       * @returns {Number} Year from scale domain that maps to the x coordinate
        */
       function xtoyear(d, xScale) {
         var barWidth = xScale.rangeBand();
@@ -878,7 +913,7 @@
         if (!arguments.length) return x;
         x = val;
         width = x.rangeExtent()[1];
-        return control; 
+        return control;
       };
 
       return control;
@@ -894,10 +929,13 @@
       };
       var y;
       var textPadding = 8;
-      var shapeSize = function() {
-        return 24;
-      };
       var title = "Race Types";
+      // Use the first size for circles in the legend
+      var regularScaleIndex = 1;
+      // Use the second size for squares in the legend
+      var specialScaleIndex = 2;
+      var regularScale, specialScale;
+      var circleSize, squareSize, maxSize;
 
       function renderItem(selection) {
         selection.each(function(electionType) {
@@ -910,37 +948,39 @@
           }
 
           sel.append('text')
-            .attr('transform', 'translate(' + (shapeSize() + textPadding) + ',' + y(electionType) + ')')
+            .attr('transform', 'translate(' + (maxSize + textPadding) + ',' + y(electionType) + ')')
             .attr('dy', '0.25em')
             .text(RACE_TYPE_LABELS[electionType]);
         });
       }
 
       function renderSquare(selection) {
-        var size = shapeSize();
         selection.append('rect')
           .attr('class', function(d) { return d.replace('_', '-'); })
-          .attr('x', 0)
-          .attr('y', function(d) { return y(d) - (size / 2); })
-          .attr('width', size)
-          .attr('height', size);
+          .attr('x', (maxSize - squareSize) / 2)
+          .attr('y', function(d) { return y(d) - (squareSize / 2); })
+          .attr('width', squareSize)
+          .attr('height', squareSize);
       }
 
       function renderCircle(selection) {
-        var size = shapeSize();
         selection.append('circle')
           .attr('class', function(d) { return d.replace('_', '-'); })
-          .attr('cx', size / 2)
+          .attr('cx', circleSize / 2)
           .attr('cy', function(d) { return y(d); })
-          .attr('r', size / 2);
+          .attr('r', circleSize / 2);
       }
 
       function render(selection) {
         selection.each(function() {
           var sel = d3.select(this);
+          squareSize = specialScale(specialScaleIndex);
+          circleSize = regularScale(regularScaleIndex);
+          maxSize = d3.max([squareSize, circleSize]);
+
           sel.append('g')
               .attr('class', 'legend-items')
-              .attr('transform', 'translate(' + 0 + ',' + margin.top + ')') 
+              .attr('transform', 'translate(' + 0 + ',' + margin.top + ')')
             .selectAll('.legend-item')
               .data(electionTypes)
             .enter().append('g')
@@ -955,24 +995,160 @@
 
       render.y = function(val) {
         if (!arguments.length) return y;
-        y = val; 
-        return render; 
+        y = val;
+        return render;
+      };
+
+      render.regularScale = function(val) {
+        if (!arguments.length) return regularScale;
+        regularScale = val;
+        return render;
+      };
+
+      render.specialScale = function(val) {
+        if (!arguments.length) return specialScale;
+        specialScale = val;
+        return render;
       };
 
       return render;
     }
 
+    function electionCountLegend() {
+      var y;
+      var regularScale;
+      var specialScale;
+      var title = "# of Races";
+      var padding = 3;
+      var totalWidth;
+
+      function renderRegularItem(selection) {
+        selection.each(function(count) {
+          var sel = d3.select(this);
+          var w = regularScale(count);
+          var r = w / 2;
+          sel.append('circle')
+              .attr('cx', totalWidth + r)
+              .attr('cy', 0)
+              .attr('r', r);
+          sel.append('text')
+              .attr('transform', 'translate(' + (totalWidth + r - padding) + ',' + r + ')')
+              .attr('dy', '1em')
+              .text(count);
+
+          totalWidth += (w + padding);
+        });
+      }
+
+      function renderSpecialItem(selection, maxSpecial) {
+        selection.each(function(count) {
+          var sel = d3.select(this);
+          var sz = specialScale(count);
+          var text = count !== maxSpecial ? count : '>=' + count;
+          var textX = count !== maxSpecial ? totalWidth + sz/2 - padding : totalWidth;
+
+          sel.append('rect')
+              .attr('x', totalWidth)
+              .attr('y', 0)
+              .attr('width', sz)
+              .attr('height', sz);
+          sel.append('text')
+              .attr('transform', 'translate(' + textX + ',' + sz + ')')
+
+              .attr('dy', '1em')
+              .text(text);
+
+          totalWidth += (sz + padding);
+        });
+      }
+
+      function render(selection) {
+        selection.each(function() {
+          var sel = d3.select(this);
+          var regularDomain = regularScale.domain();
+          var specialDomain = specialScale.domain();
+          var yDomain = y.domain();
+          var maxSpecial = specialDomain[specialDomain.length - 1];
+          var itemsg = sel.append('g')
+              .attr('class', 'legend-items')
+              .attr('transform', 'translate(' + 0 + ',' + margin.top + ')');
+
+          totalWidth = 0;
+          itemsg.append('g')
+              .attr('class', 'regular-items')
+              .attr('transform', 'translate(' + 0 + ',' + y(yDomain[0]) + ')')
+            .selectAll('.regular-item')
+              .data(regularScale.domain().slice(1))
+            .enter().append('g')
+              .attr('class', 'regular-item')
+              .call(renderRegularItem);
+
+          totalWidth = 0;
+          itemsg.append('g')
+              .attr('class', 'special-items')
+              .attr('transform', 'translate(' + 0 + ',' + y(yDomain[2]) + ')')
+            .selectAll('.special-item')
+              .data(specialScale.domain().slice(1))
+            .enter().append('g')
+              .attr('class', 'special-item')
+              .call(renderSpecialItem, maxSpecial);
+
+          sel.append('text')
+              .attr('class', 'legend-title')
+              .text(title);
+        });
+      }
+
+      render.y = function(val) {
+        if (!arguments.length) return y;
+        y = val;
+        return render;
+      };
+
+      render.regularScale = function(val) {
+        if (!arguments.length) return regularScale;
+        regularScale = val;
+        return render;
+      };
+
+      render.specialScale = function(val) {
+        if (!arguments.length) return specialScale;
+        specialScale = val;
+        return render;
+      };
+
+      return render;
+    }
+
+    /**
+     * Generate an array, appropriate for the range of an election size scale.
+     */
+    function sizeRange(d, max, pctChg) {
+      // Starting with the maximum, each item should decrease by the pct
+      // change
+      var range = d.map(function(val) {
+        return max * Math.exp(-1 * pctChg * val);
+      }).reverse();
+
+      // Zero should map to zero
+      if (d[0] === 0) {
+        range[0] = 0;
+      }
+
+      return range;
+    }
+
     function viz(selection) {
       selection.each(function(data) {
         var containerWidth = parseInt(d3.select(this).style('width'), 10);
+        var showElectionCountLegend = containerWidth >= electionCountLegendBreakPoint;
+        // There are two legends, include both when doing width calculations
+        var legendsWidth = showElectionCountLegend ? 2 * (legendMargin.left + legendWidth + legendMargin.right) : legendMargin.left + legendWidth + legendMargin.right;
         // Set the width of the chart portion of the visualization to either
-        // fill the width of the container, minus the legend width, if there
+        // fill the width of the container, minus the legend widths, if there
         // are a lot of years in the data.
-        //
-        // If there aren't a lot of years, ensure that each bar is maxBarWidth
-        // wide.
-        var width = d3.min([containerWidth - legendMargin.left - legendWidth - legendMargin.right - margin.left - margin.right,
-          data.length * maxBarWidth
+        var width = d3.min([containerWidth - legendsWidth - margin.left - margin.right,
+          data.length * maxBandWidth
         ]);
         var svg = d3.select(this).append('svg')
             .attr('class', 'elections-viz')
@@ -982,10 +1158,10 @@
             // so the slider handles don't get cut off.  This seems like a simpler
             // way to handle this than calculating margins to accomodate it.
             .style({'overflow': 'visible'});
-        // The inner container for the element.  Most of the other elements will        // go here. 
+        // The inner container for the element.  Most of the other elements will        // go here.
         var chart = svg.append('g')
             .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
-        var years = data.map(function(d) { return d.year; }); 
+        var years = data.map(function(d) { return d.year; });
         // d3.time.scale() seems like a better fit for the data, but it
         // doesn't provide the convenience of rangeBands.  Let's use
         // d3.scale.ordinal.
@@ -994,9 +1170,7 @@
           .rangeBands([0, width], barPadding, barOuterPadding);
         var y = d3.scale.ordinal()
           .domain(electionTypes)
-          .rangePoints([0, height], 1.0);
-        var maxElecSize = d3.min([(height / electionTypes.length) * 0.8,
-          x.rangeBand()]);
+          .rangePoints([0, height], 2.0);
         // We have separate scales for special/runoff and primary/general
         // elections. This is so the primary/general elections are visually
         // prominent, even when they are fewer in number than the
@@ -1005,12 +1179,12 @@
         // We call clamp() on these scales so that values over our expected
         // maximum are rendered the same size as the shape of the maximum.
         var regularElecSize = d3.scale.linear()
-          .domain([0, maxRegularElections])
-          .range([0, maxElecSize])
+          .domain(regularElectionDomain)
+          .rangeRound(sizeRange(regularElectionDomain, x.rangeBand() * maxRegularElectionSizeFactor, regularElectionScaleFactor))
           .clamp(true);
         var specialElecSize = d3.scale.linear()
-          .domain([0, maxSpecialElections])
-          .range([0, maxElecSize])
+          .domain(specialElectionDomain)
+          .rangeRound(sizeRange(specialElectionDomain, x.rangeBand() * maxSpecialElectionSizeFactor, specialElectionScaleFactor))
           .clamp(true);
         var renderRunoff = renderSquare()
           .electionType('runoff')
@@ -1047,17 +1221,24 @@
         var slider = yearSlider()
           .x(x);
 
-        var renderLegend = electionTypeLegend()
-          .y(y);
+        var renderTypeLegend = electionTypeLegend()
+          .y(y)
+          .specialScale(specialElecSize)
+          .regularScale(regularElecSize);
 
-        var ticks, sliderg;
+        var renderCountLegend = electionCountLegend()
+          .y(y)
+          .specialScale(specialElecSize)
+          .regularScale(regularElecSize);
+
+        var ticks, sliderg, typeLegendG;
 
         chart.selectAll('.bar')
             .data(data)
           .enter().append('rect')
             .attr('class', 'bar')
             .attr('x', function(d) { return x(d.year); })
-            .attr('height', height) 
+            .attr('height', height)
             .attr('width', x.rangeBand());
 
         chart.append('g')
@@ -1074,7 +1255,7 @@
         chart.selectAll('.runoff')
             .data(data)
           .call(renderRunoff);
-          
+
         chart.selectAll('.special-general')
             .data(data)
           .call(renderSpecialGeneral);
@@ -1115,10 +1296,18 @@
             .call(slider);
 
         // Append the election type legend
-        legendg = svg.append('g')
-            .attr('class', 'legend')
+        typeLegendG = svg.append('g')
+            .attr('class', 'legend legend-type')
             .attr('transform', 'translate(' + (width + legendMargin.left) + ',' + 0 + ')')
-            .call(renderLegend);
+            .call(renderTypeLegend);
+
+        // Append the election count legend
+        if (showElectionCountLegend) {
+          svg.append('g')
+              .attr('class', 'legend legend-count')
+              .attr('transform', 'translate(' + (width + (2 * legendMargin.left) + legendWidth + legendMargin.right) + ',' + 0 + ')')
+              .call(renderCountLegend);
+        }
       });
     }
 
@@ -1177,7 +1366,7 @@
       var $label = $('<label>')
         .attr('for', selectId)
         .text(this.options.label)
-        .insertBefore(this.$select); 
+        .insertBefore(this.$select);
       _.each(this.options.options, function(option) {
         var val = option[0];
         var label = option[1];
@@ -1210,7 +1399,7 @@
 
       label: "Office Type",
 
-      options: OFFICES     
+      options: OFFICES
     }
   });
 
@@ -1221,10 +1410,8 @@
 
     options: {
       attribute: 'race_type',
-      
       label: "Race Type",
-
-      options: RACE_TYPES 
+      options: RACE_TYPES
     }
   });
 
