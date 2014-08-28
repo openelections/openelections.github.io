@@ -32,21 +32,24 @@ label[for="office-filter"]:before {
 
   thead {
     th {
-      font-family: $font-stack-serif; 
-      font-weight: normal;
-      color: #22262a;
+      font-weight: bold;
       padding: 2px 8px;
       border-color: #6a6e72;
       border-top: none;
+      color: $dark-gray-2;
     }
 
     tr:first-child {
       border: none;
 
       th {
-        font-size: 1.1em;
         border: none;
         padding: 0 8px;
+
+        color: #22262a;
+        font-family: $font-stack-serif;
+        font-weight: normal;
+        font-size: 1.1em;
 
         // Define min-width on "Date" and "Race" column heading cells to avoid
         // content hopping around when result rows are expanded
