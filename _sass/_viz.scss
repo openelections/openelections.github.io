@@ -3,6 +3,16 @@ $legend-label-font-size: 12px;
 $legend-number-font-size: 9px;
 $timeline-number-font-size: 9px;
 
+// The container for the visualization, this is created by the Backbone view
+.results-visualization {
+  // A total spacing between the visualization and the preceding header of 66px 
+  // is desired.
+  padding-top: 48px;
+  // A total spacing between the visualization and the trailing header of 82px
+  // is desired.  There's already 20px of margin from the following header.
+  padding-bottom: 52px;
+}
+
 .elections-viz {
   .hlines {
     .hline {

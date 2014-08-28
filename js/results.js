@@ -614,7 +614,7 @@
 
     // Private
     var height = 162;
-    var margin = { top: 27, right: 0, bottom: 30, left: 0 };
+    var margin = { top: 0, right: 0, bottom: 24, left: 0 };
     var legendWidth = 110;
     var legendMargin = { top: 0, right: 0, bottom: 0, left: 30 };
     // If the outer container is less than this width, hide the election
@@ -1321,6 +1321,10 @@
   }
 
   var ResultsVisualizationView = Backbone.View.extend({
+    attributes: {
+      class: 'results-visualization'
+    },
+
     initialize: function(options) {
       // Create the d3 chart function.  This will do most of the work.
       this.viz = electionsVisualization();
