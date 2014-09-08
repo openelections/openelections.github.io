@@ -8,9 +8,8 @@
 
 #office-filter-container,
 #race-type-filter-container {
-  float: right;
   margin-left: 20px;
-  margin-top: 20px; // This should match the margin on .results-heading
+  margin-top: 8px;
   text-align: right;
 
   label {
@@ -19,12 +18,16 @@
   }
 }
 
-label[for="office-filter"]:before {
+#race-type-filter-container {
+  margin-top: 20px;
+}
+
+label[for="race_type-filter"]:before {
   content: "Filter by ";
 }
 
 #results-table {
-  margin-top: 30px;
+  margin-top: 34px;
 
   td {
     border-top-color: #dedfe0;
