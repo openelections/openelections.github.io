@@ -664,6 +664,7 @@
 
     // Dispatcher used to share events between views
     var dispatcher = d3.dispatch('filterdates');
+    var showElectionCountLegend = true;
 
     /**
      * Factory for a rendering function for the shape for type of election in
@@ -1141,9 +1142,9 @@
     function viz(selection) {
       selection.each(function(data) {
         var containerWidth = parseInt(d3.select(this).style('width'), 10);
-        var showElectionCountLegend = containerWidth >= electionCountLegendBreakPoint;
+        var showElectionCountLegendAtW = showElectionCountLegend && containerWidth >= electionCountLegendBreakPoint;
         // There are two legends, include both when doing width calculations
-        var legendsWidth = showElectionCountLegend ? 2 * (legendMargin.left + legendWidth + legendMargin.right) : legendMargin.left + legendWidth + legendMargin.right;
+        var legendsWidth = showElectionCountLegendAtW ? 2 * (legendMargin.left + legendWidth + legendMargin.right) : legendMargin.left + legendWidth + legendMargin.right;
         // Set the width of the chart portion of the visualization to either
         // fill the width of the container, minus the legend widths, if there
         // are a lot of years in the data.
@@ -1302,7 +1303,7 @@
             .call(renderTypeLegend);
 
         // Append the election count legend
-        if (showElectionCountLegend) {
+        if (showElectionCountLegendAtW) {
           svg.append('g')
               .attr('class', 'legend legend-count')
               .attr('transform', 'translate(' + (width + (2 * legendMargin.left) + legendWidth + legendMargin.right) + ',' + 0 + ')')
@@ -1317,6 +1318,12 @@
       return viz;
     };
 
+    viz.showElectionCountLegend = function(val) {
+      if (!arguments.length) return showElectionCountLegend;
+      showElectionCountLegend = val;
+      return viz;
+    };
+
     return viz;
   }
 
@@ -1327,7 +1334,8 @@
 
     initialize: function(options) {
       // Create the d3 chart function.  This will do most of the work.
-      this.viz = electionsVisualization();
+      this.viz = electionsVisualization()
+        .showElectionCountLegend(options.showElectionCountLegend);
 
       // Proxy the d3 dispatched events to Backbone events
       this.viz.dispatcher().on('filterdates', _.bind(this.handleFilterDates, this));
@@ -1458,7 +1466,8 @@
         id: 'results-table'
       });
       this._resultsVizView = new ResultsVisualizationView({
-        collection: this._collection
+        collection: this._collection,
+        showElectionCountLegend: options.showElectionCountLegend 
       });
       this._officeFilterView = new OfficeFilterView();
       this._raceTypeFilterView = new RaceTypeFilterView();
