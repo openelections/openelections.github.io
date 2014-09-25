@@ -503,7 +503,7 @@
         return $('<a href="' + url + '" title="Download CSV"><img src="../img/icon/pink_arrow_down.png"></a>');
       }
       else if (election.get(this.statusAttr(level)) === 'yes') {
-        return $('<img src="../img/icon/lt_grey_download_arrow.png">');
+        return $('<img src="../img/icon/lt_grey_download_arrow.png" title="This state has results at this reporting level, but OpenElections hasn\'t processed them yet">');
       }
       else {
         return null;
