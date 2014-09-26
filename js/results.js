@@ -198,8 +198,8 @@
 
     filterElections: function(filterArgs) {
       var office = filterArgs.office;
-      var dateStart = filterArgs.dateStart.length === 4 ? filterArgs.dateStart + '-01-01' : filterArgs.dateStart;
-      var dateEnd = filterArgs.dateEnd.length === 4 ? filterArgs.dateEnd + '-12-31' : filterArgs.dateEnd;
+      var dateStart = filterArgs.dateStart && filterArgs.dateStart.length === 4 ? filterArgs.dateStart + '-01-01' : filterArgs.dateStart;
+      var dateEnd = filterArgs.dateEnd && filterArgs.dateEnd.length === 4 ? filterArgs.dateEnd + '-12-31' : filterArgs.dateEnd;
       var raceType = this._parseRaceType(filterArgs.raceType);
       var models = this.filter(function(model) {
         var officeMatches = true;
