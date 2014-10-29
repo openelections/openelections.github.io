@@ -429,7 +429,7 @@
 
     options: {
       headerRows: [
-        ["Date", "Race", "Results", "", "", ""],
+        ["Date", "Race", {text: "Download Results", colspan: '4'}],
         ["", "", "County", "Precinct", "State Legislative", "Congressional District"]
       ],
     },
@@ -526,10 +526,24 @@
     renderInitial: function() {
       var thead = $('<thead>').appendTo(this.$el);
       _.each(this.options.headerRows, function(row) {
-        var tr = $('<tr>').appendTo(thead);
+        var $tr = $('<tr>').appendTo(thead);
 
         _.each(row, function(col) {
-          var th = $("<th>" + col + "</th>").appendTo(tr);
+          var txt = col;
+          var $th;
+          if (_.isObject(col)) {
+            txt = col.text;
+          }
+          $th = $("<th>" + txt + "</th>");
+          if (_.isObject(col)) {
+            _.each(col, function(val, prop) {
+              if (prop !== 'text') {
+                $th.attr(prop, val);
+              }
+            });
+          }
+
+          $th.appendTo($tr);
         }, this);
       }, this);
       this._$tbody = $('<tbody>').appendTo(this.$el);
@@ -642,7 +656,7 @@
       'special_general',
       'runoff'
     ];
-    // Expected maximum number of special or runoff elections in a year.  
+    // Expected maximum number of special or runoff elections in a year.
     // This is used to size the shape representing the number of elections.
     var maxSpecialElections = 4;
     // Expected maximum number of primary or general elections in a year.
@@ -656,7 +670,7 @@
     // this amount
     var regularElectionScaleFactor = 0.36;
     // Multiply this value times the width of the vertical bars to get the
-    // width of the largest election shape. 
+    // width of the largest election shape.
     var maxRegularElectionSizeFactor = 0.89; // 27 * .89 ~= 24
     var maxSpecialElectionSizeFactor = 0.78; // 27 * .78 ~= 21
 
@@ -1467,7 +1481,7 @@
       });
       this._resultsVizView = new ResultsVisualizationView({
         collection: this._collection,
-        showElectionCountLegend: options.showElectionCountLegend 
+        showElectionCountLegend: options.showElectionCountLegend
       });
       this._officeFilterView = new OfficeFilterView();
       this._raceTypeFilterView = new RaceTypeFilterView();
