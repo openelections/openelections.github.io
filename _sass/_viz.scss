@@ -8,9 +8,16 @@ $timeline-number-font-size: 9px;
   // A total spacing between the visualization and the preceding header of 66px 
   // is desired.
   padding-top: 48px;
-  // A total spacing between the visualization and the trailing header of 82px
-  // is desired.  There's already 20px of margin from the following header.
-  padding-bottom: 52px;
+  // A total spacing between the slider bar in the visualization and the 
+  // trailing header of 120px is desired.
+  // There's already 20px of margin from the following header.
+  padding-bottom: 24px;
+
+  .help-block {
+    font-size: $legend-label-font-size; 
+    margin: 0;
+    padding-top: 30px;
+  }
 }
 
 .elections-viz {

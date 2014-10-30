@@ -1346,7 +1346,13 @@
       class: 'results-visualization'
     },
 
+    options: {
+      help: "Move slider to select date range"
+    },
+
     initialize: function(options) {
+      _.extend(this.options, options);
+
       // Create the d3 chart function.  This will do most of the work.
       this.viz = electionsVisualization()
         .showElectionCountLegend(options.showElectionCountLegend);
@@ -1365,6 +1371,8 @@
       d3.select(this.el)
         .datum(this.collection.yearSummary())
         .call(this.viz);
+
+      this.$el.append($('<p class="help-block">' + this.options.help + '</p>'));
 
       return this;
     },
