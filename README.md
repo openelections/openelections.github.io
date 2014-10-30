@@ -70,7 +70,7 @@ To generate the election results availability for a state, the data for the elec
 From the core app's environment, run:
 
 ```
-inv bake.results_status_json --state=WY > /path/to/data/elections-wy.json
+openelex bake.results_status_json --state=WY > /path/to/data/elections-wy.json
 ```
 
 or using Fabric, run:
