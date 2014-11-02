@@ -11,12 +11,12 @@ $timeline-number-font-size: 9px;
   // A total spacing between the slider bar in the visualization and the 
   // trailing header of 120px is desired.
   // There's already 20px of margin from the following header.
-  padding-bottom: 48px;
+  padding-bottom: 34px;
 
   .help-block {
     font-size: $legend-label-font-size; 
     margin: 0;
-    padding-top: 6px;
+    padding-top: 20px;
   }
 }
 
