@@ -81,6 +81,26 @@ fab -R prod bake_results_status_json:state=WY,outputfilename=/path/to/data/elect
 
 In either case, replace "WY" with the abbreviation of the state whose metadata you want to generate.
 
+## Deployment
+
+### Why is this repo named 'openelections.github.io'?
+
+Presently, we use [GitHub pages](https://pages.github.com/) as an inexpensive, easy to deploy, hosting strategy for the website.
+
+Due to the need to host both the API and this website on the openelections.net domain, we proxy requests on our web head to openelections.github.io, the default domain for a GitHub-pages hosted site for an organization.
+
+Naming the repository ``openelections.github.io`` is a convention that causes this site to be hosted at http://openelections.github.io.  It also allows the site to be deployed by pushing to the ``master`` branch on GitHub rather than pushing to the ``gh-pages`` branch.
+
+### Deploying the site
+
+After making any changes to the markdown, template, JavaScript, metadata JSON, etc., testing things out with ``jekyll serve``, commit the changes locally.
+
+Then push the changes to the ``master`` branch of the remote repository on GitHub:
+
+```
+git push origin master
+```
+
 ## Contributors
 
 * Margie Roswell (@mroswell)
