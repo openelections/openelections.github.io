@@ -11,8 +11,8 @@ $(function() {
   });
 
   states.url = 'data/state_status.json';
-  $('#map').after(metaTable.$el);
-  metaTable.$el.after(resultsTable.$el);
+  $('#map').after(resultsTable.$el);
+  resultsTable.$el.after(metaTable.$el);
   openelex.renderMap({
     states: states
   });
