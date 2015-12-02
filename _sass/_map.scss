@@ -55,6 +55,18 @@
 #map {
   // Set so that total space between map and footer is ~75px
   padding-bottom: 40px;
+  cursor: pointer;
+  path:hover{
+    stroke: orange;
+    stroke-width: 2;
+  }
+}
+
+td{
+  &.not-started, &.partial, &.up-to-date{
+      color: white;
+      font-weight: bold;
+  }
 }
 
 .not-started, .metadata .metadata-not-started, .results .results-not-started {
@@ -70,6 +82,7 @@
 .up-to-date, .raw, .metadata .metadata-up-to-date, .results .results-raw {
   background-color: $up-to-date-color;
   fill: $up-to-date-color;
+
 }
 
 .clean, .results .results-clean {
@@ -83,8 +96,8 @@
 
 .infobox.results .metadata,
 .infobox.results .results-detail,
-.infobox.metadata .results, 
-.infobox.metadata .results-detail, 
+.infobox.metadata .results,
+.infobox.metadata .results-detail,
 .infobox.results-detail .metadata,
 .infobox.results-detail .results,
 .metadata .table-states.results,

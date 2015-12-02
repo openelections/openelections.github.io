@@ -10,7 +10,7 @@
   var sidebar;
   var toggle;
   var metadataLegend, resultsLegend;
-  var statesCollection, stateMetadataView; 
+  var statesCollection, stateMetadataView;
 
   var defaults = {
     mapContainer: '#map',
@@ -19,7 +19,7 @@
     sidebarEl: '#sidebar'
   };
 
-  var dispatcher = d3.dispatch('maptype'); 
+  var dispatcher = d3.dispatch('maptype');
 
   var renderMap = openelex.renderMap = function(options) {
     opts = _.defaults({}, options, defaults);
@@ -46,7 +46,7 @@
     }
 
     //Define map projection
-    
+
     var projection = d3.geo.albersUsa()
       .translate([opts.width / 2, opts.height / 2])
       .scale(getScale(opts.width));
@@ -121,9 +121,15 @@
       })
       .attr("stroke", "white")
       .attr("stroke-width", 1)
-      .on('click', function(d) {
+      .on('mouseover', function(d) {
         stateMetadataView.setState(d.properties.name).render();
-      });
+      })
+      .on('click', function(d){
+        window.open('/results#' + d.properties.postal.toLowerCase(), '_self')
+      })
+
+
+      ;
   }
 
   /**
@@ -159,7 +165,7 @@
     if (maptype === 'metadata') {
       metadataLegend.style('display', 'inline-block');
       resultsLegend.style('display', 'none');
-      containerClasses = { 
+      containerClasses = {
         'metadata': true,
         'results': false
       };

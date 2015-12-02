@@ -46,14 +46,14 @@
 
     template: _.template("<h2 class='stateface stateface-<%= postal %>'><%= state %></h2>" +
       "<dl class='metadata'>" +
-      "<dt>Metadata Status</dt><dd><%= metadata_status %></dd>" + 
+      "<dt>Metadata Status</dt><dd><%= metadata_status %></dd>" +
       "<dt>Volunteer(s)</dt><dd><%= metadata_volunteers %></dd>" +
       "</dl>" +
       "<dl class='results'>" +
       "<dt class='results-status'>Results Status</dt><dd class='results-status'><%= results_status %></dd>" +
       "<dt>Volunteer(s)</dt><dd><%= dev_volunteers %></dd>" +
       "<dt class='detail-link'>Detailed Data</dt><dd class='detail-link'><a href='<%= detail_url %>'>Detailed Data</a></dd>" +
-      "</dl>" + 
+      "</dl>" +
       "<dl class='results-detail'>" +
       "<dt class='results-status'>Results Status</dt><dd class='results-status'><%= results_status %></dd>" +
       "<dt class='map-link'>Map Link</dt><dd class='map-link'><a href='/'>Data Map</a></dd>" +
@@ -73,14 +73,14 @@
       }));
 
       this.$el.addClass(this.attributes.class);
-      
+
       return this;
     },
-     
+
     /**
      * Set the state who's metadata will be rendered in this view.
      *
-     * @param {string} state - State name or abbreviation.  For example, 
+     * @param {string} state - State name or abbreviation.  For example,
      *   "Maryland" or "md".
      */
     setState: function(state) {
@@ -91,11 +91,11 @@
 
   var StateTable = Backbone.View.extend({
     options: {
-      rowTemplate: _.template('<tr><td><a href="<%= detail_url %>"><%= name %></a></td><td><%= status %></td><td><%= volunteers %></td></tr>')
+      rowTemplate: _.template('<tr><td><a href="<%= detail_url %>"><%= name %></a></td><td class="<%=status_class%>"><%= status %></td><td><%= volunteers %></td></tr>')
     },
 
     initialize: function() {
-      this.collection.on('sync', this.render, this);  
+      this.collection.on('sync', this.render, this);
     },
 
     tagName: 'table',
@@ -109,7 +109,7 @@
       var $tbody = $('<tbody>');
 
       this.$el.empty();
-      
+
       $thead.append("<tr><th>State</th><th>Status</th><th>Volunteers</th></tr>");
       this.collection.each(function(state) {
         $tbody.append(this.renderRow(state));
@@ -125,7 +125,7 @@
     },
 
     rowData: function(d) {
-      return {}; 
+      return {};
     }
   });
 
@@ -139,6 +139,7 @@
         name: d.get('name'),
         detail_url: d.detailUrl(),
         status: statusLabel(d.get('metadata_status')),
+        status_class: d.get('metadata_status'),
         volunteers: d.metadataVolunteerNames().join(', ')
       };
     }
@@ -154,6 +155,7 @@
         name: d.get('name'),
         detail_url: d.detailUrl(),
         status: statusLabel(d.get('results_status')),
+        status_class: d.get('metadata_status'),
         volunteers: d.devVolunteerNames().join(', ')
       };
     }
