@@ -1,7 +1,6 @@
-name: OpenElections 
-markdown: redcarpet
+name: OpenElections
 highlighter: pygments
-baseurl: '' 
+baseurl: ''
 exclude:
     - README.md
     - Gemfile
