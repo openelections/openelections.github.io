@@ -1,5 +1,5 @@
 name: OpenElections
-highlighter: pygments
+highlighter: rouge
 baseurl: ''
 exclude:
     - README.md
