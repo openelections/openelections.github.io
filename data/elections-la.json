@@ -2141,7 +2141,7 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"parish": "http://results.openelections.net/la/raw/20150221__la__primary__parish__raw.csv",
+		"county": "http://results.openelections.net/la/raw/20150221__la__primary__parish__raw.csv",
 		"precinct": "http://results.openelections.net/la/raw/20150221__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
@@ -2163,7 +2163,7 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"parish": "http://results.openelections.net/la/raw/20150328__la__general__parish__raw.csv",
+		"county": "http://results.openelections.net/la/raw/20150328__la__general__parish__raw.csv",
 		"precinct": "http://results.openelections.net/la/raw/20150328__la__general__precinct__raw.csv"
 	},
 	"prez": false,
@@ -2185,7 +2185,7 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"parish": "http://results.openelections.net/la/raw/20151024__la__primary__parish__raw.csv",
+		"county": "http://results.openelections.net/la/raw/20151024__la__primary__parish__raw.csv",
 		"precinct": "http://results.openelections.net/la/raw/20151024__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
@@ -2207,7 +2207,7 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"parish": "http://results.openelections.net/la/raw/20151121__la__general__parish__raw.csv",
+		"county": "http://results.openelections.net/la/raw/20151121__la__general__parish__raw.csv",
 		"precinct": "http://results.openelections.net/la/raw/20151121__la__general__precinct__raw.csv"
 	},
 	"prez": false,
