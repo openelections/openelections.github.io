@@ -139,12 +139,12 @@
    *   the toggle control will be rendered.
    */
   function renderToggle(el) {
-    var metaBtn = el.append('button')
-      .attr('class', 'btn-toggle btn-metadata')
-      .text("Metadata");
     var resultsBtn = el.append('button')
       .attr('class', 'btn-toggle btn-results')
       .text("Data");
+    var metaBtn = el.append('button')
+      .attr('class', 'btn-toggle btn-metadata')
+      .text("Metadata");
 
     metaBtn.on('click', function() {
       dispatcher.maptype('metadata');
