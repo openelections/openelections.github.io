@@ -88,7 +88,7 @@
       geo = json;
       render();
       renderToggle(toggle);
-      setMapType('metadata');
+      setMapType('results');
     });
   }
 
