@@ -125,7 +125,7 @@
         stateMetadataView.setState(d.properties.name).render();
       })
       .on('click', function(d){
-        window.open('/results#' + d.properties.postal.toLowerCase(), '_self')
+        window.open('http://www.openelections.net/results#' + d.properties.postal.toLowerCase(), '_self')
       })
 
 
