@@ -123,12 +123,8 @@
       .attr("stroke-width", 1)
       .on('mouseover', function(d) {
         stateMetadataView.setState(d.properties.name).render();
+        .html('<a href="http://www.openelections.net/results#" + d.properties.postal.toLowerCase()</a>')
       })
-      .on('click', function(d){
-        window.open('http://www.openelections.net/results#' + d.properties.postal.toLowerCase(), '_self')
-      })
-
-
       ;
   }
 
