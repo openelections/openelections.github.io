@@ -121,10 +121,7 @@
       })
       .attr("stroke", "white")
       .attr("stroke-width", 1)
-      .on('mouseover', function(d) {
-        d3.select(this)
-        .html('<a href="http://www.openelections.net/results#"' + d.properties.postal.toLowerCase()+'>' +  d.properties.name + '</a>')
-      });
+      .attr("xlink:href", "http://www.openelections.net/results#"+d.properties.postal.toLowerCase());
   }
 
   /**
