@@ -113,6 +113,7 @@
         var state = statesCollection.findWhere({
           name: d.properties.name
         });
+        var postal = d.properties.postal.toLowerCase();
         if (state) {
           var metadataClass = 'metadata-' + (slugify(state.get('metadata_status')) || 'not-started');
           var resultsClass = 'results-' + (slugify(state.get('results_status')) || 'not-started');
@@ -121,7 +122,8 @@
       })
       .attr("stroke", "white")
       .attr("stroke-width", 1)
-      .attr("xlink:href", "http://www.openelections.net/results#"+d.properties.postal.toLowerCase());
+      .attr("xlink:href", "http://www.openelections.net/results#"+postal)
+      });
   }
 
   /**
