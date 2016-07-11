@@ -122,8 +122,7 @@
       })
       .attr("stroke", "white")
       .attr("stroke-width", 1)
-      .attr("xlink:href", "http://www.openelections.net/results#"+postal)
-      });
+      .attr("xlink:href", "http://www.openelections.net/results#"+postal);
   }
 
   /**
