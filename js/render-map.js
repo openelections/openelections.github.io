@@ -121,6 +121,7 @@
       })
       .attr("stroke", "white")
       .attr("stroke-width", 1)
+      .append('a')
       .attr("xlink:href", function(d) {
         var postal = d.properties.postal.toLowerCase();
         return "http://www.openelections.net/results#"+postal;
