@@ -104,9 +104,11 @@
 
   function render() {
     // Bind data and create one path per GeoJSON feature
-    svg.selectAll("path")
+    var path = svg.selectAll("path")
       .data(geo.features)
       .enter()
+      .append('a')
+      .attr("xlink:href", function(d) { return "/results#"+d.properties.postal.toLowerCase(); })
       .append("path")
       .attr("d", path)
       .attr("class", function(d) {
@@ -120,12 +122,7 @@
         }
       })
       .attr("stroke", "white")
-      .attr("stroke-width", 1)
-      .append('a')
-      .attr("xlink:href", function(d) {
-        var postal = d.properties.postal.toLowerCase();
-        return "http://www.openelections.net/results#"+postal;
-      });
+      .attr("stroke-width", 1);
   }
 
   /**
