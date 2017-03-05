@@ -104,7 +104,7 @@
 
   function render() {
     // Bind data and create one path per GeoJSON feature
-    var path = svg.selectAll("path")
+    var paths = svg.selectAll("path")
       .data(geo.features)
       .enter()
       .append('a')
