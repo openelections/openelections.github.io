@@ -108,7 +108,7 @@
       .data(geo.features)
       .enter()
       .append('a')
-      .attr("xlink:href", function(d) { return "http://www.openelections.net/results#"+d.properties.postal.toLowerCase(); })
+      .attr("xlink:href", function(d) { return "http://www.openelections.net/results/#"+d.properties.postal.toLowerCase(); })
       .append("path")
       .attr("d", path)
       .attr("class", function(d) {
