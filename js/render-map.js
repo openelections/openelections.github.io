@@ -104,9 +104,11 @@
 
   function render() {
     // Bind data and create one path per GeoJSON feature
-    svg.selectAll("path")
+    var paths = svg.selectAll("path")
       .data(geo.features)
       .enter()
+      .append('a')
+      .attr("xlink:href", function(d) { return "http://www.openelections.net/results/#"+d.properties.postal.toLowerCase(); })
       .append("path")
       .attr("d", path)
       .attr("class", function(d) {
@@ -120,16 +122,7 @@
         }
       })
       .attr("stroke", "white")
-      .attr("stroke-width", 1)
-      .on('mouseover', function(d) {
-        stateMetadataView.setState(d.properties.name).render();
-      })
-      .on('click', function(d){
-        window.open('/results#' + d.properties.postal.toLowerCase(), '_self')
-      })
-
-
-      ;
+      .attr("stroke-width", 1);
   }
 
   /**
