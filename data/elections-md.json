@@ -384,4 +384,53 @@
 	"gov": true,
 	"start_date": "2014-11-04",
 	"special": false
-}]
+	},
+	{
+	"state_leg_level_status": "no",
+	"state_officers": false,
+	"precinct_level_status": "yes",
+	"state_level_status": "yes",
+	"state_leg": false,
+	"senate": true,
+	"house": true,
+	"results_raw": {
+		"county": "http://results.openelections.net/md/raw/20160426__md__primary__county__raw.csv",
+		"congressional_district_by_county": "http://results.openelections.net/md/raw/20160426__md__primary__congressional_district_by_county__raw.csv",
+		"precinct": "http://results.openelections.net/md/raw/20160426__md__primary__precinct__raw.csv",
+		"state_legislative": "http://results.openelections.net/md/raw/20160426__md__primary__state_legislative__raw.csv"
+	},
+	"prez": true,
+	"results": {},
+	"county_level_status": "yes",
+	"state": "MD",
+	"race_type": "primary",
+	"cong_dist_level_status": "no",
+	"year": 2016,
+	"gov": false,
+	"start_date": "2016-04-26",
+	"special": false
+}, {
+	"state_leg_level_status": "no",
+	"state_officers": false,
+	"precinct_level_status": "yes",
+	"state_level_status": "yes",
+	"state_leg": false,
+	"senate": true,
+	"house": true,
+	"results_raw": {
+		"county": "http://results.openelections.net/md/raw/20161108__md__general__county__raw.csv",
+		"precinct": "http://results.openelections.net/md/raw/20161108__md__general__precinct__raw.csv",
+		"state_legislative": "http://results.openelections.net/md/raw/20161108__md__general__state_legislative__raw.csv"
+	},
+	"prez": true,
+	"results": {},
+	"county_level_status": "yes",
+	"state": "MD",
+	"race_type": "general",
+	"cong_dist_level_status": "no",
+	"year": 2016,
+	"gov": false,
+	"start_date": "2016-11-08",
+	"special": false
+}
+]
