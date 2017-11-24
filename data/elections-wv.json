@@ -330,6 +330,7 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
+		"county": "http://results.openelections.net/wv/raw/20120508__wv__primary__county__raw.csv",
 		"precinct": "http://results.openelections.net/wv/raw/20120508__wv__primary__precinct__raw.csv"
 	},
 	"prez": true,
@@ -351,6 +352,7 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
+		"county": "http://results.openelections.net/wv/raw/20121106__wv__general__county__raw.csv",
 		"precinct": "http://results.openelections.net/wv/raw/20121106__wv__general__precinct__raw.csv"
 	},
 	"prez": true,
@@ -371,10 +373,13 @@
 	"state_leg": true,
 	"senate": true,
 	"house": true,
-	"results_raw": {"precinct": "http://results.openelections.net/wv/raw/20140513__wv__primary__precinct__raw.csv"},
+	"results_raw": {
+		"county": "http://results.openelections.net/wv/raw/20140513__wv__primary__county__raw.csv",
+		"precinct": "http://results.openelections.net/wv/raw/20140513__wv__primary__precinct__raw.csv"
+	},
 	"prez": false,
 	"results": {},
-	"county_level_status": "yes",
+	"county_level_status": "baked-raw",
 	"state": "WV",
 	"race_type": "primary",
 	"cong_dist_level_status": "no",
@@ -385,15 +390,18 @@
 }, {
 	"state_leg_level_status": "Unavailable",
 	"state_officers": false,
-	"precinct_level_status": "yes",
+	"precinct_level_status": "baked-raw",
 	"state_level_status": "yes",
 	"state_leg": true,
 	"senate": true,
 	"house": true,
-	"results_raw": {"precinct": "http://results.openelections.net/wv/raw/20141104__wv__general__precinct__raw.csv"},
+	"results_raw": {
+		"county": "http://results.openelections.net/wv/raw/20141104__wv__general__county__raw.csv",
+		"precinct": "http://results.openelections.net/wv/raw/20141104__wv__general__precinct__raw.csv"
+	},
 	"prez": false,
 	"results": {},
-	"county_level_status": "yes",
+	"county_level_status": "baked-raw",
 	"state": "WV",
 	"race_type": "general",
 	"cong_dist_level_status": "Unavailable",
@@ -401,4 +409,47 @@
 	"gov": false,
 	"start_date": "2014-11-04",
 	"special": false
+},
+{
+ "state_leg_level_status": "no",
+ "state_officers": true,
+ "precinct_level_status": "yes",
+ "state_level_status": "yes",
+ "state_leg": true,
+ "senate": true,
+ "house": true,
+ "results_raw": {
+	 "county": "http://results.openelections.net/wv/raw/20160510__wv__primary__county__raw.csv"
+ },
+ "prez": true,
+ "results": {},
+ "county_level_status": "baked-raw",
+ "state": "WV",
+ "race_type": "primary",
+ "cong_dist_level_status": "no",
+ "year": 2016,
+ "gov": false,
+ "start_date": "2016-05-10",
+ "special": false
+}, {
+ "state_leg_level_status": "Unavailable",
+ "state_officers": false,
+ "precinct_level_status": "yes",
+ "state_level_status": "yes",
+ "state_leg": true,
+ "senate": false,
+ "house": true,
+ "results_raw": {
+	 "county": "http://results.openelections.net/wv/raw/20161108__wv__general__county__raw.csv",
+ },
+ "prez": true,
+ "results": {},
+ "county_level_status": "baked-raw",
+ "state": "WV",
+ "race_type": "general",
+ "cong_dist_level_status": "Unavailable",
+ "year": 2016,
+ "gov": false,
+ "start_date": "2016-11-08",
+ "special": false
 }]
