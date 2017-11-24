@@ -440,7 +440,7 @@
  "senate": false,
  "house": true,
  "results_raw": {
-	 "county": "http://results.openelections.net/wv/raw/20161108__wv__general__county__raw.csv",
+	 "county": "http://results.openelections.net/wv/raw/20161108__wv__general__county__raw.csv"
  },
  "prez": true,
  "results": {},
