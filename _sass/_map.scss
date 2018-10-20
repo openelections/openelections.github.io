@@ -37,7 +37,7 @@
 
 .legend dt {
   width: 40px;
-  height: 20px;
+  height: 10px;
 
   float: left;
   margin-bottom: 10px;
@@ -46,7 +46,7 @@
 .legend dd {
   padding: 0 40px 0 45px;
   margin-bottom: 10px;
-
+  color: $dark-gray;
   font-size: 1.3em;
   line-height: 1.2em;
   font-weight: bold;
