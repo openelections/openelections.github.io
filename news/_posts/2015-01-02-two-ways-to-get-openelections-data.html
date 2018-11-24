@@ -1,0 +1,28 @@
+---
+layout: page
+title: Two Ways to Get OpenElections Data
+date: 2015-01-02 21:47:42.000000000 -05:00
+type: page
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _edit_last: '43578620'
+  _wp_page_template: default
+  _publicize_pending: '1'
+  geo_public: '0'
+author:
+  login: openelections
+  email: openelections@gmail.com
+  display_name: openelections
+  first_name: ''
+  last_name: ''
+---
+<p>When we released our initial dashboard for downloading election results <a href="http://blog.openelections.net/2014/07/10/how-would-you-like-your-election-results-data/">in July</a>, we wanted to make it easy for anyone to grab CSV files of raw results with just a browser. We've continued adding states to <a href="http://openelections.net/">our results site</a>, the latest being <a href="http://openelections.net/results/#nc">North Carolina</a>, <a href="http://openelections.net/results/#fl">Florida</a> and -- for a few elections -- <a href="http://openelections.net/results/#ms">Mississippi</a>. Pennsylvania will be on the way soon.</p>
+<p>But we also wanted our results to be usable by developers as well, and we're taking advantage of Github to help make that easier. Each time that we publish raw results data, which hasn't been standardized beyond geography -- we publish it first to a GitHub repository for that state. For example, you can find <a href="https://github.com/openelections/openelections-results-ms">a repository for Mississippi results</a> that can be cloned and/or accessed via <a href="https://developer.github.com/">API</a>, avoiding manual downloads. The naming convention for the repositories is the same: openelections-results-{state}, and you might find partial results for states that don't yet appear on the download map (like Iowa) because they're still in progress.</p>
+<p><a href="https://openelections.files.wordpress.com/2014/12/screen-shot-2014-12-22-at-2-18-09-pm.png"><img class="aligncenter size-large wp-image-1330" src="{{ site.baseurl }}/assets/screen-shot-2014-12-22-at-2-18-09-pm.png?w=580" alt="Screen Shot 2014-12-22 at 2.18.09 PM" width="580" height="256" /></a></p>
+<p>Using GitHub has two advantages for us -- it helps to maintain a history of published changes, of course -- but GitHub Pages also provides a filesystem for storing the raw CSVs that power the results site downloads. And should we need to move the CSV downloads to another location, we can do that, too. All of this underscores our commitment to using existing standards and practices rather than inventing new ones.</p>
+<p>So if you were looking for election results CSVs as part of your holiday plans, we've got two ways to get them. Enjoy, and Happy New Year!</p>

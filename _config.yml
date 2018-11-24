@@ -5,4 +5,3 @@ exclude:
     - README.md
     - Gemfile
     - Gemfile.lock
-    - assets

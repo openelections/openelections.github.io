@@ -1,0 +1,33 @@
+---
+layout: page
+title: OpenElections Explores Going International at MozFest
+date: 2013-11-08 22:53:04.000000000 -05:00
+type: page
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _edit_last: '43578620'
+  _wp_page_template: default
+  _publicize_pending: '1'
+  twitter_cards_summary_img_size: a:6:{i:0;i:1648;i:1;i:1104;i:2;i:3;i:3;s:26:"width="1648"
+    height="1104"";s:4:"bits";i:8;s:4:"mime";s:9:"image/png";}
+author:
+  login: openelections
+  email: openelections@gmail.com
+  display_name: openelections
+  first_name: ''
+  last_name: ''
+---
+<p><img alt="" src="{{ site.baseurl }}/assets/mFO9XehwHYlqr4OHB9b8HMKf_rB6VAsoRB0hLrlp0L_DiI3kqLp6YLVENfdVXVO1rQ6FaDcmlqMNVSKHljJRjsKt7KgACZeUnZZbTcBhLkizWDy4TmAdkeOg" width="624px;" height="419px;" /></p>
+<p dir="ltr"><em>MozFest 2013, Image: Sammy James Dodds</em></p>
+<p dir="ltr">The <a href="http://mozillafestival.org/" target="_blank">Mozilla Festival</a> in London seemed like the perfect venue to investigate the question of how well our data model would apply to elections outside the United States. It turns out that as complicated as American elections can seem, international elections have their own unique features.</p>
+<p dir="ltr">At <a href="https://festival.etherpad.mozilla.org/data-extending-election-data?" target="_blank">our session</a>, we invited MozFest attendees to examine both our <a href="https://github.com/openelections/specs/wiki/Results-Data-Spec-Version-2" target="_blank">data specs</a> and election results <a href="http://www.electionpassport.com/" target="_blank">from countries around the world</a>, in addition to their own knowledge of how such contests are designed and reported. Then we asked them to list differences between how we have modeled elections in the United States and those held in the rest of the world.</p>
+<p dir="ltr">You can see some of the results in <a href="https://festival.etherpad.mozilla.org/data-extending-election-data?" target="_blank">a collaboratively-edited document</a> from the session, but one of the biggest differences is that elections outside the U.S. often center around political parties, not specific candidates. Modeling that could mean creating a first-class Party object to represent not just a party's name but also its platform, candidates and number of seats it won in a parliamentary system.</p>
+<p><img alt="" src="{{ site.baseurl }}/assets/HHtsbs-0v8Hwre1CjmCElXkA4ynA979VtACg4ER04bBHFK_jbJGWtJ-rKKXfJb7N_NmPKn_2qCdJt-wtItMjL9u5fLCEszI4AIxCoZhijYdrtkBeD0hDIx-0" width="624px;" height="428px;" /></p>
+<p dir="ltr">Another factor that we had not given much thought to was the quality of the election. Although this isn't an irrelevant topic for American elections (see: <a href="http://www.factcheck.org/2008/01/the-florida-recount-of-2000/" target="_blank">Florida, 2000</a>), it can have much more immediate meaning in a country that is holding an election for the first time in years, or has a history of elections with significant flaws. <a href="https://twitter.com/haddadme" target="_blank">Mohammed Haddad</a> of Al Jazeera provided several examples in the session notes from his working experience. Many of the international election results also included the number of invalid ballots, too.</p>
+<p dir="ltr">This wasn't just an academic exercise, though: several of the recommendations would fit OpenElections well and could be adopted by the project. Among them are the addition of a MeasureResult object to handle election results for ballot initiatives and other non-candidate elections (currently we are only collecting candidate-specific results) and indicating the incumbency within results. As we work on election results from the United States, we're trying to keep in mind how our model might be adapted and used in other nations, too.</p>
+<p dir="ltr">Our thanks to the folks at Mozilla and all those who came to the session to talk election data. We're grateful for your input and hope you keep following our progress.</p>

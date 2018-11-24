@@ -1,0 +1,42 @@
+---
+layout: post
+title: Covering Oregon
+date: 2016-01-30 23:15:07.000000000 -05:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _thumbnail_id: '1399'
+  _rest_api_published: '1'
+  _rest_api_client_id: "-1"
+  _publicize_job_id: '19297145525'
+author:
+  login: openelections
+  email: openelections@gmail.com
+  display_name: openelections
+  first_name: ''
+  last_name: ''
+---
+<p>We've spent a lot of time in Oregon. Well, not <em>in</em> Oregon, physically, but searching for, obtaining and parsing election results from the state. County-level data is easy to find: the Secretary of State's office provides <a href="http://sos.oregon.gov/elections/Pages/electionhistory.aspx">electronic PDFs of results</a> for elections dating back to 2004. Thanks to Tabula, those were easy to convert so that we could load them into our database.</p>
+<p><img class="alignnone size-full wp-image-1399" src="{{ site.baseurl }}/assets/map.png" alt="map" width="600" height="477" /></p>
+<h6>Source: http://www.oregon.gov/DHS/CHILDREN/FOSTERPARENT/PublishingImages/map.png</h6>
+<p>But precinct-level data was, as we've said before, a whole other story. We've written about specific aspects of this process, but here is the complete story about how we published what is, to the best of our knowledge, the first freely-available set of statewide precinct-level election results for 2012 and 2014 elections in Oregon.</p>
+<p>We began gathering Oregon data in <a href="https://github.com/openelections/openelections-data-or/commit/0685040880a9120dc2f119c35168416679522b2b">early May 2015</a>, starting with the county-level data and then moving onto individual counties. We asked about other sources of precinct-level data, but never found a freely available one. The state does not maintain precinct-level results data. When we turned to the counties, we found a few that provided machine-readable results (mostly in PDF format), including the largest counties (Multnomah, Clackamas and Marion among them). Parsing those results was by no means <a href="https://github.com/openelections/openelections-data-or/blob/master/multnomah_parser.py">simple</a>, but the files were consistent enough to allow us to grab precinct results.</p>
+<p>But for the bulk of Oregon's 36 counties, here was our process:</p>
+<ol>
+<li>Email county clerk's office asking about the availability of results. Sometimes we called.</li>
+<li>Request results for 2000-2014, if available. If not, request as much as they had.</li>
+<li>For some, pay a fee for the results, ranging from $37.50 (Union County) to $222.75 (Tillamook County, just for 2010-2014).</li>
+<li>Get the results, typically PDF image files that would require OCR to convert into machine-readable data. In some cases, we were sent paper via the postal service.</li>
+<li>Create election and county-specific files.</li>
+</ol>
+<p>We had several volunteers (some listed <a href="https://github.com/openelections/openelections-data-or/network/members">here</a>) help us with the conversion process, which helped us get the data converted faster. All told, we spent more than $1,000 on Oregon precinct-level results, and for that we got a wide range of files covering most of the elections we sought but not all.</p>
+<p>We built a <a href="https://github.com/openelections/openelections-data-or/blob/master/county_matrix.csv">matrix</a> showing the county coverage that we have, something that we'll be doing for other states and putting on openelections.net as well. In many counties, getting pre-2008 results was either impossible or cost-prohibitive. In one case, Crook County, the precinct results from the 2010 general and 2012 primary elections are no longer available. To repeat: no government entity has precinct-level results for Crook County for those two elections. They are missing from the public record.</p>
+<p>Almost every county clerk we spoke or emailed with was friendly and wanted to help us. Many offered results for free online, and we happily downloaded those files. Others had results but have not posted them. Many of them appear to use the same software to produce election results reports but continue to print out those electronic reports and scan them, reducing legibility.</p>
+<p>Oregon is, sadly, not an isolated case. There are other states where obtaining precinct-level results is a painstaking effort, even when counties and states produce electronic version of political maps and voter files. Election results, in too many cases, are a weak link in our civic infrastructure.</p>
+<p>So we'll be back in touch with our Oregon clerks at the end of this year or early next year, asking for more election results. We'll know what to expect this time, and it should be a less-expensive and shorter process. But on both counts, the progress isn't enough.</p>
+<p>&nbsp;</p>

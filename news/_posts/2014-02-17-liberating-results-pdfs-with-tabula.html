@@ -1,0 +1,36 @@
+---
+layout: page
+title: Liberating Results PDFs with Tabula
+date: 2014-02-17 17:06:03.000000000 -05:00
+type: page
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _edit_last: '43578620'
+  _wp_page_template: default
+  _publicize_pending: '1'
+author:
+  login: openelections
+  email: openelections@gmail.com
+  display_name: openelections
+  first_name: ''
+  last_name: ''
+---
+<p><strong>By Derek Willis</strong></p>
+<p>As much as we'd love to be able to report that election agencies only deliver results in structured data files, that's not the case. In many states we're fortunate to find electronically-generated PDFs, which at least contain the promise of data if not always the ease of access.</p>
+<p>Take New Mexico, for example. The Secretary of State's office provides precinct-level results files for <a href="http://www.sos.state.nm.us/uploads/files/Bernalillo2012Gen.pdf" target="_blank">each county</a>, including absentee ballots. But the files are PDFs, and there's another catch: although the results are typical rows and columns as you might find in a spreadsheet, the column headers listing the candidate names are vertically aligned, like so:</p>
+<p><img alt="Bernalillo County" src="{{ site.baseurl }}/assets/nm_cols2.png?w=486" /></p>
+<p>That causes some issues when either copying and pasting directly from the PDF or when using a utility such as <a href="http://www.foolabs.com/xpdf/" target="_blank">xPDF</a>, which converts electronic PDFs into text files while attempting to preserve the layout. The vertical alignment issue will require a certain amount of manual intervention, but the question is: how much?</p>
+<p>We've been looking at Tabula, an open-source project created by <a href="http://jazzido.com/" target="_blank">Manuel Aristarán</a> with the support of <a href="http://propublica.org/" target="_blank">ProPublica</a>, <a href="http://blogs.lanacion.com.ar/data/" target="_blank">La Nación DATA</a> and <a href="http://www.mozillaopennews.org/" target="_blank">Knight-Mozilla OpenNews</a>. It helps extract structured data from PDFs, but allows some user control over the process. Tabula users draw a box around the area of the PDF they want to extract, and then can copy the table as a CSV or tab-delimited text file.</p>
+<p>When I learned about the <a href="http://pdfliberation.wordpress.com/" target="_blank">PDF Liberation Hackathon</a> being held in several cities in January, I <a href="https://twitter.com/derekwillis/status/424312443213729792" target="_blank">gently asked on Twitter</a> what might be possible with a New Mexico results file. Turns out, quite a lot.</p>
+<p>Jeremy Merrill, one of Tabula's developers, responded that <a href="https://twitter.com/jeremybmerrill/status/424606215185121280" target="_blank">Tabula could extract the data</a>, but had the same issue with the vertical headers. Unlike other text extraction utilities, however, Tabula could work around the headers, because it allows you to select an area of the PDF that you want to extract. So I took that route, drawing a box over just the data from the presidential race.</p>
+<p><img alt="Tabula admin" src="{{ site.baseurl }}/assets/bernalillo-president.png?w=580" /></p>
+<p>The results are impressive, and Tabula makes it easy to grab or download the data:</p>
+<p><img alt="Tabula results" src="{{ site.baseurl }}/assets/bernalillo-results.png?w=580" /></p>
+<p>Some issues remain - the empty columns in the PDF seem to cause Tabula some issues, so extracting all of the data on each page could require drawing multiple boxes. But that's still better than trying to clean up problematic text dumped out randomly with the data columns interspersed. Tabula may be especially useful with results files at the local level, which often are published as PDFs.</p>
+<p>As we work with the data from more states, we're finding that many will have their own challenges. As a result, we're not only going to extract the data that we need, we're also adding a state-specific file to our <a href="https://github.com/openelections/core" target="_blank">main repository</a> that will explain the steps we took to retrieve and process the results. That will include listing any software we used, so that people who want to replicate or check our processes can retrace our steps as closely as possible.</p>
+<p>Some states that use PDFs will be easier to work with, while others will be much harder. It's nice to know that there are open source tools that are getting more sophisticated and useful, and that we can make them a part of our effort.</p>

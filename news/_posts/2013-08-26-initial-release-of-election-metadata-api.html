@@ -1,0 +1,27 @@
+---
+layout: post
+title: Initial Release of Election Metadata API
+date: 2013-08-26 17:38:29.000000000 -04:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Announcements
+tags: []
+meta:
+  _edit_last: '43578620'
+  _publicize_pending: '1'
+author:
+  login: openelections
+  email: openelections@gmail.com
+  display_name: openelections
+  first_name: ''
+  last_name: ''
+---
+<p>Our volunteers have been <a href="http://docs.openelections.net/getting-involved/">gathering election metadata</a> for several months now, and while we finish up that task we're ready to start showing you some of the results of that work. Fleshing out the efforts detailed on our <a href="https://github.com/openelections/specs/wiki/Elections-Data-Spec-Version-2">wiki</a>, we're releasing an election metadata API that will deliver information about the availability and scope of results data within the project.</p>
+<p>Our initial API response contains <a href="http://docs.openelections.net/election-metadata/">most of the data</a> that volunteers have put into our admin via the data-entry process, along with an OpenElections-specific unique identifier for each election. The API currently delivers JSON, but we're working on a CSV response as well that provides the same information. Here's the response for <a href="http://openelections.net/api/v1/state/md/year/2012/">elections in Maryland in 2012</a>. You can play around with other <a href="http://openelections.net/api/v1/state/fl/year/2012/">states</a> and <a href="http://openelections.net/api/v1/state/il/year/2004/">years</a> by changing the state postal abbreviation and the year, with the caveats that we don't yet have metadata for all states and we're focusing on elections between 2000 and 2012. We've begun a <a href="http://docs.openelections.net/metadata-api/">basic documentation page for the API</a>, too.</p>
+<p>Among the details we're providing in the API are the availability of results at different reporting levels, such as racewide, county or congressional district, and the broad categories of offices represented in those results. For our volunteers, who have gathered much of this information, it's a chance to see your work in action, and another chance for us to thank you for those efforts. We'll also be adding 2013 and 2014 election metadata as part of our process, and we hope you find it useful.</p>
+<p>OpenElections' adoption of the <a href="https://github.com/opencivicdata/ocd-division-ids">Open Civic Division identifiers</a> also is evident in this API. We're using the OCD identifiers for individual states right now and when we release results data we'll add them to our custom output.</p>
+<p>This release isn't just for end users who want to check on the status of our efforts (although we hope that it will be useful for that and similar purposes); we're also using it in our own efforts to load and parse the actual results data. That process is beginning with a handful of states and will continue this fall into 2014. Our goal is to have those initial results ready for preview later this year for feedback and testing. As always, you can keep up with developments on our <a href="https://groups.google.com/forum/?fromgroups=#!forum/openelections">Google Group</a> or follow the project on <a href="https://twitter.com/openelex">Twitter</a>.</p>

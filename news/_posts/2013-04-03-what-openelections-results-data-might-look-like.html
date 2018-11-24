@@ -1,0 +1,86 @@
+---
+layout: post
+title: What OpenElections Results Data Might Look Like
+date: 2013-04-03 18:57:54.000000000 -04:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Results
+tags: []
+meta:
+  _publicize_pending: '1'
+  _edit_last: '43578620'
+  _oembed_4aa534a82363ff03278d27d68cc5d2ae: "{{unknown}}"
+  _oembed_285970466b81d6aaec13db0820ff060b: "{{unknown}}"
+  _oembed_47d36184d1c0c03ee7b2a90e4bbca645: "{{unknown}}"
+  _oembed_24efa9c742f0eecff0bdbdea3d33bd9c: "{{unknown}}"
+author:
+  login: openelections
+  email: openelections@gmail.com
+  display_name: openelections
+  first_name: ''
+  last_name: ''
+---
+<p>The goal of OpenElections is to provide clean, consistent results data for federal, statewide and state legislative races from all 50 states, and to make it easy for journalists (or anyone else) to access them in common data formats. We want to provide a minimum set of information for each race, supplemented by additional data that may be available from the state.</p>
+<p>Our results spec is a work in progress, and likely will change as the project develops. Your input on the contents of results data and ways that users can retrieve them are welcomed. Join our <a href="https://groups.google.com/d/forum/openelections">Google Group</a>, or send us an email at <a href="mailto:openelections@gmail.com">openelections@gmail.com</a>.</p>
+<h3>
+<a name="formats" class="anchor" href="#formats"><span class="mini-icon mini-icon-link"></span></a>Formats</h3>
+<p>The initial formats for results data are CSV and JSON, both lightweight text formats that can be easily used by applications ranging from Microsoft Excel to web application frameworks or mobile applications. All files described below are available as both CSV and JSON by adding those extensions to filenames. Future formats may include XML, and we welcome your feedback.</p>
+<h3>
+<a name="state-metadata" class="anchor" href="#state-metadata"><span class="mini-icon mini-icon-link"></span></a>State Metadata</h3>
+<p>Results data is organized primarily by state and then by year within each state. Each state has a top-level directory labeled with its two-character state abbreviation, such as "MD" for Maryland. At the top level a file "metadata" contains basic information about the availability of results for that state. The layout for the metadata file is as follows:</p>
+<ul>
+<li>years - an array of integers listing the years for which OpenElections has election information.</li>
+<li>updated_at - a timestamp indicating the last update to any of the state's files.</li>
+<li>volunteers - an array of OpenElections usernames indicating people who have contributed to this state's results.</li>
+</ul>
+<p>In the CSV version, years and volunteers are comma-delimited text; in JSON they are standard arrays.</p>
+<h3>
+<a name="elections-by-year" class="anchor" href="#elections-by-year"><span class="mini-icon mini-icon-link"></span></a>Elections by Year</h3>
+<p>Inside a particular year's directory within a state there is a file called "elections" listing the elections that occurred in that year and information about the status and scope of results data. An example url would be: <a href="https://s3.amazonaws.com/openelex-data/us/states/md/2012/elections.json">https://s3.amazonaws.com/openelex-data/us/states/md/2012/elections.json</a> for JSON and <a href="https://s3.amazonaws.com/openelex-data/us/states/md/2012/elections.csv">https://s3.amazonaws.com/openelex-data/us/states/md/2012/elections.csv</a> for CSV.</p>
+<p>The layout of the elections file is as follows:</p>
+<ul>
+<li>year - an integer representing the year of the elections</li>
+<li>state - the two-character state postal abbreviation</li>
+<li>elections - an array of hashes containing individual election information (json file only)</li>
+<li>date - the date of the election</li>
+<li>results_type - the type of results available (Certified, Unofficial or null)</li>
+<li>election_type - 'primary', 'general', 'runoff' or other election type</li>
+<li>special - a boolean indicating whether the election is a special election</li>
+<li>office - a string representing the office contested in the election</li>
+<li>result_levels - an array containing a hash of the availability of results at certain levels (json file only)</li>
+<li>race_wide - a boolean indicating whether race-level results are available</li>
+<li>county - a boolean indicating whether county-level results are available</li>
+<li>congressional_district - a boolean indicating whether congressional district level results are available</li>
+<li>state_legislative - a boolean indicating whether state legislative district level results are available</li>
+<li>precinct - a boolean indicating whether precinct-level results are available</li>
+<li>updated_at - a timestamp indicating when the given election was last updated</li>
+</ul>
+<h3>
+<a name="race-wide-results-for-an-election" class="anchor" href="#race-wide-results-for-an-election"><span class="mini-icon mini-icon-link"></span></a>Race-wide Results for an Election</h3>
+<p>Each election date represents a directory containing CSV and JSON files covering elections to specific offices. For example, the Nov. 6, 2012 general election results would be stored in a 2012-11-06 directory, and the filenames would represent offices such as "president", "us-senate" and "us-house". Each office file would contain basic information about the election (office, election type, reporting level and total votes), and one record for each candidate listed in the results. The result records consist of at least these fields:</p>
+<ul>
+<li>first_name - a string representing the parsed first name of the candidate</li>
+<li>middle_name - a string representing the parsed middle name or initial of the candidate</li>
+<li>last_name - a string representing the parsed last name of the candidate</li>
+<li>suffix - a string representing the parsed suffix of the candidate</li>
+<li>name_raw - a string representing the "raw" full name of the candidate from the results, if present</li>
+<li>party - a string representing the "raw" party name or abbreviation from the results</li>
+<li>office - a string representing the office</li>
+<li>election_type - a string representing the type of election ("special", "primary", "election", for example)</li>
+<li>reporting_level - a string representing the level represented by the results ("racewide", "county", for example)</li>
+<li>reporting_jurisdiction - a string representing the reporting jurisdiction (the two-character state abbreviation, or county name, for example)</li>
+<li>winner - a boolean marked true for the winning candidate; all other candidates are marked as false</li>
+<li>votes - the race-wide number of votes received by a candidate</li>
+<li>pct - the race-wide percentage of votes received by a candidate</li>
+</ul>
+<p>Depending on the state, there may be other fields in the results data, including:</p>
+<ul>
+<li>write_in - a boolean marked true if the candidate is a write-in candidate</li>
+<li>precincts - the total number of precincts for a reporting level</li>
+</ul>
+<p>Here's <a href="https://s3.amazonaws.com/openelex-data/us/states/md/2012/2012-11-06/president.json">an example of a race-wide JSON president file</a> and a <a href="https://s3.amazonaws.com/openelex-data/us/states/md/2012/2012-11-06/president.csv">race-wide CSV president file</a>. There also are county-level <a href="https://s3.amazonaws.com/openelex-data/us/states/md/2012/2012-11-06/montgomery-county/president.json">JSON</a> and <a href="https://s3.amazonaws.com/openelex-data/us/states/md/2012/2012-11-06/montgomery-county/president.csv">CSV</a> files for a single county.</p>
+<p>We'd love to get your reactions, comments and suggestions for these results files. Are we missing fields or attributes, or should others be changed? How should we handle different types of votes (absentee, same-day registration, etc.)? What about the URL structure or the way that county-level results are handled? Let us know.</p>

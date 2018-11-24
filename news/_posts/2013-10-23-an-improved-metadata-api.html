@@ -1,0 +1,29 @@
+---
+layout: page
+title: An Improved Metadata API
+date: 2013-10-23 17:21:42.000000000 -04:00
+type: page
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _edit_last: '43578620'
+  _wp_page_template: default
+  _publicize_pending: '1'
+author:
+  login: openelections
+  email: openelections@gmail.com
+  display_name: openelections
+  first_name: ''
+  last_name: ''
+---
+<p><strong><a href="http://openelections.files.wordpress.com/2013/02/derek1.jpg"><img class="size-full wp-image-137 alignleft" alt="derek" src="{{ site.baseurl }}/assets/derek1.jpg" width="150" height="200" /></a>By Derek Willis</strong></p>
+<p>It's not new, but it is improved. The Election Metadata API that we <a href="http://blog.openelections.net/2013/08/26/initial-release-of-election-metadata-api/">first released at the end of August</a> has been revamped to make it easier to access specific objects and to provide more detail.</p>
+<p>Rewritten using <a href="http://django-tastypie.readthedocs.org/en/latest/index.html">Tastypie</a>, the API now provides a list of endpoints for individual states (for example, <a href="http://openelections.net/api/v1/?format=json&amp;state__postal=MD">here is Maryland</a>). That gives developers and users a roadmap for what kinds of information are available.</p>
+<p>A common request could be for the elections in a given state. Continuing with Maryland, here are <a href="http://openelections.net/api/v1/election/?format=json&amp;state__postal=MD">all the elections in the Old Line State</a> contained in the OpenElections database. The responses include not only details about the elections but also about the source of the data (the <code>organization</code> in our parlance) and the <code>state</code> object itself.</p>
+<p>While the initial release of the API provided the ability to filter elections by year, this updated version allows the use of specific dates to restrict the elections. For example, users can supply a date range in order to find <a href="http://openelections.net/api/v1/election/?format=json&amp;state__postal=MD&amp;start_date__gte=2012-01-01&amp;end_date__lte=2013-01-01">elections held in Maryland in 2012</a>. To drill down to <a href="http://openelections.net/api/v1/election/?format=json&amp;state__postal=MD&amp;start_date__gte=2012-01-01&amp;end_date__lte=2013-01-01&amp;race_type=general">only general elections</a>, use the <code>race_type</code> filter. You can check out <a href="https://github.com/openelections/dashboard/blob/master/dashboard/apps/hub/api.py">all of the possible filters</a> at our <a href="https://github.com/openelections/dashboard">GitHub repository</a>.</p>
+<p>For any request involving an object like <code>election</code> or <code>organization</code> or <code>state</code>, the response will include a <code>meta</code> object that includes the number of records returned.</p>
+<p>The Metadata API is essentially dogfood for the project - it is mostly used to help other parts keep track of what we know about the availability and scope of election results. But if you find it useful, or have improvements you might like to see, let us know on <a href="https://github.com/openelections/dashboard">GitHub</a>, in our <a href="https://groups.google.com/forum/?fromgroups=#!forum/openelections">Google Group</a> or on <a href="https://twitter.com/openelex">Twitter</a>.</p>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="{{ page.title | handleize | downcase }}{% if page.body_class %} {{ page.body_class }}{% endif %}">
+    {% include header.html %}
+
+    <div class="container">
+      <div class="row">
+        <div id="main" class="col-md-12">
+            {% if page.hide_default_heading %}
+            {% else %}
+            <h1>{% if page.display_title %}{{ page.display_title }}{% else %}{{ page.title }}{% endif %}</h1>
+            {% endif %}
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    {% include scripts.html %}
+  </body>
+</html>

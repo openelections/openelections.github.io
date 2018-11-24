@@ -1,0 +1,34 @@
+---
+layout: page
+title: When Election Results Aren’t Yet Data
+date: 2014-05-06 18:31:45.000000000 -04:00
+type: page
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _edit_last: '43578620'
+  _wp_page_template: default
+  _publicize_pending: '1'
+author:
+  login: openelections
+  email: openelections@gmail.com
+  display_name: openelections
+  first_name: ''
+  last_name: ''
+---
+<p>As our volunteers have gathered details on the scope and availability of election results from across the country, one thing became clear: not all election results are created equal.</p>
+<p>Some states provide results data in multiple formats and variations; all you have to do is choose and click. Florida has a download for every election. In Pennsylvania, we found that for $7 the state provides a CD with 12 years of consistently formatted results. Idaho has multiple files covering different reporting levels.</p>
+<p>But that's not every state. Some have made the transition from producing <a href="http://www.sos.wv.gov/elections/history/electionreturns/Pages/2004-ElectionReturns.aspx" target="_blank">PDFs</a> to <a href="http://apps.sos.wv.gov/elections/results/download.aspx?year=2012&amp;eid=13" target="_blank">CSVs</a>, such as West Virginia. Others, like Mississippi, basically provide <a href="http://www.sos.ms.gov/elections_results_2012_county.aspx" target="_blank">a picture of the results</a>. For states where data isn't the norm, OpenElections needs to fill the gap, turning results into data.</p>
+<p>This isn't a glamorous job, but we'd like to tell you a little about how we go about it. For states that provide electronically-generated PDFs, like West Virginia does for elections from 2000-2006, there are several good options for parsing PDF tables into data. The command-line utility pdftotext from the <a href="http://www.foolabs.com/xpdf/download.html" target="_blank">xPDF</a> package works well in many cases, while the excellent <a href="http://tabula.nerdpower.org" target="_blank">Tabula</a> (a product of ProPublica, La Nación and the Knight-Mozilla OpenNews project) can do wonders with more complex files. For West Virginia, xPDF was all we needed (along with some search and replace in a text editor) to make <a href="https://github.com/openelections/openelections-data-wv" target="_blank">CSV files</a> from the original PDFs. Here's an example command that generates a fixed-width text file while preserving the rows and column format of the <a href="http://www.sos.wv.gov/elections/history/electionreturns/Documents/2000/2000%20House%20of%20Rep%20Pri.pdf" target="_blank">original file</a>:</p>
+<p><code>$ pdftotext -layout 2000 House of Rep Pri.pdf</code></p>
+<p>We used <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a>, a free text editor for the Mac, to convert the spaces between columns into tabs, and from there it was trivial to copy results into CSV files. In the process of converting these results, we found several apparent errors (typos or likely copy and paste mistakes) and notified the Secretary of State's office. To its credit, the office responded quickly and is in the process of fixing the original files (and we'll update our CSVs when they do).</p>
+<p>In Mississippi, however, there's are no programmatic options, or at least no good ones. Data entry is the best way for us to get precinct-level results that are contained in county-by-county files <a href="http://www.sos.ms.gov/elections/electionresults/2012General/county%20Recaps/Forrest.pdf" target="_blank">like this one</a>. Here's what we're dealing with: a scanned image of a fax:</p>
+<p>&nbsp;</p>
+<p><a href="http://openelections.files.wordpress.com/2014/05/screen-shot-2014-05-05-at-8-31-51-pm.png"><img class="alignnone wp-image-1055 size-full" src="{{ site.baseurl }}/assets/screen-shot-2014-05-05-at-8-31-51-pm.png" alt="Screen Shot 2014-05-05 at 8.31.51 PM" width="1057" height="801" /></a></p>
+<p>&nbsp;</p>
+<p>When it comes to doing data entry, we need to be very specific about what we want and how we want it stored in the CSV file. For <a href="https://github.com/openelections/openelections-data-ms" target="_blank">our Mississippi files</a>, we've developed a guide to the process that we'll adapt to other states where manual entry is required. Which is where you come in, if you're up for it. If you'd like to try your hand at a Mississippi file (or another state with PDFs) let us know in the Google Group and we can get you setup. Or you can fork the <a href="https://github.com/openelections/openelections-data-ms" target="_blank">Mississippi results repository</a> on Github and send us an email per the instructions in the README file.</p>
+<p>We know that data entry is neither fun nor exciting (well, most of the time), but think of this: you'll be part of a project that will provide a great service to journalists, researchers and citizens. And we still have some t-shirts left, too.</p>

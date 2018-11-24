@@ -1,0 +1,31 @@
+---
+layout: page
+title: Announcing FEC Results
+date: 2013-11-18 19:41:27.000000000 -05:00
+type: page
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _edit_last: '43578620'
+  _wp_page_template: default
+  _publicize_pending: '1'
+author:
+  login: openelections
+  email: openelections@gmail.com
+  display_name: openelections
+  first_name: ''
+  last_name: ''
+---
+<p><strong>By Derek Willis</strong></p>
+<p>The <a href="http://www.fec.gov/" target="_blank">Federal Election Commission</a> isn't the first place that reporters might expect to find election results. The agency is known for providing data about the financing of campaigns - who is giving and getting money - and for deciding how to enforce campaign finance laws.</p>
+<p><img class="alignnone wp-image-657" alt="fec" src="{{ site.baseurl }}/assets/fec.png" width="700" height="320" /></p>
+<p>But election results? There's no direct link to the <a href="http://www.fec.gov/pubrec/electionresults.shtml" target="_blank">FEC's section on congressional and presidential results</a> from the site's home page, but every two years the commission compiles certified results for primary and general elections from official sources, and then publishes <a href="http://www.fec.gov/pubrec/fe2012/federalelections2012.shtml" target="_blank">spreadsheets and PDFs</a> containing the data.</p>
+<p>Today we're announcing the release of <a href="http://openelections.github.io/fec_results/" target="_blank">FecResults</a>, a Ruby gem for retrieving and parsing the data contained in those files, as well as a JSON API for that data.</p>
+<p>OpenElections, like the FEC, collects official results data from state election officials, and we're looking for as much detail as we can get. The FEC data, by contrast, is just concerned with the race-wide totals for House, Senate and presidential contests. So why would we make the FEC results data available?</p>
+<p>One reason is that for many users, race-wide data for federal elections is useful enough, and some of the breakdowns that the FEC provides for presidential races are particularly useful (<a href="http://openelections.github.io/fec_results/api/2012/president/state_electoral_and_popular_vote_summary.json" target="_blank">state-by-state electoral and popular vote totals</a>, for example). Another reason is that we see this data as helping us fulfill the mission of OpenElections, which is not only to publish election results data but to make it easier to link to other kinds of information.</p>
+<p>The FEC results data (<a href="http://openelections.github.io/fec_results/api/2004/congress/results.json" target="_blank">2004 example</a>) includes unique identifiers for most candidates within each election, which are assigned by the FEC for fundraising purposes. Most state election results sites don't include this identifier, since it has little use for state authorities. Publishing the FEC data will enable us to use it as a reconciliation service so that we can connect state-produced data with the federal ID system, and thus with federal campaign finance data where possible. Having the certified totals is also a way to check our state data gathering processes, too.</p>
+<p>Some technical details: the <a href="https://github.com/openelections/fec_results" target="_blank">FecResults gem</a> makes use of the RemoteTable library, which handles all kinds of tabular data in files on the Internet. Since the spreadsheet files aren't always consistent from year to year, we needed to customize the process of grabbing and parsing the data into Ruby objects. A separate gem, <a href="https://github.com/openelections/fec_results_generator" target="_blank">FecResultsGenerator</a>, publishes the data as static JSON files, which are then published via GitHub Pages.</p>

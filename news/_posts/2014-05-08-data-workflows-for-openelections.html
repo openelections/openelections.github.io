@@ -1,0 +1,49 @@
+---
+layout: page
+title: Data Workflows for OpenElections
+date: 2014-05-08 19:20:27.000000000 -04:00
+type: page
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _edit_last: '43578620'
+  _wp_page_template: default
+  _publicize_pending: '1'
+author:
+  login: openelections
+  email: openelections@gmail.com
+  display_name: openelections
+  first_name: ''
+  last_name: ''
+---
+<p>When we embarked on this quest to bring sanity to election data in the U.S., we knew we were in for a heavy lift.</p>
+<p>A myriad of data formats awaited us, along with variations in data quality across states and within them over time.  In the past few months, the OpenElections team and volunteers have crafted a system to tame this wild landscape. This post takes a closer look at how we applied this system to Maryland, the first state that we took on to define the data workflow process end to end. Hopefully it helps shine some light on our process and generates ideas on how we can improve things.</p>
+<h3>The Data Source</h3>
+<p>Maryland offers relatively clean, precinct-level results on the web. In fact, it provides so many result CSVs (over 700!) that we <a href="https://github.com/openelections/core/blob/d1afa9cc6580d620c707c4d15f0718f008d11560/openelex/us/md/datasource.py#L69" target="_blank">abstracted the process</a> for generating links to the files, rather than scraping them off <a href="http://www.elections.state.md.us/" target="_blank">the site </a>.</p>
+<p>Other states provide harder-to-manage formats such as database dumps and image PDFs that must be massaged into tabular data. We've devised a pre-processing workflow to handle these hard cases, and started to apply it in states such as Washington and <a href="https://github.com/openelections/openelections-data-wv" target="_blank">West Virginia</a>.</p>
+<p>The common denominator across all states is the <a href="https://github.com/openelections/core/blob/d1afa9cc6580d620c707c4d15f0718f008d11560/openelex/base/datasource.py" target="_blank">Datasource</a>. It can be a significant effort to wire up code-wise, but once complete, it allows us to easily feed raw results into the data processing pipeline.  Our goal in coming months is to tackle this problem for as many states as possible, freeing contributors to work on more interesting problems such as data loading and standardization.</p>
+<h3>Raw Results</h3>
+<p>When the datasource was in place, we were ready to load Maryland's data as <a href="https://github.com/openelections/core/blob/d1afa9cc6580d620c707c4d15f0718f008d11560/openelex/models.py#L92" target="_blank">RawResult</a> records in <a href="https://www.mongodb.org/‎" target="_blank">Mongo</a>, our backend datastore. The goal was to minimize the friction of initial data loading. While we retained all available data points, the focus in this critical first step was populating a common core of fields that are available across all states.</p>
+<p>In Maryland, this meant writing <a href="https://github.com/openelections/core/blob/d1afa9cc6580d620c707c4d15f0718f008d11560/openelex/us/md/load.py" target="_blank">a series of data loaders</a> to handle variations in data formats across time. Once these raw result loaders were written, we turned our attention to cleanups that make the data more useful to end users.</p>
+<h3><strong>Transforms</strong></h3>
+<p>Loading raw results into a common set of fields is a big win, but we've set our sights much higher. Election data becomes much more useful after standardizing candidate names, parties, offices, and other common data points.</p>
+<p>The types of data <a href="http://docs.openelections.net/guide/#transform" target="_blank">transforms</a> we implement will vary by state, and in many cases, one set of cleanups must precede others. <a href="http://en.wikipedia.org/wiki/Database_normalization" target="_blank">Normalizing</a> data into unique contests and candidates is a transform common to all states, usually one that should be performed early in the process.</p>
+<p>Transforms let us correct, clean or disambiguate results data in a discrete, easy-to-document, and replicable way.  This helps keep the data loading code simple and clear, especially when dealing with varying data layouts or formats between elections.</p>
+<p>In Maryland, we used the <a href="https://github.com/openelections/core/blob/d1afa9cc6580d620c707c4d15f0718f008d11560/openelex/base/transform.py" target="_blank">core framework</a> to create unique <a href="https://github.com/openelections/core/blob/d1afa9cc6580d620c707c4d15f0718f008d11560/openelex/us/md/transform/__init__.py#L222" target="_blank">Contest</a> and <a href="https://github.com/openelections/core/blob/d1afa9cc6580d620c707c4d15f0718f008d11560/openelex/us/md/transform/__init__.py#L251" target="_blank">Candidate</a> records for precinct results. These transforms included:</p>
+<ul>
+<li><a href="https://github.com/openelections/core/blob/d1afa9cc6580d620c707c4d15f0718f008d11560/openelex/us/md/transform/__init__.py#L173">parsing candidate names</a></li>
+<li><a href="https://github.com/openelections/core/blob/d1afa9cc6580d620c707c4d15f0718f008d11560/openelex/us/md/transform/__init__.py#L173">standardizing party names</a></li>
+<li><a href="https://github.com/openelections/core/blob/d1afa9cc6580d620c707c4d15f0718f008d11560/openelex/us/md/transform/__init__.py#L92" target="_blank">standardizing office names</a></li>
+<li><a href="https://github.com/openelections/core/blob/d1afa9cc6580d620c707c4d15f0718f008d11560/openelex/us/md/transform/__init__.py#L413" target="_blank">standardizing political jurisdictions</a></li>
+</ul>
+<p>This opened the door to generating totals at the contest-wide level for each candidate.</p>
+<h3>Validations</h3>
+<p>At this point, you might be getting nervous about all this processing.  How do we ensure accuracy with all this data wrangling? Enter data <a href="http://docs.openelections.net/guide/#validate" target="_blank">validations</a>, which provide a way to link data integrity checks with a particular transformation, or more broadly check data loading and transformation.  In Maryland, for example, we implemented a <a href="https://github.com/openelections/core/blob/0b9936bd128f831d956529650be2b989aa2eb596/openelex/us/md/validate/__init__.py#L446">validation</a> and <a href="https://github.com/openelections/core/blob/ceed87ec97dfcdaf4ec769362051729b229d8072/openelex/us/md/transform/__init__.py#L700">bound it</a> to <a href="https://github.com/openelections/core/blob/ceed87ec97dfcdaf4ec769362051729b229d8072/openelex/us/md/transform/__init__.py#L589">a transform that normalizes the format of precinct names</a>.  In this case, the validation acts like a unit test for the transform.  We also cross-check the loaded and transformed result data in validations that aren't bound to specific transforms to <a href="https://github.com/openelections/core/blob/0b9936bd128f831d956529650be2b989aa2eb596/openelex/us/md/validate/__init__.py#L235">confirm that we've loaded the expected number of results for a particular election</a> or <a href="https://github.com/openelections/core/blob/0b9936bd128f831d956529650be2b989aa2eb596/openelex/us/md/validate/__init__.py#L223">ensure that the sum of a candidate's sub-racewide vote totals matches up with published racewide totals</a>.</p>
+<p>Implementing and running validations has helped us uncover data quirks, such as precinct-level data reflecting only election day vote totals, while result data for other reporting levels includes absentee and other types of votes. Validations have also exposed discrepancies between vote counts published on the State Board of Elections website and ones provided in CSV format.  We've circled back to Maryland officials with our findings, prompting them to fix their data at the source.</p>
+<h3>Summary</h3>
+<p>Maryland has been a guinea pig of sorts for the OpenElections project (thank you Maryland!).  It's helped us flesh out a data processing framework and conventions that we hope to apply across the country.  Of course, challenges remain: standardizing party names across states; mapping precincts to counties; and sundry other issues we didn't cover here remain a challenge.</p>
+<p>As we tackle more states, we hope to refine our framework and conventions to address the inevitable quirks in U.S. election data . Meantime, we hope this provides a window into our process and gives you all some footing to make it easier to <a href="http://docs.openelections.net/guide/" target="_blank">contribute</a>.</p>

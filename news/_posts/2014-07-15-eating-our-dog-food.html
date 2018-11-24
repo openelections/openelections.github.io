@@ -1,0 +1,29 @@
+---
+layout: page
+title: Eating Our Dog Food
+date: 2014-07-15 17:08:59.000000000 -04:00
+type: page
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _edit_last: '43578620'
+  _wp_page_template: default
+  _publicize_pending: '1'
+  geo_public: '0'
+author:
+  login: openelections
+  email: openelections@gmail.com
+  display_name: openelections
+  first_name: ''
+  last_name: ''
+---
+<p><strong>By Derek Willis</strong></p>
+<p>When Serdar and I first talked about building a national collection of certified election results, we had a very specific audience in mind: the two of us. It seemed like every two years (or more frequently), one or both of us would spend time gathering election results data as part of our jobs (me at <em>The New York Times</em>, Serdar then at <em>The Washington Post</em>). We wanted to create a project that both of us could use, and we knew that if we found it useful, others might, too.</p>
+<p>[caption id="attachment_1195" align="alignleft" width="245"]<a href="https://openelections.files.wordpress.com/2014/07/hinds.png"><img class="wp-image-1195 size-medium" src="{{ site.baseurl }}/assets/hinds.png?w=245" alt="Precinct comparison" width="245" height="300" /></a> The New York Times[/caption]</p>
+<p>In the world of software development, using your own work is called eating your dog food, and we've done just that. While we're nowhere near finished, I am happy to report that OpenElections data has proven useful to at least half of the original intended audience. Both <a href="http://www.nytimes.com/2014/07/10/upshot/voting-totals-reveal-crucial-boost-from-blacks-in-cochrans-victory.html" target="_blank">last week</a> and <a href="http://www.nytimes.com/2014/07/15/upshot/more-evidence-that-thad-cochran-owes-runoff-win-to-black-voters.html" target="_blank">this week</a>, The Upshot, a new politics and policy site at The Times that I work on, used results data from Mississippi <a href="https://github.com/openelections/openelections-data-ms" target="_blank">collected by OpenElections</a> to dig into the Republican primary and runoff elections for U.S. Senate. The analyses that Nate Cohn did on voting in African-American precincts would not have been possible using <a href="http://www.sos.ms.gov/page.aspx?s=7&amp;s1=1&amp;s2=175" target="_blank">the PDF files</a> posted by the Mississippi Secretary of State. We needed data, and we (and you) now have data.</p>
+<p>We've completed data entry of precinct-level results for the <a href="https://github.com/openelections/openelections-data-ms/tree/master/2012" target="_blank">2012 general election</a> and the <a href="https://github.com/openelections/openelections-data-ms/tree/master/2014" target="_blank">2014 Republican primary runoff</a> elections, plus <a href="https://github.com/openelections/openelections-data-ms/tree/master/2013" target="_blank">special elections from 2013</a>, and we're working on converting more files into data (we just got our first <a href="https://github.com/openelections/openelections-data-ms/pulls?direction=desc&amp;page=1&amp;sort=created&amp;state=closed" target="_blank">contributions</a> from volunteers, too!). These are just the raw results as the state publishes them; we haven't yet published them out using our own results format (but that's coming soon for Maryland and a few other states). We provide the raw results for states that have files requiring some pre-processing - usually image PDFs or other formats that can't be pulled directly into our processing pipeline.</p>
+<p>The Mississippi example is exactly the kind of problem that we hoped OpenElections would help solve, and it's only the beginning for how election results data could be used. Once we begin publishing results data, we'd love to hear how you use it, too. In the meantime, if you have some time, <a href="https://github.com/openelections/openelections-data-ms" target="_blank">there's more Mississippi data to unlock</a>!</p>

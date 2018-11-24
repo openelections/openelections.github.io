@@ -1,0 +1,28 @@
+---
+layout: post
+title: Towards an Open Standard for Political Jurisdictions
+date: 2013-05-20 21:46:59.000000000 -04:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Results
+tags: []
+meta:
+  _edit_last: '43578620'
+  _publicize_pending: '1'
+author:
+  login: openelections
+  email: openelections@gmail.com
+  display_name: openelections
+  first_name: ''
+  last_name: ''
+---
+<p>When we started OpenElections, one of our goals was to make sure that we used a common set of identifiers that users could rely on in the data we produce. For political jurisdictions like states and counties, that usually has meant using Federal Information Processing Standards codes, or <a href="http://quickfacts.census.gov/qfd/meta/long_fips.htm">FIPS</a>. These are five-digit numbers assigned to individual states, counties and other locations. In the <a href="https://github.com/openelections/specs/wiki">drafting of our election metadata and results formats</a>, however, we've proposed adopting the <a href="https://github.com/opencivicdata/ocd-division-ids">Open Civic Data Division Identifiers</a>, an open source project that seeks "to provide somewhat predictable and globally unique identifiers for political divisions of all kinds."</p>
+<p>One reason for doing so is that the identifiers are more descriptive than FIPS codes, including both machine and human-readable representations of states and other jurisdictions. For example, here's North Carolina's 2nd Congressional District:</p>
+<p><code>ocd-division/country:us/state:nc/cd:2</code></p>
+<p>Or, at a more local level, here is Washington D.C.'s Ward 8:</p>
+<p><code>ocd-division/country:us/district:dc/ward:8</code></p>
+<p>Another reason to use these identifiers, as you can see, is that the OCD Division Identifiers could support data beyond the United States. While OpenElections is only focused on the results of American elections, to the extent that others may want to extend our formats to other countries it shouldn't require large-scale changes to do so. We've had some great discussions of other aspects of our <a href="https://github.com/openelections/specs/wiki">formats</a> on our <a href="https://groups.google.com/forum/?fromgroups=#!forum/openelections">Google Group</a>, and we welcome your input as we work towards releasing the second version of our election metadata and results data formats. Join in!</p>

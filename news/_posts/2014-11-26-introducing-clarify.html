@@ -1,0 +1,34 @@
+---
+layout: page
+title: Introducing Clarify
+date: 2014-11-26 20:20:03.000000000 -05:00
+type: page
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _edit_last: '43578620'
+  _wp_page_template: default
+  geo_public: '0'
+  _publicize_pending: '1'
+author:
+  login: openelections
+  email: openelections@gmail.com
+  display_name: openelections
+  first_name: ''
+  last_name: ''
+---
+<h3>An Open Source Elections-Data <span class="caps">URL</span> Locator and Parser from OpenElections</h3>
+<p><strong>By Geoff Hing and Derek Willis, for Knight-Mozilla OpenNews Source Learning</strong></p>
+<p><a href="https://openelections.files.wordpress.com/2014/11/state_summary_page__ky.png"><img class="alignnone wp-image-1302 size-large" src="{{ site.baseurl }}/assets/state_summary_page__ky.png?w=580" alt="state_summary_page__KY" width="580" height="370" /></a></p>
+<p>State election results are like snowflakes: each state—often each county—produces its own special website to share the vote totals. For a project like <a href="http://openelections.net/" target="_blank">OpenElections</a>, that involves having to find results data and figuring out how to extract it. In many cases, that means scraping.</p>
+<p>But in our research into how election results are stored, we found that a handful of sites used a common vendor: <a href="http://www.soesoftware.com/product/clarity-election-night-reporting/" target="_blank">Clarity Elections</a>, which is owned by <span class="caps">SOE</span> Software. States that use Clarity genferally share a common look and features, including statewide summary results, voter turnout statistics, and a page linking to county-specific results.</p>
+<p>The good news is that Clarity sites also include a “Reports” tab that has structured data downloads in several formats, including <span class="caps">XML</span>, <span class="caps">XLS</span>, and<span class="caps">CSV</span>. The results data are contained in .<span class="caps">ZIP</span> files, so they aren’t particularly large or unwieldy. But there’s a catch: the URLs aren’t easily predictable. Here’s a <span class="caps">URL</span> for a statewide page:</p>
+<pre><code>http://results.enr.clarityelections.com/KY/15261/30235/en/summary.html
+</code></pre>
+<p>The first numeric segment—15261 in this case—uniquely identifies this election, the 2010 primary in Kentucky. But the second numeric segment—30235—represents a subpage, and each county in Kentucky has a different one. Switch over to the <a href="http://results.enr.clarityelections.com/KY/15261/30235/en/select-county.html" target="_blank">page listing the county pages</a>, and you get all the links. Sort of.</p>
+<p>The county-specific links, which lead to pages that have structured results files at the precinct level, actually involve redirects, but those secondary numeric segments in the URLs aren’t resolved until we visit them. That means doing a lot of clicking and copying, or scraping. We chose the latter path, although that presents some difficulties as well. Using our time at OpenNews’ New York Code Convening in mid-November, we created <a href="https://github.com/openelections/clarify" target="_blank">a Python library called Clarify</a> that provides access to those URLs containing structured election results data and parses the <span class="caps">XML</span> version of it. We’re already using it in OpenElections, and now we’re releasing it for others who work in states that use Clarity software.</p>
+<p><a href="https://source.opennews.org/en-US/articles/introducing-clarify/" target="_blank">See full piece on Source Learning</a></p>
