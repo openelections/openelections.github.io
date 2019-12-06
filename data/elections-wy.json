@@ -7,7 +7,7 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"precinct": "http://results.openelections.net/wy/raw/20000822__wy__primary__precinct__raw.csv"
+		"precinct": "http://openelections.github.io/openelections-results-wy/raw/20000822__wy__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -28,7 +28,7 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"precinct": "http://results.openelections.net/wy/raw/20001107__wy__general__precinct__raw.csv"
+		"precinct": "http://openelections.github.io/openelections-results-wy/raw/20001107__wy__general__precinct__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -49,7 +49,7 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"precinct": "http://results.openelections.net/wy/raw/20020820__wy__primary__precinct__raw.csv"
+		"precinct": "http://openelections.github.io/openelections-results-wy/raw/20020820__wy__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -70,7 +70,7 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"precinct": "http://results.openelections.net/wy/raw/20021105__wy__general__precinct__raw.csv"
+		"precinct": "http://openelections.github.io/openelections-results-wy/raw/20021105__wy__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -91,7 +91,7 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"precinct": "http://results.openelections.net/wy/raw/20021126__wy__general__precinct__raw.csv"
+		"precinct": "http://openelections.github.io/openelections-results-wy/raw/20021126__wy__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -112,7 +112,7 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"precinct": "http://results.openelections.net/wy/raw/20040817__wy__primary__precinct__raw.csv"
+		"precinct": "http://openelections.github.io/openelections-results-wy/raw/20040817__wy__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -133,7 +133,7 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"precinct": "http://results.openelections.net/wy/raw/20041102__wy__general__precinct__raw.csv"
+		"precinct": "http://openelections.github.io/openelections-results-wy/raw/20041102__wy__general__precinct__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -154,7 +154,7 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"precinct": "http://results.openelections.net/wy/raw/20060822__wy__primary__precinct__raw.csv"
+		"precinct": "http://openelections.github.io/openelections-results-wy/raw/20060822__wy__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -175,7 +175,7 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"precinct": "http://results.openelections.net/wy/raw/20061107__wy__general__precinct__raw.csv"
+		"precinct": "http://openelections.github.io/openelections-results-wy/raw/20061107__wy__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -215,7 +215,7 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"precinct": "http://results.openelections.net/wy/raw/20081104__wy__general__precinct__raw.csv"
+		"precinct": "http://openelections.github.io/openelections-results-wy/raw/20081104__wy__general__precinct__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -236,7 +236,7 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/wy/raw/20081125__wy__general__county__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-wy/raw/20081125__wy__general__county__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -257,7 +257,7 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"precinct": "http://results.openelections.net/wy/raw/20100817__wy__primary__precinct__raw.csv"
+		"precinct": "http://openelections.github.io/openelections-results-wy/raw/20100817__wy__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -278,7 +278,7 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"precinct": "http://results.openelections.net/wy/raw/20101102__wy__general__precinct__raw.csv"
+		"precinct": "http://openelections.github.io/openelections-results-wy/raw/20101102__wy__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -299,7 +299,7 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"precinct": "http://results.openelections.net/wy/raw/20120821__wy__primary__precinct__raw.csv"
+		"precinct": "http://openelections.github.io/openelections-results-wy/raw/20120821__wy__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -320,7 +320,7 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"precinct": "http://results.openelections.net/wy/raw/20121106__wy__general__precinct__raw.csv"
+		"precinct": "http://openelections.github.io/openelections-results-wy/raw/20121106__wy__general__precinct__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -341,7 +341,7 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"precinct": "http://results.openelections.net/wy/raw/20140819__wy__primary__precinct__raw.csv"
+		"precinct": "http://openelections.github.io/openelections-results-wy/raw/20140819__wy__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -362,7 +362,7 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"precinct": "http://results.openelections.net/wy/raw/20141104__wy__general__precinct__raw.csv"
+		"precinct": "http://openelections.github.io/openelections-results-wy/raw/20141104__wy__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -383,7 +383,7 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"precinct": "http://results.openelections.net/wy/raw/20160816__wy__primary__precinct__raw.csv"
+		"precinct": "http://openelections.github.io/openelections-results-wy/raw/20160816__wy__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -404,7 +404,7 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"precinct": "http://results.openelections.net/wy/raw/20161108__wy__general__precinct__raw.csv"
+		"precinct": "http://openelections.github.io/openelections-results-wy/raw/20161108__wy__general__precinct__raw.csv"
 	},
 	"prez": true,
 	"results": {},

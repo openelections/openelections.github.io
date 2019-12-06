@@ -7,8 +7,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20000314__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20000314__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20000314__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20000314__la__primary__precinct__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -29,8 +29,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20001007__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20001007__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20001007__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20001007__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -51,8 +51,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20001107__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20001107__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20001107__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20001107__la__general__precinct__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -73,8 +73,8 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20001107__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20001107__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20001107__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20001107__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -95,8 +95,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20001107__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20001107__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20001107__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20001107__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -117,8 +117,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20001209__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20001209__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20001209__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20001209__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -139,8 +139,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20010210__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20010210__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20010210__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20010210__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -161,8 +161,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20010217__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20010217__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20010217__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20010217__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -183,8 +183,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20010310__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20010310__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20010310__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20010310__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -205,8 +205,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20010317__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20010317__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20010317__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20010317__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -227,8 +227,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20010505__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20010505__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20010505__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20010505__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -249,8 +249,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20010602__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20010602__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20010602__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20010602__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -271,8 +271,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20010721__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20010721__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20010721__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20010721__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -293,8 +293,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20010818__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20010818__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20010818__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20010818__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -315,8 +315,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20011124__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20011124__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20011124__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20011124__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -337,8 +337,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20011215__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20011215__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20011215__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20011215__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -359,8 +359,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20020302__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20020302__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20020302__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20020302__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -381,8 +381,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20020406__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20020406__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20020406__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20020406__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -403,8 +403,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20020504__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20020504__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20020504__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20020504__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -425,8 +425,8 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20021105__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20021105__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20021105__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20021105__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -447,8 +447,8 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20021207__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20021207__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20021207__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20021207__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -469,8 +469,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20021207__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20021207__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20021207__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20021207__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -491,8 +491,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20030118__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20030118__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20030118__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20030118__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -513,8 +513,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20030118__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20030118__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20030118__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20030118__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -535,8 +535,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20030215__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20030215__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20030215__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20030215__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -557,8 +557,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20030215__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20030215__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20030215__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20030215__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -579,8 +579,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20030315__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20030315__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20030315__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20030315__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -601,8 +601,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20031004__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20031004__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20031004__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20031004__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -623,8 +623,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20031115__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20031115__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20031115__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20031115__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -645,8 +645,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20040309__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20040309__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20040309__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20040309__la__primary__precinct__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -667,8 +667,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20040309__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20040309__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20040309__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20040309__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -689,8 +689,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20040417__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20040417__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20040417__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20040417__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -711,8 +711,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20040918__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20040918__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20040918__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20040918__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -733,8 +733,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20041102__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20041102__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20041102__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20041102__la__general__precinct__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -755,8 +755,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20041102__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20041102__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20041102__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20041102__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -777,8 +777,8 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20041102__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20041102__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20041102__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20041102__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -799,8 +799,8 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20041204__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20041204__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20041204__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20041204__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -821,8 +821,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20041204__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20041204__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20041204__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20041204__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -843,8 +843,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20050129__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20050129__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20050129__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20050129__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -865,8 +865,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20050226__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20050226__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20050226__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20050226__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -887,8 +887,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20050305__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20050305__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20050305__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20050305__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -909,8 +909,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20050402__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20050402__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20050402__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20050402__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -931,8 +931,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20050521__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20050521__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20050521__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20050521__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -953,8 +953,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20050604__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20050604__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20050604__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20050604__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -975,8 +975,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20050709__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20050709__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20050709__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20050709__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -997,8 +997,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20050709__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20050709__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20050709__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20050709__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1019,8 +1019,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20060401__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20060401__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20060401__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20060401__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1041,8 +1041,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20060429__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20060429__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20060429__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20060429__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1063,8 +1063,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20060930__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20060930__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20060930__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20060930__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1085,8 +1085,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20061107__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20061107__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20061107__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20061107__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1107,8 +1107,8 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20061107__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20061107__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20061107__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20061107__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1129,8 +1129,8 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20061209__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20061209__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20061209__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20061209__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1151,8 +1151,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20070224__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20070224__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20070224__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20070224__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1173,8 +1173,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20070310__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20070310__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20070310__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20070310__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1195,8 +1195,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20070331__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20070331__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20070331__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20070331__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1217,8 +1217,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20071020__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20071020__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20071020__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20071020__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1239,8 +1239,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20071117__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20071117__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20071117__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20071117__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1261,8 +1261,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20080209__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20080209__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20080209__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20080209__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1283,8 +1283,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20080209__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20080209__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20080209__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20080209__la__primary__precinct__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -1305,8 +1305,8 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20080308__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20080308__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20080308__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20080308__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1327,8 +1327,8 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20080405__la__primary_runoff__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20080405__la__primary_runoff__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20080405__la__primary_runoff__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20080405__la__primary_runoff__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1349,8 +1349,8 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20080503__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20080503__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20080503__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20080503__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1371,8 +1371,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20081004__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20081004__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20081004__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20081004__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1393,8 +1393,8 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20081004__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20081004__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20081004__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20081004__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1415,8 +1415,8 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20081104__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20081104__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20081104__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20081104__la__general__precinct__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -1437,8 +1437,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20081104__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20081104__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20081104__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20081104__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1459,8 +1459,8 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20081206__la__general_runoff__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20081206__la__general_runoff__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20081206__la__general_runoff__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20081206__la__general_runoff__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1481,8 +1481,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20081206__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20081206__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20081206__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20081206__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1503,8 +1503,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20090307__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20090307__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20090307__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20090307__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1525,8 +1525,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20090404__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20090404__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20090404__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20090404__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1547,8 +1547,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20090404__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20090404__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20090404__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20090404__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1569,8 +1569,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20090502__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20090502__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20090502__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20090502__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1591,8 +1591,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20090801__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20090801__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20090801__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20090801__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1613,8 +1613,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20090829__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20090829__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20090829__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20090829__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1635,8 +1635,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20100206__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20100206__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20100206__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20100206__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1657,8 +1657,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20100501__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20100501__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20100501__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20100501__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1679,8 +1679,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20100529__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20100529__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20100529__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20100529__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1701,8 +1701,8 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20100828__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20100828__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20100828__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20100828__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1723,8 +1723,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20101002__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20101002__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20101002__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20101002__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1745,8 +1745,8 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20101002__la__primary_runoff__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20101002__la__primary_runoff__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20101002__la__primary_runoff__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20101002__la__primary_runoff__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1767,8 +1767,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20101102__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20101102__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20101102__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20101102__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1789,8 +1789,8 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20101102__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20101102__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20101102__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20101102__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1811,8 +1811,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20110122__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20110122__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20110122__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20110122__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1833,8 +1833,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20110219__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20110219__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20110219__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20110219__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1855,8 +1855,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20110402__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20110402__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20110402__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20110402__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1877,8 +1877,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20110430__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20110430__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20110430__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20110430__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1899,8 +1899,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20111022__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20111022__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20111022__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20111022__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1921,8 +1921,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20111119__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20111119__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20111119__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20111119__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -1943,8 +1943,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20120324__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20120324__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20120324__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20120324__la__primary__precinct__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -1965,8 +1965,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20121106__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20121106__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20121106__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20121106__la__general__precinct__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -1987,8 +1987,8 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20121106__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20121106__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20121106__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20121106__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -2009,8 +2009,8 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20121208__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20121208__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20121208__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20121208__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -2031,8 +2031,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20130302__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20130302__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20130302__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20130302__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -2053,8 +2053,8 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20131019__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20131019__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20131019__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20131019__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -2075,8 +2075,8 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20131116__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20131116__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20131116__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20131116__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -2097,8 +2097,8 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20141104__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20141104__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20141104__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20141104__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -2119,8 +2119,8 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20141206__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20141206__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20141206__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20141206__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -2141,8 +2141,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20150221__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20150221__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20150221__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20150221__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -2163,8 +2163,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20150328__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20150328__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20150328__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20150328__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -2185,8 +2185,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20151024__la__primary__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20151024__la__primary__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20151024__la__primary__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20151024__la__primary__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -2207,8 +2207,8 @@
 	"senate": false,
 	"house": false,
 	"results_raw": {
-		"county": "http://results.openelections.net/la/raw/20151121__la__general__parish__raw.csv",
-		"precinct": "http://results.openelections.net/la/raw/20151121__la__general__precinct__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-la/raw/20151121__la__general__parish__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-la/raw/20151121__la__general__precinct__raw.csv"
 	},
 	"prez": false,
 	"results": {},

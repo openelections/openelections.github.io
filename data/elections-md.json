@@ -7,8 +7,8 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/md/raw/20000307__md__primary__county__raw.csv",
-		"congressional_district_by_county": "http://results.openelections.net/md/raw/20000307__md__primary__congressional_district_by_county__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-md/raw/20000307__md__primary__county__raw.csv",
+		"congressional_district_by_county": "http://openelections.github.io/openelections-results-md/raw/20000307__md__primary__congressional_district_by_county__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -29,9 +29,9 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/md/raw/20001107__md__general__county__raw.csv",
-		"precinct": "http://results.openelections.net/md/raw/20001107__md__general__precinct__raw.csv",
-		"state_legislative": "http://results.openelections.net/md/raw/20001107__md__general__state_legislative__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-md/raw/20001107__md__general__county__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-md/raw/20001107__md__general__precinct__raw.csv",
+		"state_legislative": "http://openelections.github.io/openelections-results-md/raw/20001107__md__general__state_legislative__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -52,7 +52,7 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/md/raw/20020910__md__primary__county__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-md/raw/20020910__md__primary__county__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -73,7 +73,7 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/md/raw/20021105__md__general__county__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-md/raw/20021105__md__general__county__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -94,9 +94,9 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/md/raw/20040302__md__primary__county__raw.csv",
-		"precinct": "http://results.openelections.net/md/raw/20040302__md__primary__precinct__raw.csv",
-		"state_legislative": "http://results.openelections.net/md/raw/20040302__md__primary__state_legislative__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-md/raw/20040302__md__primary__county__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-md/raw/20040302__md__primary__precinct__raw.csv",
+		"state_legislative": "http://openelections.github.io/openelections-results-md/raw/20040302__md__primary__state_legislative__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -117,9 +117,9 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/md/raw/20041102__md__general__county__raw.csv",
-		"precinct": "http://results.openelections.net/md/raw/20041102__md__general__precinct__raw.csv",
-		"state_legislative": "http://results.openelections.net/md/raw/20041102__md__general__state_legislative__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-md/raw/20041102__md__general__county__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-md/raw/20041102__md__general__precinct__raw.csv",
+		"state_legislative": "http://openelections.github.io/openelections-results-md/raw/20041102__md__general__state_legislative__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -140,9 +140,9 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/md/raw/20060912__md__primary__county__raw.csv",
-		"precinct": "http://results.openelections.net/md/raw/20060912__md__primary__precinct__raw.csv",
-		"state_legislative": "http://results.openelections.net/md/raw/20060912__md__primary__state_legislative__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-md/raw/20060912__md__primary__county__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-md/raw/20060912__md__primary__precinct__raw.csv",
+		"state_legislative": "http://openelections.github.io/openelections-results-md/raw/20060912__md__primary__state_legislative__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -163,9 +163,9 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/md/raw/20061107__md__general__county__raw.csv",
-		"precinct": "http://results.openelections.net/md/raw/20061107__md__general__precinct__raw.csv",
-		"state_legislative": "http://results.openelections.net/md/raw/20061107__md__general__state_legislative__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-md/raw/20061107__md__general__county__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-md/raw/20061107__md__general__precinct__raw.csv",
+		"state_legislative": "http://openelections.github.io/openelections-results-md/raw/20061107__md__general__state_legislative__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -186,10 +186,10 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/md/raw/20080212__md__primary__county__raw.csv",
-		"congressional_district_by_county": "http://results.openelections.net/md/raw/20080212__md__primary__congressional_district_by_county__raw.csv",
-		"precinct": "http://results.openelections.net/md/raw/20080212__md__primary__precinct__raw.csv",
-		"state_legislative": "http://results.openelections.net/md/raw/20080212__md__primary__state_legislative__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-md/raw/20080212__md__primary__county__raw.csv",
+		"congressional_district_by_county": "http://openelections.github.io/openelections-results-md/raw/20080212__md__primary__congressional_district_by_county__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-md/raw/20080212__md__primary__precinct__raw.csv",
+		"state_legislative": "http://openelections.github.io/openelections-results-md/raw/20080212__md__primary__state_legislative__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -210,7 +210,7 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/md/raw/20080617__md__general__county__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-md/raw/20080617__md__general__county__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -231,9 +231,9 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/md/raw/20081104__md__general__county__raw.csv",
-		"precinct": "http://results.openelections.net/md/raw/20081104__md__general__precinct__raw.csv",
-		"state_legislative": "http://results.openelections.net/md/raw/20081104__md__general__state_legislative__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-md/raw/20081104__md__general__county__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-md/raw/20081104__md__general__precinct__raw.csv",
+		"state_legislative": "http://openelections.github.io/openelections-results-md/raw/20081104__md__general__state_legislative__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -254,9 +254,9 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/md/raw/20100914__md__primary__county__raw.csv",
-		"precinct": "http://results.openelections.net/md/raw/20100914__md__primary__precinct__raw.csv",
-		"state_legislative": "http://results.openelections.net/md/raw/20100914__md__primary__state_legislative__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-md/raw/20100914__md__primary__county__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-md/raw/20100914__md__primary__precinct__raw.csv",
+		"state_legislative": "http://openelections.github.io/openelections-results-md/raw/20100914__md__primary__state_legislative__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -277,9 +277,9 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/md/raw/20101102__md__general__county__raw.csv",
-		"precinct": "http://results.openelections.net/md/raw/20101102__md__general__precinct__raw.csv",
-		"state_legislative": "http://results.openelections.net/md/raw/20101102__md__general__state_legislative__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-md/raw/20101102__md__general__county__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-md/raw/20101102__md__general__precinct__raw.csv",
+		"state_legislative": "http://openelections.github.io/openelections-results-md/raw/20101102__md__general__state_legislative__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -300,10 +300,10 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/md/raw/20120403__md__primary__county__raw.csv",
-		"congressional_district_by_county": "http://results.openelections.net/md/raw/20120403__md__primary__congressional_district_by_county__raw.csv",
-		"precinct": "http://results.openelections.net/md/raw/20120403__md__primary__precinct__raw.csv",
-		"state_legislative": "http://results.openelections.net/md/raw/20120403__md__primary__state_legislative__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-md/raw/20120403__md__primary__county__raw.csv",
+		"congressional_district_by_county": "http://openelections.github.io/openelections-results-md/raw/20120403__md__primary__congressional_district_by_county__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-md/raw/20120403__md__primary__precinct__raw.csv",
+		"state_legislative": "http://openelections.github.io/openelections-results-md/raw/20120403__md__primary__state_legislative__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -324,9 +324,9 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/md/raw/20121106__md__general__county__raw.csv",
-		"precinct": "http://results.openelections.net/md/raw/20121106__md__general__precinct__raw.csv",
-		"state_legislative": "http://results.openelections.net/md/raw/20121106__md__general__state_legislative__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-md/raw/20121106__md__general__county__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-md/raw/20121106__md__general__precinct__raw.csv",
+		"state_legislative": "http://openelections.github.io/openelections-results-md/raw/20121106__md__general__state_legislative__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -347,9 +347,9 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/md/raw/20140624__md__primary__county__raw.csv",
-		"precinct": "http://results.openelections.net/md/raw/20140624__md__primary__precinct__raw.csv",
-		"state_legislative": "http://results.openelections.net/md/raw/20140624__md__primary__state_legislative__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-md/raw/20140624__md__primary__county__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-md/raw/20140624__md__primary__precinct__raw.csv",
+		"state_legislative": "http://openelections.github.io/openelections-results-md/raw/20140624__md__primary__state_legislative__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -370,9 +370,9 @@
 	"senate": false,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/md/raw/20141104__md__general__county__raw.csv",
-		"precinct": "http://results.openelections.net/md/raw/20141104__md__general__precinct__raw.csv",
-		"state_legislative": "http://results.openelections.net/md/raw/20141104__md__general__state_legislative__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-md/raw/20141104__md__general__county__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-md/raw/20141104__md__general__precinct__raw.csv",
+		"state_legislative": "http://openelections.github.io/openelections-results-md/raw/20141104__md__general__state_legislative__raw.csv"
 	},
 	"prez": false,
 	"results": {},
@@ -394,10 +394,10 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/md/raw/20160426__md__primary__county__raw.csv",
-		"congressional_district_by_county": "http://results.openelections.net/md/raw/20160426__md__primary__congressional_district_by_county__raw.csv",
-		"precinct": "http://results.openelections.net/md/raw/20160426__md__primary__precinct__raw.csv",
-		"state_legislative": "http://results.openelections.net/md/raw/20160426__md__primary__state_legislative__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-md/raw/20160426__md__primary__county__raw.csv",
+		"congressional_district_by_county": "http://openelections.github.io/openelections-results-md/raw/20160426__md__primary__congressional_district_by_county__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-md/raw/20160426__md__primary__precinct__raw.csv",
+		"state_legislative": "http://openelections.github.io/openelections-results-md/raw/20160426__md__primary__state_legislative__raw.csv"
 	},
 	"prez": true,
 	"results": {},
@@ -418,9 +418,9 @@
 	"senate": true,
 	"house": true,
 	"results_raw": {
-		"county": "http://results.openelections.net/md/raw/20161108__md__general__county__raw.csv",
-		"precinct": "http://results.openelections.net/md/raw/20161108__md__general__precinct__raw.csv",
-		"state_legislative": "http://results.openelections.net/md/raw/20161108__md__general__state_legislative__raw.csv"
+		"county": "http://openelections.github.io/openelections-results-md/raw/20161108__md__general__county__raw.csv",
+		"precinct": "http://openelections.github.io/openelections-results-md/raw/20161108__md__general__precinct__raw.csv",
+		"state_legislative": "http://openelections.github.io/openelections-results-md/raw/20161108__md__general__state_legislative__raw.csv"
 	},
 	"prez": true,
 	"results": {},
