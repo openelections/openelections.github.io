@@ -1,7 +1,12 @@
 name: OpenElections
+title: OpenElections
 highlighter: rouge
 baseurl: ''
 exclude:
     - README.md
     - Gemfile
     - Gemfile.lock
+    - vendor
+destination: _site
+sass:
+    sass_dir: _sass
