@@ -2,6 +2,7 @@ name: OpenElections
 title: OpenElections
 highlighter: rouge
 baseurl: ''
+include: [news]
 exclude:
     - README.md
     - Gemfile
