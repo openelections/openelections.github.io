@@ -219,7 +219,7 @@ GEM
     public_suffix (2.0.5)
     pygments.rb (1.2.1)
       multi_json (>= 1.0.0)
-    rake (10.5.0)
+    rake (12.3.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -260,7 +260,7 @@ DEPENDENCIES
   json (~> 2)
   kramdown
   pygments.rb
-  rake (~> 10.5)
+  rake (~> 12.3)
   sass (~> 3.4)
 
 BUNDLED WITH
