@@ -1,26 +1,31 @@
 #footer {
-  margin-top: 20px;
-  padding: 40px 0;
-
-  background-color: $footer-background-color; 
+  margin-top: 2rem;
+  padding: 2.5rem 0;
+  background-color: $footer-background-color;
+  border-top: 1px solid #dee2e6;
 
   h4 {
-    padding-bottom: 10px;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1rem;
     border-bottom: 1px solid #999;
+    font-size: 1.1rem;
+    font-weight: 600;
   }
 
   .links {
     padding-left: 0;
-
     list-style-type: none;
 
     li {
-      padding: 5px 0;
+      padding: 0.25rem 0;
 
       a {
-        color: $footer-link-color; 
+        color: $footer-link-color;
+        
+        &:hover {
+          color: darken($footer-link-color, 20%);
+        }
       }
     }
   }
-
 }

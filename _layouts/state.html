@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="{{ page.title | slugify | downcase }} state-page{% if page.body_class %} {{ page.body_class }}{% endif %}">
+    {% include header.html %}
+
+    <div class="container-fluid">
+      <div class="row">
+        <main id="main" class="col-12">
+          {{ content }}
+        </main>
+      </div>
+    </div>
+
+    {% include footer.html %}
+    {% include scripts.html %}
+    
+    <!-- State-specific GitHub integration -->
+    <script src="{{ site.baseurl }}/js/github-integration.js"></script>
+    {% if page.state %}
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Initialize GitHub integration for state pages
+      if (typeof GitHubAPI !== 'undefined' && typeof StateRepositoryDisplay !== 'undefined') {
+        const githubAPI = new GitHubAPI({
+          org: 'openelections',
+          cacheTimeout: 5 * 60 * 1000 // 5 minutes
+        });
+
+        const repoDisplay = new StateRepositoryDisplay('github-repos', githubAPI);
+        
+        // Load repositories for this state
+        repoDisplay.displayStateRepositories('{{ page.state }}');
+      }
+
+      // Also initialize state metadata if available
+      if (typeof openelex !== 'undefined' && openelex.StateMetadataView) {
+        const states = new openelex.States();
+        const sidebarView = new openelex.StateMetadataView({
+          el: '#sidebar-content',
+          collection: states
+        });
+        
+        states.url = '{{ site.baseurl }}/data/state_status.json';
+        states.fetch().done(function() {
+          sidebarView.setState('{{ page.state }}').render();
+        });
+      }
+    });
+    </script>
+    {% endif %}
+  </body>
+</html>

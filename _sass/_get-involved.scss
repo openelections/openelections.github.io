@@ -1,0 +1,328 @@
+// Get Involved Page Styles
+// Enhanced readability and no animations
+
+.get-involved-page {
+  // Hero section enhancements
+  .about-hero {
+    background: linear-gradient(135deg, 
+      rgba(25, 135, 84, 0.95) 0%, 
+      rgba(25, 135, 84, 0.85) 50%, 
+      rgba(20, 108, 67, 0.95) 100%) !important;
+    
+    .display-5 {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      color: #ffffff !important;
+    }
+    
+    .lead {
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+      color: #ffffff !important;
+    }
+    
+    .about-stats {
+      background: rgba(255, 255, 255, 0.15) !important;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      
+      h3 {
+        color: #ffffff !important;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      }
+      
+      small {
+        color: rgba(255, 255, 255, 0.9) !important;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+
+  // Card content readability
+  .card {
+    // Remove any animations
+    transition: none !important;
+    transform: none !important;
+    
+    &:hover {
+      transition: none !important;
+      transform: none !important;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+    }
+    
+    .card-body {
+      h3, h4, h5 {
+        color: #212529 !important;
+      }
+      
+      p {
+        color: #495057 !important;
+        line-height: 1.6;
+      }
+      
+      .text-muted {
+        color: #6c757d !important;
+      }
+      
+      .lead {
+        color: #495057 !important;
+      }
+    }
+  }
+
+  // List group items - remove animations and enhance readability
+  .list-group-item {
+    transition: none !important;
+    transform: none !important;
+    color: #212529 !important;
+    
+    &:hover {
+      transition: none !important;
+      transform: none !important;
+      background-color: #f8f9fa !important;
+    }
+    
+    &.list-group-item-action {
+      &:hover {
+        background-color: #f8f9fa !important;
+        color: #212529 !important;
+      }
+    }
+    
+    h6 {
+      color: #212529 !important;
+      font-weight: 600;
+    }
+    
+    .text-muted {
+      color: #6c757d !important;
+    }
+    
+    small {
+      color: #6c757d !important;
+    }
+  }
+
+  // Impact icons - remove animations
+  .impact-icon {
+    i {
+      transition: none !important;
+      transform: none !important;
+    }
+    
+    &:hover i {
+      transition: none !important;
+      transform: none !important;
+    }
+  }
+
+  // Call to action section enhancements
+  .bg-gradient-primary {
+    background: linear-gradient(135deg, 
+      rgba(13, 110, 253, 0.95) 0%, 
+      rgba(13, 110, 253, 0.85) 50%, 
+      rgba(10, 88, 202, 0.95) 100%) !important;
+    
+    .card-title {
+      color: #ffffff !important;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    .card-text {
+      color: #ffffff !important;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  // Buttons - remove animations and enhance readability
+  .btn {
+    transition: none !important;
+    transform: none !important;
+    border-width: 2px !important;
+    font-weight: 500 !important;
+    margin: 0.25rem !important;
+    white-space: nowrap !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    display: inline-block !important;
+    
+    &:hover {
+      transition: none !important;
+      transform: none !important;
+    }
+    
+    &.btn-light {
+      color: #212529 !important;
+      background-color: #ffffff !important;
+      border-color: #ffffff !important;
+      
+      &:hover {
+        color: #212529 !important;
+        background-color: #f8f9fa !important;
+        border-color: #f8f9fa !important;
+      }
+    }
+    
+    &.btn-outline-light {
+      color: #ffffff !important;
+      border-color: #ffffff !important;
+      background-color: transparent !important;
+      border-width: 2px !important;
+      border-style: solid !important;
+      
+      &:hover {
+        color: #212529 !important;
+        background-color: #ffffff !important;
+        border-color: #ffffff !important;
+      }
+    }
+    
+    &.btn-outline-primary {
+      color: #0d6efd !important;
+      border-color: #0d6efd !important;
+      background-color: transparent !important;
+      
+      &:hover {
+        color: #ffffff !important;
+        background-color: #0d6efd !important;
+        border-color: #0d6efd !important;
+      }
+    }
+    
+    i {
+      transition: none !important;
+      transform: none !important;
+    }
+  }
+  
+  // Button container fixes
+  .d-flex.gap-3,
+  .d-flex.gap-3.justify-content-center,
+  .d-flex.gap-3.justify-content-center.flex-wrap {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 0.75rem !important;
+    width: 100% !important;
+    
+    .btn {
+      flex: 0 0 auto !important;
+      min-width: fit-content !important;
+      max-width: none !important;
+      overflow: visible !important;
+      text-overflow: clip !important;
+      white-space: nowrap !important;
+    }
+  }
+  
+  // Specific targeting for call-to-action buttons
+  .card.bg-gradient-primary {
+    .d-flex {
+      flex-wrap: wrap !important;
+      justify-content: center !important;
+      align-items: center !important;
+      gap: 1rem !important;
+      
+      .btn {
+        flex: 0 0 auto !important;
+        min-width: 150px !important;
+        white-space: nowrap !important;
+        overflow: visible !important;
+        text-overflow: clip !important;
+        margin: 0.25rem !important;
+      }
+    }
+  }
+
+  // Text colors for better contrast
+  .text-info {
+    color: #0dcaf0 !important;
+  }
+  
+  .text-success {
+    color: #198754 !important;
+  }
+  
+  .text-primary {
+    color: #0d6efd !important;
+  }
+
+  // Remove any lingering GitHub integration animations
+  .github-repo-card {
+    transition: none !important;
+    transform: none !important;
+    
+    &:hover {
+      transition: none !important;
+      transform: none !important;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+    }
+  }
+
+  // Badge enhancements
+  .badge {
+    font-weight: 500;
+    
+    &.bg-secondary {
+      background-color: #6c757d !important;
+      color: #ffffff !important;
+    }
+    
+    &.bg-success {
+      background-color: #198754 !important;
+      color: #ffffff !important;
+    }
+    
+    &.bg-info {
+      background-color: #0dcaf0 !important;
+      color: #000000 !important;
+    }
+  }
+}
+
+// Responsive enhancements
+@media (max-width: 768px) {
+  .get-involved-page {
+    .about-hero {
+      padding: 3rem 0 !important;
+      
+      .display-5 {
+        font-size: 2.5rem !important;
+      }
+    }
+    
+    .btn {
+      margin-bottom: 0.5rem !important;
+      width: auto !important;
+      min-width: 200px !important;
+      max-width: 280px !important;
+      white-space: nowrap !important;
+      overflow: visible !important;
+    }
+    
+    .d-flex.gap-3,
+    .card.bg-gradient-primary .d-flex {
+      flex-direction: column !important;
+      align-items: center !important;
+      gap: 0.75rem !important;
+      width: 100% !important;
+      
+      .btn {
+        width: auto !important;
+        min-width: 200px !important;
+        max-width: 280px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .get-involved-page {
+    .btn {
+      font-size: 0.875rem !important;
+      padding: 0.75rem 1.25rem !important;
+      min-width: 180px !important;
+      max-width: 250px !important;
+      white-space: nowrap !important;
+      overflow: visible !important;
+      text-overflow: clip !important;
+    }
+  }
+}

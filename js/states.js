@@ -23,7 +23,7 @@
     },
 
     detailUrl: function() {
-      return '/results/#' + this.get('postal').toLowerCase();
+      return '/state/?abbr=' + this.get('postal');
     },
 
     _volunteerNames: function(volunteers) {

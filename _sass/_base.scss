@@ -1,6 +1,15 @@
-$font-stack-sans: museosans, sans-serif;
-$font-stack-serif: museoslab, Georgia, times, serif;
+// Modern CSS custom properties for better browser support
+:root {
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --font-serif: "Georgia", "Times New Roman", serif;
+  --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
 
+// Legacy font stack variables for backward compatibility
+$font-stack-sans: var(--font-sans);
+$font-stack-serif: var(--font-serif);
+
+// Color variables
 $light-gray: #cacaca;
 $light-gray-2: #ccc;
 $light-gray-3: #f4f4f4;
@@ -14,10 +23,11 @@ $green: #79a888;
 $pink: #ed4c6b;
 $clean: #79a888;
 
+// Semantic color variables
 $primary-color: #333;
 $header-color: #6a6e72;
-$footer-background-color: rgb(224, 224, 224);
-$footer-link-color: #777; 
+$footer-background-color: #f8f9fa;
+$footer-link-color: #6c757d; 
 $not-started-color: $purple;
 $partial-color: $pink;
 $up-to-date-color: $blue;
@@ -28,14 +38,51 @@ $general-elec-color: $blue;
 $special-general-elec-color: $light-blue;
 $runoff-elec-color: $green;
 
+// Modern typography
 body {
-  color: $primary-color; 
-
-  font-family: $font-stack-sans; 
+  color: $primary-color;
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  font-size: 1rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $header-color; 
+  color: $header-color;
+  font-family: var(--font-serif);
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+}
 
-  font-family: $font-stack-serif; 
+// Improved accessibility and modern practices
+a {
+  color: $blue;
+  text-decoration-color: rgba($blue, 0.5);
+  
+  &:hover, &:focus {
+    color: darken($blue, 15%);
+    text-decoration-color: currentColor;
+  }
+  
+  &:focus {
+    outline: 2px solid $blue;
+    outline-offset: 2px;
+  }
+}
+
+// Responsive images
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// Better button styles
+.btn-primary {
+  background-color: $blue;
+  border-color: $blue;
+  
+  &:hover, &:focus {
+    background-color: darken($blue, 10%);
+    border-color: darken($blue, 10%);
+  }
 }

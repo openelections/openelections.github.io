@@ -1,0 +1,20 @@
+{
+  "name": "openelections-website",
+  "version": "2.0.0",
+  "description": "OpenElections website - Certified election results for everyone",
+  "scripts": {
+    "serve": "bundle exec jekyll serve --livereload",
+    "build": "bundle exec jekyll build",
+    "clean": "bundle exec jekyll clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openelections/openelections.github.io.git"
+  },
+  "author": "OpenElections Project",
+  "license": "MIT",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,172 @@
+// GitHub Integration Styles
+.github-repos-container {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.github-repos-loading,
+.github-repos-error,
+.github-repos-empty {
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.github-repos-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.github-repo-card {
+  background: white;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1rem;
+  
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.repo-name a {
+  color: $blue;
+  font-weight: 600;
+  text-decoration: none;
+  
+  &:hover {
+    color: darken($blue, 15%);
+    text-decoration: underline;
+  }
+}
+
+.repo-description {
+  line-height: 1.4;
+  color: #6c757d;
+}
+
+.repo-stats {
+  font-size: 0.875rem;
+  
+  span {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  
+  i {
+    font-size: 0.75rem;
+  }
+}
+
+.repo-latest-commit {
+  background: #f8f9fa;
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  
+  code {
+    background: #e9ecef;
+    padding: 0.125rem 0.25rem;
+    border-radius: 3px;
+    font-size: 0.75rem;
+  }
+}
+
+.repo-footer {
+  border-top: 1px solid #f1f3f4;
+  padding-top: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.github-repos-footer {
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid #dee2e6;
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .github-repos-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .github-repo-card {
+    padding: 0.75rem;
+  }
+  
+  .repo-stats {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+}
+
+// Dark mode support (if implemented)
+@media (prefers-color-scheme: dark) {
+  .github-repos-container {
+    background: #1a1d23;
+    color: #e9ecef;
+  }
+  
+  .github-repo-card {
+    background: #2d3748;
+    border-color: #4a5568;
+    color: #e9ecef;
+  }
+  
+  .repo-latest-commit {
+    background: #1a202c;
+    
+    code {
+      background: #2d3748;
+      color: #e9ecef;
+    }
+  }
+  
+  .repo-footer {
+    border-color: #4a5568;
+  }
+}
+
+// Loading animation
+.spinner-border-sm {
+  width: 1rem;
+  height: 1rem;
+  border-width: 0.125rem;
+}
+
+// Repository type badges
+.badge {
+  font-size: 0.75rem;
+  
+  i {
+    margin-right: 0.25rem;
+  }
+}
+
+// Error states
+.github-repos-error {
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  color: #856404;
+}
+
+.github-repos-empty {
+  background: #d1ecf1;
+  border: 1px solid #bee5eb;
+  color: #0c5460;
+}
+
+// Button styles for external links
+.btn-outline-primary {
+  border-color: $blue;
+  color: $blue;
+  
+  &:hover {
+    background-color: $blue;
+    border-color: $blue;
+    color: white;
+  }
+}

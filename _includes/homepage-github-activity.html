@@ -1,0 +1,227 @@
+<!-- Homepage GitHub Activity Initialization -->
+<script>
+// Initialize homepage GitHub activity (simplified version)
+document.addEventListener('DOMContentLoaded', function() {
+  // Check if we're on the homepage and GitHub functionality is available
+  if (typeof GitHubConfig !== 'undefined' && document.getElementById('activity-loading')) {
+    initializeHomepageGitHubActivity();
+  }
+});
+
+function initializeHomepageGitHubActivity() {
+  // Check if GitHub token is configured
+  if (!GitHubConfig.apiToken) {
+    console.warn('GitHub token not configured for homepage activity.');
+    document.getElementById('activity-loading').innerHTML = `
+      <div class="alert alert-info">
+        <h6><i class="fab fa-github me-2"></i>GitHub Activity</h6>
+        <p class="mb-2">GitHub API token not configured. Showing limited activity information.</p>
+        <a href="https://github.com/openelections" class="btn btn-outline-primary btn-sm" target="_blank">
+          <i class="fab fa-github me-1"></i> View on GitHub
+        </a>
+      </div>
+    `;
+    return;
+  }
+
+  // Initialize simplified GitHub API client for homepage
+  const githubAPI = new GitHubActivityAPI(GitHubConfig);
+  loadHomepageActivity(githubAPI);
+}
+
+async function loadHomepageActivity(githubAPI) {
+  try {
+    // Load basic stats and recent activity (using correct API methods)
+    const [repos, recentEvents] = await Promise.all([
+      githubAPI.getOrganizationRepositories('all', 'updated'),
+      githubAPI.getOrganizationEvents(1, 25) // More items since this is the main content
+    ]);
+
+    // Update stats
+    updateHomepageStats(repos, recentEvents);
+    
+    // Show recent activity (show more items)
+    displayHomepageActivity(recentEvents.slice(0, 15)); // Show 15 items
+    
+    // Populate repository filter
+    populateRepositoryFilter(repos);
+    
+    // Hide loading, show content
+    document.getElementById('activity-loading').classList.add('d-none');
+    document.getElementById('activity-content').classList.remove('d-none');
+    
+  } catch (error) {
+    console.error('Error loading homepage GitHub activity:', error);
+    showHomepageError();
+  }
+}
+
+function updateHomepageStats(repos, events) {
+  // Update repository count
+  document.getElementById('total-repos').textContent = repos.length;
+  
+  // Update recent commits count (filter for push events)
+  const pushEvents = events.filter(event => event.type === 'PushEvent');
+  document.getElementById('recent-commits').textContent = pushEvents.length;
+  
+  // Update contributors count (unique actors from events)
+  const contributors = new Set(events.map(event => event.actor?.login).filter(Boolean));
+  document.getElementById('active-contributors').textContent = contributors.size;
+  
+  // Update last updated
+  if (events.length > 0) {
+    const lastUpdate = new Date(events[0].created_at);
+    const timeAgo = formatTimeAgo(lastUpdate);
+    document.getElementById('last-updated').textContent = timeAgo;
+  }
+  
+  // Update hero section stats
+  const heroRepos = document.getElementById('hero-repos');
+  const heroCommits = document.getElementById('hero-commits');
+  
+  if (heroRepos) {
+    heroRepos.textContent = repos.length;
+  }
+  
+  if (heroCommits) {
+    heroCommits.textContent = pushEvents.length;
+  }
+}
+
+function displayHomepageActivity(events) {
+  const activityList = document.getElementById('activity-list');
+  
+  if (events.length === 0) {
+    activityList.innerHTML = `
+      <div class="p-5 text-center text-muted">
+        <i class="fas fa-code-branch fa-3x mb-4"></i>
+        <h4>No recent activity found</h4>
+        <p>Check back later for updates or visit our GitHub organization directly.</p>
+      </div>
+    `;
+    return;
+  }
+  
+  const activityHTML = events.map((event, index) => {
+    const repo = event.repo;
+    const actor = event.actor;
+    const eventType = event.type;
+    const createdAt = new Date(event.created_at);
+    
+    // Get event-specific information
+    let eventDescription = 'Activity';
+    let eventIcon = 'fas fa-code-branch';
+    
+    switch (eventType) {
+      case 'PushEvent':
+        const commitCount = event.payload?.commits?.length || 1;
+        eventDescription = `Pushed ${commitCount} commit${commitCount > 1 ? 's' : ''}`;
+        eventIcon = 'fas fa-code-branch';
+        break;
+      case 'CreateEvent':
+        eventDescription = `Created ${event.payload?.ref_type || 'repository'}`;
+        eventIcon = 'fas fa-plus-circle';
+        break;
+      case 'IssuesEvent':
+        eventDescription = `${event.payload?.action || 'Updated'} issue`;
+        eventIcon = 'fas fa-exclamation-circle';
+        break;
+      case 'PullRequestEvent':
+        eventDescription = `${event.payload?.action || 'Updated'} pull request`;
+        eventIcon = 'fas fa-code-branch';
+        break;
+      default:
+        eventDescription = eventType.replace('Event', '');
+        break;
+    }
+    
+    return `
+      <div class="activity-item border-bottom p-4 ${index === 0 ? 'border-top' : ''}">
+        <div class="d-flex align-items-start">
+          <div class="activity-icon me-4 mt-1">
+            <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" 
+                 style="width: 32px; height: 32px;">
+              <i class="${eventIcon}"></i>
+            </div>
+          </div>
+          <div class="activity-content flex-grow-1">
+            <div class="d-flex justify-content-between align-items-start mb-2">
+              <div class="flex-grow-1">
+                <h6 class="mb-1">
+                  <a href="https://github.com/${repo.name}" 
+                     class="text-decoration-none fw-bold" 
+                     target="_blank">
+                    ${repo.name.split('/')[1]}
+                  </a>
+                  <span class="badge bg-light text-dark ms-2">${eventType.replace('Event', '')}</span>
+                </h6>
+                <p class="mb-2 text-dark">${eventDescription}</p>
+                <div class="small text-muted">
+                  <i class="fas fa-user me-1"></i>
+                  by <strong>${actor?.display_login || actor?.login || 'Unknown'}</strong>
+                  • <i class="fas fa-clock me-1"></i>${formatTimeAgo(createdAt)}
+                </div>
+              </div>
+              <div class="ms-3">
+                <a href="https://github.com/${repo.name}" 
+                   class="btn btn-outline-primary btn-sm" 
+                   target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  }).join('');
+  
+  activityList.innerHTML = activityHTML;
+}
+
+function populateRepositoryFilter(repos) {
+  const repoFilter = document.getElementById('repo-filter');
+  
+  // Clear existing options except "All Repositories"
+  while (repoFilter.children.length > 1) {
+    repoFilter.removeChild(repoFilter.lastChild);
+  }
+  
+  // Sort repositories by name
+  const sortedRepos = repos.sort((a, b) => a.name.localeCompare(b.name));
+  
+  // Add repository options
+  sortedRepos.forEach(repo => {
+    const option = document.createElement('option');
+    option.value = repo.name;
+    option.textContent = repo.name;
+    repoFilter.appendChild(option);
+  });
+}
+
+function showHomepageError() {
+  document.getElementById('activity-loading').classList.add('d-none');
+  document.getElementById('activity-error').classList.remove('d-none');
+}
+
+function formatTimeAgo(date) {
+  const now = new Date();
+  const diffInSeconds = Math.floor((now - date) / 1000);
+  
+  if (diffInSeconds < 60) return 'just now';
+  if (diffInSeconds < 3600) return `${Math.floor(diffInSeconds / 60)}m ago`;
+  if (diffInSeconds < 86400) return `${Math.floor(diffInSeconds / 3600)}h ago`;
+  if (diffInSeconds < 604800) return `${Math.floor(diffInSeconds / 86400)}d ago`;
+  
+  return date.toLocaleDateString();
+}
+
+// Global retry function for homepage
+function retryLoadActivity() {
+  if (typeof GitHubConfig !== 'undefined') {
+    document.getElementById('activity-error').classList.add('d-none');
+    document.getElementById('activity-loading').classList.remove('d-none');
+    initializeHomepageGitHubActivity();
+  }
+}
+</script>

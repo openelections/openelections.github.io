@@ -1,43 +1,61 @@
-# Openelections Frontend
+# OpenElections Frontend
 
-Website for the [OpenElections](http://openelections.net) project.  It displays project status and offers an interface to download results data.
+Website for the [OpenElections](http://openelections.net) project. It displays project status and offers an interface to download results data.
 
-## Development
+## ✨ Recent Updates (2025)
 
-### Installing dependencies
+This site has been **completely modernized** with:
+- **Ruby 3.2.8** (from 2.4.6)
+- **Bootstrap 5.3.2** (from 3.1.1) 
+- **Modern Jekyll** with GitHub Pages compatibility
+- **Improved accessibility** and mobile responsiveness
+- **Enhanced SEO** and performance
 
-This site is built using the [Jekyll](http://jekyllrb.com/) static site builder.
+See [MODERNIZATION.md](MODERNIZATION.md) for complete details.
 
-To install Jekyll and some other dependencies, first make sure you have gem and
-bundler installed.
+## 🚀 Development
 
-```
-gem install bundler
-```
+### Prerequisites
 
-Then use bundler to install the dependencies
+- Ruby 3.2.8+ (managed with rbenv/RVM recommended)
+- Bundler gem
 
-```
-cd ~/workspace/openelections.github.io
+### Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/openelections/openelections.github.io.git
+cd openelections.github.io
+
+# Install dependencies
 bundle install
+
+# Serve locally with live reload
+bundle exec jekyll serve --livereload
+
+# Visit http://localhost:4000
 ```
 
-### Building the site
+### Alternative Commands
 
-
-To build the site, run:
-
-```
+```bash
+# Build for production
 bundle exec jekyll build
+
+# Serve on different port
+bundle exec jekyll serve --port 4001
+
+# Clean build artifacts
+bundle exec jekyll clean
 ```
 
-### Previewing the site
+### NPM Scripts (optional)
 
+```bash
+npm run serve    # Same as bundle exec jekyll serve --livereload
+npm run build    # Same as bundle exec jekyll build  
+npm run clean    # Same as bundle exec jekyll clean
 ```
-bundle exec jekyll serve --watch --baseurl '' -P 8000
-```
-
-Then you can access this project in your browser at http://localhost:8000.
 
 ## Updating metadata
 

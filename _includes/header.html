@@ -1,42 +1,65 @@
-<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header navbar-left">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">
+      <img src="https://docs.openelections.net/assets/brand/openelections-logo.jpg" alt="OpenElections" width="30" height="30" class="d-inline-block align-text-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <ul class="nav navbar-nav navbar-icons navbar-right">
-      <li><a href="https://twitter.com/openelex" class="new-window"><i class="fa fa-twitter"></i></a>
-      <li><a href="http://vimeo.com/49450624" class="new-window"><i class="fa fa-vimeo-square"></i></a></li>
-      <li><a href="mailto:openelections@gmail.com" class="new-window"><i class="fa fa-envelope"></i></a>
-    </ul>
-
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        {% for p in site.pages %}
-        {% if p.url != "/index.html" %}
-        {% if p.url != "/results/" %}
-        {% if p.url contains "css" %}
-        {% else %}
-        <li {% if p.url == page.url %}class="active"{% endif %}><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
-        {% endif %}
-        {% endif %}
-        {% endif %}
-        {% endfor %}
-        <li><a href="https://github.com/openelections" class="new-window external">GitHub</a></li>
-        <li><a href="http://docs.openelections.net/" class="new-window external">Documentation</a></li>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-3 mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link{% if page.url == '/about/' %} active{% endif %}" href="{{ site.baseurl }}/about/">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link{% if page.url == '/faq/' %} active{% endif %}" href="{{ site.baseurl }}/faq/">FAQs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link{% if page.url == '/get-involved/' %} active{% endif %}" href="{{ site.baseurl }}/get-involved/">Get Involved</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="githubDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fab fa-github me-1"></i>GitHub
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="githubDropdown">
+            <li><a class="dropdown-item" href="{{ site.baseurl }}/github-activity/">
+              <i class="fas fa-code-branch me-2"></i>Recent Activity
+            </a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item external" href="https://github.com/openelections" target="_blank" rel="noopener">
+              <i class="fab fa-github me-2"></i>Organization
+            </a></li>
+            <li><a class="dropdown-item external" href="https://github.com/openelections/clarify" target="_blank" rel="noopener">
+              <i class="fas fa-cog me-2"></i>Clarify
+            </a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://bsky.app/profile/openelections.bsky.social" target="_blank" rel="noopener" title="Follow us on BlueSky">
+            <i class="fas fa-cloud" style="color: #00a8e6;"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://vimeo.com/49450624" target="_blank" rel="noopener">
+            <i class="fab fa-vimeo"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:openelections@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </li>
       </ul>
     </div>
-
   </div>
 </nav>
 
-<div id="logo-wrapper">
-  <div class="container">
-      <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/logo.png" alt="OpenElections logo"></a>
+<div id="logo-wrapper" class="py-3">
+  <div class="container text-center">
+      <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/logo.png" alt="OpenElections logo" class="img-fluid"></a>
   </div>
 </div>

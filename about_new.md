@@ -1,6 +1,5 @@
 ---
 layout: default
-title: About
 permalink: /about/
 ---
 
@@ -150,52 +149,9 @@ permalink: /about/
                       <i class="fas fa-globe-americas fa-4x"></i>
                     </div>
                     <h5 class="text-info">Nationwide Impact</h5>
-                    <p class="text-muted small">Supporting democracy through accessible election data</p>
+                    <p class="text-muted small">Supporting journalism and education through accessible election data</p>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Key Features Section -->
-        <div class="row mb-5">
-          <div class="col-12 mb-4">
-            <h2 class="text-center text-dark">
-              <i class="fas fa-star me-3"></i>What Makes Us Different
-            </h2>
-            <p class="text-center text-muted lead">The features that set OpenElections apart</p>
-          </div>
-          <div class="col-lg-4 mb-4">
-            <div class="card border-0 shadow-sm h-100 text-center">
-              <div class="card-body p-4">
-                <div class="feature-icon text-primary mb-3">
-                  <i class="fas fa-dollar-sign fa-3x"></i>
-                </div>
-                <h5 class="card-title">Always Free</h5>
-                <p class="card-text text-muted">No paywalls, no subscriptions. Election data should be accessible to everyone.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 mb-4">
-            <div class="card border-0 shadow-sm h-100 text-center">
-              <div class="card-body p-4">
-                <div class="feature-icon text-success mb-3">
-                  <i class="fas fa-cogs fa-3x"></i>
-                </div>
-                <h5 class="card-title">Standardized</h5>
-                <p class="card-text text-muted">Consistent format across all states and elections for easy analysis.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 mb-4">
-            <div class="card border-0 shadow-sm h-100 text-center">
-              <div class="card-body p-4">
-                <div class="feature-icon text-info mb-3">
-                  <i class="fas fa-link fa-3x"></i>
-                </div>
-                <h5 class="card-title">Comprehensive</h5>
-                <p class="card-text text-muted">Federal, statewide, and state legislative offices all in one place.</p>
               </div>
             </div>
           </div>
@@ -204,7 +160,7 @@ permalink: /about/
         <!-- Call to Action Section -->
         <div class="row">
           <div class="col-12">
-            <div class="card bg-gradient-primary text-white border-0 shadow-lg">
+            <div class="card bg-primary text-white border-0 shadow-lg">
               <div class="card-body p-5 text-center">
                 <h2 class="card-title mb-4">
                   <i class="fas fa-rocket me-3"></i>Ready to Get Started?
@@ -213,9 +169,9 @@ permalink: /about/
                   Whether you're a journalist, researcher, or civic hacker, OpenElections has the data you need.
                 </p>
                 <div class="d-flex gap-3 justify-content-center flex-wrap">
-                  <div class="state-selector">
-                    <select class="form-select form-select-lg mb-2" id="about-state-select" style="min-width: 200px;">
-                      <option value="">Browse Results by State</option>
+                  <div class="d-flex gap-2 align-items-center">
+                    <select class="form-select form-select-lg" id="about-new-state-select">
+                      <option value="">Select a State</option>
                       <option value="AL">Alabama</option>
                       <option value="AK">Alaska</option>
                       <option value="AZ">Arizona</option>
@@ -267,8 +223,8 @@ permalink: /about/
                       <option value="WI">Wisconsin</option>
                       <option value="WY">Wyoming</option>
                     </select>
-                    <button class="btn btn-light btn-lg" id="about-browse-btn" disabled>
-                      <i class="fas fa-chart-bar me-2"></i>Browse Results
+                    <button class="btn btn-light btn-lg" id="about-new-browse-btn" disabled>
+                      <i class="fas fa-chart-bar me-2"></i>Browse States
                     </button>
                   </div>
                   <a href="/get-involved/" class="btn btn-outline-light btn-lg">
@@ -288,16 +244,16 @@ permalink: /about/
 </div>
 
 <script>
-// Setup state dropdown navigation for About page
-const aboutStateSelect = document.getElementById('about-state-select');
-const aboutBrowseBtn = document.getElementById('about-browse-btn');
-if (aboutStateSelect && aboutBrowseBtn) {
-  aboutStateSelect.addEventListener('change', function() {
-    aboutBrowseBtn.disabled = !aboutStateSelect.value;
+// Setup state dropdown navigation for About New page
+const aboutNewStateSelect = document.getElementById('about-new-state-select');
+const aboutNewBrowseBtn = document.getElementById('about-new-browse-btn');
+if (aboutNewStateSelect && aboutNewBrowseBtn) {
+  aboutNewStateSelect.addEventListener('change', function() {
+    aboutNewBrowseBtn.disabled = !aboutNewStateSelect.value;
   });
-  aboutBrowseBtn.addEventListener('click', function() {
-    if (aboutStateSelect.value) {
-      window.location.href = `/state/?abbr=${aboutStateSelect.value}`;
+  aboutNewBrowseBtn.addEventListener('click', function() {
+    if (aboutNewStateSelect.value) {
+      window.location.href = `/state/?abbr=${aboutNewStateSelect.value}`;
     }
   });
 }

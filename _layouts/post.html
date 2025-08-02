@@ -1,25 +1,35 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:xlink="http://www.w3.org/1999/xlink">
+<html lang="en">
   <head>
     {% include head.html %}
   </head>
-  <body class="{{ page.title | handleize | downcase }}{% if page.body_class %} {{ page.body_class }}{% endif %}">
+  <body class="{{ page.title | slugify | downcase }}{% if page.body_class %} {{ page.body_class }}{% endif %}">
     {% include header.html %}
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div id="main" class="col-md-12">
-            {% if page.hide_default_heading %}
-            {% else %}
-            <h1>{% if page.display_title %}{{ page.display_title }}{% else %}{{ page.title }}{% endif %}</h1>
-            {% endif %}
-          {{ content }}
-        </div>
+        <main id="main" class="col-12">
+          <article class="post">
+            {% unless page.hide_default_heading %}
+            <header class="post-header mb-4">
+              <h1 class="post-title">{% if page.display_title %}{{ page.display_title }}{% else %}{{ page.title }}{% endif %}</h1>
+              {% if page.date %}
+              <p class="post-meta text-muted">
+                <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+              </p>
+              {% endif %}
+            </header>
+            {% endunless %}
+            
+            <div class="post-content">
+              {{ content }}
+            </div>
+          </article>
+        </main>
       </div>
     </div>
 
     {% include footer.html %}
-
     {% include scripts.html %}
   </body>
 </html>

@@ -1,6 +1,34 @@
-.idea/
-*.swp
-_site
-.sass-cache
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler
+vendor/
+.bundle/
+
+# macOS
 .DS_Store
 */.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Node modules (if using any frontend build tools)
+node_modules/
+npm-debug.log*
+
+# Environment files
+.env
+.env.local
+
+# Temporary files
+tmp/
+.tmp/

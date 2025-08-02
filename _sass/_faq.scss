@@ -1,0 +1,290 @@
+// FAQ Page Styles
+// Enhanced readability and no animations, matching modern design
+
+.faq-page {
+  // Hero section enhancements (using info color theme)
+  .about-hero {
+    background: linear-gradient(135deg, 
+      rgba(13, 202, 240, 0.95) 0%, 
+      rgba(13, 202, 240, 0.85) 50%, 
+      rgba(10, 162, 192, 0.95) 100%) !important;
+    
+    .display-5 {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      color: #ffffff !important;
+    }
+    
+    .lead {
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+      color: #ffffff !important;
+    }
+    
+    .about-stats {
+      background: rgba(255, 255, 255, 0.15) !important;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      
+      h3 {
+        color: #ffffff !important;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      }
+      
+      small {
+        color: rgba(255, 255, 255, 0.9) !important;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+
+  // Card content readability - remove animations and enhance text
+  .card {
+    // Remove any animations
+    transition: none !important;
+    transform: none !important;
+    
+    &:hover {
+      transition: none !important;
+      transform: none !important;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+    }
+    
+    .card-body {
+      h3, h4, h5 {
+        color: #212529 !important;
+      }
+      
+      p {
+        color: #495057 !important;
+        line-height: 1.6;
+      }
+      
+      .text-muted {
+        color: #6c757d !important;
+      }
+      
+      .lead {
+        color: #495057 !important;
+      }
+    }
+  }
+
+  // FAQ-specific styling
+  .faq-item {
+    border-left: 4px solid transparent;
+    padding-left: 1rem;
+    margin-bottom: 2rem !important;
+    
+    h5 {
+      color: #212529 !important;
+      font-weight: 600 !important;
+      margin-bottom: 0.75rem !important;
+    }
+    
+    p {
+      color: #495057 !important;
+      line-height: 1.7;
+      margin-bottom: 0 !important;
+    }
+    
+    a {
+      transition: none !important;
+      
+      &:hover {
+        transition: none !important;
+      }
+    }
+  }
+
+  // Section-specific styling based on theme colors
+  .text-info.mb-4 + .faq-item {
+    border-left-color: #0dcaf0;
+  }
+  
+  .text-success.mb-4 + .faq-item {
+    border-left-color: #198754;
+  }
+  
+  .text-warning.mb-4 + .faq-item {
+    border-left-color: #ffc107;
+  }
+  
+  .text-primary.mb-4 + .faq-item {
+    border-left-color: #0d6efd;
+  }
+
+  // Impact icons - remove animations
+  .impact-icon {
+    i {
+      transition: none !important;
+      transform: none !important;
+    }
+    
+    &:hover i {
+      transition: none !important;
+      transform: none !important;
+    }
+  }
+
+  // Call to action section enhancements
+  .bg-gradient-primary {
+    background: linear-gradient(135deg, 
+      rgba(13, 110, 253, 0.95) 0%, 
+      rgba(13, 110, 253, 0.85) 50%, 
+      rgba(10, 88, 202, 0.95) 100%) !important;
+    
+    .card-title {
+      color: #ffffff !important;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    .card-text {
+      color: #ffffff !important;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  // Buttons - remove animations and enhance readability
+  .btn {
+    transition: none !important;
+    transform: none !important;
+    border-width: 2px;
+    font-weight: 500;
+    
+    &:hover {
+      transition: none !important;
+      transform: none !important;
+    }
+    
+    &.btn-light {
+      color: #212529 !important;
+      background-color: #ffffff !important;
+      border-color: #ffffff !important;
+      
+      &:hover {
+        color: #212529 !important;
+        background-color: #f8f9fa !important;
+        border-color: #f8f9fa !important;
+      }
+    }
+    
+    &.btn-outline-light {
+      color: #ffffff !important;
+      border-color: #ffffff !important;
+      
+      &:hover {
+        color: #212529 !important;
+        background-color: #ffffff !important;
+        border-color: #ffffff !important;
+      }
+    }
+    
+    i {
+      transition: none !important;
+      transform: none !important;
+    }
+  }
+
+  // Enhanced color scheme for FAQ sections
+  .text-info {
+    color: #0dcaf0 !important;
+  }
+  
+  .text-success {
+    color: #198754 !important;
+  }
+  
+  .text-warning {
+    color: #ffc107 !important;
+  }
+  
+  .text-primary {
+    color: #0d6efd !important;
+  }
+
+  // Link styling for FAQ content
+  a {
+    transition: none !important;
+    
+    &.text-warning {
+      color: #ffc107 !important;
+      
+      &:hover {
+        color: #ffcd39 !important;
+        transition: none !important;
+      }
+    }
+    
+    &.text-primary {
+      color: #0d6efd !important;
+      
+      &:hover {
+        color: #0b5ed7 !important;
+        transition: none !important;
+      }
+    }
+  }
+
+  // Ensure no bottom section animations
+  .card.bg-gradient-primary {
+    transition: none !important;
+    transform: none !important;
+    
+    &:hover {
+      transition: none !important;
+      transform: none !important;
+    }
+    
+    .btn {
+      transition: none !important;
+      transform: none !important;
+      animation: none !important;
+      
+      &:hover {
+        transition: none !important;
+        transform: none !important;
+        animation: none !important;
+      }
+      
+      &:focus {
+        transition: none !important;
+        transform: none !important;
+        animation: none !important;
+      }
+      
+      &:active {
+        transition: none !important;
+        transform: none !important;
+        animation: none !important;
+      }
+    }
+  }
+
+  // Remove any Bootstrap default animations
+  * {
+    transition: none !important;
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+// Responsive enhancements
+@media (max-width: 768px) {
+  .faq-page {
+    .about-hero {
+      padding: 3rem 0 !important;
+      
+      .display-5 {
+        font-size: 2.5rem !important;
+      }
+    }
+    
+    .faq-item {
+      padding-left: 0.75rem;
+      border-left-width: 3px;
+    }
+    
+    .btn {
+      margin-bottom: 0.5rem;
+    }
+  }
+}

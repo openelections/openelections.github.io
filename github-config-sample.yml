@@ -1,0 +1,133 @@
+# OpenElections GitHub Integration Configuration
+# 
+# This file contains sample configuration for GitHub API integration.
+# Copy these settings to your _config.yml file and customize as needed.
+#
+# IMPORTANT: Never commit your actual GitHub token to version control!
+# Use environment variables for production deployments.
+
+# =============================================================================
+# GitHub API Configuration
+# =============================================================================
+
+# GitHub Personal Access Token (optional but recommended)
+# Without token: 60 requests/hour per IP address
+# With token: 5,000 requests/hour
+# 
+# To create a token:
+# 1. Go to https://github.com/settings/tokens
+# 2. Click "Generate new token (classic)"
+# 3. Select scopes: "public_repo" (or "repo" for private repositories)
+# 4. Copy the token and set it below or use environment variable
+github_token: "" # Set your token here or use ENV['GITHUB_TOKEN']
+
+# Cache Configuration
+github_cache_timeout: 300000 # 5 minutes in milliseconds
+github_items_per_page: 20     # Items to load per API call
+github_max_requests: 3        # Maximum concurrent API requests
+
+# Feature Toggles
+github_enable_caching: true   # Enable client-side caching
+github_enable_search: true    # Enable search functionality  
+github_enable_filters: true   # Enable filter dropdowns
+github_show_private: false    # Show private repos (requires appropriate token permissions)
+github_show_stats: true       # Show repository statistics
+
+# =============================================================================
+# Production Environment Variables
+# =============================================================================
+
+# For production deployments, use environment variables instead of hardcoding tokens:
+# 
+# GitHub Pages (not supported - use Netlify or Vercel):
+# - GitHub Pages doesn't support custom environment variables
+# 
+# Netlify:
+# - Set GITHUB_TOKEN in Netlify dashboard under Site Settings > Environment Variables
+# - Use: github_token: {{ env.GITHUB_TOKEN }}
+# 
+# Vercel:
+# - Set GITHUB_TOKEN in Vercel dashboard under Project Settings > Environment Variables  
+# - Use: github_token: {{ env.GITHUB_TOKEN }}
+#
+# Self-hosted:
+# - Export GITHUB_TOKEN="your_token_here" in your shell
+# - Use: github_token: {{ env.GITHUB_TOKEN }}
+
+# =============================================================================
+# Rate Limiting Information
+# =============================================================================
+
+# Without authentication:
+# - 60 requests per hour per IP address
+# - Suitable for small sites with light usage
+# 
+# With Personal Access Token:
+# - 5,000 requests per hour
+# - Recommended for production sites
+# 
+# With GitHub App:
+# - Higher rate limits (15,000 requests/hour for user-to-server)
+# - More complex setup but better for high-traffic sites
+
+# =============================================================================
+# Required Token Permissions
+# =============================================================================
+
+# For public repositories only:
+# - public_repo
+# 
+# For private repositories:
+# - repo (full repository access)
+# 
+# For organization insights:
+# - read:org (to read organization membership)
+
+# =============================================================================
+# Security Best Practices
+# =============================================================================
+
+# 1. Never commit tokens to version control
+# 2. Use environment variables for production
+# 3. Regularly rotate your tokens
+# 4. Use minimal required permissions
+# 5. Monitor token usage in GitHub settings
+# 6. Revoke unused tokens immediately
+
+# =============================================================================
+# Troubleshooting
+# =============================================================================
+
+# Common issues:
+# 
+# 1. Rate limit exceeded:
+#    - Solution: Add GitHub token or reduce polling frequency
+# 
+# 2. 404 errors:
+#    - Check organization name is correct
+#    - Verify repository exists and is public
+# 
+# 3. 403 Forbidden:
+#    - Token may lack required permissions
+#    - Organization may have restricted access
+# 
+# 4. Page loads slowly:
+#    - Reduce github_items_per_page
+#    - Increase github_cache_timeout
+#    - Reduce github_max_requests for slower connections
+
+# =============================================================================
+# Example Production _config.yml
+# =============================================================================
+
+# Production configuration example:
+# 
+# github_token: {{ env.GITHUB_TOKEN | default: "" }}
+# github_cache_timeout: 600000 # 10 minutes for production
+# github_items_per_page: 15     # Fewer items for faster loading
+# github_max_requests: 2        # Conservative concurrent requests
+# github_enable_caching: true
+# github_enable_search: true
+# github_enable_filters: true
+# github_show_private: false
+# github_show_stats: true

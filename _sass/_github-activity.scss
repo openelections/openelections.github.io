@@ -1,0 +1,449 @@
+/**
+ * GitHub Activity Page Styles
+ * Responsive design for commit activity and repository display
+ */
+
+// Activity page header
+.activity-header {
+  background: linear-gradient(135deg, 
+    rgba(var(--bs-primary-rgb), 0.1) 0%, 
+    rgba(var(--bs-secondary-rgb), 0.05) 100%);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  
+  h1 {
+    font-weight: 600;
+    
+    .fab {
+      color: var(--bs-primary);
+    }
+  }
+  
+  .lead {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+}
+
+// Activity items
+.activity-item {
+  
+  &:hover {
+    background-color: rgba(var(--bs-primary-rgb), 0.02);
+  }
+  
+  &:last-child {
+    border-bottom: none !important;
+  }
+}
+
+.activity-icon {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(var(--bs-primary-rgb), 0.1);
+  
+  i {
+    font-size: 0.875rem;
+  }
+}
+
+.activity-content {
+  .activity-header {
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    
+    .avatar-sm {
+      border: 2px solid rgba(var(--bs-border-color-rgb), 0.5);
+    }
+    
+    .repo-link {
+      color: var(--bs-primary);
+      font-weight: 500;
+      
+      &:hover {
+        text-decoration: underline !important;
+      }
+    }
+  }
+  
+  .commit-message {
+    font-style: italic;
+    color: var(--bs-body-color);
+    margin-bottom: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    background-color: rgba(var(--bs-secondary-rgb), 0.05);
+    border-radius: 0.375rem;
+    border-left: 3px solid var(--bs-primary);
+  }
+  
+  .commit-details {
+    code {
+      background-color: rgba(var(--bs-dark-rgb), 0.1);
+      color: var(--bs-dark);
+      font-size: 0.75rem;
+      padding: 0.125rem 0.25rem;
+      border-radius: 0.25rem;
+    }
+    
+    .badge {
+      font-size: 0.7rem;
+    }
+  }
+  
+  .issue-title,
+  .pr-title,
+  .release-title {
+    a {
+      color: var(--bs-body-color);
+      text-decoration: none;
+      
+      &:hover {
+        color: var(--bs-primary);
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// Repository cards
+.repo-card {
+  border: 1px solid rgba(var(--bs-border-color-rgb), 0.5);
+  
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: var(--bs-primary);
+  }
+  
+  .card-title {
+    a {
+      color: var(--bs-body-color);
+      font-weight: 600;
+      
+      &:hover {
+        color: var(--bs-primary);
+      }
+    }
+  }
+  
+  .repo-stats {
+    i {
+      font-size: 0.75rem;
+      opacity: 0.7;
+    }
+  }
+  
+  .language-info {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    
+    .language-dot {
+      width: 0.75rem;
+      height: 0.75rem;
+      border-radius: 50%;
+      display: inline-block;
+    }
+  }
+}
+
+// Repository type indicators
+.repo-card[data-repo-type="data"] {
+  .card-body::before {
+    content: "📊";
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1.25rem;
+    opacity: 0.6;
+  }
+}
+
+.repo-card[data-repo-type="code"] {
+  .card-body::before {
+    content: "⚙️";
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1.25rem;
+    opacity: 0.6;
+  }
+}
+
+.repo-card[data-repo-type="docs"] {
+  .card-body::before {
+    content: "📚";
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1.25rem;
+    opacity: 0.6;
+  }
+}
+
+// Search and filter controls
+.search-filters {
+  background-color: rgba(var(--bs-secondary-rgb), 0.05);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  
+  .input-group-text {
+    background-color: transparent;
+    border-right: none;
+    
+    i {
+      color: var(--bs-secondary);
+    }
+  }
+  
+  .form-control {
+    border-left: none;
+    
+    &:focus {
+      border-color: var(--bs-primary);
+      box-shadow: 0 0 0 0.2rem rgba(var(--bs-primary-rgb), 0.25);
+    }
+  }
+  
+  .form-select {
+    &:focus {
+      border-color: var(--bs-primary);
+      box-shadow: 0 0 0 0.2rem rgba(var(--bs-primary-rgb), 0.25);
+    }
+  }
+}
+
+// Loading states
+.loading-shimmer {
+  background: linear-gradient(90deg, 
+    rgba(var(--bs-secondary-rgb), 0.1) 25%, 
+    rgba(var(--bs-secondary-rgb), 0.2) 50%, 
+    rgba(var(--bs-secondary-rgb), 0.1) 75%);
+  background-size: 200% 100%;
+}
+
+// Statistics cards
+.stats-card {
+  .card-body {
+    padding: 1.25rem;
+    text-align: center;
+    
+    .card-title {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+      
+      .spinner-border-sm {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+    
+    .card-text {
+      font-size: 0.875rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Error states
+.error-state {
+  .alert {
+    border: none;
+    background-color: rgba(var(--bs-warning-rgb), 0.1);
+    border-left: 4px solid var(--bs-warning);
+    
+    i {
+      color: var(--bs-warning);
+    }
+  }
+}
+
+// Load more button
+#load-more-container {
+  border-top: 1px solid rgba(var(--bs-border-color-rgb), 0.5);
+  
+  #load-more-btn {
+    min-width: 150px;
+    
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.6;
+    }
+  }
+}
+
+// Activity type filters
+.activity-item[data-event-type="PushEvent"] {
+  .activity-icon {
+    background-color: rgba(var(--bs-success-rgb), 0.1);
+    
+    i {
+      color: var(--bs-success);
+    }
+  }
+}
+
+.activity-item[data-event-type="CreateEvent"] {
+  .activity-icon {
+    background-color: rgba(var(--bs-info-rgb), 0.1);
+    
+    i {
+      color: var(--bs-info);
+    }
+  }
+}
+
+.activity-item[data-event-type="IssuesEvent"] {
+  .activity-icon {
+    background-color: rgba(var(--bs-warning-rgb), 0.1);
+    
+    i {
+      color: var(--bs-warning);
+    }
+  }
+}
+
+.activity-item[data-event-type="PullRequestEvent"] {
+  .activity-icon {
+    background-color: rgba(var(--bs-primary-rgb), 0.1);
+    
+    i {
+      color: var(--bs-primary);
+    }
+  }
+}
+
+.activity-item[data-event-type="ReleaseEvent"] {
+  .activity-icon {
+    background-color: rgba(var(--bs-danger-rgb), 0.1);
+    
+    i {
+      color: var(--bs-danger);
+    }
+  }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .activity-header {
+    padding: 1.5rem;
+    text-align: center;
+    
+    .row {
+      flex-direction: column;
+    }
+    
+    .col-md-4 {
+      margin-top: 1rem;
+    }
+  }
+  
+  .activity-content .activity-header {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 0.25rem;
+    
+    .ms-auto {
+      margin-left: 0 !important;
+      margin-top: 0.5rem;
+    }
+  }
+  
+  .repo-card {
+    margin-bottom: 1rem;
+  }
+  
+  .search-filters {
+    .row > div {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .activity-header h1 {
+    font-size: 1.75rem;
+  }
+  
+  .stats-card .card-title {
+    font-size: 1.5rem;
+  }
+  
+  .activity-item {
+    .row {
+      margin: 0;
+    }
+    
+    .col-auto {
+      padding-right: 0.75rem;
+    }
+  }
+}
+
+// Dark mode support
+@media (prefers-color-scheme: dark) {
+  .activity-header {
+    background: linear-gradient(135deg, 
+      rgba(var(--bs-primary-rgb), 0.15) 0%, 
+      rgba(var(--bs-secondary-rgb), 0.1) 100%);
+  }
+  
+  .activity-item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .commit-message {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left-color: var(--bs-primary);
+  }
+  
+  .commit-details code {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .repo-card {
+    background-color: rgba(255, 255, 255, 0.02);
+    border-color: rgba(255, 255, 255, 0.1);
+    
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+  }
+  
+  .search-filters {
+    background-color: rgba(255, 255, 255, 0.02);
+  }
+}
+
+// Print styles
+@media print {
+  .activity-header,
+  .search-filters,
+  #load-more-container,
+  .repo-card:hover {
+    box-shadow: none !important;
+    background: transparent !important;
+  }
+  
+  .activity-item {
+    break-inside: avoid;
+    
+    &:hover {
+      background: transparent !important;
+    }
+  }
+  
+  .repo-card {
+    border: 1px solid #ccc !important;
+  }
+}

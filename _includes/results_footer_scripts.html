@@ -1,5 +1,6 @@
 <script src="{{ site.baseurl }}/js/states.js"></script>
 <script src="{{ site.baseurl }}/js/results.js"></script>
+<script src="{{ site.baseurl }}/js/github-integration.js"></script>
 <script>
 $(function() {
   /**
@@ -32,5 +33,25 @@ $(function() {
     showElectionCountLegend: !getQueryVariable('hidecountlegend',
       window.location.hash.split('?')[1])
   });
+
+  // Initialize GitHub integration
+  const githubAPI = new GitHubAPI({
+    org: 'openelections',
+    cacheTimeout: 5 * 60 * 1000 // 5 minutes
+  });
+
+  const repoDisplay = new StateRepositoryDisplay('github-repos', githubAPI);
+
+  // Listen for state changes and update GitHub repo display
+  if (typeof Backbone !== 'undefined') {
+    Backbone.on('state', function(state) {
+      if (repoDisplay && state) {
+        // Add a small delay to let the page settle
+        setTimeout(() => {
+          repoDisplay.displayStateRepositories(state);
+        }, 100);
+      }
+    });
+  }
 });
 </script>

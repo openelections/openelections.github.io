@@ -1,13 +1,77 @@
 name: OpenElections
 title: OpenElections
+description: "Certified election results. For everyone."
+url: "https://openelections.net"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
 highlighter: rouge
-baseurl: ''
+permalink: pretty
+
+# Content directories
 include: [news]
 exclude:
     - README.md
     - Gemfile
     - Gemfile.lock
     - vendor
+    - node_modules
+    - .ruby-version
+
+# Output
 destination: _site
+
+# Sass configuration
 sass:
     sass_dir: _sass
+    style: compressed
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+
+# SEO settings
+author: OpenElections Project
+twitter:
+  username: openelex
+
+# Feed settings
+feed:
+  posts_limit: 20
+
+# Pagination
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+# GitHub API Configuration
+# These settings control the GitHub activity page functionality
+github_token: # Will be set from GITHUB_TOKEN environment variable - see note below
+github_cache_timeout: 300000 # Cache timeout in milliseconds (5 minutes default)
+github_items_per_page: 20 # Number of items to load per page
+github_max_requests: 3 # Maximum concurrent API requests
+github_enable_caching: true # Enable client-side caching
+github_enable_search: true # Enable search functionality
+github_enable_filters: true # Enable filter dropdowns
+github_show_private: false # Show private repositories (requires token with proper permissions)
+github_show_stats: true # Show statistics cards
+
+# Note: GitHub token is read directly from GITHUB_TOKEN environment variable in the includes
+# For local development: export GITHUB_TOKEN="your_token_here"
+# For production: Set OPENELECTIONS_GITHUB_TOKEN repository secret
+
+# GitHub API Rate Limiting
+# Without token: 60 requests/hour per IP
+# With token: 5,000 requests/hour
+# To create a token: https://github.com/settings/tokens
+# Required permissions: public_repo (or repo for private repos)
+# Repository secret name: OPENELECTIONS_GITHUB_TOKEN (GitHub doesn't allow secrets starting with GITHUB_)

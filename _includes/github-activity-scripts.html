@@ -1,0 +1,56 @@
+<!-- GitHub Activity Page Scripts -->
+
+<!-- Configuration Script -->
+<script>
+// GitHub API Configuration - For local development, manually set token below
+window.GitHubConfig = {
+  organization: 'openelections',
+  apiToken: '', // ADD YOUR GITHUB TOKEN HERE FOR LOCAL DEVELOPMENT
+  apiVersion: '2022-11-28',
+  baseUrl: 'https://api.github.com',
+  cacheTimeout: {{ site.github_cache_timeout | default: 300000 }}, // 5 minutes default
+  itemsPerPage: {{ site.github_items_per_page | default: 20 }},
+  maxConcurrentRequests: {{ site.github_max_requests | default: 3 }}
+};
+
+// Feature flags
+window.GitHubFeatures = {
+  enableCaching: {{ site.github_enable_caching | default: true }},
+  enableSearch: {{ site.github_enable_search | default: true }},
+  enableFilters: {{ site.github_enable_filters | default: true }},
+  showPrivateRepos: {{ site.github_show_private | default: false }},
+  showStats: {{ site.github_show_stats | default: true }}
+};
+
+// Debug mode
+{% if site.environment == 'development' %}
+window.GitHubConfig.debug = true;
+console.log('GitHub Activity Debug Mode Enabled');
+console.log('Config:', window.GitHubConfig);
+console.log('Features:', window.GitHubFeatures);
+{% endif %}
+</script>
+
+<!-- Include GitHub Activity JavaScript -->
+<script src="{{ '/js/github-activity.js' | relative_url }}"></script>
+
+<!-- Initialize Activity Page -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  if (typeof GitHubActivityPage !== 'undefined') {
+    window.activityPage = new GitHubActivityPage();
+    window.activityPage.initialize();
+  } else {
+    console.error('GitHub Activity JavaScript not loaded');
+    document.getElementById('activity-error').classList.remove('d-none');
+    document.getElementById('activity-loading').classList.add('d-none');
+  }
+});
+
+// Global retry function
+function retryLoadActivity() {
+  if (window.activityPage) {
+    window.activityPage.retry();
+  }
+}
+</script>

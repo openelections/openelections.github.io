@@ -1,19 +1,21 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~>3.6.0"
-gem "rake", "~>10.5"
-gem "sass", "~>3.4"
-gem "json", "~> 2"
+# Ruby version requirement  
+ruby "~> 3.2.8"
 
-# run `bundle update github-pages`.
+# GitHub Pages gem (includes Jekyll and plugins)
 gem "github-pages", group: :jekyll_plugins
 
-# Plugins
+# Required for Ruby 3.0+
+gem "webrick", "~> 1.8"
+
+# Additional plugins that work with GitHub Pages
 group :jekyll_plugins do
-  gem "bourbon", "~>4.3"
-  gem "jekyll-feed", "~>0.6"
   gem "jekyll-paginate-v2"
-  gem "pygments.rb"
   gem "jekyll-compose"
-  gem "kramdown"
+end
+
+# Development gems
+group :development do
+  gem "rake", "~> 13.0"
 end

@@ -1,28 +1,16 @@
-<div id="footer">
+<footer id="footer" class="bg-dark text-light py-3 mt-5">
   <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <h4>Twitter</h4>
-            <a class="twitter-timeline" href="https://twitter.com/openelex" height="360" data-widget-id="355761297922596864" data-chrome="noheader nofooter transparent">Tweets by @openelex</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <p class="mb-0 small">
+          &copy; 2013-2025 OpenElections. All rights reserved.
+        </p>
       </div>
-      <div class="col-md-4">
-        <h4>Buzz</h4>
-        <ul class="links">
-        {% for link in site.data.buzz_links %}
-          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-        {% endfor %}
-        </ul>
-      </div>
-
-      <div class="col-md-4">
-        <h4>Links</h4>
-        <ul class="links">
-        {% for link in site.data.links %}
-          <li><a href="{{ link.url }}" {% if link.class %}class="{{ link.class }}"{% endif %}>{{ link.title }}</a></li>
-        {% endfor %}
-        </ul>
+      <div class="col-md-6 text-md-end">
+        <a href="https://github.com/openelections/" class="text-light text-decoration-none small" target="_blank" rel="noopener">
+          <i class="fab fa-github me-2"></i>View on GitHub
+        </a>
       </div>
     </div>
   </div>
-</div>
+</footer>

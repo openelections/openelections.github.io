@@ -1,0 +1,373 @@
+---
+title: State Results
+layout: default
+footer_script_include: results_footer_scripts.html
+hide_default_heading: true
+---
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <!-- Hero Section -->
+      <div class="about-hero bg-info text-white py-5 mb-5 rounded-3">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <h1 class="display-5 fw-bold mb-3" id="state-title">
+                <i class="fas fa-map-marked-alt me-3"></i>
+                State Results
+              </h1>
+              <p class="lead mb-4" id="state-desc">
+                Certified election results, sources, and recent changes for your state.
+              </p>
+              <div class="state-selector">
+                <label for="state-select" class="form-label text-white mb-2 fw-bold">Browse by State:</label>
+                <div class="input-group" style="max-width: 350px;">
+                  <select class="form-select form-select-lg" id="state-select">
+                    <option value="">Select a State</option>
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="CT">Connecticut</option>
+                    <option value="DE">Delaware</option>
+                    <option value="FL">Florida</option>
+                    <option value="GA">Georgia</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="ID">Idaho</option>
+                    <option value="IL">Illinois</option>
+                    <option value="IN">Indiana</option>
+                    <option value="IA">Iowa</option>
+                    <option value="KS">Kansas</option>
+                    <option value="KY">Kentucky</option>
+                    <option value="LA">Louisiana</option>
+                    <option value="ME">Maine</option>
+                    <option value="MD">Maryland</option>
+                    <option value="MA">Massachusetts</option>
+                    <option value="MI">Michigan</option>
+                    <option value="MN">Minnesota</option>
+                    <option value="MS">Mississippi</option>
+                    <option value="MO">Missouri</option>
+                    <option value="MT">Montana</option>
+                    <option value="NE">Nebraska</option>
+                    <option value="NV">Nevada</option>
+                    <option value="NH">New Hampshire</option>
+                    <option value="NJ">New Jersey</option>
+                    <option value="NM">New Mexico</option>
+                    <option value="NY">New York</option>
+                    <option value="NC">North Carolina</option>
+                    <option value="ND">North Dakota</option>
+                    <option value="OH">Ohio</option>
+                    <option value="OK">Oklahoma</option>
+                    <option value="OR">Oregon</option>
+                    <option value="PA">Pennsylvania</option>
+                    <option value="RI">Rhode Island</option>
+                    <option value="SC">South Carolina</option>
+                    <option value="SD">South Dakota</option>
+                    <option value="TN">Tennessee</option>
+                    <option value="TX">Texas</option>
+                    <option value="UT">Utah</option>
+                    <option value="VT">Vermont</option>
+                    <option value="VA">Virginia</option>
+                    <option value="WA">Washington</option>
+                    <option value="WV">West Virginia</option>
+                    <option value="WI">Wisconsin</option>
+                    <option value="WY">Wyoming</option>
+                  </select>
+                  <button class="btn btn-outline-light btn-lg" type="button" id="browse-btn" disabled>
+                    <i class="fas fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 text-center">
+              <div class="about-stats bg-white bg-opacity-10 rounded-3 p-4">
+                <div class="row g-3">
+                  <div class="col-6">
+                    <h3 class="mb-1" id="hero-repos">
+                      <div class="spinner-border spinner-border-sm" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                      </div>
+                    </h3>
+                    <small class="opacity-75">Repositories</small>
+                  </div>
+                  <div class="col-6">
+                    <h3 class="mb-1" id="hero-years">--</h3>
+                    <small class="opacity-75">Years Available</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12">
+            <!-- Loading State -->
+            <div id="state-loading" class="text-center py-5">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body py-5">
+                  <div class="spinner-border text-primary mb-3" style="width: 3rem; height: 3rem;" role="status">
+                    <span class="visually-hidden">Loading state data...</span>
+                  </div>
+                  <h4 class="text-muted">Loading state results...</h4>
+                  <p class="text-muted">Fetching repositories, recent changes, and available years from GitHub.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Error State -->
+            <div id="state-error" class="d-none">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body text-center py-5">
+                  <div class="text-warning mb-3">
+                    <i class="fas fa-exclamation-triangle fa-3x"></i>
+                  </div>
+                  <h4 class="text-warning mb-3">Unable to Load State Data</h4>
+                  <p class="text-muted mb-4">There was a problem loading data for this state. This might be due to:</p>
+                  <ul class="list-unstyled text-muted mb-4">
+                    <li><i class="fas fa-circle fa-xs me-2"></i>GitHub API rate limiting</li>
+                    <li><i class="fas fa-circle fa-xs me-2"></i>Network connectivity issues</li>
+                    <li><i class="fas fa-circle fa-xs me-2"></i>Repository not found for this state</li>
+                  </ul>
+                  <div class="d-flex gap-3 justify-content-center">
+                    <button class="btn btn-warning" onclick="location.reload()">
+                      <i class="fas fa-redo me-2"></i> Retry Loading
+                    </button>
+                    <a href="https://github.com/openelections" class="btn btn-primary" target="_blank">
+                      <i class="fab fa-github me-2"></i> View on GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- State Content -->
+            <div id="state-content" class="d-none">
+              <div class="row g-4" id="state-cards">
+                <!-- Cards for data, sources, recent changes, years will be injected here -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const stateAbbr = new URLSearchParams(window.location.search).get('abbr');
+const stateSelect = document.getElementById('state-select');
+const browseBtn = document.getElementById('browse-btn');
+if (stateSelect) {
+  stateSelect.value = stateAbbr || '';
+  browseBtn.disabled = !stateAbbr;
+  stateSelect.addEventListener('change', function() {
+    browseBtn.disabled = !stateSelect.value;
+  });
+  browseBtn.addEventListener('click', function() {
+    if (stateSelect.value) {
+      window.location.href = `/state/?abbr=${stateSelect.value}`;
+    }
+  });
+}
+if (stateAbbr) {
+  const stateNames = {
+    'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona', 'AR': 'Arkansas', 'CA': 'California',
+    'CO': 'Colorado', 'CT': 'Connecticut', 'DE': 'Delaware', 'FL': 'Florida', 'GA': 'Georgia',
+    'HI': 'Hawaii', 'ID': 'Idaho', 'IL': 'Illinois', 'IN': 'Indiana', 'IA': 'Iowa',
+    'KS': 'Kansas', 'KY': 'Kentucky', 'LA': 'Louisiana', 'ME': 'Maine', 'MD': 'Maryland',
+    'MA': 'Massachusetts', 'MI': 'Michigan', 'MN': 'Minnesota', 'MS': 'Mississippi', 'MO': 'Missouri',
+    'MT': 'Montana', 'NE': 'Nebraska', 'NV': 'Nevada', 'NH': 'New Hampshire', 'NJ': 'New Jersey',
+    'NM': 'New Mexico', 'NY': 'New York', 'NC': 'North Carolina', 'ND': 'North Dakota', 'OH': 'Ohio',
+    'OK': 'Oklahoma', 'OR': 'Oregon', 'PA': 'Pennsylvania', 'RI': 'Rhode Island', 'SC': 'South Carolina',
+    'SD': 'South Dakota', 'TN': 'Tennessee', 'TX': 'Texas', 'UT': 'Utah', 'VT': 'Vermont',
+    'VA': 'Virginia', 'WA': 'Washington', 'WV': 'West Virginia', 'WI': 'Wisconsin', 'WY': 'Wyoming'
+  };
+  document.getElementById('state-title').innerHTML = `<i class="fas fa-map-marked-alt me-3"></i>${stateNames[stateAbbr] || stateAbbr} Results`;
+  document.getElementById('state-desc').textContent = `Certified election results, sources, and recent changes for ${stateNames[stateAbbr] || stateAbbr}.`;
+  loadStateData(stateAbbr.toLowerCase());
+} else {
+  document.getElementById('state-loading').classList.add('d-none');
+  document.getElementById('hero-repos').textContent = '--';
+}
+
+async function loadStateData(abbr) {
+  const loading = document.getElementById('state-loading');
+  const error = document.getElementById('state-error');
+  const content = document.getElementById('state-content');
+  const cards = document.getElementById('state-cards');
+  const heroRepos = document.getElementById('hero-repos');
+  const heroYears = document.getElementById('hero-years');
+  
+  loading.classList.remove('d-none');
+  error.classList.add('d-none');
+  content.classList.add('d-none');
+  cards.innerHTML = '';
+  
+  let repoCount = 0;
+  let totalYears = 0;
+  
+  try {
+    // Check for data and sources repos
+    const dataRepo = `openelections-data-${abbr}`;
+    const sourcesRepo = `openelections-sources-${abbr}`;
+    const [dataRes, sourcesRes] = await Promise.all([
+      fetch(`https://api.github.com/repos/openelections/${dataRepo}`),
+      fetch(`https://api.github.com/repos/openelections/${sourcesRepo}`)
+    ]);
+    const dataExists = dataRes.status === 200;
+    const sourcesExists = sourcesRes.status === 200;
+    
+    if (dataExists) repoCount++;
+    if (sourcesExists) repoCount++;
+    
+    // Data Card
+    if (dataExists) {
+      const repo = await dataRes.json();
+      cards.innerHTML += renderRepoCard(repo, 'Data Repository', 'fa-database', 'primary');
+      // Years Card
+      const yearsRes = await fetch(`https://api.github.com/repos/openelections/${dataRepo}/contents`);
+      if (yearsRes.status === 200) {
+        const files = await yearsRes.json();
+        const years = files.filter(f => f.type === 'dir' && /^\d{4}$/.test(f.name)).map(f => f.name);
+        if (years.length) {
+          totalYears = years.length;
+          cards.innerHTML += renderYearsCard(years);
+        }
+      }
+      // Recent Changes Card
+      const commitsRes = await fetch(`https://api.github.com/repos/openelections/${dataRepo}/commits?per_page=5`);
+      if (commitsRes.status === 200) {
+        const commits = await commitsRes.json();
+        cards.innerHTML += renderCommitsCard(commits, 'Data Changes');
+      }
+    }
+    // Sources Card
+    if (sourcesExists) {
+      const repo = await sourcesRes.json();
+      cards.innerHTML += renderRepoCard(repo, 'Sources Repository', 'fa-file-alt', 'info');
+      // Recent Changes Card
+      const commitsRes = await fetch(`https://api.github.com/repos/openelections/${sourcesRepo}/commits?per_page=5`);
+      if (commitsRes.status === 200) {
+        const commits = await commitsRes.json();
+        cards.innerHTML += renderCommitsCard(commits, 'Source Changes');
+      }
+    }
+    
+    // Update hero stats
+    heroRepos.textContent = repoCount;
+    heroYears.textContent = totalYears || '--';
+    
+    if (!dataExists && !sourcesExists) {
+      cards.innerHTML = `<div class='col-12'><div class='card border-0 shadow-sm'><div class='card-body text-center py-5'><div class='text-muted mb-3'><i class='fas fa-info-circle fa-3x'></i></div><h4 class='text-muted mb-3'>No Data Available Yet</h4><p class='text-muted mb-4'>We haven't created repositories for this state yet, but we're working on it!</p><a href='https://github.com/openelections' class='btn btn-primary' target='_blank'><i class='fab fa-github me-2'></i>View All Repositories</a></div></div></div>`;
+    }
+    loading.classList.add('d-none');
+    content.classList.remove('d-none');
+  } catch (e) {
+    console.error('Error loading state data:', e);
+    heroRepos.textContent = '--';
+    heroYears.textContent = '--';
+    loading.classList.add('d-none');
+    error.classList.remove('d-none');
+  }
+}
+function renderRepoCard(repo, label, icon, color) {
+  const updated = new Date(repo.updated_at).toLocaleDateString();
+  const description = repo.description || 'No description available.';
+  return `
+    <div class="col-lg-6 mb-4">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="card-body p-4">
+          <div class="d-flex align-items-center mb-3">
+            <div class="text-${color} me-3">
+              <i class="fas ${icon} fa-2x"></i>
+            </div>
+            <div>
+              <h5 class="card-title mb-1">${label}</h5>
+              <small class="text-muted">Updated ${updated}</small>
+            </div>
+          </div>
+          <p class="card-text text-muted mb-4">${description}</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="text-muted small">
+              <i class="fas fa-star me-1"></i> ${repo.stargazers_count || 0} stars
+            </div>
+            <a href="${repo.html_url}" class="btn btn-${color}" target="_blank">
+              <i class="fab fa-github me-2"></i>View Repository
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function renderYearsCard(years) {
+  const sortedYears = years.sort((a, b) => b - a);
+  return `
+    <div class="col-lg-6 mb-4">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="card-body p-4">
+          <div class="d-flex align-items-center mb-3">
+            <div class="text-success me-3">
+              <i class="fas fa-calendar-alt fa-2x"></i>
+            </div>
+            <div>
+              <h5 class="card-title mb-1">Available Years</h5>
+              <small class="text-muted">${years.length} year${years.length !== 1 ? 's' : ''} of data</small>
+            </div>
+          </div>
+          <div class="d-flex flex-wrap gap-2">
+            ${sortedYears.map(y => `<span class="badge bg-success bg-opacity-75 fs-6 px-3 py-2">${y}</span>`).join('')}
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function renderCommitsCard(commits, label = 'Recent Changes') {
+  return `
+    <div class="col-12 mb-4">
+      <div class="card border-0 shadow-sm">
+        <div class="card-header bg-white border-bottom py-3">
+          <div class="d-flex align-items-center">
+            <div class="text-warning me-3">
+              <i class="fas fa-clock fa-lg"></i>
+            </div>
+            <h5 class="mb-0">${label}</h5>
+          </div>
+        </div>
+        <div class="card-body p-0">
+          <div class="list-group list-group-flush">
+            ${commits.map(c => `
+              <div class="list-group-item">
+                <div class="d-flex justify-content-between align-items-start">
+                  <div class="flex-grow-1">
+                    <h6 class="mb-1">${c.commit.message.split('\\n')[0]}</h6>
+                    <p class="mb-1 text-muted small">
+                      <i class="fas fa-user me-1"></i> ${c.commit.author.name}
+                    </p>
+                    <small class="text-muted">
+                      <i class="fas fa-clock me-1"></i> ${new Date(c.commit.author.date).toLocaleDateString()}
+                    </small>
+                  </div>
+                  <a href="${c.html_url}" target="_blank" class="btn btn-sm btn-outline-warning">
+                    <i class="fas fa-external-link-alt me-1"></i> View
+                  </a>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+</script>
