@@ -40,7 +40,7 @@ async function loadGitHubActivity() {
     if (contentElement) contentElement.classList.add('d-none');
     
     // Fetch repositories
-    const repos = await fetchFromGitHub(`/orgs/${window.GITHUB_ORG}/repos?sort=updated&per_page=10`);
+    const repos = await fetchFromGitHub(`/orgs/${window.GITHUB_ORG}/repos?sort=updated&per_page=100`);
     
     // Display results
     if (contentElement && repos.length > 0) {
@@ -61,7 +61,10 @@ function displayRepositories(repos) {
   const container = document.getElementById('activity-list');
   if (!container) return;
   
-  const html = repos.map(repo => `
+  // Sort repos by update date (most recent first)
+  const sortedRepos = repos.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
+  
+  const html = sortedRepos.map(repo => `
     <div class="p-3 border-bottom">
       <div class="d-flex justify-content-between align-items-start">
         <div class="flex-grow-1">
@@ -74,6 +77,9 @@ function displayRepositories(repos) {
               <i class="fas fa-clock me-1"></i>Updated: ${new Date(repo.updated_at).toLocaleDateString()}
             </small>
             ${repo.language ? `<span class="badge bg-secondary small">${repo.language}</span>` : ''}
+            <small class="text-muted ms-3">
+              <i class="fas fa-star me-1"></i>${repo.stargazers_count || 0}
+            </small>
           </div>
         </div>
         <div class="ms-3">
@@ -86,6 +92,12 @@ function displayRepositories(repos) {
   `).join('');
   
   container.innerHTML = html;
+  
+  // Update total count if element exists
+  const totalReposElement = document.getElementById('total-repos');
+  if (totalReposElement) {
+    totalReposElement.textContent = repos.length;
+  }
 }
 
 // Global retry function
