@@ -1,24 +1,6 @@
-<script src="{{ site.baseurl }}/js/states.js"></script>
-<script src="{{ site.baseurl }}/js/render-map.js"></script>
 <script>
+// Simple homepage initialization
 $(function() {
-  var states = new openelex.States();
-  var metaTable = new openelex.StateMetadataTableView({
-     collection: states
-  });
-  var resultsTable = new openelex.StateResultsTableView({
-      collection: states
-  });
-
-  states.url = 'data/state_status.json';
-  $('#map').after(resultsTable.$el);
-  resultsTable.$el.after(metaTable.$el);
-  openelex.renderMap({
-    states: states
-  });
-
-  states.fetch();
-
-  $('.legend dt, .legend dd').popover();
+  console.log('Homepage initialized with simplified GitHub activity');
 });
 </script>
