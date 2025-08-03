@@ -217,23 +217,26 @@ async function loadStateData(abbr) {
     // Check for data and sources repos
     const dataRepo = `openelections-data-${abbr}`;
     const sourcesRepo = `openelections-sources-${abbr}`;
+    
+    // Simple fetch calls
     const [dataRes, sourcesRes] = await Promise.all([
-      fetch(`https://api.github.com/repos/openelections/${dataRepo}`),
-      fetch(`https://api.github.com/repos/openelections/${sourcesRepo}`)
+      fetch(`https://api.github.com/repos/openelections/${dataRepo}`).then(r => r.ok ? r.json() : null),
+      fetch(`https://api.github.com/repos/openelections/${sourcesRepo}`).then(r => r.ok ? r.json() : null)
     ]);
-    const dataExists = dataRes.status === 200;
-    const sourcesExists = sourcesRes.status === 200;
+    
+    const dataExists = dataRes !== null;
+    const sourcesExists = sourcesRes !== null;
     
     if (dataExists) repoCount++;
     if (sourcesExists) repoCount++;
     
     // Data Card
     if (dataExists) {
-      const repo = await dataRes.json();
-      cards.innerHTML += renderRepoCard(repo, 'Data Repository', 'fa-database', 'primary');
-      // Years Card
+      cards.innerHTML += renderRepoCard(dataRes, 'Data Repository', 'fa-database', 'primary');
+      
+      // Years Card - get directory listing
       const yearsRes = await fetch(`https://api.github.com/repos/openelections/${dataRepo}/contents`);
-      if (yearsRes.status === 200) {
+      if (yearsRes.ok) {
         const files = await yearsRes.json();
         const years = files.filter(f => f.type === 'dir' && /^\d{4}$/.test(f.name)).map(f => f.name);
         if (years.length) {
@@ -241,20 +244,22 @@ async function loadStateData(abbr) {
           cards.innerHTML += renderYearsCard(years);
         }
       }
+      
       // Recent Changes Card
       const commitsRes = await fetch(`https://api.github.com/repos/openelections/${dataRepo}/commits?per_page=5`);
-      if (commitsRes.status === 200) {
+      if (commitsRes.ok) {
         const commits = await commitsRes.json();
         cards.innerHTML += renderCommitsCard(commits, 'Data Changes');
       }
     }
+    
     // Sources Card
     if (sourcesExists) {
-      const repo = await sourcesRes.json();
-      cards.innerHTML += renderRepoCard(repo, 'Sources Repository', 'fa-file-alt', 'info');
+      cards.innerHTML += renderRepoCard(sourcesRes, 'Sources Repository', 'fa-file-alt', 'info');
+      
       // Recent Changes Card
       const commitsRes = await fetch(`https://api.github.com/repos/openelections/${sourcesRepo}/commits?per_page=5`);
-      if (commitsRes.status === 200) {
+      if (commitsRes.ok) {
         const commits = await commitsRes.json();
         cards.innerHTML += renderCommitsCard(commits, 'Source Changes');
       }

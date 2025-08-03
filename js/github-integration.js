@@ -9,8 +9,27 @@ class GitHubAPI {
   constructor(options = {}) {
     this.baseUrl = 'https://api.github.com';
     this.org = options.org || 'openelections';
+    this.token = options.token || window.GitHubConfig?.apiToken || '';
     this.cache = new Map();
     this.cacheTimeout = options.cacheTimeout || 5 * 60 * 1000; // 5 minutes
+  }
+
+  /**
+   * Get headers for GitHub API requests
+   * @returns {Object} Headers object
+   */
+  getHeaders() {
+    const headers = {
+      'Accept': 'application/vnd.github+json',
+      'X-GitHub-Api-Version': '2022-11-28',
+      'User-Agent': 'OpenElections-Website'
+    };
+    
+    if (this.token) {
+      headers['Authorization'] = `Bearer ${this.token}`;
+    }
+    
+    return headers;
   }
 
   /**
@@ -28,7 +47,9 @@ class GitHubAPI {
     }
 
     try {
-      const response = await fetch(`${this.baseUrl}/orgs/${this.org}/repos?type=all&sort=updated&per_page=100`);
+      const response = await fetch(`${this.baseUrl}/orgs/${this.org}/repos?type=all&sort=updated&per_page=100`, {
+        headers: this.getHeaders()
+      });
       
       if (!response.ok) {
         throw new Error(`GitHub API error: ${response.status} ${response.statusText}`);
@@ -87,8 +108,12 @@ class GitHubAPI {
 
     try {
       const [repoResponse, commitsResponse] = await Promise.all([
-        fetch(`${this.baseUrl}/repos/${this.org}/${repoName}`),
-        fetch(`${this.baseUrl}/repos/${this.org}/${repoName}/commits?per_page=1`)
+        fetch(`${this.baseUrl}/repos/${this.org}/${repoName}`, {
+          headers: this.getHeaders()
+        }),
+        fetch(`${this.baseUrl}/repos/${this.org}/${repoName}/commits?per_page=1`, {
+          headers: this.getHeaders()
+        })
       ]);
 
       if (!repoResponse.ok) {

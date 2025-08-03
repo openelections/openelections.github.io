@@ -55,7 +55,7 @@ pagination:
 
 # GitHub API Configuration
 # These settings control the GitHub activity page functionality
-github_token: # Will be set from GITHUB_TOKEN environment variable - see note below
+github_token: "{{ site.env.GITHUB_TOKEN | default: '' }}" # Will be set from GITHUB_TOKEN environment variable
 github_cache_timeout: 300000 # Cache timeout in milliseconds (5 minutes default)
 github_items_per_page: 20 # Number of items to load per page
 github_max_requests: 3 # Maximum concurrent API requests
