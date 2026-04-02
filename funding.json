@@ -1,0 +1,155 @@
+{
+  "$schema": "https://fundingjson.org/schema/v1.1.0.json",
+  "version": "v1.1.0",
+  "entity": {
+    "type": "organisation",
+    "role": "owner",
+    "name": "OpenElections",
+    "email": "openelections@gmail.com",
+    "phone": "",
+    "description": "OpenElections is a volunteer-driven project that collects, converts, and publishes certified precinct-level election results from across the United States in free, standardized CSV formats. Founded in 2013 by journalists Serdar Tumgoren and Derek Willis, the project operates under the fiscal sponsorship of Investigative Reporters and Editors (IRE), a 501(c)(3) nonprofit. Our data covers federal races (President, Senate, House), major statewide offices (Governor, Attorney General), and state legislative races across all 50 states. We are the only free, comprehensive source of precinct-level election results in the United States. Our data has been used by The New York Times, The Wall Street Journal, Votebeat, academic researchers, and campaign organizations.",
+    "webpageUrl": {
+      "url": "https://openelections.net",
+      "wellKnown": "https://openelections.net/.well-known/funding-manifest-urls"
+    }
+  },
+  "projects": [
+    {
+      "guid": "openelections-core",
+      "name": "OpenElections Core",
+      "description": "The core Python framework for acquiring, transforming, and standardizing election results data from U.S. state and county election authorities. Handles the pipeline from raw source files (PDFs, spreadsheets, HTML) to clean, standardized CSV output with consistent office names, party labels, and geographic identifiers. Supports all 50 states with state-specific data loaders and parsers.",
+      "webpageUrl": {
+        "url": "https://docs.openelections.net",
+        "wellKnown": "https://docs.openelections.net/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/openelections/openelections-core",
+        "wellKnown": ""
+      },
+      "licenses": ["spdx:MIT"],
+      "tags": ["elections", "open-data", "civic-tech", "data-pipeline", "python"]
+    },
+    {
+      "guid": "openelections-data",
+      "name": "OpenElections Data Repositories",
+      "description": "A collection of 50+ state-specific repositories containing converted, standardized CSV files of certified precinct-level election results. Each repository covers a single state and includes results for federal, statewide, and state legislative races going back to 2000 in many cases. We have the only free public collection of precinct-level results for Mississippi, and the largest free collection of precinct results from Oregon. The NYT's 2024 presidential precinct map credits OpenElections as a source for states where no other free data exists.",
+      "webpageUrl": {
+        "url": "https://openelections.net",
+        "wellKnown": "https://openelections.net/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/openelections",
+        "wellKnown": ""
+      },
+      "licenses": ["spdx:MIT"],
+      "tags": ["elections", "open-data", "csv", "precinct-results", "civic-data", "journalism"]
+    },
+    {
+      "guid": "clarify",
+      "name": "Clarify",
+      "description": "A Python library for discovering and parsing election results from jurisdictions that use Clarity-based election reporting systems (one of the most widely used platforms for publishing unofficial and certified election results in the United States). Clarify enables programmatic access to results that would otherwise require manual navigation of individual county or state websites.",
+      "webpageUrl": {
+        "url": "https://github.com/openelections/clarify",
+        "wellKnown": ""
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/openelections/clarify",
+        "wellKnown": ""
+      },
+      "licenses": ["spdx:MIT"],
+      "tags": ["elections", "scraping", "python", "data-extraction", "clarity"]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "ire-donation",
+        "type": "payment-provider",
+        "address": "https://www.ire.org/donate/",
+        "description": "Donate via IRE's online form. Enter 'OpenElections' as the specific fund. IRE is our 501(c)(3) fiscal sponsor; donations are tax-deductible."
+      },
+      {
+        "guid": "direct-contact",
+        "type": "other",
+        "address": "openelections@gmail.com",
+        "description": "For grant funding, institutional support, or other arrangements, contact us directly by email."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "annual-operations",
+        "status": "active",
+        "name": "Annual operating support",
+        "description": "Covers core annual costs: data acquisition fees charged by state/county agencies, software subscriptions for data conversion (Adobe Acrobat, Dropbox Sign, cloud hosting), and data entry for states that publish results only as image files or PDFs. At our current scale, $5,000 covers a full year of operations.",
+        "amount": 5000,
+        "currency": "USD",
+        "frequency": "yearly",
+        "channels": ["ire-donation", "direct-contact"]
+      },
+      {
+        "guid": "state-data-project",
+        "status": "active",
+        "name": "State data conversion project",
+        "description": "Fund the collection and conversion of precinct-level results for a specific state's election cycle. Covers data acquisition, contractor time on Upwork for data entry and conversion, and quality assurance. Cost varies by state complexity.",
+        "amount": 2500,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": ["ire-donation", "direct-contact"]
+      },
+      {
+        "guid": "general-support",
+        "status": "active",
+        "name": "General support",
+        "description": "Any amount helps. Even small donations cover the cost of purchasing results files from states that charge for public records or fund a few hours of data entry work.",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": ["ire-donation"]
+      }
+    ],
+    "history": [
+      {
+        "year": 2020,
+        "income": 10000,
+        "expenses": 7274,
+        "currency": "USD",
+        "description": "DoltHub donation ($10,000). Expenses included Upwork contractor data entry, AWS hosting, conference travel, software subscriptions, and county records fees."
+      },
+      {
+        "year": 2021,
+        "income": 1200,
+        "expenses": 7642,
+        "currency": "USD",
+        "description": "Individual donations. Expenses included Upwork contractors, software subscriptions, AWS, Heroku, and conference attendance."
+      },
+      {
+        "year": 2022,
+        "income": 196,
+        "expenses": 2668,
+        "currency": "USD",
+        "description": "Small individual donations. Expenses included software subscriptions, AWS, conference travel, and Adobe Acrobat."
+      },
+      {
+        "year": 2023,
+        "income": 1000,
+        "expenses": 3882,
+        "currency": "USD",
+        "description": "Redistricting Data Hub contribution ($1,000). Expenses included Upwork contractors, conference travel, software subscriptions."
+      },
+      {
+        "year": 2024,
+        "income": 0,
+        "expenses": 4342,
+        "currency": "USD",
+        "description": "No grant income. Expenses covered software subscriptions, AWS, conference travel (IRE, SPSA), county records purchases, and Zoom."
+      },
+      {
+        "year": 2025,
+        "income": 0,
+        "expenses": 2182,
+        "currency": "USD",
+        "description": "Partial year through January 2026. Expenses include AWS, software subscriptions, county records fees (TX), conference travel (SPSA), and data tools."
+      }
+    ]
+  }
+}
