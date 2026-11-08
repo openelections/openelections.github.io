@@ -3,6 +3,253 @@
   {
    "county": false,
    "county_derivable": true,
+   "date": "2024-11-05",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2024/20241105__sc__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__abbeville__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__aiken__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__allendale__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__anderson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__bamberg__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__barnwell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__beaufort__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__berkeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__charleston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__cherokee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__chester__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__chesterfield__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__clarendon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__colleton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__darlington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__dillon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__dorchester__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__edgefield__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__fairfield__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__florence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__georgetown__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__greenville__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__greenwood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__hampton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__horry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__jasper__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__kershaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__lancaster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__laurens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__lee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__lexington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__marlboro__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__mccormick__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__newberry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__oconee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__orangeburg__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__pickens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__richland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__saluda__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__spartanburg__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__sumter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__union__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__williamsburg__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__sc__general__york__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "abbeville",
+    "aiken",
+    "allendale",
+    "anderson",
+    "bamberg",
+    "barnwell",
+    "beaufort",
+    "berkeley",
+    "calhoun",
+    "charleston",
+    "cherokee",
+    "chester",
+    "chesterfield",
+    "clarendon",
+    "colleton",
+    "darlington",
+    "dillon",
+    "dorchester",
+    "edgefield",
+    "fairfield",
+    "florence",
+    "georgetown",
+    "greenville",
+    "greenwood",
+    "hampton",
+    "horry",
+    "jasper",
+    "kershaw",
+    "lancaster",
+    "laurens",
+    "lee",
+    "lexington",
+    "marion",
+    "marlboro",
+    "mccormick",
+    "newberry",
+    "oconee",
+    "orangeburg",
+    "pickens",
+    "richland",
+    "saluda",
+    "spartanburg",
+    "sumter",
+    "union",
+    "williamsburg",
+    "york"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
    "date": "2024-06-11",
    "files": [
     {
@@ -4685,7 +4932,7 @@
    "type": "democratic"
   }
  ],
- "generated_at": "2026-11-08T02:41:55Z",
+ "generated_at": "2026-11-08T11:45:18Z",
  "repo": "openelections-data-sc",
  "state": "sc"
 }

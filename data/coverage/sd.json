@@ -3,6 +3,22 @@
   {
    "county": true,
    "county_derivable": false,
+   "date": "2026-06-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2026/20260602__sd__primary__county.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
    "date": "2024-11-05",
    "files": [
     {
@@ -2518,7 +2534,7 @@
    "type": "primary"
   }
  ],
- "generated_at": "2026-11-08T02:41:55Z",
+ "generated_at": "2026-11-08T11:45:19Z",
  "repo": "openelections-data-sd",
  "state": "sd"
 }

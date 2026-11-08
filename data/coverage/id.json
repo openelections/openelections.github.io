@@ -1,8 +1,8 @@
 {
  "elections": [
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2020-11-03",
    "files": [
     {
@@ -12,6 +12,10 @@
     {
      "level": "precinct",
      "path": "2020/20201103__id__general__camas__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2020/20201103__id__general__county.csv"
     },
     {
      "level": "precinct",
@@ -28,6 +32,10 @@
     {
      "level": "precinct",
      "path": "2020/20201103__id__general__owyhee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__id__general__precinct.csv"
     }
    ],
    "label": "",
@@ -40,7 +48,7 @@
     "idaho",
     "owyhee"
    ],
-   "precinct_statewide": false,
+   "precinct_statewide": true,
    "type": "general"
   },
   {
@@ -576,7 +584,7 @@
    "type": "primary"
   }
  ],
- "generated_at": "2026-11-08T02:41:55Z",
+ "generated_at": "2026-11-08T11:44:43Z",
  "repo": "openelections-data-id",
  "state": "id"
 }

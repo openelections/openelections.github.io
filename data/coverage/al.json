@@ -3,22 +3,6 @@
   {
    "county": true,
    "county_derivable": false,
-   "date": "2026-08-11",
-   "files": [
-    {
-     "level": "county",
-     "path": "2026/20260811__al__special__county.csv"
-    }
-   ],
-   "label": "",
-   "precinct": false,
-   "precinct_counties": [],
-   "precinct_statewide": false,
-   "type": "special"
-  },
-  {
-   "county": true,
-   "county_derivable": false,
    "date": "2026-05-19",
    "files": [
     {
@@ -276,26 +260,6 @@
     {
      "level": "precinct",
      "path": "2026/counties/20260519__al__primary__winston__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties_paddleocr/20260519__al__primary__dallas__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties_paddleocr/20260519__al__primary__etowah__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties_paddleocr/20260519__al__primary__lauderdale__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties_paddleocr/20260519__al__primary__lee__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties_paddleocr/20260519__al__primary__mobile__precinct.csv"
     }
    ],
    "label": "",
@@ -517,7 +481,7 @@
    "type": "general"
   }
  ],
- "generated_at": "2026-11-08T02:41:55Z",
+ "generated_at": "2026-11-08T11:44:28Z",
  "repo": "openelections-data-al",
  "state": "al"
 }

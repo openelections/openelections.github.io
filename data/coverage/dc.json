@@ -1,0 +1,175 @@
+{
+ "elections": [
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20181106__dc__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2016-11-08",
+   "files": [
+    {
+     "level": "other",
+     "path": "2016/20161108__dc__general__district.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__dc__general__precinct.csv"
+    },
+    {
+     "level": "other",
+     "path": "2016/20161108__dc__general__ward.csv"
+    }
+   ],
+   "label": "district",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2008-02-12",
+   "files": [
+    {
+     "level": "other",
+     "path": "2008/20080212__dc__primary__president.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080212__dc__primary__president__precinct.csv"
+    },
+    {
+     "level": "other",
+     "path": "2008/20080212__dc__primary__president__ward.csv"
+    }
+   ],
+   "label": "president",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": false,
+   "date": "2007-08-21",
+   "files": [
+    {
+     "level": "other",
+     "path": "2007/20070821__dc__special__general__board_of_education.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2007-05-01",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2007/20070501__dc__special__general__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2006-11-07",
+   "files": [
+    {
+     "level": "other",
+     "path": "2006/20061107__dc__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2006/20061107__dc__general__precinct.csv"
+    },
+    {
+     "level": "other",
+     "path": "2006/20061107__dc__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2006-09-12",
+   "files": [
+    {
+     "level": "other",
+     "path": "2006/20060912__dc__primary.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2006/20060912__dc__primary__precinct.csv"
+    },
+    {
+     "level": "other",
+     "path": "2006/20060912__dc__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2004-11-02",
+   "files": [
+    {
+     "level": "other",
+     "path": "2004/20041102__dc__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__dc__general__precinct.csv"
+    },
+    {
+     "level": "other",
+     "path": "2004/20041102__dc__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  }
+ ],
+ "generated_at": "2026-11-08T11:44:36Z",
+ "repo": "openelections-data-dc",
+ "state": "dc"
+}

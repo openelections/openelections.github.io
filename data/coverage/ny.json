@@ -7,10 +7,6 @@
    "files": [
     {
      "level": "precinct",
-     "path": "2026/20260623__ny__primary__precinct.csv"
-    },
-    {
-     "level": "precinct",
      "path": "2026/counties/20260623__ny__primary__allegany__precinct.csv"
     },
     {
@@ -189,7 +185,7 @@
     "washington",
     "westchester"
    ],
-   "precinct_statewide": true,
+   "precinct_statewide": false,
    "type": "primary"
   },
   {
@@ -4175,7 +4171,7 @@
    "type": "general"
   }
  ],
- "generated_at": "2026-11-08T02:41:55Z",
+ "generated_at": "2026-11-08T11:45:10Z",
  "repo": "openelections-data-ny",
  "state": "ny"
 }

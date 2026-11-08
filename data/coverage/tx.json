@@ -8,212 +8,11 @@
     {
      "level": "county",
      "path": "2026/20260303__tx__primary__county.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__archer__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__atascosa__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__bell__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__brazos__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__burnet__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__caldwell__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__cherokee__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__coleman__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__collin__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__cooke__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__dewitt__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__el_paso__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__ellis__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__fayette__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__gillespie__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__grayson__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__hidalgo__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__houston__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__jasper__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__jones__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__karnes__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__liberty__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__limestone__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__marion__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__mclennan__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__medina__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__montgomery__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__navarro__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__newton__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__parker__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__potter__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__rains__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__randall__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__sutton__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__tarrant__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__terrell__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__tom_green__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__van_zandt__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__washington__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260303__tx__primary__wilson__precinct.csv"
     }
    ],
    "label": "",
-   "precinct": true,
-   "precinct_counties": [
-    "archer",
-    "atascosa",
-    "bell",
-    "brazos",
-    "burnet",
-    "caldwell",
-    "cherokee",
-    "coleman",
-    "collin",
-    "cooke",
-    "dewitt",
-    "el_paso",
-    "ellis",
-    "fayette",
-    "gillespie",
-    "grayson",
-    "hidalgo",
-    "houston",
-    "jasper",
-    "jones",
-    "karnes",
-    "liberty",
-    "limestone",
-    "marion",
-    "mclennan",
-    "medina",
-    "montgomery",
-    "navarro",
-    "newton",
-    "parker",
-    "potter",
-    "rains",
-    "randall",
-    "sutton",
-    "tarrant",
-    "terrell",
-    "tom_green",
-    "van_zandt",
-    "washington",
-    "wilson"
-   ],
+   "precinct": false,
+   "precinct_counties": [],
    "precinct_statewide": false,
    "type": "primary"
   },
@@ -2140,10 +1939,6 @@
    "county_derivable": false,
    "date": "2020-11-03",
    "files": [
-    {
-     "level": "county",
-     "path": "2020/20201103__tx__general__county.csv"
-    },
     {
      "level": "county",
      "path": "2020/20201103__tx__general__headers.csv"
@@ -12714,7 +12509,7 @@
    "type": "special"
   }
  ],
- "generated_at": "2026-11-08T02:41:55Z",
+ "generated_at": "2026-11-08T11:45:22Z",
  "repo": "openelections-data-tx",
  "state": "tx"
 }

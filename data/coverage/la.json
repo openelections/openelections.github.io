@@ -1,6 +1,134 @@
 {
  "elections": [
   {
+   "county": false,
+   "county_derivable": true,
+   "date": "2026-06-27",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2026/20260627__la__primary__runoff__precinct.csv"
+    }
+   ],
+   "label": "runoff",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2026-05-16",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2026/20260516__la__primary__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2026-03-14",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2026/20260314__la__special__general__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2026-02-07",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2026/20260207__la__special__primary__precinct.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2024-11-05",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2024/20241105__la__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2024-03-23",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2024/20240323__la__primary__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2022-11-08",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2022/20221108__la__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2022-03-26",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2022/20220326__la__special__primary__precinct.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
    "county": true,
    "county_derivable": false,
    "date": "2020-11-03",
@@ -153,12 +281,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2015-11-21",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2015/20151121__la__general.csv"
     },
     {
@@ -173,12 +301,12 @@
    "type": "general"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2015-10-24",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2015/20151024__la__primary.csv"
     },
     {
@@ -193,12 +321,12 @@
    "type": "primary"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2015-03-28",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2015/20150328__la__special__general.csv"
     },
     {
@@ -213,12 +341,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2015-02-21",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2015/20150221__la__special__primary.csv"
     },
     {
@@ -233,12 +361,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2014-12-06",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2014/20141206__la__general.csv"
     },
     {
@@ -253,12 +381,12 @@
    "type": "general"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2014-11-04",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2014/20141104__la__primary.csv"
     },
     {
@@ -273,12 +401,12 @@
    "type": "primary"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2013-11-16",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2013/20131116__la__special__general.csv"
     },
     {
@@ -293,12 +421,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2013-10-19",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2013/20131019__la__special__primary.csv"
     },
     {
@@ -313,12 +441,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2013-03-02",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2013/20130302__la__special__primary.csv"
     },
     {
@@ -333,12 +461,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2012-12-08",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2012/20121208__la__general.csv"
     },
     {
@@ -353,12 +481,12 @@
    "type": "general"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2012-11-06",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2012/20121106__la__primary.csv"
     },
     {
@@ -373,12 +501,12 @@
    "type": "primary"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2012-11-06",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2012/20121106__la__general.csv"
     },
     {
@@ -393,12 +521,12 @@
    "type": "general"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2012-03-24",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2012/20120324__la__primary.csv"
     },
     {
@@ -413,12 +541,12 @@
    "type": "primary"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2011-11-19",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2011/20111119__la__general.csv"
     },
     {
@@ -433,12 +561,12 @@
    "type": "general"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2011-10-22",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2011/20111022__la__primary.csv"
     },
     {
@@ -453,12 +581,12 @@
    "type": "primary"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2011-04-30",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2011/20110430__la__special__primary.csv"
     },
     {
@@ -473,12 +601,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2011-04-02",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2011/20110402__la__special__primary.csv"
     },
     {
@@ -493,12 +621,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2011-02-19",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2011/20110219__la__special__primary.csv"
     },
     {
@@ -513,12 +641,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2011-01-22",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2011/20110122__la__special__primary.csv"
     },
     {
@@ -533,12 +661,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2010-11-02",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2010/20101102__la__special__general.csv"
     },
     {
@@ -553,12 +681,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2010-11-02",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2010/20101102__la__primary.csv"
     },
     {
@@ -573,12 +701,12 @@
    "type": "primary"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2010-10-02",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2010/20101002__la__special__primary.csv"
     },
     {
@@ -593,12 +721,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2010-10-02",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2010/20101002__la__primary_runoff.csv"
     },
     {
@@ -615,12 +743,12 @@
    "type": "election"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2010-08-28",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2010/20100828__la__primary.csv"
     },
     {
@@ -635,12 +763,12 @@
    "type": "primary"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2010-05-29",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2010/20100529__la__special__general.csv"
     },
     {
@@ -655,12 +783,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2010-05-01",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2010/20100501__la__special__primary.csv"
     },
     {
@@ -675,12 +803,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2010-02-06",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2010/20100206__la__special__primary.csv"
     },
     {
@@ -695,12 +823,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2009-08-29",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2009/20090829__la__special__general.csv"
     },
     {
@@ -715,12 +843,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2009-08-01",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2009/20090801__la__special__primary.csv"
     },
     {
@@ -735,12 +863,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2009-05-02",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2009/20090502__la__special__general.csv"
     },
     {
@@ -755,12 +883,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2009-04-04",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2009/20090404__la__special__general.csv"
     },
     {
@@ -768,7 +896,7 @@
      "path": "2009/20090404__la__special__general__precinct.csv"
     },
     {
-     "level": "other",
+     "level": "county",
      "path": "2009/20090404__la__special__primary.csv"
     },
     {
@@ -783,12 +911,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2009-03-07",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2009/20090307__la__special__primary.csv"
     },
     {
@@ -803,12 +931,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2008-12-06",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2008/20081206__la__special__primary.csv"
     },
     {
@@ -823,12 +951,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2008-12-06",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2008/20081206__la__general_runoff.csv"
     },
     {
@@ -845,12 +973,12 @@
    "type": "election"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2008-11-04",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2008/20081104__la__special__general.csv"
     },
     {
@@ -865,12 +993,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2008-11-04",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2008/20081104__la__general.csv"
     },
     {
@@ -885,12 +1013,12 @@
    "type": "general"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2008-10-04",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2008/20081004__la__special__primary.csv"
     },
     {
@@ -905,12 +1033,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2008-10-04",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2008/20081004__la__primary.csv"
     },
     {
@@ -925,12 +1053,12 @@
    "type": "primary"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2008-05-03",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2008/20080503__la__special__general.csv"
     },
     {
@@ -945,12 +1073,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2008-04-05",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2008/20080405__la__special__primary_runoff.csv"
     },
     {
@@ -967,12 +1095,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2008-03-08",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2008/20080308__la__special__primary.csv"
     },
     {
@@ -987,12 +1115,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2008-02-09",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2008/20080209__la__special__primary.csv"
     },
     {
@@ -1007,12 +1135,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2008-02-09",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2008/20080209__la__primary.csv"
     },
     {
@@ -1027,12 +1155,12 @@
    "type": "primary"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2007-11-17",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2007/20071117__la__general.csv"
     },
     {
@@ -1047,12 +1175,12 @@
    "type": "general"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2007-10-20",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2007/20071020__la__primary.csv"
     },
     {
@@ -1067,12 +1195,12 @@
    "type": "primary"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2007-03-31",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2007/20070331__la__special__general.csv"
     },
     {
@@ -1087,12 +1215,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2007-03-10",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2007/20070310__la__special__primary.csv"
     },
     {
@@ -1107,12 +1235,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2007-02-24",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2007/20070224__la__special__primary.csv"
     },
     {
@@ -1127,12 +1255,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2006-12-09",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2006/20061209__la__general.csv"
     },
     {
@@ -1147,12 +1275,12 @@
    "type": "general"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2006-11-07",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2006/20061107__la__special__general.csv"
     },
     {
@@ -1167,12 +1295,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2006-11-07",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2006/20061107__la__primary.csv"
     },
     {
@@ -1187,12 +1315,12 @@
    "type": "primary"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2006-09-30",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2006/20060930__la__special__primary.csv"
     },
     {
@@ -1207,12 +1335,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2006-04-29",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2006/20060429__la__special__general.csv"
     },
     {
@@ -1227,12 +1355,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2006-04-01",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2006/20060401__la__special__primary.csv"
     },
     {
@@ -1247,12 +1375,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2005-07-09",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2005/20050709__la__special__general.csv"
     },
     {
@@ -1260,7 +1388,7 @@
      "path": "2005/20050709__la__special__general__precinct.csv"
     },
     {
-     "level": "other",
+     "level": "county",
      "path": "2005/20050709__la__special__primary.csv"
     },
     {
@@ -1275,12 +1403,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2005-06-04",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2005/20050604__la__special__primary.csv"
     },
     {
@@ -1295,12 +1423,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2005-05-21",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2005/20050521__la__special__primary.csv"
     },
     {
@@ -1315,12 +1443,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2005-04-02",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2005/20050402__la__special__general.csv"
     },
     {
@@ -1335,12 +1463,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2005-03-05",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2005/20050305__la__special__primary.csv"
     },
     {
@@ -1355,12 +1483,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2005-02-26",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2005/20050226__la__special__general.csv"
     },
     {
@@ -1375,12 +1503,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2005-01-29",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2005/20050129__la__special__primary.csv"
     },
     {
@@ -1395,12 +1523,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2004-12-04",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2004/20041204__la__special__primary.csv"
     },
     {
@@ -1415,12 +1543,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2004-12-04",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2004/20041204__la__general.csv"
     },
     {
@@ -1435,12 +1563,12 @@
    "type": "general"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2004-11-02",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2004/20041102__la__special__general.csv"
     },
     {
@@ -1455,12 +1583,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2004-11-02",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2004/20041102__la__primary.csv"
     },
     {
@@ -1475,12 +1603,12 @@
    "type": "primary"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2004-11-02",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2004/20041102__la__general.csv"
     },
     {
@@ -1495,12 +1623,12 @@
    "type": "general"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2004-09-18",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2004/20040918__la__special__primary.csv"
     },
     {
@@ -1515,12 +1643,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2004-04-17",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2004/20040417__la__special__general.csv"
     },
     {
@@ -1535,12 +1663,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2004-03-09",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2004/20040309__la__special__primary.csv"
     },
     {
@@ -1555,12 +1683,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2004-03-09",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2004/20040309__la__primary.csv"
     },
     {
@@ -1575,12 +1703,12 @@
    "type": "primary"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2003-11-15",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2003/20031115__la__general.csv"
     },
     {
@@ -1595,12 +1723,12 @@
    "type": "general"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2003-10-04",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2003/20031004__la__primary.csv"
     },
     {
@@ -1615,12 +1743,12 @@
    "type": "primary"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2003-03-15",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2003/20030315__la__special__general.csv"
     },
     {
@@ -1635,12 +1763,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2003-02-15",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2003/20030215__la__special__general.csv"
     },
     {
@@ -1648,7 +1776,7 @@
      "path": "2003/20030215__la__special__general__precinct.csv"
     },
     {
-     "level": "other",
+     "level": "county",
      "path": "2003/20030215__la__special__primary.csv"
     },
     {
@@ -1663,12 +1791,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2003-01-18",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2003/20030118__la__special__general.csv"
     },
     {
@@ -1676,7 +1804,7 @@
      "path": "2003/20030118__la__special__general__precinct.csv"
     },
     {
-     "level": "other",
+     "level": "county",
      "path": "2003/20030118__la__special__primary.csv"
     },
     {
@@ -1691,12 +1819,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2002-12-07",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2002/20021207__la__special__primary.csv"
     },
     {
@@ -1711,12 +1839,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2002-12-07",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2002/20021207__la__general.csv"
     },
     {
@@ -1731,12 +1859,12 @@
    "type": "general"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2002-11-05",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2002/20021105__la__primary.csv"
     },
     {
@@ -1751,12 +1879,12 @@
    "type": "primary"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2002-05-04",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2002/20020504__la__special__general.csv"
     },
     {
@@ -1771,12 +1899,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2002-04-06",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2002/20020406__la__special__primary.csv"
     },
     {
@@ -1791,12 +1919,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2002-03-02",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2002/20020302__la__special__primary.csv"
     },
     {
@@ -1811,12 +1939,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2001-12-15",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2001/20011215__la__special__primary.csv"
     },
     {
@@ -1831,12 +1959,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2001-11-24",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2001/20011124__la__special__primary.csv"
     },
     {
@@ -1851,12 +1979,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2001-08-18",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2001/20010818__la__special__general.csv"
     },
     {
@@ -1871,12 +1999,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2001-07-21",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2001/20010721__la__special__primary.csv"
     },
     {
@@ -1891,12 +2019,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2001-06-02",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2001/20010602__la__special__general.csv"
     },
     {
@@ -1911,12 +2039,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2001-05-05",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2001/20010505__la__special__primary.csv"
     },
     {
@@ -1931,12 +2059,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2001-03-17",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2001/20010317__la__special__general.csv"
     },
     {
@@ -1951,12 +2079,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2001-03-10",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2001/20010310__la__special__general.csv"
     },
     {
@@ -1971,12 +2099,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2001-02-17",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2001/20010217__la__special__primary.csv"
     },
     {
@@ -1991,12 +2119,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2001-02-10",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2001/20010210__la__special__primary.csv"
     },
     {
@@ -2011,12 +2139,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2000-12-09",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2000/20001209__la__special__general.csv"
     },
     {
@@ -2031,12 +2159,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2000-11-07",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2000/20001107__la__special__primary.csv"
     },
     {
@@ -2051,12 +2179,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2000-11-07",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2000/20001107__la__primary.csv"
     },
     {
@@ -2071,12 +2199,12 @@
    "type": "primary"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2000-11-07",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2000/20001107__la__general.csv"
     },
     {
@@ -2091,12 +2219,12 @@
    "type": "general"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2000-10-07",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2000/20001007__la__special__primary.csv"
     },
     {
@@ -2111,12 +2239,12 @@
    "type": "special"
   },
   {
-   "county": false,
-   "county_derivable": true,
+   "county": true,
+   "county_derivable": false,
    "date": "2000-03-14",
    "files": [
     {
-     "level": "other",
+     "level": "county",
      "path": "2000/20000314__la__primary.csv"
     },
     {
@@ -2131,7 +2259,7 @@
    "type": "primary"
   }
  ],
- "generated_at": "2026-11-08T02:41:55Z",
+ "generated_at": "2026-11-08T11:44:50Z",
  "repo": "openelections-data-la",
  "state": "la"
 }

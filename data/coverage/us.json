@@ -1,0 +1,43 @@
+{
+ "elections": [
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-11-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20161108__us__general__president__county.csv"
+    }
+   ],
+   "label": "president",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-11-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2014/20141104__us__general__governor__county.csv"
+    },
+    {
+     "level": "county",
+     "path": "2014/20141104__us__general__house__county.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  }
+ ],
+ "generated_at": "2026-11-08T11:45:22Z",
+ "repo": "openelections-data-us",
+ "state": "us"
+}

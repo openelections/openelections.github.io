@@ -3,6 +3,22 @@
   {
    "county": false,
    "county_derivable": true,
+   "date": "2022-11-08",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2022/20221108__nv__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
    "date": "2020-11-03",
    "files": [
     {
@@ -2297,7 +2313,7 @@
    "type": "primary"
   }
  ],
- "generated_at": "2026-11-08T02:41:55Z",
+ "generated_at": "2026-11-08T11:45:09Z",
  "repo": "openelections-data-nv",
  "state": "nv"
 }

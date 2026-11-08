@@ -3,6 +3,84 @@
   {
    "county": false,
    "county_derivable": true,
+   "date": "2024-11-05",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2024/20241105__nh__general__congressional__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__nh__general__executive__council__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__nh__general__governor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__nh__general__president__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__nh__general__state__representative__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__nh__general__state__senate__precinct.csv"
+    }
+   ],
+   "label": "state",
+   "precinct": true,
+   "precinct_counties": [
+    "congressional",
+    "representative"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2022-11-08",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2022/20221108__nh__general__congressional__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__nh__general__executive__council__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__nh__general__governor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__nh__general__state__representative__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__nh__general__state__senate__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__nh__general__us__senate__precinct.csv"
+    }
+   ],
+   "label": "state",
+   "precinct": true,
+   "precinct_counties": [
+    "congressional",
+    "representative"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
    "date": "2020-11-03",
    "files": [
     {
@@ -193,7 +271,7 @@
    "type": "democratic"
   }
  ],
- "generated_at": "2026-11-08T02:41:55Z",
+ "generated_at": "2026-11-08T11:45:01Z",
  "repo": "openelections-data-nh",
  "state": "nh"
 }

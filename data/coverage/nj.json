@@ -1,88 +1,6 @@
 {
  "elections": [
   {
-   "county": true,
-   "county_derivable": false,
-   "date": "2026-06-02",
-   "files": [
-    {
-     "level": "county",
-     "path": "2026/20260602__nj__primary__county.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__atlantic__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__burlington__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__camden__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__cape_may__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__essex__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__hunterdon__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__middlesex__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__monmouth__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__ocean__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__passaic__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__somerset__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__union__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__warren__precinct.csv"
-    }
-   ],
-   "label": "",
-   "precinct": true,
-   "precinct_counties": [
-    "atlantic",
-    "burlington",
-    "camden",
-    "cape_may",
-    "essex",
-    "hunterdon",
-    "middlesex",
-    "monmouth",
-    "ocean",
-    "passaic",
-    "somerset",
-    "union",
-    "warren"
-   ],
-   "precinct_statewide": false,
-   "type": "primary"
-  },
-  {
    "county": false,
    "county_derivable": true,
    "date": "2024-11-05",
@@ -243,10 +161,6 @@
     },
     {
      "level": "precinct",
-     "path": "2020/20201103__nj__general__burlington__precinct.csv"
-    },
-    {
-     "level": "precinct",
      "path": "2020/20201103__nj__general__camden__precinct.csv"
     },
     {
@@ -295,7 +209,6 @@
    "precinct_counties": [
     "atlantic",
     "bergen",
-    "burlington",
     "camden",
     "essex",
     "gloucester",
@@ -1103,7 +1016,7 @@
    "type": "primary"
   }
  ],
- "generated_at": "2026-11-08T02:41:55Z",
+ "generated_at": "2026-11-08T11:45:03Z",
  "repo": "openelections-data-nj",
  "state": "nj"
 }

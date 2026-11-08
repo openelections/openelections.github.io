@@ -47,10 +47,6 @@
     },
     {
      "level": "precinct",
-     "path": "2024/counties/20241105__in__general__clark__precinct.parsed.csv"
-    },
-    {
-     "level": "precinct",
      "path": "2024/counties/20241105__in__general__clay__precinct.csv"
     },
     {
@@ -382,7 +378,7 @@
      "path": "2024/counties/20241105__in__general__whitley__precinct.csv"
     }
    ],
-   "label": "clark precinct.parsed",
+   "label": "",
    "precinct": true,
    "precinct_counties": [
     "adams",
@@ -478,7 +474,7 @@
     "white",
     "whitley"
    ],
-   "precinct_statewide": true,
+   "precinct_statewide": false,
    "type": "general"
   },
   {
@@ -2260,7 +2256,7 @@
    "type": "primary"
   }
  ],
- "generated_at": "2026-11-08T02:41:55Z",
+ "generated_at": "2026-11-08T11:44:45Z",
  "repo": "openelections-data-in",
  "state": "in"
 }

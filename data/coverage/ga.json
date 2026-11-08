@@ -1,6 +1,70 @@
 {
  "elections": [
   {
+   "county": true,
+   "county_derivable": false,
+   "date": "2025-08-26",
+   "files": [
+    {
+     "level": "county",
+     "path": "2025/20250826__ga__special__state__senate__21__county-level.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/20250826__ga__special__state__senate__21__precinct-level.csv"
+    }
+   ],
+   "label": "state senate 21",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2025-07-15",
+   "files": [
+    {
+     "level": "county",
+     "path": "2025/20250715__ga__special__runoff__psc__county-level.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/20250715__ga__special__runoff__psc__precinct-level.csv"
+    }
+   ],
+   "label": "runoff",
+   "precinct": true,
+   "precinct_counties": [
+    "psc"
+   ],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2025-06-17",
+   "files": [
+    {
+     "level": "county",
+     "path": "2025/20250617__ga__special__psc__county-level.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/20250617__ga__special__psc__precinct-level.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "psc"
+   ],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
    "county": false,
    "county_derivable": true,
    "date": "2024-12-03",
@@ -8574,7 +8638,7 @@
    "type": "special"
   }
  ],
- "generated_at": "2026-11-08T02:41:55Z",
+ "generated_at": "2026-11-08T11:44:41Z",
  "repo": "openelections-data-ga",
  "state": "ga"
 }

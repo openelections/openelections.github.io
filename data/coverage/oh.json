@@ -1,6 +1,26 @@
 {
  "elections": [
   {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-11-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2020/20201103__oh__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__oh__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
    "county": false,
    "county_derivable": true,
    "date": "2018-11-06",
@@ -499,7 +519,7 @@
    "type": "democratic"
   }
  ],
- "generated_at": "2026-11-08T02:41:55Z",
+ "generated_at": "2026-11-08T11:45:12Z",
  "repo": "openelections-data-oh",
  "state": "oh"
 }
