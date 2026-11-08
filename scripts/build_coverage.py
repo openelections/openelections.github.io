@@ -120,15 +120,34 @@ def api_get(url, token):
 
 
 def sniff_header(header_text):
-    """Classify a CSV header line into a reporting level."""
+    """Classify a CSV header line into a reporting level (+ county column)."""
     h = header_text.lower()
     has_precinct = "precinct" in h
     has_county = "county" in h
     if has_precinct:
-        return "precinct"
+        return {"level": "precinct", "county_col": has_county}
     if has_county:
-        return "county"
-    return "other"
+        return {"level": "county", "county_col": has_county}
+    return {"level": "other", "county_col": False}
+
+
+def token_slug(token):
+    """Normalize a filename county token to match county roster slugs."""
+    return re.sub(r"[^a-z0-9]", "", token.lower())
+
+
+def load_county_rosters():
+    """State -> county roster, from scripts/counties.json (Census gazetteer)."""
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "counties.json")
+    try:
+        with open(path) as f:
+            data = json.load(f)
+        return data
+    except (OSError, ValueError):
+        return {}
+
+
+COUNTY_ROSTERS = load_county_rosters()
 
 
 def parse_filename(path):
@@ -185,8 +204,11 @@ def is_county_precinct_file(parsed):
     return parsed["county"] is not None and "precinct" in (parsed["level"] or "")
 
 
-def build_elections(parsed_files, header_levels, st):
+def build_elections(parsed_files, header_levels, st, rosters):
     """Group parsed files into per-election coverage records."""
+    roster = rosters.get(st.upper(), [])
+    total = len(roster)
+    slug_to_name = {r["slug"]: r["name"] for r in roster}
     elections = {}
     for parsed in parsed_files:
         key = "%s|%s" % (parsed["date"], parsed["type"])
@@ -196,34 +218,65 @@ def build_elections(parsed_files, header_levels, st):
             "label": "",
             "_labels": {},
             "county": False,
+            "county_statewide": False,
             "precinct": False,
             "precinct_statewide": False,
-            "precinct_counties": [],
+            "_county_tokens": set(),
+            "_precinct_tokens": set(),
             "county_derivable": False,
             "files": [],
         })
+        sniffed = None
         level = parsed["level"]
         if level is None:
-            level = header_levels.get(parsed["path"], "other")
+            sniffed = header_levels.get(parsed["path"], {"level": "other", "county_col": False})
+            level = sniffed["level"]
         e["files"].append({"path": parsed["path"], "level": level})
 
         if level == "precinct":
             e["precinct"] = True
             if parsed["county"]:
-                e["precinct_counties"].append(parsed["county"])
+                e["_precinct_tokens"].add(parsed["county"])
             else:
                 e["precinct_statewide"] = True
+                # a header-level file with both county and precinct columns
+                # carries county totals for the whole state directly
+                if sniffed and sniffed.get("county_col"):
+                    e["county_statewide"] = True
+                    e["county"] = True
         elif level == "county":
             e["county"] = True
+            if parsed["county"]:
+                e["_county_tokens"].add(parsed["county"])
+            else:
+                e["county_statewide"] = True
 
         if parsed["label"]:
             e["_labels"][parsed["label"]] = e["_labels"].get(parsed["label"], 0) + 1
 
     result = list(elections.values())
     for e in result:
-        e["precinct_counties"] = sorted(set(e["precinct_counties"]))
+        e["precinct_counties"] = sorted(
+            slug_to_name.get(token_slug(t), t.replace("_", " ")) for t in e["_precinct_tokens"])
+        e["county_counties"] = sorted(
+            slug_to_name.get(token_slug(t), t.replace("_", " ")) for t in e["_county_tokens"])
         e["files"].sort(key=lambda f: f["path"])
         e["county_derivable"] = e["precinct"] and not e["county"]
+        # per-county files: list which counties have no data at this level
+        present = {token_slug(t) for t in e["_precinct_tokens"]}
+        roster_slugs = {r["slug"] for r in roster}
+        if total and not e["precinct_statewide"]:
+            e["precinct_missing"] = sorted(
+                slug_to_name[s] for s in roster_slugs - present)
+        else:
+            e["precinct_missing"] = []
+        present_c = {token_slug(t) for t in e["_county_tokens"]}
+        if total and e["county"] and not e["county_statewide"]:
+            e["county_missing"] = sorted(
+                slug_to_name[s] for s in roster_slugs - present_c)
+        else:
+            e["county_missing"] = []
+        del e["_precinct_tokens"], e["_county_tokens"]
         # files for one election can carry slightly different labels; pick the
         # most frequent (shortest on ties) so per-county county names don't win
         if e["_labels"]:
@@ -231,7 +284,7 @@ def build_elections(parsed_files, header_levels, st):
                                 key=lambda kv: (-kv[1], len(kv[0]), kv[0]))[0][0]
         del e["_labels"]
     result.sort(key=lambda e: (e["date"], e["type"]), reverse=True)
-    return result
+    return result, total
 
 
 def repo_paths_via_api(st, token):
@@ -345,10 +398,11 @@ def build_state(st, token, local_root, outdir):
         parsed = [p for p in (parse_filename(path) for path in paths) if p]
         levels = sniff_headers_via_api(st, branch, paths, parsed)
 
-    elections = build_elections(parsed, levels, st)
+    elections, total_counties = build_elections(parsed, levels, st, COUNTY_ROSTERS)
     doc = {
         "state": st,
         "repo": "%s-data-%s" % (ORG, st),
+        "total_counties": total_counties,
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "elections": elections,
     }

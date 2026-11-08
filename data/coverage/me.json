@@ -2,7 +2,10 @@
  "elections": [
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2020-11-03",
    "files": [
     {
@@ -13,12 +16,35 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Androscoggin County",
+    "Aroostook County",
+    "Cumberland County",
+    "Franklin County",
+    "Hancock County",
+    "Kennebec County",
+    "Knox County",
+    "Lincoln County",
+    "Oxford County",
+    "Penobscot County",
+    "Piscataquis County",
+    "Sagadahoc County",
+    "Somerset County",
+    "Waldo County",
+    "Washington County",
+    "York County"
+   ],
+   "county_statewide": false,
    "date": "2018-11-06",
    "files": [
     {
@@ -29,12 +55,33 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Androscoggin County",
+    "Aroostook County",
+    "Cumberland County",
+    "Franklin County",
+    "Hancock County",
+    "Kennebec County",
+    "Knox County",
+    "Lincoln County",
+    "Oxford County",
+    "Penobscot County",
+    "Piscataquis County",
+    "Sagadahoc County",
+    "Somerset County",
+    "Waldo County",
+    "Washington County",
+    "York County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2016-11-08",
    "files": [
     {
@@ -45,12 +92,35 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Androscoggin County",
+    "Aroostook County",
+    "Cumberland County",
+    "Franklin County",
+    "Hancock County",
+    "Kennebec County",
+    "Knox County",
+    "Lincoln County",
+    "Oxford County",
+    "Penobscot County",
+    "Piscataquis County",
+    "Sagadahoc County",
+    "Somerset County",
+    "Waldo County",
+    "Washington County",
+    "York County"
+   ],
+   "county_statewide": false,
    "date": "2016-06-14",
    "files": [
     {
@@ -61,12 +131,52 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Androscoggin County",
+    "Aroostook County",
+    "Cumberland County",
+    "Franklin County",
+    "Hancock County",
+    "Kennebec County",
+    "Knox County",
+    "Lincoln County",
+    "Oxford County",
+    "Penobscot County",
+    "Piscataquis County",
+    "Sagadahoc County",
+    "Somerset County",
+    "Waldo County",
+    "Washington County",
+    "York County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Androscoggin County",
+    "Aroostook County",
+    "Cumberland County",
+    "Franklin County",
+    "Hancock County",
+    "Kennebec County",
+    "Knox County",
+    "Lincoln County",
+    "Oxford County",
+    "Penobscot County",
+    "Piscataquis County",
+    "Sagadahoc County",
+    "Somerset County",
+    "Waldo County",
+    "Washington County",
+    "York County"
+   ],
+   "county_statewide": false,
    "date": "2012-11-06",
    "files": [
     {
@@ -77,11 +187,30 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Androscoggin County",
+    "Aroostook County",
+    "Cumberland County",
+    "Franklin County",
+    "Hancock County",
+    "Kennebec County",
+    "Knox County",
+    "Lincoln County",
+    "Oxford County",
+    "Penobscot County",
+    "Piscataquis County",
+    "Sagadahoc County",
+    "Somerset County",
+    "Waldo County",
+    "Washington County",
+    "York County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   }
  ],
- "generated_at": "2026-11-08T11:44:52Z",
+ "generated_at": "2026-11-08T12:18:29Z",
  "repo": "openelections-data-me",
- "state": "me"
+ "state": "me",
+ "total_counties": 16
 }

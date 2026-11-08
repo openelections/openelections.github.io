@@ -1,8 +1,106 @@
 {
  "elections": [
   {
+   "county": true,
+   "county_counties": [],
+   "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
+   "date": "2026-06-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2026/20260602__nj__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__nj__primary__atlantic__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__nj__primary__burlington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__nj__primary__camden__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__nj__primary__cape_may__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__nj__primary__essex__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__nj__primary__hunterdon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__nj__primary__middlesex__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__nj__primary__monmouth__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__nj__primary__ocean__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__nj__primary__passaic__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__nj__primary__somerset__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__nj__primary__union__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__nj__primary__warren__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "Atlantic County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Essex County",
+    "Hunterdon County",
+    "Middlesex County",
+    "Monmouth County",
+    "Ocean County",
+    "Passaic County",
+    "Somerset County",
+    "Union County",
+    "Warren County"
+   ],
+   "precinct_missing": [
+    "Bergen County",
+    "Cumberland County",
+    "Gloucester County",
+    "Hudson County",
+    "Mercer County",
+    "Morris County",
+    "Salem County",
+    "Sussex County"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2024-11-05",
    "files": [
     {
@@ -93,34 +191,38 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [
-    "atlantic",
-    "bergen",
-    "burlington",
-    "camden",
-    "cape_may",
-    "cumberland",
-    "essex",
-    "gloucester",
-    "hudson",
-    "hunterdon",
-    "mercer",
-    "middlesex",
-    "monmouth",
-    "morris",
-    "ocean",
-    "passaic",
-    "salem",
-    "somerset",
-    "sussex",
-    "union",
-    "warren"
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
    ],
+   "precinct_missing": [],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2022-11-08",
    "files": [
     {
@@ -139,16 +241,39 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [
-    "bergen",
-    "camden",
-    "capemay"
+    "Bergen County",
+    "Camden County",
+    "Cape May County"
+   ],
+   "precinct_missing": [
+    "Atlantic County",
+    "Burlington County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
    ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2020-11-03",
    "files": [
     {
@@ -158,6 +283,10 @@
     {
      "level": "precinct",
      "path": "2020/20201103__nj__general__bergen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__nj__general__burlington__precinct.csv"
     },
     {
      "level": "precinct",
@@ -207,26 +336,39 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [
-    "atlantic",
-    "bergen",
-    "camden",
-    "essex",
-    "gloucester",
-    "hudson",
-    "mercer",
-    "middlesex",
-    "monmouth",
-    "passaic",
-    "salem",
-    "sussex",
-    "warren"
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Passaic County",
+    "Salem County",
+    "Sussex County",
+    "Warren County"
+   ],
+   "precinct_missing": [
+    "Cape May County",
+    "Cumberland County",
+    "Hunterdon County",
+    "Morris County",
+    "Ocean County",
+    "Somerset County",
+    "Union County"
    ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2018-11-06",
    "files": [
     {
@@ -329,34 +471,38 @@
    "label": "municipal",
    "precinct": true,
    "precinct_counties": [
-    "atlantic",
-    "bergen",
-    "burlington",
-    "camden",
-    "cape_may",
-    "cumberland",
-    "essex",
-    "gloucester",
-    "hudson",
-    "hunterdon",
-    "mercer",
-    "middlesex",
-    "monmouth",
-    "morris",
-    "ocean",
-    "passaic",
-    "salem",
-    "somerset",
-    "sussex",
-    "union",
-    "warren"
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
    ],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2018-06-05",
    "files": [
     {
@@ -391,19 +537,39 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [
-    "atlantic",
-    "bergen",
-    "camden",
-    "cape_may",
-    "cumberland",
-    "essex"
+    "Atlantic County",
+    "Bergen County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County"
+   ],
+   "precinct_missing": [
+    "Burlington County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
    ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2017-11-07",
    "files": [
     {
@@ -438,18 +604,39 @@
    "label": "municipal",
    "precinct": true,
    "precinct_counties": [
-    "essex",
-    "morris",
-    "passaic",
-    "sussex",
-    "union"
+    "Essex County",
+    "Morris County",
+    "Passaic County",
+    "Sussex County",
+    "Union County"
+   ],
+   "precinct_missing": [
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Ocean County",
+    "Salem County",
+    "Somerset County",
+    "Warren County"
    ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2017-06-05",
    "files": [
     {
@@ -460,12 +647,38 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2016-11-08",
    "files": [
     {
@@ -568,34 +781,38 @@
    "label": "municipal",
    "precinct": true,
    "precinct_counties": [
-    "atlantic",
-    "bergen",
-    "burlington",
-    "camden",
-    "cape_may",
-    "cumberland",
-    "essex",
-    "gloucester",
-    "hudson",
-    "hunterdon",
-    "mercer",
-    "middlesex",
-    "monmouth",
-    "morris",
-    "ocean",
-    "passaic",
-    "salem",
-    "somerset",
-    "sussex",
-    "union",
-    "warren"
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
    ],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2016-06-07",
    "files": [
     {
@@ -606,12 +823,38 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2015-12-01",
    "files": [
     {
@@ -626,12 +869,38 @@
    "label": "municipal",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2015-06-02",
    "files": [
     {
@@ -642,12 +911,38 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2014-11-04",
    "files": [
     {
@@ -662,12 +957,38 @@
    "label": "general",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
+   ],
    "precinct_statewide": false,
    "type": "special"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2014-11-04",
    "files": [
     {
@@ -818,26 +1139,39 @@
    "label": "municipal",
    "precinct": true,
    "precinct_counties": [
-    "atlantic",
-    "bergen",
-    "camden",
-    "hudson",
-    "hunterdon",
-    "mercer",
-    "middlesex",
-    "monmouth",
-    "morris",
-    "ocean",
-    "passaic",
-    "somerset",
-    "union"
+    "Atlantic County",
+    "Bergen County",
+    "Camden County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Somerset County",
+    "Union County"
+   ],
+   "precinct_missing": [
+    "Burlington County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Salem County",
+    "Sussex County",
+    "Warren County"
    ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2014-06-03",
    "files": [
     {
@@ -848,12 +1182,38 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2013-11-05",
    "files": [
     {
@@ -868,12 +1228,38 @@
    "label": "municipal",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2013-06-04",
    "files": [
     {
@@ -884,12 +1270,38 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2012-11-06",
    "files": [
     {
@@ -904,12 +1316,38 @@
    "label": "general",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
+   ],
    "precinct_statewide": false,
    "type": "special"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2012-11-06",
    "files": [
     {
@@ -924,12 +1362,38 @@
    "label": "municipal",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2012-06-05",
    "files": [
     {
@@ -940,12 +1404,38 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2011-11-08",
    "files": [
     {
@@ -960,12 +1450,38 @@
    "label": "municipal",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2011-06-07",
    "files": [
     {
@@ -976,12 +1492,38 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2010-11-04",
    "files": [
     {
@@ -996,12 +1538,38 @@
    "label": "general",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
+   ],
    "precinct_statewide": false,
    "type": "special"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2010-06-08",
    "files": [
     {
@@ -1012,11 +1580,35 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Atlantic County",
+    "Bergen County",
+    "Burlington County",
+    "Camden County",
+    "Cape May County",
+    "Cumberland County",
+    "Essex County",
+    "Gloucester County",
+    "Hudson County",
+    "Hunterdon County",
+    "Mercer County",
+    "Middlesex County",
+    "Monmouth County",
+    "Morris County",
+    "Ocean County",
+    "Passaic County",
+    "Salem County",
+    "Somerset County",
+    "Sussex County",
+    "Union County",
+    "Warren County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   }
  ],
- "generated_at": "2026-11-08T11:45:03Z",
+ "generated_at": "2026-11-08T12:18:30Z",
  "repo": "openelections-data-nj",
- "state": "nj"
+ "state": "nj",
+ "total_counties": 21
 }

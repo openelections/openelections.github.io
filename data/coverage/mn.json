@@ -2,7 +2,10 @@
  "elections": [
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2022-11-08",
    "files": [
     {
@@ -13,12 +16,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2020-11-03",
    "files": [
     {
@@ -29,12 +36,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2018-11-06",
    "files": [
     {
@@ -49,12 +60,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2018-08-14",
    "files": [
     {
@@ -69,12 +84,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2016-11-08",
    "files": [
     {
@@ -89,12 +108,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2016-08-09",
    "files": [
     {
@@ -109,12 +132,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2016-02-09",
    "files": [
     {
@@ -129,12 +156,16 @@
    "label": "general state house",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2016-01-12",
    "files": [
     {
@@ -145,12 +176,16 @@
    "label": "primary",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2015-09-29",
    "files": [
     {
@@ -161,12 +196,16 @@
    "label": "primary",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2014-11-04",
    "files": [
     {
@@ -181,12 +220,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2014-08-12",
    "files": [
     {
@@ -201,12 +244,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2013-02-12",
    "files": [
     {
@@ -217,12 +264,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2013-01-29",
    "files": [
     {
@@ -233,12 +284,16 @@
    "label": "primary",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2012-11-06",
    "files": [
     {
@@ -269,12 +324,16 @@
    "label": "house",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2012-08-14",
    "files": [
     {
@@ -301,12 +360,16 @@
    "label": "house",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2012-04-10",
    "files": [
     {
@@ -317,12 +380,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2012-03-27",
    "files": [
     {
@@ -333,12 +400,16 @@
    "label": "primary",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2012-02-07",
    "files": [
     {
@@ -349,12 +420,16 @@
    "label": "president",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2012-01-10",
    "files": [
     {
@@ -369,11 +444,13 @@
    "label": "general state house",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   }
  ],
- "generated_at": "2026-11-08T11:44:54Z",
+ "generated_at": "2026-11-08T12:18:29Z",
  "repo": "openelections-data-mn",
- "state": "mn"
+ "state": "mn",
+ "total_counties": 87
 }

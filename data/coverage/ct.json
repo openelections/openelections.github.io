@@ -2,7 +2,10 @@
  "elections": [
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2024-04-02",
    "files": [
     {
@@ -13,12 +16,16 @@
    "label": "president",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2024-01-23",
    "files": [
     {
@@ -29,12 +36,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2022-11-08",
    "files": [
     {
@@ -45,12 +56,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2022-08-09",
    "files": [
     {
@@ -61,12 +76,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2022-02-22",
    "files": [
     {
@@ -77,12 +96,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2022-01-25",
    "files": [
     {
@@ -93,12 +116,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2021-12-14",
    "files": [
     {
@@ -109,12 +136,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2021-08-17",
    "files": [
     {
@@ -125,12 +156,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2021-04-27",
    "files": [
     {
@@ -141,12 +176,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2021-04-13",
    "files": [
     {
@@ -157,12 +196,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2021-03-02",
    "files": [
     {
@@ -173,12 +216,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2020-11-03",
    "files": [
     {
@@ -189,12 +236,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2020-08-11",
    "files": [
     {
@@ -205,12 +256,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2020-01-14",
    "files": [
     {
@@ -221,12 +276,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2019-05-07",
    "files": [
     {
@@ -237,12 +296,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2019-04-16",
    "files": [
     {
@@ -253,12 +316,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2019-02-26",
    "files": [
     {
@@ -269,12 +336,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2018-11-06",
    "files": [
     {
@@ -285,12 +356,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2018-08-14",
    "files": [
     {
@@ -301,12 +376,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2016-11-08",
    "files": [
     {
@@ -323,12 +402,16 @@
    "precinct_counties": [
     "darien"
    ],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2016-08-09",
    "files": [
     {
@@ -339,12 +422,25 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Fairfield County",
+    "Hartford County",
+    "Litchfield County",
+    "Middlesex County",
+    "New Haven County",
+    "New London County",
+    "Tolland County",
+    "Windham County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2016-04-26",
    "files": [
     {
@@ -359,12 +455,36 @@
    "label": "president",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Fairfield County",
+    "Hartford County",
+    "Litchfield County",
+    "Middlesex County",
+    "New Haven County",
+    "New London County",
+    "Tolland County",
+    "Windham County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Fairfield County",
+    "Hartford County",
+    "Litchfield County",
+    "Middlesex County",
+    "New Haven County",
+    "New London County",
+    "Tolland County",
+    "Windham County"
+   ],
+   "county_statewide": false,
    "date": "2014-11-04",
    "files": [
     {
@@ -567,6 +687,9 @@
    "label": "avon",
    "precinct": true,
    "precinct_counties": [
+    "Fairfield County",
+    "Hartford County",
+    "New Haven County",
     "ansonia",
     "berlin",
     "bloomfield",
@@ -580,11 +703,10 @@
     "darien",
     "derby",
     "durham",
-    "east_hartford",
-    "east_haven",
+    "east hartford",
+    "east haven",
     "ellington",
     "enfield",
-    "fairfield",
     "farmington",
     "glastonbury",
     "goshen",
@@ -593,7 +715,6 @@
     "groton",
     "haddam",
     "hamden",
-    "hartford",
     "harwinton",
     "killingly",
     "ledyard",
@@ -601,21 +722,30 @@
     "manchester",
     "middletown",
     "montville",
-    "new_canaan",
-    "new_haven",
+    "new canaan",
     "norwalk",
-    "rocky_hill",
+    "rocky hill",
     "stamford",
     "town",
-    "west_hartford",
+    "west hartford",
     "westport"
+   ],
+   "precinct_missing": [
+    "Litchfield County",
+    "Middlesex County",
+    "New London County",
+    "Tolland County",
+    "Windham County"
    ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2012-11-06",
    "files": [
     {
@@ -626,12 +756,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2010-11-02",
    "files": [
     {
@@ -653,12 +787,27 @@
     "middletown",
     "milford"
    ],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Fairfield County",
+    "Hartford County",
+    "Litchfield County",
+    "Middlesex County",
+    "New Haven County",
+    "New London County",
+    "Tolland County",
+    "Windham County"
+   ],
+   "county_statewide": false,
    "date": "2008-11-04",
    "files": [
     {
@@ -669,12 +818,36 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Fairfield County",
+    "Hartford County",
+    "Litchfield County",
+    "Middlesex County",
+    "New Haven County",
+    "New London County",
+    "Tolland County",
+    "Windham County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Fairfield County",
+    "Hartford County",
+    "Litchfield County",
+    "Middlesex County",
+    "New Haven County",
+    "New London County",
+    "Tolland County",
+    "Windham County"
+   ],
+   "county_statewide": false,
    "date": "2006-11-07",
    "files": [
     {
@@ -685,12 +858,36 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Fairfield County",
+    "Hartford County",
+    "Litchfield County",
+    "Middlesex County",
+    "New Haven County",
+    "New London County",
+    "Tolland County",
+    "Windham County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Fairfield County",
+    "Hartford County",
+    "Litchfield County",
+    "Middlesex County",
+    "New Haven County",
+    "New London County",
+    "Tolland County",
+    "Windham County"
+   ],
+   "county_statewide": false,
    "date": "2002-11-05",
    "files": [
     {
@@ -701,12 +898,36 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Fairfield County",
+    "Hartford County",
+    "Litchfield County",
+    "Middlesex County",
+    "New Haven County",
+    "New London County",
+    "Tolland County",
+    "Windham County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Fairfield County",
+    "Hartford County",
+    "Litchfield County",
+    "Middlesex County",
+    "New Haven County",
+    "New London County",
+    "Tolland County",
+    "Windham County"
+   ],
+   "county_statewide": false,
    "date": "2000-11-07",
    "files": [
     {
@@ -717,12 +938,25 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Fairfield County",
+    "Hartford County",
+    "Litchfield County",
+    "Middlesex County",
+    "New Haven County",
+    "New London County",
+    "Tolland County",
+    "Windham County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2000-03-07",
    "files": [
     {
@@ -733,11 +967,22 @@
    "label": "president",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Fairfield County",
+    "Hartford County",
+    "Litchfield County",
+    "Middlesex County",
+    "New Haven County",
+    "New London County",
+    "Tolland County",
+    "Windham County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   }
  ],
- "generated_at": "2026-11-08T11:44:35Z",
+ "generated_at": "2026-11-08T12:18:29Z",
  "repo": "openelections-data-ct",
- "state": "ct"
+ "state": "ct",
+ "total_counties": 8
 }

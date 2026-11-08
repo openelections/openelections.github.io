@@ -2,7 +2,10 @@
  "elections": [
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2020-11-03",
    "files": [
     {
@@ -13,12 +16,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2020-08-18",
    "files": [
     {
@@ -29,12 +36,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2018-11-06",
    "files": [
     {
@@ -209,12 +220,16 @@
    "label": "1",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2018-08-21",
    "files": [
     {
@@ -225,12 +240,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2016-11-08",
    "files": [
     {
@@ -405,12 +424,16 @@
    "label": "1",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2016-08-16",
    "files": [
     {
@@ -421,12 +444,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2016-03-29",
    "files": [
     {
@@ -437,12 +464,47 @@
    "label": "caucus president",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Aleutians East Borough",
+    "Aleutians West Census Area",
+    "Anchorage Municipality",
+    "Bethel Census Area",
+    "Bristol Bay Borough",
+    "Chugach Census Area",
+    "Copper River Census Area",
+    "Denali Borough",
+    "Dillingham Census Area",
+    "Fairbanks North Star Borough",
+    "Haines Borough",
+    "Hoonah-Angoon Census Area",
+    "Juneau City and Borough",
+    "Kenai Peninsula Borough",
+    "Ketchikan Gateway Borough",
+    "Kodiak Island Borough",
+    "Kusilvak Census Area",
+    "Lake and Peninsula Borough",
+    "Matanuska-Susitna Borough",
+    "Nome Census Area",
+    "North Slope Borough",
+    "Northwest Arctic Borough",
+    "Petersburg Borough",
+    "Prince of Wales-Hyder Census Area",
+    "Sitka City and Borough",
+    "Skagway Municipality",
+    "Southeast Fairbanks Census Area",
+    "Wrangell City and Borough",
+    "Yakutat City and Borough",
+    "Yukon-Koyukuk Census Area"
+   ],
    "precinct_statewide": false,
    "type": "democratic"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2014-11-04",
    "files": [
     {
@@ -453,11 +515,13 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   }
  ],
- "generated_at": "2026-11-08T11:44:27Z",
+ "generated_at": "2026-11-08T12:18:29Z",
  "repo": "openelections-data-ak",
- "state": "ak"
+ "state": "ak",
+ "total_counties": 30
 }

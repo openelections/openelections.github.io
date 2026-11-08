@@ -179,6 +179,7 @@ if (stateSelect) {
 // Election coverage data for the currently loaded state (set by loadStateData)
 let coverageElections = null;
 let coverageRepo = null;
+let coverageTotalCounties = 0;
 
 // Event delegation: the coverage <select> lives inside innerHTML-injected cards
 const stateCardsEl = document.getElementById('state-cards');
@@ -229,6 +230,7 @@ async function loadStateData(abbr) {
   cards.innerHTML = '';
   coverageElections = null;
   coverageRepo = null;
+  coverageTotalCounties = 0;
   
   let repoCount = 0;
   let totalYears = 0;
@@ -439,6 +441,7 @@ function renderCoverageCard(coverage) {
     (a.date < b.date) - (b.date < a.date) || (a.type < b.type ? -1 : a.type > b.type ? 1 : 0));
   coverageElections = elections;
   coverageRepo = coverage.repo;
+  coverageTotalCounties = coverage.total_counties || 0;
   const currentYear = elections[0].date.slice(0, 4);
   const options = elections.map((e, i) => ({
     year: e.date.slice(0, 4),
@@ -495,25 +498,37 @@ function renderCoverageCard(coverage) {
 }
 
 function renderCoverageDetail(election, repo) {
-  const countyBadge = election.county
-    ? '<span class="badge bg-success fs-6 px-3 py-2"><i class="fas fa-check me-1"></i>County-level available</span>'
-    : election.county_derivable
-      ? '<span class="badge bg-warning text-dark fs-6 px-3 py-2" title="County totals can be aggregated from the precinct data"><i class="fas fa-adjust me-1"></i>Derivable from precinct data</span>'
-      : '<span class="badge bg-secondary fs-6 px-3 py-2"><i class="fas fa-times me-1"></i>No county-level results</span>';
+  const total = coverageTotalCounties;
+  const countyBadge = election.county_statewide
+    ? `<span class="badge bg-success fs-6 px-3 py-2"><i class="fas fa-check me-1"></i>County-level, all ${total || ''} counties${total ? '' : ' (statewide file)'}</span>`
+    : election.county && election.county_counties && election.county_counties.length && total
+      ? `<span class="badge bg-warning text-dark fs-6 px-3 py-2" title="${election.county_counties.join(', ')}"><i class="fas fa-adjust me-1"></i>County-level in ${election.county_counties.length} of ${total} counties</span>`
+      : election.county
+        ? '<span class="badge bg-success fs-6 px-3 py-2"><i class="fas fa-check me-1"></i>County-level available</span>'
+        : election.county_derivable
+          ? '<span class="badge bg-warning text-dark fs-6 px-3 py-2" title="County totals can be aggregated from the precinct data"><i class="fas fa-adjust me-1"></i>Derivable from precinct data</span>'
+          : '<span class="badge bg-secondary fs-6 px-3 py-2"><i class="fas fa-times me-1"></i>No county-level results</span>';
   const precinctBadge = election.precinct_statewide
-    ? '<span class="badge bg-success fs-6 px-3 py-2"><i class="fas fa-check me-1"></i>Precinct-level available</span>'
+    ? `<span class="badge bg-success fs-6 px-3 py-2"><i class="fas fa-check me-1"></i>Precinct-level, statewide${total ? ` — all ${total} counties` : ''}</span>`
     : election.precinct_counties && election.precinct_counties.length
-      ? `<span class="badge bg-warning text-dark fs-6 px-3 py-2" title="${election.precinct_counties.join(', ')}"><i class="fas fa-adjust me-1"></i>Precinct-level in ${election.precinct_counties.length} counties</span>`
+      ? `<span class="badge bg-warning text-dark fs-6 px-3 py-2" title="${election.precinct_counties.join(', ')}"><i class="fas fa-adjust me-1"></i>Precinct-level in ${election.precinct_counties.length}${total ? ` of ${total}` : ''} counties</span>`
       : '<span class="badge bg-secondary fs-6 px-3 py-2"><i class="fas fa-times me-1"></i>No precinct-level results</span>';
+  // missing-county lists, shown inline when short and collapsed when long
+  const missingLine = (missing, levelLabel) => missing && missing.length ? (missing.length <= 15
+    ? `<div class="small text-danger mt-1"><strong>${levelLabel} missing (${missing.length}):</strong> ${missing.join(', ')}</div>`
+    : `<details class="small text-danger mt-1"><summary><strong>${levelLabel} missing (${missing.length}):</strong> ${missing.slice(0, 5).join(', ')}…</summary><div>${missing.join(', ')}</div></details>`)
+    : '';
   const base = `https://github.com/openelections/${repo}/blob/master/`;
   const filesHtml = election.files.map(f =>
     `<li class="small mb-1"><a href="${base}${f.path}" target="_blank">${f.path}</a> <span class="badge bg-light text-dark border">${f.level}</span></li>`
   ).join('');
   return `
-    <div class="d-flex flex-wrap gap-2 mb-3">
+    <div class="d-flex flex-wrap gap-2 mb-1">
       ${countyBadge}
       ${precinctBadge}
     </div>
+    ${missingLine(election.precinct_missing, 'Precinct-level')}
+    ${missingLine(election.county_missing, 'County-level')}
     <details>
       <summary class="text-primary small">${election.files.length} result file${election.files.length !== 1 ? 's' : ''} <i class="fas fa-chevron-down ms-1"></i></summary>
       <ul class="list-unstyled ms-3 mt-2 mb-0">${filesHtml}</ul>

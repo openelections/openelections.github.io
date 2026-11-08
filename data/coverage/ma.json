@@ -2,7 +2,10 @@
  "elections": [
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2020-11-03",
    "files": [
     {
@@ -13,12 +16,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2020-09-01",
    "files": [
     {
@@ -29,12 +36,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2020-03-03",
    "files": [
     {
@@ -45,12 +56,16 @@
    "label": "president",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2018-11-06",
    "files": [
     {
@@ -61,12 +76,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2018-09-04",
    "files": [
     {
@@ -77,12 +96,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2016-11-08",
    "files": [
     {
@@ -141,9 +164,9 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [
+    "Barnstable County",
     "acton",
     "auburn",
-    "barnstable",
     "belmont",
     "brookline",
     "chelmsford",
@@ -153,12 +176,16 @@
     "somerset",
     "spencer"
    ],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2016-09-08",
    "files": [
     {
@@ -169,12 +196,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2016-03-01",
    "files": [
     {
@@ -185,12 +216,16 @@
    "label": "president",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2014-11-04",
    "files": [
     {
@@ -201,12 +236,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2014-09-14",
    "files": [
     {
@@ -217,12 +256,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2012-11-06",
    "files": [
     {
@@ -233,12 +276,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2012-09-06",
    "files": [
     {
@@ -249,12 +296,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2012-03-06",
    "files": [
     {
@@ -265,12 +316,16 @@
    "label": "president",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2010-11-02",
    "files": [
     {
@@ -281,12 +336,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2010-09-14",
    "files": [
     {
@@ -297,12 +356,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2010-01-19",
    "files": [
     {
@@ -313,12 +376,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2008-11-04",
    "files": [
     {
@@ -329,12 +396,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2008-09-16",
    "files": [
     {
@@ -345,12 +416,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2008-02-05",
    "files": [
     {
@@ -361,12 +436,16 @@
    "label": "president",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2006-11-07",
    "files": [
     {
@@ -377,12 +456,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2006-09-17",
    "files": [
     {
@@ -393,12 +476,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2004-11-02",
    "files": [
     {
@@ -409,12 +496,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2004-09-14",
    "files": [
     {
@@ -425,12 +516,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2004-03-02",
    "files": [
     {
@@ -441,12 +536,16 @@
    "label": "president",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2002-11-05",
    "files": [
     {
@@ -457,12 +556,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2002-09-17",
    "files": [
     {
@@ -473,12 +576,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2000-11-07",
    "files": [
     {
@@ -489,12 +596,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2000-09-19",
    "files": [
     {
@@ -505,12 +616,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2000-03-07",
    "files": [
     {
@@ -521,11 +636,13 @@
    "label": "president",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   }
  ],
- "generated_at": "2026-11-08T11:44:51Z",
+ "generated_at": "2026-11-08T12:18:29Z",
  "repo": "openelections-data-ma",
- "state": "ma"
+ "state": "ma",
+ "total_counties": 14
 }

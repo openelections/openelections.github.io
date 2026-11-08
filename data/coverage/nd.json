@@ -2,7 +2,10 @@
  "elections": [
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2026-06-09",
    "files": [
     {
@@ -17,12 +20,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2024-11-05",
    "files": [
     {
@@ -37,12 +44,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2024-06-11",
    "files": [
     {
@@ -57,12 +68,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2022-11-08",
    "files": [
     {
@@ -77,12 +92,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2022-06-14",
    "files": [
     {
@@ -97,12 +116,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2020-11-03",
    "files": [
     {
@@ -117,12 +140,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2020-06-09",
    "files": [
     {
@@ -137,12 +164,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2018-11-06",
    "files": [
     {
@@ -157,12 +188,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2018-06-12",
    "files": [
     {
@@ -177,12 +212,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2016-11-08",
    "files": [
     {
@@ -197,12 +236,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2016-06-14",
    "files": [
     {
@@ -217,12 +260,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2014-11-04",
    "files": [
     {
@@ -237,12 +284,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2014-06-10",
    "files": [
     {
@@ -257,12 +308,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2012-11-06",
    "files": [
     {
@@ -277,12 +332,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2012-06-12",
    "files": [
     {
@@ -297,12 +356,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2010-11-02",
    "files": [
     {
@@ -317,12 +380,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2010-06-08",
    "files": [
     {
@@ -337,12 +404,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2008-11-04",
    "files": [
     {
@@ -357,12 +428,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2008-06-03",
    "files": [
     {
@@ -377,12 +452,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2006-11-07",
    "files": [
     {
@@ -397,12 +476,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2006-06-13",
    "files": [
     {
@@ -417,12 +500,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2004-11-02",
    "files": [
     {
@@ -437,12 +524,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2004-06-08",
    "files": [
     {
@@ -457,12 +548,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2002-11-05",
    "files": [
     {
@@ -473,12 +568,70 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Adams County",
+    "Barnes County",
+    "Benson County",
+    "Billings County",
+    "Bottineau County",
+    "Bowman County",
+    "Burke County",
+    "Burleigh County",
+    "Cass County",
+    "Cavalier County",
+    "Dickey County",
+    "Divide County",
+    "Dunn County",
+    "Eddy County",
+    "Emmons County",
+    "Foster County",
+    "Golden Valley County",
+    "Grand Forks County",
+    "Grant County",
+    "Griggs County",
+    "Hettinger County",
+    "Kidder County",
+    "LaMoure County",
+    "Logan County",
+    "McHenry County",
+    "McIntosh County",
+    "McKenzie County",
+    "McLean County",
+    "Mercer County",
+    "Morton County",
+    "Mountrail County",
+    "Nelson County",
+    "Oliver County",
+    "Pembina County",
+    "Pierce County",
+    "Ramsey County",
+    "Ransom County",
+    "Renville County",
+    "Richland County",
+    "Rolette County",
+    "Sargent County",
+    "Sheridan County",
+    "Sioux County",
+    "Slope County",
+    "Stark County",
+    "Steele County",
+    "Stutsman County",
+    "Towner County",
+    "Traill County",
+    "Walsh County",
+    "Ward County",
+    "Wells County",
+    "Williams County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2002-06-11",
    "files": [
     {
@@ -489,12 +642,70 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Adams County",
+    "Barnes County",
+    "Benson County",
+    "Billings County",
+    "Bottineau County",
+    "Bowman County",
+    "Burke County",
+    "Burleigh County",
+    "Cass County",
+    "Cavalier County",
+    "Dickey County",
+    "Divide County",
+    "Dunn County",
+    "Eddy County",
+    "Emmons County",
+    "Foster County",
+    "Golden Valley County",
+    "Grand Forks County",
+    "Grant County",
+    "Griggs County",
+    "Hettinger County",
+    "Kidder County",
+    "LaMoure County",
+    "Logan County",
+    "McHenry County",
+    "McIntosh County",
+    "McKenzie County",
+    "McLean County",
+    "Mercer County",
+    "Morton County",
+    "Mountrail County",
+    "Nelson County",
+    "Oliver County",
+    "Pembina County",
+    "Pierce County",
+    "Ramsey County",
+    "Ransom County",
+    "Renville County",
+    "Richland County",
+    "Rolette County",
+    "Sargent County",
+    "Sheridan County",
+    "Sioux County",
+    "Slope County",
+    "Stark County",
+    "Steele County",
+    "Stutsman County",
+    "Towner County",
+    "Traill County",
+    "Walsh County",
+    "Ward County",
+    "Wells County",
+    "Williams County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2000-11-07",
    "files": [
     {
@@ -505,12 +716,70 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Adams County",
+    "Barnes County",
+    "Benson County",
+    "Billings County",
+    "Bottineau County",
+    "Bowman County",
+    "Burke County",
+    "Burleigh County",
+    "Cass County",
+    "Cavalier County",
+    "Dickey County",
+    "Divide County",
+    "Dunn County",
+    "Eddy County",
+    "Emmons County",
+    "Foster County",
+    "Golden Valley County",
+    "Grand Forks County",
+    "Grant County",
+    "Griggs County",
+    "Hettinger County",
+    "Kidder County",
+    "LaMoure County",
+    "Logan County",
+    "McHenry County",
+    "McIntosh County",
+    "McKenzie County",
+    "McLean County",
+    "Mercer County",
+    "Morton County",
+    "Mountrail County",
+    "Nelson County",
+    "Oliver County",
+    "Pembina County",
+    "Pierce County",
+    "Ramsey County",
+    "Ransom County",
+    "Renville County",
+    "Richland County",
+    "Rolette County",
+    "Sargent County",
+    "Sheridan County",
+    "Sioux County",
+    "Slope County",
+    "Stark County",
+    "Steele County",
+    "Stutsman County",
+    "Towner County",
+    "Traill County",
+    "Walsh County",
+    "Ward County",
+    "Wells County",
+    "Williams County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2000-06-13",
    "files": [
     {
@@ -521,11 +790,67 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Adams County",
+    "Barnes County",
+    "Benson County",
+    "Billings County",
+    "Bottineau County",
+    "Bowman County",
+    "Burke County",
+    "Burleigh County",
+    "Cass County",
+    "Cavalier County",
+    "Dickey County",
+    "Divide County",
+    "Dunn County",
+    "Eddy County",
+    "Emmons County",
+    "Foster County",
+    "Golden Valley County",
+    "Grand Forks County",
+    "Grant County",
+    "Griggs County",
+    "Hettinger County",
+    "Kidder County",
+    "LaMoure County",
+    "Logan County",
+    "McHenry County",
+    "McIntosh County",
+    "McKenzie County",
+    "McLean County",
+    "Mercer County",
+    "Morton County",
+    "Mountrail County",
+    "Nelson County",
+    "Oliver County",
+    "Pembina County",
+    "Pierce County",
+    "Ramsey County",
+    "Ransom County",
+    "Renville County",
+    "Richland County",
+    "Rolette County",
+    "Sargent County",
+    "Sheridan County",
+    "Sioux County",
+    "Slope County",
+    "Stark County",
+    "Steele County",
+    "Stutsman County",
+    "Towner County",
+    "Traill County",
+    "Walsh County",
+    "Ward County",
+    "Wells County",
+    "Williams County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   }
  ],
- "generated_at": "2026-11-08T11:44:59Z",
+ "generated_at": "2026-11-08T12:18:29Z",
  "repo": "openelections-data-nd",
- "state": "nd"
+ "state": "nd",
+ "total_counties": 53
 }

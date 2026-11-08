@@ -2,85 +2,10 @@
  "elections": [
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
-   "date": "2024-11-05",
-   "files": [
-    {
-     "level": "precinct",
-     "path": "2024/20241105__nh__general__congressional__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/20241105__nh__general__executive__council__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/20241105__nh__general__governor__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/20241105__nh__general__president__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/20241105__nh__general__state__representative__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/20241105__nh__general__state__senate__precinct.csv"
-    }
-   ],
-   "label": "state",
-   "precinct": true,
-   "precinct_counties": [
-    "congressional",
-    "representative"
-   ],
-   "precinct_statewide": true,
-   "type": "general"
-  },
-  {
-   "county": false,
-   "county_derivable": true,
-   "date": "2022-11-08",
-   "files": [
-    {
-     "level": "precinct",
-     "path": "2022/20221108__nh__general__congressional__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2022/20221108__nh__general__executive__council__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2022/20221108__nh__general__governor__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2022/20221108__nh__general__state__representative__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2022/20221108__nh__general__state__senate__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2022/20221108__nh__general__us__senate__precinct.csv"
-    }
-   ],
-   "label": "state",
-   "precinct": true,
-   "precinct_counties": [
-    "congressional",
-    "representative"
-   ],
-   "precinct_statewide": true,
-   "type": "general"
-  },
-  {
-   "county": false,
-   "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2020-11-03",
    "files": [
     {
@@ -91,12 +16,29 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Belknap County",
+    "Carroll County",
+    "Cheshire County",
+    "Coos County",
+    "Grafton County",
+    "Hillsborough County",
+    "Merrimack County",
+    "Rockingham County",
+    "Strafford County",
+    "Sullivan County"
+   ],
+   "county_statewide": false,
    "date": "2020-02-11",
    "files": [
     {
@@ -107,12 +49,27 @@
    "label": "president",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Belknap County",
+    "Carroll County",
+    "Cheshire County",
+    "Coos County",
+    "Grafton County",
+    "Hillsborough County",
+    "Merrimack County",
+    "Rockingham County",
+    "Strafford County",
+    "Sullivan County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2018-11-06",
    "files": [
     {
@@ -123,12 +80,29 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Belknap County",
+    "Carroll County",
+    "Cheshire County",
+    "Coos County",
+    "Grafton County",
+    "Hillsborough County",
+    "Merrimack County",
+    "Rockingham County",
+    "Strafford County",
+    "Sullivan County"
+   ],
+   "county_statewide": false,
    "date": "2016-11-08",
    "files": [
     {
@@ -143,12 +117,40 @@
    "label": "president",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Belknap County",
+    "Carroll County",
+    "Cheshire County",
+    "Coos County",
+    "Grafton County",
+    "Hillsborough County",
+    "Merrimack County",
+    "Rockingham County",
+    "Strafford County",
+    "Sullivan County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Belknap County",
+    "Carroll County",
+    "Cheshire County",
+    "Coos County",
+    "Grafton County",
+    "Hillsborough County",
+    "Merrimack County",
+    "Rockingham County",
+    "Strafford County",
+    "Sullivan County"
+   ],
+   "county_statewide": false,
    "date": "2014-11-04",
    "files": [
     {
@@ -159,12 +161,40 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Belknap County",
+    "Carroll County",
+    "Cheshire County",
+    "Coos County",
+    "Grafton County",
+    "Hillsborough County",
+    "Merrimack County",
+    "Rockingham County",
+    "Strafford County",
+    "Sullivan County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Belknap County",
+    "Carroll County",
+    "Cheshire County",
+    "Coos County",
+    "Grafton County",
+    "Hillsborough County",
+    "Merrimack County",
+    "Rockingham County",
+    "Strafford County",
+    "Sullivan County"
+   ],
+   "county_statewide": false,
    "date": "2014-09-09",
    "files": [
     {
@@ -175,12 +205,40 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Belknap County",
+    "Carroll County",
+    "Cheshire County",
+    "Coos County",
+    "Grafton County",
+    "Hillsborough County",
+    "Merrimack County",
+    "Rockingham County",
+    "Strafford County",
+    "Sullivan County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Belknap County",
+    "Carroll County",
+    "Cheshire County",
+    "Coos County",
+    "Grafton County",
+    "Hillsborough County",
+    "Merrimack County",
+    "Rockingham County",
+    "Strafford County",
+    "Sullivan County"
+   ],
+   "county_statewide": false,
    "date": "2012-11-06",
    "files": [
     {
@@ -219,12 +277,27 @@
    "label": "house 1",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Belknap County",
+    "Carroll County",
+    "Cheshire County",
+    "Coos County",
+    "Grafton County",
+    "Hillsborough County",
+    "Merrimack County",
+    "Rockingham County",
+    "Strafford County",
+    "Sullivan County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2000-09-12",
    "files": [
     {
@@ -235,12 +308,16 @@
    "label": "primary governor",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "democratic"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2000-02-01",
    "files": [
     {
@@ -251,12 +328,16 @@
    "label": "primary president",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "republican"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2000-02-01",
    "files": [
     {
@@ -267,11 +348,13 @@
    "label": "primary president",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "democratic"
   }
  ],
- "generated_at": "2026-11-08T11:45:01Z",
+ "generated_at": "2026-11-08T12:18:29Z",
  "repo": "openelections-data-nh",
- "state": "nh"
+ "state": "nh",
+ "total_counties": 10
 }

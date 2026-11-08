@@ -2,7 +2,18 @@
  "elections": [
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
+   "county_statewide": false,
    "date": "2024-11-05",
    "files": [
     {
@@ -17,12 +28,24 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
+   "county_statewide": false,
    "date": "2024-08-13",
    "files": [
     {
@@ -37,12 +60,24 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
+   "county_statewide": false,
    "date": "2024-04-02",
    "files": [
     {
@@ -57,12 +92,24 @@
    "label": "president",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
+   "county_statewide": false,
    "date": "2023-11-07",
    "files": [
     {
@@ -77,12 +124,24 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
+   "county_statewide": false,
    "date": "2023-09-05",
    "files": [
     {
@@ -93,12 +152,30 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
    "precinct_statewide": false,
    "type": "special_primary"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
+   "county_statewide": false,
    "date": "2023-09-05",
    "files": [
     {
@@ -109,12 +186,22 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
    "precinct_statewide": false,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2023-09-05",
    "files": [
     {
@@ -125,14 +212,32 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [
-    "special_primary"
+    "special primary"
+   ],
+   "precinct_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
    ],
    "precinct_statewide": false,
    "type": "election"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
+   "county_statewide": false,
    "date": "2022-11-08",
    "files": [
     {
@@ -147,12 +252,24 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
+   "county_statewide": false,
    "date": "2022-09-13",
    "files": [
     {
@@ -167,12 +284,24 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
+   "county_statewide": false,
    "date": "2021-03-02",
    "files": [
     {
@@ -187,12 +316,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2020-11-03",
    "files": [
     {
@@ -207,12 +340,24 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
+   "county_statewide": false,
    "date": "2020-09-08",
    "files": [
     {
@@ -227,12 +372,24 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
+   "county_statewide": false,
    "date": "2020-06-09",
    "files": [
     {
@@ -247,12 +404,24 @@
    "label": "president",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
+   "county_statewide": false,
    "date": "2018-11-06",
    "files": [
     {
@@ -267,12 +436,24 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
+   "county_statewide": false,
    "date": "2018-09-12",
    "files": [
     {
@@ -287,12 +468,24 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
+   "county_statewide": false,
    "date": "2016-11-08",
    "files": [
     {
@@ -307,12 +500,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2016-04-26",
    "files": [
     {
@@ -323,12 +520,16 @@
    "label": "president",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2014-11-04",
    "files": [
     {
@@ -343,12 +544,24 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
+   "county_statewide": false,
    "date": "2012-11-06",
    "files": [
     {
@@ -359,12 +572,30 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
+   "county_statewide": false,
    "date": "2010-11-02",
    "files": [
     {
@@ -375,12 +606,30 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [
+    "town"
+   ],
    "county_derivable": false,
+   "county_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
+   "county_statewide": false,
    "date": "2008-11-04",
    "files": [
     {
@@ -391,11 +640,19 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Bristol County",
+    "Kent County",
+    "Newport County",
+    "Providence County",
+    "Washington County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   }
  ],
- "generated_at": "2026-11-08T11:45:17Z",
+ "generated_at": "2026-11-08T12:18:30Z",
  "repo": "openelections-data-ri",
- "state": "ri"
+ "state": "ri",
+ "total_counties": 5
 }

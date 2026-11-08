@@ -2,7 +2,10 @@
  "elections": [
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2020-11-03",
    "files": [
     {
@@ -17,12 +20,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2018-11-06",
    "files": [
     {
@@ -37,12 +44,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2018-08-28",
    "files": [
     {
@@ -53,12 +64,16 @@
    "label": "runoff",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2018-06-26",
    "files": [
     {
@@ -69,12 +84,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2017-12-12",
    "files": [
     {
@@ -85,12 +104,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2017-11-14",
    "files": [
     {
@@ -101,12 +124,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2017-10-10",
    "files": [
     {
@@ -117,12 +144,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2017-09-12",
    "files": [
     {
@@ -133,12 +164,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2017-08-08",
    "files": [
     {
@@ -149,12 +184,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2017-07-11",
    "files": [
     {
@@ -165,12 +204,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2017-06-13",
    "files": [
     {
@@ -181,12 +224,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2017-05-09",
    "files": [
     {
@@ -197,12 +244,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2017-04-04",
    "files": [
     {
@@ -213,12 +264,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2017-03-07",
    "files": [
     {
@@ -229,12 +284,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2017-02-14",
    "files": [
     {
@@ -245,12 +304,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2017-01-10",
    "files": [
     {
@@ -261,12 +324,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2016-11-08",
    "files": [
     {
@@ -281,12 +348,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2014-11-04",
    "files": [
     {
@@ -297,12 +368,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2014-08-26",
    "files": [
     {
@@ -313,12 +388,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2014-06-24",
    "files": [
     {
@@ -329,12 +408,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2012-11-06",
    "files": [
     {
@@ -349,12 +432,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2010-11-02",
    "files": [
     {
@@ -365,12 +452,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2010-07-27",
    "files": [
     {
@@ -381,12 +472,18 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [
+    "corp commissioner"
+   ],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2008-11-04",
    "files": [
     {
@@ -417,12 +514,96 @@
    "label": "us house",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Adair County",
+    "Alfalfa County",
+    "Atoka County",
+    "Beaver County",
+    "Beckham County",
+    "Blaine County",
+    "Bryan County",
+    "Caddo County",
+    "Canadian County",
+    "Carter County",
+    "Cherokee County",
+    "Choctaw County",
+    "Cimarron County",
+    "Cleveland County",
+    "Coal County",
+    "Comanche County",
+    "Cotton County",
+    "Craig County",
+    "Creek County",
+    "Custer County",
+    "Delaware County",
+    "Dewey County",
+    "Ellis County",
+    "Garfield County",
+    "Garvin County",
+    "Grady County",
+    "Grant County",
+    "Greer County",
+    "Harmon County",
+    "Harper County",
+    "Haskell County",
+    "Hughes County",
+    "Jackson County",
+    "Jefferson County",
+    "Johnston County",
+    "Kay County",
+    "Kingfisher County",
+    "Kiowa County",
+    "Latimer County",
+    "Le Flore County",
+    "Lincoln County",
+    "Logan County",
+    "Love County",
+    "Major County",
+    "Marshall County",
+    "Mayes County",
+    "McClain County",
+    "McCurtain County",
+    "McIntosh County",
+    "Murray County",
+    "Muskogee County",
+    "Noble County",
+    "Nowata County",
+    "Okfuskee County",
+    "Oklahoma County",
+    "Okmulgee County",
+    "Osage County",
+    "Ottawa County",
+    "Pawnee County",
+    "Payne County",
+    "Pittsburg County",
+    "Pontotoc County",
+    "Pottawatomie County",
+    "Pushmataha County",
+    "Roger Mills County",
+    "Rogers County",
+    "Seminole County",
+    "Sequoyah County",
+    "Stephens County",
+    "Texas County",
+    "Tillman County",
+    "Tulsa County",
+    "Wagoner County",
+    "Washington County",
+    "Washita County",
+    "Woods County",
+    "Woodward County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [
+    "us represenative"
+   ],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2004-11-02",
    "files": [
     {
@@ -453,11 +634,91 @@
    "label": "president",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Adair County",
+    "Alfalfa County",
+    "Atoka County",
+    "Beaver County",
+    "Beckham County",
+    "Blaine County",
+    "Bryan County",
+    "Caddo County",
+    "Canadian County",
+    "Carter County",
+    "Cherokee County",
+    "Choctaw County",
+    "Cimarron County",
+    "Cleveland County",
+    "Coal County",
+    "Comanche County",
+    "Cotton County",
+    "Craig County",
+    "Creek County",
+    "Custer County",
+    "Delaware County",
+    "Dewey County",
+    "Ellis County",
+    "Garfield County",
+    "Garvin County",
+    "Grady County",
+    "Grant County",
+    "Greer County",
+    "Harmon County",
+    "Harper County",
+    "Haskell County",
+    "Hughes County",
+    "Jackson County",
+    "Jefferson County",
+    "Johnston County",
+    "Kay County",
+    "Kingfisher County",
+    "Kiowa County",
+    "Latimer County",
+    "Le Flore County",
+    "Lincoln County",
+    "Logan County",
+    "Love County",
+    "Major County",
+    "Marshall County",
+    "Mayes County",
+    "McClain County",
+    "McCurtain County",
+    "McIntosh County",
+    "Murray County",
+    "Muskogee County",
+    "Noble County",
+    "Nowata County",
+    "Okfuskee County",
+    "Oklahoma County",
+    "Okmulgee County",
+    "Osage County",
+    "Ottawa County",
+    "Pawnee County",
+    "Payne County",
+    "Pittsburg County",
+    "Pontotoc County",
+    "Pottawatomie County",
+    "Pushmataha County",
+    "Roger Mills County",
+    "Rogers County",
+    "Seminole County",
+    "Sequoyah County",
+    "Stephens County",
+    "Texas County",
+    "Tillman County",
+    "Tulsa County",
+    "Wagoner County",
+    "Washington County",
+    "Washita County",
+    "Woods County",
+    "Woodward County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   }
  ],
- "generated_at": "2026-11-08T11:45:12Z",
+ "generated_at": "2026-11-08T12:18:30Z",
  "repo": "openelections-data-ok",
- "state": "ok"
+ "state": "ok",
+ "total_counties": 77
 }

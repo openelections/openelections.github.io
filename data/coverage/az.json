@@ -2,7 +2,10 @@
  "elections": [
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2026-07-21",
    "files": [
     {
@@ -53,23 +56,33 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [
-    "apache",
-    "cochise",
-    "coconino",
-    "greenlee",
-    "maricopa",
-    "mohave",
-    "navajo",
-    "pinal",
-    "santa_cruz",
-    "yuma"
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Greenlee County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yuma County"
+   ],
+   "precinct_missing": [
+    "Gila County",
+    "Graham County",
+    "La Paz County",
+    "Pima County",
+    "Yavapai County"
    ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2024-11-05",
    "files": [
     {
@@ -136,27 +149,31 @@
    "label": "la paz",
    "precinct": true,
    "precinct_counties": [
-    "apache",
-    "cochise",
-    "coconino",
-    "gila",
-    "graham",
-    "greenlee",
-    "maricopa",
-    "mohave",
-    "navajo",
-    "pima",
-    "pinal",
-    "santa_cruz",
-    "yavapai",
-    "yuma"
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
    ],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2024-07-30",
    "files": [
     {
@@ -215,26 +232,33 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [
-    "apache",
-    "coconino",
-    "gila",
-    "greenlee",
-    "lapaz",
-    "maricopa",
-    "mohave",
-    "navajo",
-    "pima",
-    "pinal",
-    "santa_cruz",
-    "yavapai",
-    "yuma"
+    "Apache County",
+    "Coconino County",
+    "Gila County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
+   "precinct_missing": [
+    "Cochise County",
+    "Graham County"
    ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2022-11-08",
    "files": [
     {
@@ -309,28 +333,32 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [
-    "apache",
-    "cochise",
-    "coconino",
-    "gila",
-    "graham",
-    "greenlee",
-    "la_paz",
-    "maricopa",
-    "mohave",
-    "navajo",
-    "pima",
-    "pinal",
-    "santa_cruz",
-    "yavapai",
-    "yuma"
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
    ],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2020-11-03",
    "files": [
     {
@@ -401,28 +429,32 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [
-    "apache",
-    "cochise",
-    "coconino",
-    "gila",
-    "graham",
-    "greenlee",
-    "la_paz",
-    "maricopa",
-    "mohave",
-    "navajo",
-    "pima",
-    "pinal",
-    "santa_cruz",
-    "yavapai",
-    "yuma"
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
    ],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2018-11-06",
    "files": [
     {
@@ -497,28 +529,32 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [
-    "apache",
-    "cochise",
-    "coconino",
-    "gila",
-    "graham",
-    "greenlee",
-    "la_paz",
-    "maricopa",
-    "mohave",
-    "navajo",
-    "pima",
-    "pinal",
-    "santa_cruz",
-    "yavapai",
-    "yuma"
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
    ],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2018-08-28",
    "files": [
     {
@@ -529,12 +565,32 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2016-11-08",
    "files": [
     {
@@ -605,28 +661,32 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [
-    "apache",
-    "cochise",
-    "coconino",
-    "gila",
-    "graham",
-    "greenlee",
-    "la_paz",
-    "maricopa",
-    "mohave",
-    "navajo",
-    "pima",
-    "pinal",
-    "santa_cruz",
-    "yavapai",
-    "yuma"
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
    ],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2016-08-30",
    "files": [
     {
@@ -693,28 +753,32 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [
-    "apache",
-    "cochise",
-    "coconino",
-    "gila",
-    "graham",
-    "greenlee",
-    "la_paz",
-    "maricopa",
-    "mohave",
-    "navajo",
-    "pima",
-    "pinal",
-    "santa_cruz",
-    "yavapai",
-    "yuma"
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
    ],
+   "precinct_missing": [],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2016-03-22",
    "files": [
     {
@@ -777,27 +841,33 @@
    "label": "president",
    "precinct": true,
    "precinct_counties": [
-    "apache",
-    "cochise",
-    "coconino",
-    "gila",
-    "greenlee",
-    "la_paz",
-    "maricopa",
-    "mohave",
-    "navajo",
-    "pima",
-    "pinal",
-    "santa_cruz",
-    "yavapai",
-    "yuma"
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
+   "precinct_missing": [
+    "Graham County"
    ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2014-11-04",
    "files": [
     {
@@ -860,26 +930,33 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [
-    "apache",
-    "coconino",
-    "gila",
-    "greenlee",
-    "la_paz",
-    "maricopa",
-    "mohave",
-    "navajo",
-    "pima",
-    "pinal",
-    "santa_cruz",
-    "yavapai",
-    "yuma"
+    "Apache County",
+    "Coconino County",
+    "Gila County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
+   "precinct_missing": [
+    "Cochise County",
+    "Graham County"
    ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2014-08-26",
    "files": [
     {
@@ -930,23 +1007,33 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [
-    "apache",
-    "coconino",
-    "gila",
-    "greenlee",
-    "maricopa",
-    "mohave",
-    "navajo",
-    "pima",
-    "pinal",
-    "yuma"
+    "Apache County",
+    "Coconino County",
+    "Gila County",
+    "Greenlee County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Yuma County"
+   ],
+   "precinct_missing": [
+    "Cochise County",
+    "Graham County",
+    "La Paz County",
+    "Santa Cruz County",
+    "Yavapai County"
    ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2012-11-06",
    "files": [
     {
@@ -957,12 +1044,32 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2012-08-28",
    "files": [
     {
@@ -973,12 +1080,32 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2012-06-12",
    "files": [
     {
@@ -989,12 +1116,32 @@
    "label": "general house 8",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "special"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2012-04-17",
    "files": [
     {
@@ -1005,12 +1152,32 @@
    "label": "primary house 8",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "special"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2012-02-28",
    "files": [
     {
@@ -1025,12 +1192,32 @@
    "label": "president",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2011-11-08",
    "files": [
     {
@@ -1041,12 +1228,32 @@
    "label": "state senate 18",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "recall"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2010-11-02",
    "files": [
     {
@@ -1057,12 +1264,32 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2010-08-24",
    "files": [
     {
@@ -1073,12 +1300,32 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2008-11-04",
    "files": [
     {
@@ -1089,12 +1336,32 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2008-09-02",
    "files": [
     {
@@ -1105,12 +1372,32 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2008-02-05",
    "files": [
     {
@@ -1125,12 +1412,32 @@
    "label": "president",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2006-11-07",
    "files": [
     {
@@ -1141,12 +1448,32 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2006-09-12",
    "files": [
     {
@@ -1157,12 +1484,32 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2004-11-02",
    "files": [
     {
@@ -1173,12 +1520,32 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2004-09-07",
    "files": [
     {
@@ -1189,12 +1556,34 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [
+    "congressional"
+   ],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2004-02-03",
    "files": [
     {
@@ -1209,12 +1598,32 @@
    "label": "president",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2002-11-05",
    "files": [
     {
@@ -1225,12 +1634,32 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2002-09-07",
    "files": [
     {
@@ -1241,12 +1670,32 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2000-11-07",
    "files": [
     {
@@ -1257,12 +1706,32 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2000-09-12",
    "files": [
     {
@@ -1273,12 +1742,32 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2000-02-22",
    "files": [
     {
@@ -1293,11 +1782,29 @@
    "label": "president",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Apache County",
+    "Cochise County",
+    "Coconino County",
+    "Gila County",
+    "Graham County",
+    "Greenlee County",
+    "La Paz County",
+    "Maricopa County",
+    "Mohave County",
+    "Navajo County",
+    "Pima County",
+    "Pinal County",
+    "Santa Cruz County",
+    "Yavapai County",
+    "Yuma County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   }
  ],
- "generated_at": "2026-11-08T11:44:31Z",
+ "generated_at": "2026-11-08T12:18:29Z",
  "repo": "openelections-data-az",
- "state": "az"
+ "state": "az",
+ "total_counties": 15
 }

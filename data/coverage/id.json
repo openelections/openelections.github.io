@@ -1,8 +1,11 @@
 {
  "elections": [
   {
-   "county": true,
-   "county_derivable": false,
+   "county": false,
+   "county_counties": [],
+   "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2020-11-03",
    "files": [
     {
@@ -12,10 +15,6 @@
     {
      "level": "precinct",
      "path": "2020/20201103__id__general__camas__precinct.csv"
-    },
-    {
-     "level": "county",
-     "path": "2020/20201103__id__general__county.csv"
     },
     {
      "level": "precinct",
@@ -32,28 +31,67 @@
     {
      "level": "precinct",
      "path": "2020/20201103__id__general__owyhee__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2020/20201103__id__general__precinct.csv"
     }
    ],
    "label": "",
    "precinct": true,
    "precinct_counties": [
-    "butte",
-    "camas",
-    "custer",
-    "gem",
-    "idaho",
-    "owyhee"
+    "Butte County",
+    "Camas County",
+    "Custer County",
+    "Gem County",
+    "Idaho County",
+    "Owyhee County"
    ],
-   "precinct_statewide": true,
+   "precinct_missing": [
+    "Ada County",
+    "Adams County",
+    "Bannock County",
+    "Bear Lake County",
+    "Benewah County",
+    "Bingham County",
+    "Blaine County",
+    "Boise County",
+    "Bonner County",
+    "Bonneville County",
+    "Boundary County",
+    "Canyon County",
+    "Caribou County",
+    "Cassia County",
+    "Clark County",
+    "Clearwater County",
+    "Elmore County",
+    "Franklin County",
+    "Fremont County",
+    "Gooding County",
+    "Jefferson County",
+    "Jerome County",
+    "Kootenai County",
+    "Latah County",
+    "Lemhi County",
+    "Lewis County",
+    "Lincoln County",
+    "Madison County",
+    "Minidoka County",
+    "Nez Perce County",
+    "Oneida County",
+    "Payette County",
+    "Power County",
+    "Shoshone County",
+    "Teton County",
+    "Twin Falls County",
+    "Valley County",
+    "Washington County"
+   ],
+   "precinct_statewide": false,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2020-03-10",
    "files": [
     {
@@ -64,12 +102,61 @@
    "label": "president",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Ada County",
+    "Adams County",
+    "Bannock County",
+    "Bear Lake County",
+    "Benewah County",
+    "Bingham County",
+    "Blaine County",
+    "Boise County",
+    "Bonner County",
+    "Bonneville County",
+    "Boundary County",
+    "Butte County",
+    "Camas County",
+    "Canyon County",
+    "Caribou County",
+    "Cassia County",
+    "Clark County",
+    "Clearwater County",
+    "Custer County",
+    "Elmore County",
+    "Franklin County",
+    "Fremont County",
+    "Gem County",
+    "Gooding County",
+    "Idaho County",
+    "Jefferson County",
+    "Jerome County",
+    "Kootenai County",
+    "Latah County",
+    "Lemhi County",
+    "Lewis County",
+    "Lincoln County",
+    "Madison County",
+    "Minidoka County",
+    "Nez Perce County",
+    "Oneida County",
+    "Owyhee County",
+    "Payette County",
+    "Power County",
+    "Shoshone County",
+    "Teton County",
+    "Twin Falls County",
+    "Valley County",
+    "Washington County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2018-11-06",
    "files": [
     {
@@ -84,12 +171,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2016-11-08",
    "files": [
     {
@@ -104,12 +195,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2016-05-17",
    "files": [
     {
@@ -124,12 +219,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2016-03-08",
    "files": [
     {
@@ -144,12 +243,16 @@
    "label": "presidential",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2014-11-04",
    "files": [
     {
@@ -164,12 +267,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2014-05-20",
    "files": [
     {
@@ -184,12 +291,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2012-11-06",
    "files": [
     {
@@ -204,12 +315,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2012-05-15",
    "files": [
     {
@@ -224,12 +339,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2010-11-02",
    "files": [
     {
@@ -244,12 +363,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2010-05-25",
    "files": [
     {
@@ -264,12 +387,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2008-11-04",
    "files": [
     {
@@ -284,12 +411,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2008-05-27",
    "files": [
     {
@@ -304,12 +435,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2006-11-07",
    "files": [
     {
@@ -324,12 +459,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2006-05-23",
    "files": [
     {
@@ -344,12 +483,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2004-11-02",
    "files": [
     {
@@ -364,12 +507,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2004-05-25",
    "files": [
     {
@@ -384,12 +531,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2002-11-05",
    "files": [
     {
@@ -404,12 +555,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2002-05-28",
    "files": [
     {
@@ -424,12 +579,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2000-11-07",
    "files": [
     {
@@ -444,12 +603,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2000-05-23",
    "files": [
     {
@@ -464,12 +627,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "1998-11-03",
    "files": [
     {
@@ -484,12 +651,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "1998-05-26",
    "files": [
     {
@@ -500,12 +671,61 @@
    "label": "",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "Ada County",
+    "Adams County",
+    "Bannock County",
+    "Bear Lake County",
+    "Benewah County",
+    "Bingham County",
+    "Blaine County",
+    "Boise County",
+    "Bonner County",
+    "Bonneville County",
+    "Boundary County",
+    "Butte County",
+    "Camas County",
+    "Canyon County",
+    "Caribou County",
+    "Cassia County",
+    "Clark County",
+    "Clearwater County",
+    "Custer County",
+    "Elmore County",
+    "Franklin County",
+    "Fremont County",
+    "Gem County",
+    "Gooding County",
+    "Idaho County",
+    "Jefferson County",
+    "Jerome County",
+    "Kootenai County",
+    "Latah County",
+    "Lemhi County",
+    "Lewis County",
+    "Lincoln County",
+    "Madison County",
+    "Minidoka County",
+    "Nez Perce County",
+    "Oneida County",
+    "Owyhee County",
+    "Payette County",
+    "Power County",
+    "Shoshone County",
+    "Teton County",
+    "Twin Falls County",
+    "Valley County",
+    "Washington County"
+   ],
    "precinct_statewide": false,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "1996-11-05",
    "files": [
     {
@@ -520,12 +740,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "1996-05-28",
    "files": [
     {
@@ -540,12 +764,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "1994-11-08",
    "files": [
     {
@@ -560,12 +788,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": true,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "1994-05-24",
    "files": [
     {
@@ -580,11 +812,13 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   }
  ],
- "generated_at": "2026-11-08T11:44:43Z",
+ "generated_at": "2026-11-08T12:18:29Z",
  "repo": "openelections-data-id",
- "state": "id"
+ "state": "id",
+ "total_counties": 44
 }
