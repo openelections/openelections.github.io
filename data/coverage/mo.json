@@ -1,0 +1,1370 @@
+{
+ "elections": [
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2026-08-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2026/20260804__mo__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__adair__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__benton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__buchanan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__camden__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__cape_girardeau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__chariton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__christian__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__cole__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__greene__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__henry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__hickory__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__howard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__jasper__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__kansas_city__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__mcdonald__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__newton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__nodaway__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__scott__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__st_charles__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__st_francois__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__st_louis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__st_louis_city__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__ste_genevieve__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__stoddard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__stone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mo__primary__worth__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "adair",
+    "benton",
+    "boone",
+    "buchanan",
+    "camden",
+    "cape_girardeau",
+    "chariton",
+    "christian",
+    "clay",
+    "cole",
+    "greene",
+    "henry",
+    "hickory",
+    "howard",
+    "jackson",
+    "jasper",
+    "kansas_city",
+    "lawrence",
+    "lincoln",
+    "marion",
+    "mcdonald",
+    "newton",
+    "nodaway",
+    "platte",
+    "scott",
+    "st_charles",
+    "st_francois",
+    "st_louis",
+    "st_louis_city",
+    "ste_genevieve",
+    "stoddard",
+    "stone",
+    "worth"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2024-11-05",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2024/20241105__mo__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2020-11-03",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2020/20201103__mo__general__bates__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__mo__general__callaway__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__mo__general__greene__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__mo__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__mo__general__stone__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "bates",
+    "callaway",
+    "greene",
+    "stone"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2020-08-04",
+   "files": [
+    {
+     "level": "other",
+     "path": "2020/20200804__mo__primary.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200804__mo__primary__adair__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200804__mo__primary__andrew__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200804__mo__primary__audrain__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200804__mo__primary__barry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200804__mo__primary__bates__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200804__mo__primary__buchanan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200804__mo__primary__butler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200804__mo__primary__callaway__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200804__mo__primary__cape_girardeau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200804__mo__primary__clark__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200804__mo__primary__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200804__mo__primary__kansas_city__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200804__mo__primary__lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200804__mo__primary__mcdonald__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200804__mo__primary__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200804__mo__primary__osage__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200804__mo__primary__st_louis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200804__mo__primary__stone__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "adair",
+    "andrew",
+    "audrain",
+    "barry",
+    "bates",
+    "buchanan",
+    "butler",
+    "callaway",
+    "cape_girardeau",
+    "clark",
+    "franklin",
+    "kansas_city",
+    "lawrence",
+    "mcdonald",
+    "monroe",
+    "osage",
+    "st_louis",
+    "stone"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2020-03-10",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2020/20200310__mo__primary__president__adair__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200310__mo__primary__president__andrew__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200310__mo__primary__president__atchison_precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200310__mo__primary__president__audrain__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200310__mo__primary__president__barton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200310__mo__primary__president__buchanan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200310__mo__primary__president__butler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200310__mo__primary__president__cape_girardeau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200310__mo__primary__president__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200310__mo__primary__president__oregon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200310__mo__primary__president__pulaski__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200310__mo__primary__president__st_francois__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200310__mo__primary__president__ste_genevieve__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200310__mo__primary__president__webster__precinct.csv"
+    }
+   ],
+   "label": "president",
+   "precinct": true,
+   "precinct_counties": [
+    "adair",
+    "andrew",
+    "atchison_precinct",
+    "audrain",
+    "barton",
+    "buchanan",
+    "butler",
+    "cape_girardeau",
+    "franklin",
+    "oregon",
+    "pulaski",
+    "st_francois",
+    "ste_genevieve",
+    "webster"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20181106__mo__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-08-07",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__adair__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__andrew__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__audrain__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__bates__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__buchanan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__callaway__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__camden__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__cedar__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__cole__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__grundy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__holt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__newton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__pettis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__phelps__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__saline__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__scott__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__taney__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mo__primary__washington__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "adair",
+    "andrew",
+    "audrain",
+    "bates",
+    "buchanan",
+    "callaway",
+    "camden",
+    "cedar",
+    "cole",
+    "grundy",
+    "holt",
+    "livingston",
+    "marion",
+    "monroe",
+    "newton",
+    "pettis",
+    "phelps",
+    "saline",
+    "scott",
+    "taney",
+    "washington"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-11-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20161108__mo__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__mo__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-09-16",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20160916__mo__special__general__state_house__78.csv"
+    }
+   ],
+   "label": "general state house 78",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-03-15",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20160315__mo__primary__president__congressional__district.csv"
+    }
+   ],
+   "label": "president congressional district",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2015-11-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2015/20151103__mo__special__general__state_house.csv"
+    }
+   ],
+   "label": "general state house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-11-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2014/20141104__mo__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__mo__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-08-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2014/20140805__mo__special__general__state_house.csv"
+    }
+   ],
+   "label": "general state house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-08-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2014/20140805__mo__primary.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2013-06-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2013/20130604__mo__special__general.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2013-04-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2013/20130402__mo__special__general__state_house.csv"
+    }
+   ],
+   "label": "general state house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-11-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "2012/20121106__mo__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__mo__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-08-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2012/20120807__mo__primary.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-02-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2012/20120207__mo__primary__president.csv"
+    }
+   ],
+   "label": "president",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2011-11-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2011/20111108__mo__special__general__state_house.csv"
+    }
+   ],
+   "label": "general state house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2011-02-22",
+   "files": [
+    {
+     "level": "county",
+     "path": "2011/20110222__mo__special__general__state_senate.csv"
+    }
+   ],
+   "label": "general state senate",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2010-11-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2010/20101102__mo__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__mo__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2010-08-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2010/20100803__mo__primary.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2010-02-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2010/20100202__mo__special__general__state_house.csv"
+    }
+   ],
+   "label": "general state house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2009-11-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2009/20091103__mo__special__general.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2008-11-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2008/20081104__mo__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__mo__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2008-08-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2008/20080805__mo__primary.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2008-02-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2008/20080205__mo__special__general__state_house.csv"
+    }
+   ],
+   "label": "general state house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2008-02-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2008/20080205__mo__primary__president.csv"
+    }
+   ],
+   "label": "president",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2007-09-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2007/20070904__mo__special__general__state_senate.csv"
+    }
+   ],
+   "label": "general state senate",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2006-11-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2006/20061107__mo__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2006/20061107__mo__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2006-08-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2006/20060808__mo__primary.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2006-04-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2006/20060404__mo__special__general__state_senate.csv"
+    }
+   ],
+   "label": "general state senate",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2006-02-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2006/20060207__mo__special__general__state_house.csv"
+    }
+   ],
+   "label": "general state house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2005-11-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2005/20051108__mo__special__general.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2005-04-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2005/20050405__mo__special__general.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2004-11-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2004/20041102__mo__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__mo__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2004-08-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2004/20040803__mo__primary.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2004-02-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2004/20040203__mo__special__general__state_house.csv"
+    }
+   ],
+   "label": "general state house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2004-02-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2004/20040203__mo__primary__president.csv"
+    }
+   ],
+   "label": "president",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2003-11-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2003/20031104__mo__special__general.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2002-11-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2002/20021105__mo__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__mo__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2002-08-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "2002/20020806__mo__primary.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2002-03-26",
+   "files": [
+    {
+     "level": "county",
+     "path": "2002/20020326__mo__special__general__state_house.csv"
+    }
+   ],
+   "label": "general state house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2002-03-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2002/20020305__mo__special__general__state_house.csv"
+    }
+   ],
+   "label": "general state house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2002-02-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2002/20020205__mo__special__general__state_senate.csv"
+    }
+   ],
+   "label": "general state senate",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2001-12-11",
+   "files": [
+    {
+     "level": "county",
+     "path": "2001/20011211__mo__special__general__state_senate.csv"
+    }
+   ],
+   "label": "general state senate",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2001-11-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "2001/20011106__mo__special__general__state_house.csv"
+    }
+   ],
+   "label": "general state house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2001-08-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2001/20010807__mo__special__general.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2001-02-27",
+   "files": [
+    {
+     "level": "county",
+     "path": "2001/20010227__mo__special__general__state_house.csv"
+    }
+   ],
+   "label": "general state house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2001-01-24",
+   "files": [
+    {
+     "level": "county",
+     "path": "2001/20010124__mo__special__general__state_senate.csv"
+    }
+   ],
+   "label": "general state senate",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2000-11-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2000/20001107__mo__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__mo__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2000-08-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2000/20000808__mo__primary.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2000-04-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2000/20000404__mo__special__general__state_house.csv"
+    }
+   ],
+   "label": "general state house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2000-03-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2000/20000307__mo__primary__president.csv"
+    }
+   ],
+   "label": "president",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  }
+ ],
+ "generated_at": "2026-11-08T02:41:55Z",
+ "repo": "openelections-data-mo",
+ "state": "mo"
+}

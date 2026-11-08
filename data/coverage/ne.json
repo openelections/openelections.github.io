@@ -1,0 +1,1537 @@
+{
+ "elections": [
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2020-11-03",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2020/20201103__ne__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20181106__ne__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-11-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20161108__ne__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__ne__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__adams__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__antelope__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__arthur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__banner__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__blaine__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__box_butte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__boyd__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__brown__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__buffalo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__burt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__butler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__cass__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__cedar__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__chase__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__cherry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__cheyenne_precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__colfax__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__cuming__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__custer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__dakota__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__dawes__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__dawson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__deuel__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__dixon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__dodge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__douglas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__dundy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__fillmore__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__frontier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__furnas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__gage__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__garden__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__garfield__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__gosper__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__greeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__hall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__harlan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__hayes__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__hitchcock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__holt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__hooker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__howard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__kearney__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__keith__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__keya_paha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__kimball__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__knox__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__lancaster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__loup__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__mcpherson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__merrick__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__morrill__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__nance__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__nemaha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__nuckolls__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__otoe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__pawnee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__perkins__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__phelps__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__pierce__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__polk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__red_willow__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__richardson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__rock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__saline__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__sarpy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__saunders__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__scotts_bluff__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__seward__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__sherman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__sioux__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__stanton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__thayer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__thomas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__thurston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__valley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__wheeler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ne__general__york__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "adams",
+    "antelope",
+    "arthur",
+    "banner",
+    "blaine",
+    "boone",
+    "box_butte",
+    "boyd",
+    "brown",
+    "buffalo",
+    "burt",
+    "butler",
+    "cass",
+    "cedar",
+    "chase",
+    "cherry",
+    "cheyenne_precinct",
+    "clay",
+    "colfax",
+    "cuming",
+    "custer",
+    "dakota",
+    "dawes",
+    "dawson",
+    "deuel",
+    "dixon",
+    "dodge",
+    "douglas",
+    "dundy",
+    "fillmore",
+    "franklin",
+    "frontier",
+    "furnas",
+    "gage",
+    "garden",
+    "garfield",
+    "gosper",
+    "grant",
+    "greeley",
+    "hall",
+    "hamilton",
+    "harlan",
+    "hayes",
+    "hitchcock",
+    "holt",
+    "hooker",
+    "howard",
+    "jefferson",
+    "johnson",
+    "kearney",
+    "keith",
+    "keya_paha",
+    "kimball",
+    "knox",
+    "lancaster",
+    "lincoln",
+    "logan",
+    "loup",
+    "madison",
+    "mcpherson",
+    "merrick",
+    "morrill",
+    "nance",
+    "nemaha",
+    "nuckolls",
+    "otoe",
+    "pawnee",
+    "perkins",
+    "phelps",
+    "pierce",
+    "platte",
+    "polk",
+    "red_willow",
+    "richardson",
+    "rock",
+    "saline",
+    "sarpy",
+    "saunders",
+    "scotts_bluff",
+    "seward",
+    "sheridan",
+    "sherman",
+    "sioux",
+    "stanton",
+    "thayer",
+    "thomas",
+    "thurston",
+    "valley",
+    "washington",
+    "wayne",
+    "webster",
+    "wheeler",
+    "york"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-05-10",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20160510__ne__primary.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2014-11-04",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ne__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__adams__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__antelope__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__arthur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__banner__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__blaine__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__box_butte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__boyd__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__brown__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__buffalo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__burt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__butler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__cass__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__cedar__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__chase__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__cherry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__cheyenne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__colfax__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__cuming__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__custer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__dakota__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__dawes__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__dawson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__deuel__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__dixon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__dodge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__douglas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__dundy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__fillmore__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__frontier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__furnas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__gage__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__garden__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__garfield__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__gosper__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__greeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__hall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__harlan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__hayes__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__hitchcock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__holt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__hooker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__howard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__kearney__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__keith__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__keya_paha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__kimball__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__knox__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__lancaster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__loup__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__mcpherson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__merrick__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__morrill__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__nance__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__nemaha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__nuckolls__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__otoe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__pawnee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__perkins__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__phelps__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__pierce__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__polk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__red_willow__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__richardson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__rock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__saline__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__sarpy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__saunders__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__scotts_bluff__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__seward__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__sherman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__sioux__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__stanton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__thayer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__thomas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__thurston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__valley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__wheeler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ne__general__york__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "adams",
+    "antelope",
+    "arthur",
+    "banner",
+    "blaine",
+    "boone",
+    "box_butte",
+    "boyd",
+    "brown",
+    "buffalo",
+    "burt",
+    "butler",
+    "cass",
+    "cedar",
+    "chase",
+    "cherry",
+    "cheyenne",
+    "clay",
+    "colfax",
+    "cuming",
+    "custer",
+    "dakota",
+    "dawes",
+    "dawson",
+    "deuel",
+    "dixon",
+    "dodge",
+    "douglas",
+    "dundy",
+    "fillmore",
+    "franklin",
+    "frontier",
+    "furnas",
+    "gage",
+    "garden",
+    "garfield",
+    "gosper",
+    "grant",
+    "greeley",
+    "hall",
+    "hamilton",
+    "harlan",
+    "hayes",
+    "hitchcock",
+    "holt",
+    "hooker",
+    "howard",
+    "jefferson",
+    "johnson",
+    "kearney",
+    "keith",
+    "keya_paha",
+    "kimball",
+    "knox",
+    "lancaster",
+    "lincoln",
+    "logan",
+    "loup",
+    "madison",
+    "mcpherson",
+    "merrick",
+    "morrill",
+    "nance",
+    "nemaha",
+    "nuckolls",
+    "otoe",
+    "pawnee",
+    "perkins",
+    "phelps",
+    "pierce",
+    "platte",
+    "polk",
+    "red_willow",
+    "richardson",
+    "rock",
+    "saline",
+    "sarpy",
+    "saunders",
+    "scotts_bluff",
+    "seward",
+    "sheridan",
+    "sherman",
+    "sioux",
+    "stanton",
+    "thayer",
+    "thomas",
+    "thurston",
+    "valley",
+    "washington",
+    "wayne",
+    "webster",
+    "wheeler",
+    "york"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2012-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ne__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__adams__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__antelope__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__arthur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__banner__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__blaine__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__box_butte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__boyd__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__brown__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__buffalo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__burt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__butler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__cass__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__cedar__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__chase__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__cherry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__cheyenne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__colfax__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__cuming__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__custer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__dakota__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__dawes__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__dawson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__deuel__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__dixon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__dodge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__douglas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__dundy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__fillmore__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__frontier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__furnas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__gage__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__garden__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__garfield__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__gosper__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__greeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__hall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__harlan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__hayes__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__hitchcock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__holt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__hooker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__howard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__kearney__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__keith__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__keya_paha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__kimball__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__knox__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__lancaster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__loup__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__mcpherson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__merrick__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__morrill__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__nance__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__nemaha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__nuckolls__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__otoe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__pawnee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__perkins__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__phelps__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__pierce__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__polk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__red_willow__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__richardson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__rock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__saline__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__sarpy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__saunders__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__scotts_bluff__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__seward__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__sherman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__sioux__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__stanton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__thayer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__thomas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__thurston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__valley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__wheeler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ne__general__york__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "adams",
+    "antelope",
+    "arthur",
+    "banner",
+    "blaine",
+    "boone",
+    "box_butte",
+    "boyd",
+    "brown",
+    "buffalo",
+    "burt",
+    "butler",
+    "cass",
+    "cedar",
+    "chase",
+    "cherry",
+    "cheyenne",
+    "clay",
+    "colfax",
+    "cuming",
+    "custer",
+    "dakota",
+    "dawes",
+    "dawson",
+    "deuel",
+    "dixon",
+    "dodge",
+    "douglas",
+    "dundy",
+    "fillmore",
+    "franklin",
+    "frontier",
+    "furnas",
+    "gage",
+    "garden",
+    "garfield",
+    "gosper",
+    "grant",
+    "greeley",
+    "hall",
+    "hamilton",
+    "harlan",
+    "hayes",
+    "hitchcock",
+    "holt",
+    "hooker",
+    "howard",
+    "jefferson",
+    "johnson",
+    "kearney",
+    "keith",
+    "keya_paha",
+    "kimball",
+    "knox",
+    "lancaster",
+    "lincoln",
+    "logan",
+    "loup",
+    "madison",
+    "mcpherson",
+    "merrick",
+    "morrill",
+    "nance",
+    "nemaha",
+    "nuckolls",
+    "otoe",
+    "pawnee",
+    "perkins",
+    "phelps",
+    "pierce",
+    "platte",
+    "polk",
+    "red_willow",
+    "richardson",
+    "rock",
+    "saline",
+    "sarpy",
+    "saunders",
+    "scotts_bluff",
+    "seward",
+    "sheridan",
+    "sherman",
+    "sioux",
+    "stanton",
+    "thayer",
+    "thomas",
+    "thurston",
+    "valley",
+    "washington",
+    "wayne",
+    "webster",
+    "wheeler",
+    "york"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2010-11-02",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2010/20101102__ne__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2008-11-04",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2008/20081104__ne__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  }
+ ],
+ "generated_at": "2026-11-08T02:41:55Z",
+ "repo": "openelections-data-ne",
+ "state": "ne"
+}

@@ -1,0 +1,3465 @@
+{
+ "elections": [
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2026-08-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2026/20260804__mi__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__alger__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__antrim__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__arenac__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__baraga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__barry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__berrien__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__cass__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__charlevoix__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__clare__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__delta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__eaton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__emmet__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__gogebic__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__gratiot__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__hillsdale__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__houghton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__ingham__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__iosco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__iron__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__isabella__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__kalamazoo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__kent__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__lake__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__lenawee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__luce__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__macomb__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__manistee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__marquette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__mecosta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__midland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__montmorency__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__muskegon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__newaygo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__oakland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__oceana__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__ontonagon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__osceola__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__oscoda__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__ottawa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__roscommon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__saginaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__shiawassee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__st_joseph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__van_buren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__washtenaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260804__mi__primary__wexford__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "alger",
+    "antrim",
+    "arenac",
+    "baraga",
+    "barry",
+    "berrien",
+    "calhoun",
+    "cass",
+    "charlevoix",
+    "clare",
+    "delta",
+    "eaton",
+    "emmet",
+    "gogebic",
+    "gratiot",
+    "hillsdale",
+    "houghton",
+    "ingham",
+    "iosco",
+    "iron",
+    "isabella",
+    "jackson",
+    "kalamazoo",
+    "kent",
+    "lake",
+    "lenawee",
+    "livingston",
+    "luce",
+    "macomb",
+    "manistee",
+    "marquette",
+    "mecosta",
+    "midland",
+    "monroe",
+    "montmorency",
+    "muskegon",
+    "newaygo",
+    "oakland",
+    "oceana",
+    "ontonagon",
+    "osceola",
+    "oscoda",
+    "ottawa",
+    "roscommon",
+    "saginaw",
+    "shiawassee",
+    "st_joseph",
+    "van_buren",
+    "washtenaw",
+    "wayne",
+    "wexford"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2024-11-05",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2024/20241105__mi__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__alcona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__alger__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__allegan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__alpena__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__antrim__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__arenac__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__baraga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__barry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__bay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__benzie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__berrien__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__branch__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__cass__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__charlevoix__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__cheboygan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__chippewa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__clare__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__clinton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__crawford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__delta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__dickinson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__eaton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__emmet__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__genesee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__gladwin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__gogebic__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__grand_traverse__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__gratiot__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__hillsdale__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__houghton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__huron__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__ingham__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__ionia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__iosco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__iron__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__isabella__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__kalamazoo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__kalkaska__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__kent__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__keweenaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__lake__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__lapeer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__leelanau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__lenawee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__luce__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__mackinac__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__macomb__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__manistee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__marquette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__mecosta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__menominee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__midland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__missaukee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__montcalm__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__montmorency__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__muskegon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__newaygo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__oakland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__oceana__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__ogemaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__ontonagon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__osceola__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__oscoda__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__otsego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__ottawa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__presque_isle__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__roscommon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__saginaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__sanilac__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__schoolcraft__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__shiawassee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__st_clair__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__st_joseph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__tuscola__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__van_buren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__washtenaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__mi__general__wexford__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "alcona",
+    "alger",
+    "allegan",
+    "alpena",
+    "antrim",
+    "arenac",
+    "baraga",
+    "barry",
+    "bay",
+    "benzie",
+    "berrien",
+    "branch",
+    "calhoun",
+    "cass",
+    "charlevoix",
+    "cheboygan",
+    "chippewa",
+    "clare",
+    "clinton",
+    "crawford",
+    "delta",
+    "dickinson",
+    "eaton",
+    "emmet",
+    "genesee",
+    "gladwin",
+    "gogebic",
+    "grand_traverse",
+    "gratiot",
+    "hillsdale",
+    "houghton",
+    "huron",
+    "ingham",
+    "ionia",
+    "iosco",
+    "iron",
+    "isabella",
+    "jackson",
+    "kalamazoo",
+    "kalkaska",
+    "kent",
+    "keweenaw",
+    "lake",
+    "lapeer",
+    "leelanau",
+    "lenawee",
+    "livingston",
+    "luce",
+    "mackinac",
+    "macomb",
+    "manistee",
+    "marquette",
+    "mason",
+    "mecosta",
+    "menominee",
+    "midland",
+    "missaukee",
+    "monroe",
+    "montcalm",
+    "montmorency",
+    "muskegon",
+    "newaygo",
+    "oakland",
+    "oceana",
+    "ogemaw",
+    "ontonagon",
+    "osceola",
+    "oscoda",
+    "otsego",
+    "ottawa",
+    "presque_isle",
+    "roscommon",
+    "saginaw",
+    "sanilac",
+    "schoolcraft",
+    "shiawassee",
+    "st_clair",
+    "st_joseph",
+    "tuscola",
+    "van_buren",
+    "washtenaw",
+    "wayne",
+    "wexford"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2024-08-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "2024/20240806__mi__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__alcona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__alger__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__antrim__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__arenac__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__baraga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__barry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__bay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__benzie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__berrien__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__branch__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__cass__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__charlevoix__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__chippewa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__clare__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__crawford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__delta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__dickinson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__eaton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__emmet__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__genesee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__gladwin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__gogebic__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__grand_traverse__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__gratiot__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__hillsdale__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__huron__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__ingham__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__ionia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__iosco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__iron__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__isabella__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__kalamazoo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__kalkaska__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__kent__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__keweenaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__lake__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__leelanau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__lenawee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__luce__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__mackinac__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__macomb__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__manistee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__marquette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__mecosta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__midland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__missaukee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__montcalm__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__montmorency__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__muskegon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__newaygo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__oceana__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__ogemaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__ontonagon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__osceola__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__oscoda__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__otsego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__presque_isle__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__roscommon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__saginaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__sanilac__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__schoolcraft__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__shiawassee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__st_clair__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__st_joseph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__tuscola__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__van_buren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__washtenaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240806__mi__primary__wexford__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "alcona",
+    "alger",
+    "antrim",
+    "arenac",
+    "baraga",
+    "barry",
+    "bay",
+    "benzie",
+    "berrien",
+    "branch",
+    "calhoun",
+    "cass",
+    "charlevoix",
+    "chippewa",
+    "clare",
+    "crawford",
+    "delta",
+    "dickinson",
+    "eaton",
+    "emmet",
+    "genesee",
+    "gladwin",
+    "gogebic",
+    "grand_traverse",
+    "gratiot",
+    "hillsdale",
+    "huron",
+    "ingham",
+    "ionia",
+    "iosco",
+    "iron",
+    "isabella",
+    "jackson",
+    "kalamazoo",
+    "kalkaska",
+    "kent",
+    "keweenaw",
+    "lake",
+    "leelanau",
+    "lenawee",
+    "livingston",
+    "luce",
+    "mackinac",
+    "macomb",
+    "manistee",
+    "marquette",
+    "mason",
+    "mecosta",
+    "midland",
+    "missaukee",
+    "monroe",
+    "montcalm",
+    "montmorency",
+    "muskegon",
+    "newaygo",
+    "oceana",
+    "ogemaw",
+    "ontonagon",
+    "osceola",
+    "oscoda",
+    "otsego",
+    "presque_isle",
+    "roscommon",
+    "saginaw",
+    "sanilac",
+    "schoolcraft",
+    "shiawassee",
+    "st_clair",
+    "st_joseph",
+    "tuscola",
+    "van_buren",
+    "washtenaw",
+    "wayne",
+    "wexford"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2022-11-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2022/20221108__mi__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__mi__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__alcona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__alger__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__allegan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__alpena__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__antrim__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__arenac__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__baraga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__barry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__bay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__benzie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__berrien__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__branch__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__cass__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__charlevoix__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__cheboygan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__chippewa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__clare_precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__clinton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__crawford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__delta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__dickinson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__eaton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__emmet__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__genesee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__gladwin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__gogebic__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__grand_traverse__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__gratiot__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__hillsdale__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__houghton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__huron__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__ingham__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__ionia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__iosco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__iron__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__isabella__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__kalamazoo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__kalkaska__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__kent__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__keweenaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__lake__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__lapeer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__leelanau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__lenawee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__luce__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__mackinac__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__macomb__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__manistee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__marquette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__mecosta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__menominee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__midland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__missaukee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__montcalm__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__montmorency__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__muskegon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__newaygo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__oakland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__oceana__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__ogemaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__ontonagon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__osceola__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__oscoda__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__otsego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__ottawa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__presque_isle_precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__roscommon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__saginaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__sanilac__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__schoolcraft__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__shiawassee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__st_clair__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__st_joseph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__tuscola__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__van_buren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__washtenaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__mi__general__wexford__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "alcona",
+    "alger",
+    "allegan",
+    "alpena",
+    "antrim",
+    "arenac",
+    "baraga",
+    "barry",
+    "bay",
+    "benzie",
+    "berrien",
+    "branch",
+    "calhoun",
+    "cass",
+    "charlevoix",
+    "cheboygan",
+    "chippewa",
+    "clare_precinct",
+    "clinton",
+    "crawford",
+    "delta",
+    "dickinson",
+    "eaton",
+    "emmet",
+    "genesee",
+    "gladwin",
+    "gogebic",
+    "grand_traverse",
+    "gratiot",
+    "hillsdale",
+    "houghton",
+    "huron",
+    "ingham",
+    "ionia",
+    "iosco",
+    "iron",
+    "isabella",
+    "jackson",
+    "kalamazoo",
+    "kalkaska",
+    "kent",
+    "keweenaw",
+    "lake",
+    "lapeer",
+    "leelanau",
+    "lenawee",
+    "livingston",
+    "luce",
+    "mackinac",
+    "macomb",
+    "manistee",
+    "marquette",
+    "mason",
+    "mecosta",
+    "menominee",
+    "midland",
+    "missaukee",
+    "monroe",
+    "montcalm",
+    "montmorency",
+    "muskegon",
+    "newaygo",
+    "oakland",
+    "oceana",
+    "ogemaw",
+    "ontonagon",
+    "osceola",
+    "oscoda",
+    "otsego",
+    "ottawa",
+    "presque_isle_precinct",
+    "roscommon",
+    "saginaw",
+    "sanilac",
+    "schoolcraft",
+    "shiawassee",
+    "st_clair",
+    "st_joseph",
+    "tuscola",
+    "van_buren",
+    "washtenaw",
+    "wayne",
+    "wexford"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2022-08-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2022/20220802__mi__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__alcona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__alger__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__allegan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__alpena__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__antrim__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__arenac__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__baraga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__barry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__benzie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__berrien__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__branch__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__cass__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__charlevoix__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__cheboygan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__clare__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__crawford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__delta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__dickinson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__emmet__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__genesee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__gogebic__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__gratiot__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__hillsdale__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__houghton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__ingham__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__ionia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__iosco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__iron__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__isabella__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__kalamazoo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__kalkaska__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__leelanau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__lenawee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__macomb__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__manistee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__marquette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__mecosta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__midland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__missaukee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__montcalm__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__montmorency__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__muskegon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__newaygo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__oceana__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__ogemaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__ontonagon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__otsego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__saginaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__sanilac__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__schoolcraft__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__tuscola__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__washtenaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220802__mi__primary__wexford__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "alcona",
+    "alger",
+    "allegan",
+    "alpena",
+    "antrim",
+    "arenac",
+    "baraga",
+    "barry",
+    "benzie",
+    "berrien",
+    "branch",
+    "calhoun",
+    "cass",
+    "charlevoix",
+    "cheboygan",
+    "clare",
+    "crawford",
+    "delta",
+    "dickinson",
+    "emmet",
+    "genesee",
+    "gogebic",
+    "gratiot",
+    "hillsdale",
+    "houghton",
+    "ingham",
+    "ionia",
+    "iosco",
+    "iron",
+    "isabella",
+    "jackson",
+    "kalamazoo",
+    "kalkaska",
+    "leelanau",
+    "lenawee",
+    "livingston",
+    "macomb",
+    "manistee",
+    "marquette",
+    "mecosta",
+    "midland",
+    "missaukee",
+    "montcalm",
+    "montmorency",
+    "muskegon",
+    "newaygo",
+    "oceana",
+    "ogemaw",
+    "ontonagon",
+    "otsego",
+    "saginaw",
+    "sanilac",
+    "schoolcraft",
+    "tuscola",
+    "washtenaw",
+    "wayne",
+    "wexford"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2022-08-02",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2022/20220802__mi__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-11-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2020/20201103__mi__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__mi__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__alcona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__alger__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__allegan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__alpena__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__antrim__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__arenac__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__baraga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__barry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__bay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__benzie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__berrien__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__branch__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__cass__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__charlevoix__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__cheboygan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__chippewa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__clare__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__clinton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__crawford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__delta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__dickinson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__eaton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__emmet__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__genesee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__gladwin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__gogebic__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__grand_traverse__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__gratiot__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__hillsdale__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__houghton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__huron__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__ingham__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__ionia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__iosco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__iron__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__isabella__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__kalamazoo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__kalkaska__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__kent__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__keweenaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__lake__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__lapeer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__leelanau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__lenawee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__luce__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__mackinac__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__macomb__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__manistee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__marquette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__mecosta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__menominee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__midland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__missaukee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__montcalm__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__montmorency__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__muskegon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__newaygo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__oakland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__oceana__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__ogemaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__ontonagon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__osceola__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__oscoda__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__otsego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__ottawa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__presque_isle__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__roscommon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__saginaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__sanilac__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__schoolcraft__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__shiawasse__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__st_clair__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__st_joseph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__tuscola__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__van_buren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__washtenaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__mi__general__wexford__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "alcona",
+    "alger",
+    "allegan",
+    "alpena",
+    "antrim",
+    "arenac",
+    "baraga",
+    "barry",
+    "bay",
+    "benzie",
+    "berrien",
+    "branch",
+    "calhoun",
+    "cass",
+    "charlevoix",
+    "cheboygan",
+    "chippewa",
+    "clare",
+    "clinton",
+    "crawford",
+    "delta",
+    "dickinson",
+    "eaton",
+    "emmet",
+    "genesee",
+    "gladwin",
+    "gogebic",
+    "grand_traverse",
+    "gratiot",
+    "hillsdale",
+    "houghton",
+    "huron",
+    "ingham",
+    "ionia",
+    "iosco",
+    "iron",
+    "isabella",
+    "jackson",
+    "kalamazoo",
+    "kalkaska",
+    "kent",
+    "keweenaw",
+    "lake",
+    "lapeer",
+    "leelanau",
+    "lenawee",
+    "livingston",
+    "luce",
+    "mackinac",
+    "macomb",
+    "manistee",
+    "marquette",
+    "mason",
+    "mecosta",
+    "menominee",
+    "midland",
+    "missaukee",
+    "monroe",
+    "montcalm",
+    "montmorency",
+    "muskegon",
+    "newaygo",
+    "oakland",
+    "oceana",
+    "ogemaw",
+    "ontonagon",
+    "osceola",
+    "oscoda",
+    "otsego",
+    "ottawa",
+    "presque_isle",
+    "roscommon",
+    "saginaw",
+    "sanilac",
+    "schoolcraft",
+    "shiawasse",
+    "st_clair",
+    "st_joseph",
+    "tuscola",
+    "van_buren",
+    "washtenaw",
+    "wayne",
+    "wexford"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-08-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2020/20200804__mi__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__alcona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__alger__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__antrim__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__arenac__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__baraga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__barry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__benzie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__branch__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__charlevoix__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__cheboygan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__chippewa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__clare__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__clinton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__crawford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__delta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__eaton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__emmet__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__genesee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__gladwin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__grand_traverse__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__gratiot__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__hillsdale__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__houghton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__huron__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__ingham__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__ionia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__iosco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__iron__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__kalamazoo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__kalkaska__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__kent__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__leelanau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__lenawee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__macomb__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__marquette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__midland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__missaukee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__montcalm__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__montmorency__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__muskegon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__newaygo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__oceana__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__ogemaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__ontonagon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__oscoda__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__otsego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__presque_isle__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__saginaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__shiawassee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__st_clair__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__st_joseph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__tuscola__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__van_buren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__washtenaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200804__mi__primary__wexford__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "alcona",
+    "alger",
+    "antrim",
+    "arenac",
+    "baraga",
+    "barry",
+    "benzie",
+    "branch",
+    "calhoun",
+    "charlevoix",
+    "cheboygan",
+    "chippewa",
+    "clare",
+    "clinton",
+    "crawford",
+    "delta",
+    "eaton",
+    "emmet",
+    "genesee",
+    "gladwin",
+    "grand_traverse",
+    "gratiot",
+    "hillsdale",
+    "houghton",
+    "huron",
+    "ingham",
+    "ionia",
+    "iosco",
+    "iron",
+    "jackson",
+    "kalamazoo",
+    "kalkaska",
+    "kent",
+    "leelanau",
+    "lenawee",
+    "livingston",
+    "macomb",
+    "marquette",
+    "mason",
+    "midland",
+    "missaukee",
+    "monroe",
+    "montcalm",
+    "montmorency",
+    "muskegon",
+    "newaygo",
+    "oceana",
+    "ogemaw",
+    "ontonagon",
+    "oscoda",
+    "otsego",
+    "presque_isle",
+    "saginaw",
+    "shiawassee",
+    "st_clair",
+    "st_joseph",
+    "tuscola",
+    "van_buren",
+    "washtenaw",
+    "wayne",
+    "wexford"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-03-10",
+   "files": [
+    {
+     "level": "county",
+     "path": "2020/20200310__mi__primary__president__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__alcona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__alger__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__alpena__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__antrim__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__arenac__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__baraga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__barry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__bay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__benzie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__berrien__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__branch__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__cass__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__charlevoix__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__cheboygan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__chippewa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__clare__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__clinton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__crawford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__dickinson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__eaton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__emmet__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__genesee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__gladwin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__grand_traverse__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__gratiot__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__hillsdale__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__houghton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__huron__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__ingham__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__ionia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__iosco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__iron__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__isabella__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__kalamazoo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__kalkaska__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__kent__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__lake__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__lapeer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__leelanau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__lenawee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__macomb__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__manistee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__marquette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__menominee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__midland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__missaukee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__montcalm__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__muskegon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__newaygo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__oakland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__ogemaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__oscoda__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__otsego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__ottawa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__presque_isle__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__roscommon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__saginaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__sanilac__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__shiawassee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__st_clair__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__st_joseph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__tuscola__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__van_buren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__washtenaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200310__mi__primary__president__wexford__precinct.csv"
+    }
+   ],
+   "label": "president",
+   "precinct": true,
+   "precinct_counties": [
+    "alcona",
+    "alger",
+    "alpena",
+    "antrim",
+    "arenac",
+    "baraga",
+    "barry",
+    "bay",
+    "benzie",
+    "berrien",
+    "branch",
+    "calhoun",
+    "cass",
+    "charlevoix",
+    "cheboygan",
+    "chippewa",
+    "clare",
+    "clinton",
+    "crawford",
+    "dickinson",
+    "eaton",
+    "emmet",
+    "genesee",
+    "gladwin",
+    "grand_traverse",
+    "gratiot",
+    "hillsdale",
+    "houghton",
+    "huron",
+    "ingham",
+    "ionia",
+    "iosco",
+    "iron",
+    "isabella",
+    "jackson",
+    "kalamazoo",
+    "kalkaska",
+    "kent",
+    "lake",
+    "lapeer",
+    "leelanau",
+    "lenawee",
+    "livingston",
+    "macomb",
+    "manistee",
+    "marquette",
+    "mason",
+    "menominee",
+    "midland",
+    "missaukee",
+    "monroe",
+    "montcalm",
+    "muskegon",
+    "newaygo",
+    "oakland",
+    "ogemaw",
+    "oscoda",
+    "otsego",
+    "ottawa",
+    "presque_isle",
+    "roscommon",
+    "saginaw",
+    "sanilac",
+    "shiawassee",
+    "st_clair",
+    "st_joseph",
+    "tuscola",
+    "van_buren",
+    "washtenaw",
+    "wayne",
+    "wexford"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20181106__mi__special__general__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20181106__mi__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-08-07",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__alcona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__alger__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__allegan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__alpena__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__arenac__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__baraga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__barry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__bay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__benzie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__berrien__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__branch__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__cass__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__charlevoix__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__cheboygan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__chippewa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__clare__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__clinton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__crawford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__delta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__dickinson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__eaton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__mi__primary__emmet__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "alcona",
+    "alger",
+    "allegan",
+    "alpena",
+    "arenac",
+    "baraga",
+    "barry",
+    "bay",
+    "benzie",
+    "berrien",
+    "branch",
+    "cass",
+    "charlevoix",
+    "cheboygan",
+    "chippewa",
+    "clare",
+    "clinton",
+    "crawford",
+    "delta",
+    "dickinson",
+    "eaton",
+    "emmet"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2016-11-08",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2016/20161108__mi__special__general__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-11-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20161108__mi__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__mi__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-08-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20160802__mi__primary__county.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-03-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20160308__mi__special__general__county.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-03-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20160308__mi__primary__president__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160308__mi__primary__president__precinct.csv"
+    }
+   ],
+   "label": "president",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2014-11-04",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2014/20141104__mi__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-08-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2014/20140805__mi__primary__county.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2012-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2012/20121106__mi__special__general__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2012-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2012/20121106__mi__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2010-11-02",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2010/20101102__mi__special__general__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2010-11-02",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2010/20101102__mi__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2008-11-04",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2008/20081104__mi__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2006-11-07",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2006/20061107__mi__special__general__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2006-11-07",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2006/20061107__mi__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2004-11-02",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2004/20041102__mi__special__general__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2004-11-02",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2004/20041102__mi__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2002-11-05",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2002/20021105__mi__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2000-11-07",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2000/20001107__mi__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "1998-11-03",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "1998/19981103__mi__special__general__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "1998-11-03",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "1998/19981103__mi__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  }
+ ],
+ "generated_at": "2026-11-08T02:41:55Z",
+ "repo": "openelections-data-mi",
+ "state": "mi"
+}

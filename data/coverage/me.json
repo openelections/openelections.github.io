@@ -1,0 +1,87 @@
+{
+ "elections": [
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2020-11-03",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2020/20201103__me__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2018-11-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "2018/20181106__me__general__town.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2016-11-08",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2016/20161108__me__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-06-14",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20160614__me__primary__town.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-11-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "2012/20121106__me__general__town.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  }
+ ],
+ "generated_at": "2026-11-08T02:41:55Z",
+ "repo": "openelections-data-me",
+ "state": "me"
+}

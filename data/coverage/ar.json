@@ -1,0 +1,2738 @@
+{
+ "elections": [
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2022-11-08",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__arkansas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__ashley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__baxter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__benton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__bradley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__carroll__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__chicot__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__clark__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__cleburne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__cleveland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__conway__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__craighead__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__crawford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__crittenden__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__cross__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__dallas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__desha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__drew__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__faulkner__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__fulton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__garland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__greene__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__hempstead__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__hot_spring__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__howard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__independence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__izard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__lafayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__lee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__little_river__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__lonoke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__miller__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__mississippi__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__nevada__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__newton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__ouachita__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__perry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__pike__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__poinsett__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__polk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__pope__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__prairie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__pulaski__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__saline__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__scott__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__searcy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__sebastian__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__sevier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__sharp__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__st_francis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__stone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__union__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__van_buren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__white__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__woodruff__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ar__general__yell__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "arkansas",
+    "ashley",
+    "baxter",
+    "benton",
+    "boone",
+    "bradley",
+    "calhoun",
+    "carroll",
+    "chicot",
+    "clark",
+    "clay",
+    "cleburne",
+    "cleveland",
+    "columbia",
+    "conway",
+    "craighead",
+    "crawford",
+    "crittenden",
+    "cross",
+    "dallas",
+    "desha",
+    "drew",
+    "faulkner",
+    "franklin",
+    "fulton",
+    "garland",
+    "grant",
+    "greene",
+    "hempstead",
+    "hot_spring",
+    "howard",
+    "independence",
+    "izard",
+    "jackson",
+    "jefferson",
+    "johnson",
+    "lafayette",
+    "lawrence",
+    "lee",
+    "lincoln",
+    "little_river",
+    "logan",
+    "lonoke",
+    "madison",
+    "marion",
+    "miller",
+    "mississippi",
+    "monroe",
+    "montgomery",
+    "nevada",
+    "newton",
+    "ouachita",
+    "perry",
+    "pike",
+    "poinsett",
+    "polk",
+    "pope",
+    "prairie",
+    "pulaski",
+    "randolph",
+    "saline",
+    "scott",
+    "searcy",
+    "sebastian",
+    "sevier",
+    "sharp",
+    "st_francis",
+    "stone",
+    "union",
+    "van_buren",
+    "washington",
+    "white",
+    "woodruff",
+    "yell"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2020-11-03",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__arkansas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__ashley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__baxter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__benton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__bradley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__carroll__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__chicot__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__clark__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__cleburne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__cleveland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__conway__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__craighead__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__crawford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__crittenden__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__cross__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__dallas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__desha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__drew__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__faulkner__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__fulton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__garland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__greene__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__hempstead__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__hot_spring__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__howard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__independence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__izard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__lafayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__lee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__little_river__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__lonoke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__miller__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__mississippi__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__nevada__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__newton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__ouachita__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__perry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__phillips__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__pike__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__poinsett__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__polk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__pope__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__prairie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__pulaski__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__saline__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__scott__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__searcy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__sebastian__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__sevier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__sharp__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__st_francis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__stone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__union__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__van_buren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__white__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__woodruff__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ar__general__yell__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "arkansas",
+    "ashley",
+    "baxter",
+    "benton",
+    "boone",
+    "bradley",
+    "calhoun",
+    "carroll",
+    "chicot",
+    "clark",
+    "clay",
+    "cleburne",
+    "cleveland",
+    "columbia",
+    "conway",
+    "craighead",
+    "crawford",
+    "crittenden",
+    "cross",
+    "dallas",
+    "desha",
+    "drew",
+    "faulkner",
+    "franklin",
+    "fulton",
+    "garland",
+    "grant",
+    "greene",
+    "hempstead",
+    "hot_spring",
+    "howard",
+    "independence",
+    "izard",
+    "jackson",
+    "jefferson",
+    "johnson",
+    "lafayette",
+    "lawrence",
+    "lee",
+    "lincoln",
+    "little_river",
+    "logan",
+    "lonoke",
+    "madison",
+    "marion",
+    "miller",
+    "mississippi",
+    "monroe",
+    "montgomery",
+    "nevada",
+    "newton",
+    "ouachita",
+    "perry",
+    "phillips",
+    "pike",
+    "poinsett",
+    "polk",
+    "pope",
+    "prairie",
+    "pulaski",
+    "randolph",
+    "saline",
+    "scott",
+    "searcy",
+    "sebastian",
+    "sevier",
+    "sharp",
+    "st_francis",
+    "stone",
+    "union",
+    "van_buren",
+    "washington",
+    "white",
+    "woodruff",
+    "yell"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-03-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2020/20200303__ar__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__arkansas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__ashley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__baxter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__benton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__bradley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__carroll__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__chicot__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__clark__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__cleburne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__cleveland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__conway__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__craighead__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__crawford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__crittenden__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__cross__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__dallas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__desha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__drew__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__faulkner__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__fulton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__garland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__greene__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__hempstead__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__hot_spring__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__howard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__independence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__izard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__lafayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__lee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__little_river__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__lonoke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__miller__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__mississippi__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__nevada__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__newton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__ouachita__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__perry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__phillips__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__pike__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__poinsett__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__polk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__pope__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__prairie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__pulaski__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__saline__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__scott__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__searcy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__sebastian__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__sevier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__sharp__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__st_francis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__stone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__union__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__van_buren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__white__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__woodruff__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ar__primary__yell__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "arkansas",
+    "ashley",
+    "baxter",
+    "benton",
+    "boone",
+    "bradley",
+    "calhoun",
+    "carroll",
+    "chicot",
+    "clark",
+    "clay",
+    "cleburne",
+    "cleveland",
+    "columbia",
+    "conway",
+    "craighead",
+    "crawford",
+    "crittenden",
+    "cross",
+    "dallas",
+    "desha",
+    "drew",
+    "faulkner",
+    "franklin",
+    "fulton",
+    "garland",
+    "grant",
+    "greene",
+    "hempstead",
+    "hot_spring",
+    "howard",
+    "independence",
+    "izard",
+    "jackson",
+    "jefferson",
+    "johnson",
+    "lafayette",
+    "lawrence",
+    "lee",
+    "lincoln",
+    "little_river",
+    "logan",
+    "lonoke",
+    "madison",
+    "marion",
+    "miller",
+    "mississippi",
+    "monroe",
+    "montgomery",
+    "nevada",
+    "newton",
+    "ouachita",
+    "perry",
+    "phillips",
+    "pike",
+    "poinsett",
+    "polk",
+    "pope",
+    "prairie",
+    "pulaski",
+    "randolph",
+    "saline",
+    "scott",
+    "searcy",
+    "sebastian",
+    "sevier",
+    "sharp",
+    "st_francis",
+    "stone",
+    "union",
+    "van_buren",
+    "washington",
+    "white",
+    "woodruff",
+    "yell"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20181106__ar__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__arkansas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__ashley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__baxter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__benton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__bradley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__carroll__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__chicot__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__clark__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__cleburne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__cleveland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__conway__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__craighead__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__crawford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__crittenden__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__cross__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__dallas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__desha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__drew__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__faulkner__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__fulton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__garland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__greene__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__hempstead__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__hot_spring__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__howard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__independence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__izard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__lafayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__lee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__little_river__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__lonoke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__miller__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__mississippi__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__nevada__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__newton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__ouachita__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__perry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__phillips__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__pike__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__poinsett__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__polk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__pope__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__prairie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__pulaski__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__saline__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__scott__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__searcy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__sebastian__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__sevier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__sharp__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__st_francis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__stone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__union__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__van_buren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__white__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__woodruff__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ar__general__yell__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "arkansas",
+    "ashley",
+    "baxter",
+    "benton",
+    "boone",
+    "bradley",
+    "calhoun",
+    "carroll",
+    "chicot",
+    "clark",
+    "clay",
+    "cleburne",
+    "cleveland",
+    "columbia",
+    "conway",
+    "craighead",
+    "crawford",
+    "crittenden",
+    "cross",
+    "dallas",
+    "desha",
+    "drew",
+    "faulkner",
+    "franklin",
+    "fulton",
+    "garland",
+    "grant",
+    "greene",
+    "hempstead",
+    "hot_spring",
+    "howard",
+    "independence",
+    "izard",
+    "jackson",
+    "jefferson",
+    "johnson",
+    "lafayette",
+    "lawrence",
+    "lee",
+    "lincoln",
+    "little_river",
+    "logan",
+    "lonoke",
+    "madison",
+    "marion",
+    "miller",
+    "mississippi",
+    "monroe",
+    "montgomery",
+    "nevada",
+    "newton",
+    "ouachita",
+    "perry",
+    "phillips",
+    "pike",
+    "poinsett",
+    "polk",
+    "pope",
+    "prairie",
+    "pulaski",
+    "randolph",
+    "saline",
+    "scott",
+    "searcy",
+    "sebastian",
+    "sevier",
+    "sharp",
+    "st_francis",
+    "stone",
+    "union",
+    "van_buren",
+    "washington",
+    "white",
+    "woodruff",
+    "yell"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-08-14",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20180814__ar__general__sebastian__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "sebastian"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-06-19",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20180619__ar__primary_runoff__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180619__ar__primary_runoff__carroll__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180619__ar__primary_runoff__searcy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180619__ar__primary_runoff__sebastian__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "boone",
+    "carroll",
+    "searcy",
+    "sebastian"
+   ],
+   "precinct_statewide": false,
+   "type": "primary_runoff"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-05-22",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20180522__ar__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__arkansas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__ashley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__baxter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__benton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__bradley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__carroll__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__chicot__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__clark__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__cleburne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__cleveland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__conway__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__craighead__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__crawford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__crittenden__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__cross__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__dallas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__desha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__drew__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__faulkner__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__fulton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__garland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__greene__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__hempstead__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__hot_spring__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__howard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__independence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__izard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__lafayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__lee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__little_river__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__lonoke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__miller__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__mississippi__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__nevada__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__newton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__ouachita__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__perry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__phillips__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__pike__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__poinsett__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__polk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__pope__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__prairie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__pulaski__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__saline__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__scott__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__searcy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__sebastian__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__sevier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__sharp__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__st_francis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__stone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__union__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__van_buren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__white__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__woodruff__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180522__ar__primary__yell__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "arkansas",
+    "ashley",
+    "baxter",
+    "benton",
+    "boone",
+    "bradley",
+    "calhoun",
+    "carroll",
+    "chicot",
+    "clark",
+    "clay",
+    "cleburne",
+    "cleveland",
+    "columbia",
+    "conway",
+    "craighead",
+    "crawford",
+    "crittenden",
+    "cross",
+    "dallas",
+    "desha",
+    "drew",
+    "faulkner",
+    "franklin",
+    "fulton",
+    "garland",
+    "grant",
+    "greene",
+    "hempstead",
+    "hot_spring",
+    "howard",
+    "independence",
+    "izard",
+    "jackson",
+    "jefferson",
+    "johnson",
+    "lafayette",
+    "lawrence",
+    "lee",
+    "lincoln",
+    "little_river",
+    "logan",
+    "lonoke",
+    "madison",
+    "marion",
+    "miller",
+    "mississippi",
+    "monroe",
+    "montgomery",
+    "nevada",
+    "newton",
+    "ouachita",
+    "perry",
+    "phillips",
+    "pike",
+    "poinsett",
+    "polk",
+    "pope",
+    "prairie",
+    "pulaski",
+    "randolph",
+    "saline",
+    "scott",
+    "searcy",
+    "sebastian",
+    "sevier",
+    "sharp",
+    "st_francis",
+    "stone",
+    "union",
+    "van_buren",
+    "washington",
+    "white",
+    "woodruff",
+    "yell"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-03-13",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180313__ar__primary_runoff__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180313__ar__primary_runoff__carroll__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180313__ar__primary_runoff__newton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180313__ar__primary_runoff__pope__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180313__ar__primary_runoff__van_buren__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "boone",
+    "carroll",
+    "newton",
+    "pope",
+    "van_buren"
+   ],
+   "precinct_statewide": false,
+   "type": "primary_runoff"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-02-13",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180213__ar__primary__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180213__ar__primary__carroll__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180213__ar__primary__faulkner__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180213__ar__primary__lonoke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180213__ar__primary__newton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180213__ar__primary__pope__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180213__ar__primary__pulaski__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180213__ar__primary__searcy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180213__ar__primary__van_buren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180213__ar__primary__white__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "boone",
+    "carroll",
+    "faulkner",
+    "lonoke",
+    "newton",
+    "pope",
+    "pulaski",
+    "searcy",
+    "van_buren",
+    "white"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2016-11-08",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2016/20161108__ar__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2016-03-22",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2016/20160322__ar__primary_runoff__washington__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "washington"
+   ],
+   "precinct_statewide": false,
+   "type": "primary_runoff"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2016-03-01",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2016/20160301__ar__primary__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2015-04-14",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2015/20150414__ar__special__general__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2014-11-04",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ar__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2014-05-20",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2014/20140520__ar__primary__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2012-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ar__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2012-05-22",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__arkansas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__ashley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__baxter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__benton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__bradley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__carroll__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__chicot__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__clark__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__cleburne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__cleveland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__conway__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__craighead__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__crawford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__crittenden__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__cross__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__dallas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__desha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__drew__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__faulkner__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__fulton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__garland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__greene__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__hempstead__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__hot_spring__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__howard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__independence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__izard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__lafayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__lee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__little_river__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__lonoke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__miller__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__mississippi__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__nevada__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__newton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__ouachita__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__perry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__phillips__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__pike__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__poinsett__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__polk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__pope__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__prairie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__pulaski__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__saline__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__scott__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__searcy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__sebastian__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__sevier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__sharp__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__st_francis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__stone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__union__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__van_buren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__white__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__woodruff__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120522__ar__primary__yell__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "arkansas",
+    "ashley",
+    "baxter",
+    "benton",
+    "boone",
+    "bradley",
+    "calhoun",
+    "carroll",
+    "chicot",
+    "clark",
+    "clay",
+    "cleburne",
+    "cleveland",
+    "columbia",
+    "conway",
+    "craighead",
+    "crawford",
+    "crittenden",
+    "cross",
+    "dallas",
+    "desha",
+    "drew",
+    "faulkner",
+    "franklin",
+    "fulton",
+    "garland",
+    "grant",
+    "greene",
+    "hempstead",
+    "hot_spring",
+    "howard",
+    "independence",
+    "izard",
+    "jackson",
+    "jefferson",
+    "johnson",
+    "lafayette",
+    "lawrence",
+    "lee",
+    "lincoln",
+    "little_river",
+    "logan",
+    "lonoke",
+    "madison",
+    "marion",
+    "miller",
+    "mississippi",
+    "monroe",
+    "montgomery",
+    "nevada",
+    "newton",
+    "ouachita",
+    "perry",
+    "phillips",
+    "pike",
+    "poinsett",
+    "polk",
+    "pope",
+    "prairie",
+    "pulaski",
+    "randolph",
+    "saline",
+    "scott",
+    "searcy",
+    "sebastian",
+    "sevier",
+    "sharp",
+    "st_francis",
+    "stone",
+    "union",
+    "van_buren",
+    "washington",
+    "white",
+    "woodruff",
+    "yell"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2010-11-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2010/20101102__ar__general.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2008-11-04",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2008/20081104__ar__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2008-06-10",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2008/20080610__ar__primary_runoff__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "primary_runoff"
+   ],
+   "precinct_statewide": false,
+   "type": "election"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2008-05-20",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2008/20080520__ar__primary__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2006-06-13",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2006/20060613__ar__primary__runoff__precinct.csv"
+    }
+   ],
+   "label": "runoff",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2002-11-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2002/20021105__ar__general.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2002-06-11",
+   "files": [
+    {
+     "level": "county",
+     "path": "2002/20020611__ar__primary_runoff.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "election"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2002-05-21",
+   "files": [
+    {
+     "level": "county",
+     "path": "2002/20020521__ar__primary.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  }
+ ],
+ "generated_at": "2026-11-08T02:41:55Z",
+ "repo": "openelections-data-ar",
+ "state": "ar"
+}

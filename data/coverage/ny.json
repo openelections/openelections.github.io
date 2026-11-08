@@ -1,0 +1,4181 @@
+{
+ "elections": [
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2026-06-23",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2026/20260623__ny__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__allegany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__bronx__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__cattaraugus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__chautauqua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__chemung__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__chenango__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__cortland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__dutchess__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__erie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__essex__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__fulton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__new_york__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__niagara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__oneida__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__orleans__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__oswego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__otsego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__queens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__rensselaer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__richmond__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__saratoga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__st_lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__sullivan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__tioga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__warren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260623__ny__primary__westchester__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "allegany",
+    "bronx",
+    "cattaraugus",
+    "chautauqua",
+    "chemung",
+    "chenango",
+    "columbia",
+    "cortland",
+    "dutchess",
+    "erie",
+    "essex",
+    "fulton",
+    "kings",
+    "livingston",
+    "madison",
+    "monroe",
+    "montgomery",
+    "new_york",
+    "niagara",
+    "oneida",
+    "orange",
+    "orleans",
+    "oswego",
+    "otsego",
+    "putnam",
+    "queens",
+    "rensselaer",
+    "richmond",
+    "saratoga",
+    "st_lawrence",
+    "sullivan",
+    "tioga",
+    "warren",
+    "washington",
+    "westchester"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2025-11-04",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__allegany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__bronx__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__cattaraugus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__cayuga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__chautauqua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__chenango__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__clinton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__dutchess__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__erie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__essex__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__fulton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__new_york__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__oneida__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__onondaga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__ontario__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__orleans__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__otsego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__queens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__richmond__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__rockland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__saratoga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__st_lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__sullivan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__ulster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__warren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__westchester__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2025/counties/20251104__ny__general__yates__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "allegany",
+    "bronx",
+    "cattaraugus",
+    "cayuga",
+    "chautauqua",
+    "chenango",
+    "clinton",
+    "columbia",
+    "dutchess",
+    "erie",
+    "essex",
+    "franklin",
+    "fulton",
+    "kings",
+    "livingston",
+    "madison",
+    "monroe",
+    "new_york",
+    "oneida",
+    "onondaga",
+    "ontario",
+    "orleans",
+    "otsego",
+    "putnam",
+    "queens",
+    "richmond",
+    "rockland",
+    "saratoga",
+    "st_lawrence",
+    "sullivan",
+    "ulster",
+    "warren",
+    "washington",
+    "westchester",
+    "yates"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2024-11-05",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__allegany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__broome__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__cattaraugus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__cayuga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__chautauqua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__chemung__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__chenango__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__clinton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__cortland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__delaware__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__dutchess__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__erie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__essex__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__fulton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__genesee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__greene__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__herkimer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__niagara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__oneida__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__onondaga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__ontario__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__otsego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__rensselaer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__saratoga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__schenectady__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__schoharie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__schuyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__seneca__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__st_lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__sullivan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__tioga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__tompkins__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__ulster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__warren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__westchester__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ny__general__yates__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "allegany",
+    "broome",
+    "cattaraugus",
+    "cayuga",
+    "chautauqua",
+    "chemung",
+    "chenango",
+    "clinton",
+    "columbia",
+    "cortland",
+    "delaware",
+    "dutchess",
+    "erie",
+    "essex",
+    "franklin",
+    "fulton",
+    "genesee",
+    "greene",
+    "hamilton",
+    "herkimer",
+    "jefferson",
+    "lewis",
+    "livingston",
+    "madison",
+    "monroe",
+    "montgomery",
+    "niagara",
+    "oneida",
+    "onondaga",
+    "ontario",
+    "orange",
+    "otsego",
+    "putnam",
+    "rensselaer",
+    "saratoga",
+    "schenectady",
+    "schoharie",
+    "schuyler",
+    "seneca",
+    "st_lawrence",
+    "sullivan",
+    "tioga",
+    "tompkins",
+    "ulster",
+    "warren",
+    "washington",
+    "wayne",
+    "westchester",
+    "yates"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2022-11-08",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2022/20221108__ny__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__allegany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__bronx__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__broome__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__cattaraugus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__cayuga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__chautauqua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__chemung__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__chenango__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__clinton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__cortland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__delaware__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__dutchess__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__erie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__essex__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__fulton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__genessee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__greene__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__herkimer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__nassau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__new_york__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__niagara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__oneida__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__onondaga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__ontario__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__orleans__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__oswego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__otsego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__queens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__rensselaer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__richmond__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__rockland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__saratoga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__schenectady__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__schoharie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__schuyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__seneca__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__st_lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__steuben__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__suffolk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__sullivan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__tioga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__tompkins__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__ulster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__warren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__westchester__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__wyoming__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__ny__general__yates__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "allegany",
+    "bronx",
+    "broome",
+    "cattaraugus",
+    "cayuga",
+    "chautauqua",
+    "chemung",
+    "chenango",
+    "clinton",
+    "columbia",
+    "cortland",
+    "delaware",
+    "dutchess",
+    "erie",
+    "essex",
+    "franklin",
+    "fulton",
+    "genessee",
+    "greene",
+    "hamilton",
+    "herkimer",
+    "jefferson",
+    "kings",
+    "lewis",
+    "livingston",
+    "madison",
+    "monroe",
+    "montgomery",
+    "nassau",
+    "new_york",
+    "niagara",
+    "oneida",
+    "onondaga",
+    "ontario",
+    "orange",
+    "orleans",
+    "oswego",
+    "otsego",
+    "putnam",
+    "queens",
+    "rensselaer",
+    "richmond",
+    "rockland",
+    "saratoga",
+    "schenectady",
+    "schoharie",
+    "schuyler",
+    "seneca",
+    "st_lawrence",
+    "steuben",
+    "suffolk",
+    "sullivan",
+    "tioga",
+    "tompkins",
+    "ulster",
+    "warren",
+    "washington",
+    "wayne",
+    "westchester",
+    "wyoming",
+    "yates"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2020-11-03",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2020/20201103__ny__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__bronx__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__broome__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__cattaraugus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__cayuga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__chautauqua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__chemung__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__chenango__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__clinton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__cortland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__delaware__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__dutchess__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__erie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__essex__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__fulton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__genesee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__greene__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__herkimer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__nassau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__new_york__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__niagara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__oneida__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__onondaga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__ontario__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__orleans__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__oswego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__otsego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__queens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__rensselaer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__richmond__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__rockland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__saratoga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__schenectedy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__schoharie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__schuyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__seneca__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__st_lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__steuben__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__suffolk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__sullivan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__tioga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__tompkins__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__ulster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__warren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__westchester__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__wyoming__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ny__general__yates__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "bronx",
+    "broome",
+    "cattaraugus",
+    "cayuga",
+    "chautauqua",
+    "chemung",
+    "chenango",
+    "clinton",
+    "columbia",
+    "cortland",
+    "delaware",
+    "dutchess",
+    "erie",
+    "essex",
+    "franklin",
+    "fulton",
+    "genesee",
+    "greene",
+    "hamilton",
+    "herkimer",
+    "jefferson",
+    "kings",
+    "lewis",
+    "livingston",
+    "madison",
+    "monroe",
+    "montgomery",
+    "nassau",
+    "new_york",
+    "niagara",
+    "oneida",
+    "onondaga",
+    "ontario",
+    "orange",
+    "orleans",
+    "oswego",
+    "otsego",
+    "putnam",
+    "queens",
+    "rensselaer",
+    "richmond",
+    "rockland",
+    "saratoga",
+    "schenectedy",
+    "schoharie",
+    "schuyler",
+    "seneca",
+    "st_lawrence",
+    "steuben",
+    "suffolk",
+    "sullivan",
+    "tioga",
+    "tompkins",
+    "ulster",
+    "warren",
+    "washington",
+    "wayne",
+    "westchester",
+    "wyoming",
+    "yates"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2020-06-23",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__special__general__erie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__special__general__genesee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__special__general__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__special__general__ontario__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__special__general__orleans__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__special__general__wyoming__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [
+    "erie",
+    "genesee",
+    "livingston",
+    "ontario",
+    "orleans",
+    "wyoming"
+   ],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-06-23",
+   "files": [
+    {
+     "level": "county",
+     "path": "2020/20200623__ny__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__allegany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__bronx__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__broome__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__cattaraugus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__cayuga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__chautauqua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__chemung__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__chenango__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__clinton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__cortland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__delaware__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__dutchess__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__erie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__essex__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__fulton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__genesee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__greene__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__herkimer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__new_york__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__niagara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__oneida__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__onondaga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__ontario__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__orleans__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__oswego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__otsego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__queens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__rensselaer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__richmond__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__rockland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__schenectady__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__schoharie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__schuyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__seneca__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__st_lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__steuben__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__suffolk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__sullivan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__tioga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__tompkins__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__ulster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__warren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__westchester__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__wyoming__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200623__ny__primary__yates__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "allegany",
+    "bronx",
+    "broome",
+    "cattaraugus",
+    "cayuga",
+    "chautauqua",
+    "chemung",
+    "chenango",
+    "clinton",
+    "columbia",
+    "cortland",
+    "delaware",
+    "dutchess",
+    "erie",
+    "essex",
+    "franklin",
+    "fulton",
+    "genesee",
+    "greene",
+    "hamilton",
+    "herkimer",
+    "jefferson",
+    "kings",
+    "lewis",
+    "livingston",
+    "madison",
+    "monroe",
+    "montgomery",
+    "new_york",
+    "niagara",
+    "oneida",
+    "onondaga",
+    "ontario",
+    "orange",
+    "orleans",
+    "oswego",
+    "otsego",
+    "putnam",
+    "queens",
+    "rensselaer",
+    "richmond",
+    "rockland",
+    "schenectady",
+    "schoharie",
+    "schuyler",
+    "seneca",
+    "st_lawrence",
+    "steuben",
+    "suffolk",
+    "sullivan",
+    "tioga",
+    "tompkins",
+    "ulster",
+    "warren",
+    "westchester",
+    "wyoming",
+    "yates"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20181106__ny__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__allegany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__bronx__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__broome__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__cattaraugus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__cayuga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__chautauqua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__chemung__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__chenango__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__clinton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__cortland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__delaware__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__dutchess__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__erie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__essex__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__fulton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__genesee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__greene__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__herkimer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__nassau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__new_york__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__niagara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__oneida__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__onondaga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__ontario__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__orleans__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__oswego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__otsego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__queens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__rensselaer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__richmond__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__rockland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__saratoga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__schenectady__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__schoharie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__schuyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__seneca__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__st_lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__steuben__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__suffolk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__sullivan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__tioga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__tompkins__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__ulster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__warren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__westchester__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__wyoming_precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ny__general__yates__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "allegany",
+    "bronx",
+    "broome",
+    "cattaraugus",
+    "cayuga",
+    "chautauqua",
+    "chemung",
+    "chenango",
+    "clinton",
+    "columbia",
+    "cortland",
+    "delaware",
+    "dutchess",
+    "erie",
+    "essex",
+    "franklin",
+    "fulton",
+    "genesee",
+    "greene",
+    "hamilton",
+    "herkimer",
+    "jefferson",
+    "kings",
+    "lewis",
+    "livingston",
+    "madison",
+    "monroe",
+    "montgomery",
+    "nassau",
+    "new_york",
+    "niagara",
+    "oneida",
+    "onondaga",
+    "ontario",
+    "orange",
+    "orleans",
+    "oswego",
+    "otsego",
+    "putnam",
+    "queens",
+    "rensselaer",
+    "richmond",
+    "rockland",
+    "saratoga",
+    "schenectady",
+    "schoharie",
+    "schuyler",
+    "seneca",
+    "st_lawrence",
+    "steuben",
+    "suffolk",
+    "sullivan",
+    "tioga",
+    "tompkins",
+    "ulster",
+    "warren",
+    "washington",
+    "wayne",
+    "westchester",
+    "wyoming_precinct",
+    "yates"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2018-09-13",
+   "files": [
+    {
+     "level": "county",
+     "path": "2018/20180913__ny__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__broome__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__chautauqua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__chenango__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__clinton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__essex__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__fulton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__herkimer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__niagara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__onondaga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__ontario__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__orleans__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__oswego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__otsego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__rensselaer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__schuyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__st_lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__steuben__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__suffolk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__ulster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__warren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180913__ny__primary__westchester__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/unofficial/20180913__ny__primary__nyc__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "broome",
+    "chautauqua",
+    "chenango",
+    "clinton",
+    "columbia",
+    "essex",
+    "franklin",
+    "fulton",
+    "herkimer",
+    "lewis",
+    "livingston",
+    "niagara",
+    "nyc",
+    "onondaga",
+    "ontario",
+    "orange",
+    "orleans",
+    "oswego",
+    "otsego",
+    "putnam",
+    "rensselaer",
+    "schuyler",
+    "st_lawrence",
+    "steuben",
+    "suffolk",
+    "ulster",
+    "warren",
+    "westchester"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-07-26",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180726__ny__primary__suffolk__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "suffolk"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2018-06-26",
+   "files": [
+    {
+     "level": "county",
+     "path": "2018/20180626__ny__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180626__ny__primary__cayuga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180626__ny__primary__chautauqua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180626__ny__primary__chemung__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180626__ny__primary__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180626__ny__primary__greene__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180626__ny__primary__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180626__ny__primary__onondaga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180626__ny__primary__oswego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180626__ny__primary__otsego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180626__ny__primary__rensselaer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180626__ny__primary__saratoga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180626__ny__primary__tompkins__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "cayuga",
+    "chautauqua",
+    "chemung",
+    "columbia",
+    "greene",
+    "lewis",
+    "onondaga",
+    "oswego",
+    "otsego",
+    "rensselaer",
+    "saratoga",
+    "tompkins"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-04-24",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180424__ny__special__suffolk__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "suffolk"
+   ],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2017-11-07",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2017/20171107__ny__general__bronx__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20171107__ny__general__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20171107__ny__general__new york__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20171107__ny__general__queens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20171107__ny__general__richmond__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20171107__ny__general__suffolk__precinct.csv"
+    }
+   ],
+   "label": "new york",
+   "precinct": true,
+   "precinct_counties": [
+    "bronx",
+    "kings",
+    "queens",
+    "richmond",
+    "suffolk"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2017-09-12",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2017/20170912__ny__primary__bronx__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170912__ny__primary__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170912__ny__primary__new york__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170912__ny__primary__queens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170912__ny__primary__richmond__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170912__ny__primary__suffolk__precinct.csv"
+    }
+   ],
+   "label": "new york",
+   "precinct": true,
+   "precinct_counties": [
+    "bronx",
+    "kings",
+    "queens",
+    "richmond",
+    "suffolk"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2017-05-23",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2017/20170523__ny__special__new york__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170523__ny__special__suffolk__precinct.csv"
+    }
+   ],
+   "label": "new york",
+   "precinct": true,
+   "precinct_counties": [
+    "suffolk"
+   ],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2017-02-14",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2017/20170214__ny__special__new york__precinct.csv"
+    }
+   ],
+   "label": "new york",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-11-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20161108__ny__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__ny__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__allegany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__bronx__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__broome__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__cattaraugus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__cayuga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__chautauqua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__chemung__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__chenango__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__clinton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__cortland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__delaware__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__dutchess__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__erie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__essex__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__fulton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__genesee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__greene__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__herkimer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__nassau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__new york__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__niagara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__oneida__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__onondaga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__ontario__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__orleans__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__oswego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__otsego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__queens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__rensselaer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__richmond__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__rockland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__saratoga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__schenectady__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__schoharie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__schuyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__seneca__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__st_lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__steuben__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__suffolk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__sullivan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__tioga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__tompkins__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__ulster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__warren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__westchester__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__wyoming__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ny__general__yates__precinct.csv"
+    }
+   ],
+   "label": "new york",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "allegany",
+    "bronx",
+    "broome",
+    "cattaraugus",
+    "cayuga",
+    "chautauqua",
+    "chemung",
+    "chenango",
+    "clinton",
+    "columbia",
+    "cortland",
+    "delaware",
+    "dutchess",
+    "erie",
+    "essex",
+    "franklin",
+    "fulton",
+    "genesee",
+    "greene",
+    "hamilton",
+    "herkimer",
+    "jefferson",
+    "kings",
+    "lewis",
+    "livingston",
+    "madison",
+    "monroe",
+    "montgomery",
+    "nassau",
+    "niagara",
+    "oneida",
+    "onondaga",
+    "ontario",
+    "orange",
+    "orleans",
+    "oswego",
+    "otsego",
+    "putnam",
+    "queens",
+    "rensselaer",
+    "richmond",
+    "rockland",
+    "saratoga",
+    "schenectady",
+    "schoharie",
+    "schuyler",
+    "seneca",
+    "st_lawrence",
+    "steuben",
+    "suffolk",
+    "sullivan",
+    "tioga",
+    "tompkins",
+    "ulster",
+    "warren",
+    "washington",
+    "wayne",
+    "westchester",
+    "wyoming",
+    "yates"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2016-09-13",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160913__ny__republican__primary__richmond__precinct.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": true,
+   "precinct_counties": [
+    "richmond"
+   ],
+   "precinct_statewide": false,
+   "type": "republican"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2016-09-13",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160913__ny__primary__bronx__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160913__ny__primary__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160913__ny__primary__new york__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160913__ny__primary__queens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160913__ny__primary__richmond__precinct.csv"
+    }
+   ],
+   "label": "new york",
+   "precinct": true,
+   "precinct_counties": [
+    "bronx",
+    "kings",
+    "queens",
+    "richmond"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2016-09-13",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2016/20160913__ny__primary_county.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "primary_county"
+   ],
+   "precinct_statewide": false,
+   "type": "election"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2016-06-28",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160628__ny__primary__bronx__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160628__ny__primary__chenango__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160628__ny__primary__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160628__ny__primary__new york__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160628__ny__primary__queens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160628__ny__primary__us_house__counties.csv"
+    }
+   ],
+   "label": "new york",
+   "precinct": true,
+   "precinct_counties": [
+    "bronx",
+    "chenango",
+    "counties",
+    "kings",
+    "queens"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2016-04-19",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160419__ny__special__general__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160419__ny__special__general__new york__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160419__ny__special__general__richmond__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [
+    "kings",
+    "richmond"
+   ],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-04-19",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160419__ny__primary__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160419__ny__primary__bronx__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160419__ny__primary__chenango__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160419__ny__primary__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160419__ny__primary__new york__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2016/counties/20160419__ny__primary__president.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160419__ny__primary__queens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160419__ny__primary__richmond__precinct.csv"
+    }
+   ],
+   "label": "new york",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "bronx",
+    "chenango",
+    "kings",
+    "queens",
+    "richmond"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2016-02-23",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160223__ny__special__general__bronx__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [
+    "bronx"
+   ],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2015-11-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2015/20151103__ny__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2015/20151103__ny__general__bronx__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2015/20151103__ny__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2015/20151103__ny__general__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2015/20151103__ny__general__new york__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2015/20151103__ny__general__queens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2015/20151103__ny__general__richmond__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2015/20151103__ny__general__suffolk__precinct.csv"
+    }
+   ],
+   "label": "new york",
+   "precinct": true,
+   "precinct_counties": [
+    "bronx",
+    "kings",
+    "queens",
+    "richmond",
+    "suffolk"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2015-09-10",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2015/20150910__ny__primary__bronx__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2015/20150910__ny__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2015/20150910__ny__primary__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2015/20150910__ny__primary__new york__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2015/20150910__ny__primary__queens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2015/20150910__ny__primary__richmond__precinct.csv"
+    }
+   ],
+   "label": "new york",
+   "precinct": true,
+   "precinct_counties": [
+    "bronx",
+    "kings",
+    "queens",
+    "richmond"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2015-05-05",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2015/20150505__ny__special__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2015/20150505__ny__special__richmond__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "kings",
+    "richmond"
+   ],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-11-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2014/20141104__ny__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ny__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__allegany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__bronx__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__broome__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__cattaraugus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__cayuga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__chautauqua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__chemung__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__chenango__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__clinton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__cortland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__delaware__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__dutchess__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__erie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__essex__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__fulton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__genesee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__greene__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__herkimer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__nassau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__new_york__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__niagara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__oneida__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__onondaga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__ontario__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__orleans__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__oswego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__otsego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__queens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__rensselaer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__richmond__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__rockland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__saratoga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__schenectady__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__schoharie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__schuyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__seneca__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__st_lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__steuben__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__suffolk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__sullivan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__tioga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__tompkins__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__ulster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__warren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__westchester__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__wyoming__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ny__general__yates__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "allegany",
+    "bronx",
+    "broome",
+    "cattaraugus",
+    "cayuga",
+    "chautauqua",
+    "chemung",
+    "chenango",
+    "clinton",
+    "columbia",
+    "cortland",
+    "delaware",
+    "dutchess",
+    "erie",
+    "essex",
+    "franklin",
+    "fulton",
+    "genesee",
+    "greene",
+    "hamilton",
+    "herkimer",
+    "jefferson",
+    "kings",
+    "lewis",
+    "livingston",
+    "madison",
+    "monroe",
+    "montgomery",
+    "nassau",
+    "new_york",
+    "niagara",
+    "oneida",
+    "onondaga",
+    "ontario",
+    "orange",
+    "orleans",
+    "oswego",
+    "otsego",
+    "putnam",
+    "queens",
+    "rensselaer",
+    "richmond",
+    "rockland",
+    "saratoga",
+    "schenectady",
+    "schoharie",
+    "schuyler",
+    "seneca",
+    "st_lawrence",
+    "steuben",
+    "suffolk",
+    "sullivan",
+    "tioga",
+    "tompkins",
+    "ulster",
+    "warren",
+    "washington",
+    "wayne",
+    "westchester",
+    "wyoming",
+    "yates"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-09-09",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2014/20140909__ny__primary__allegany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140909__ny__primary__bronx__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140909__ny__primary__broome__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140909__ny__primary__dutchess__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140909__ny__primary__essex__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140909__ny__primary__franklin__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2014/20140909__ny__primary__governor.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140909__ny__primary__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140909__ny__primary__new york__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140909__ny__primary__queens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140909__ny__primary__richmond__precinct.csv"
+    }
+   ],
+   "label": "governor",
+   "precinct": true,
+   "precinct_counties": [
+    "allegany",
+    "bronx",
+    "broome",
+    "dutchess",
+    "essex",
+    "franklin",
+    "kings",
+    "queens",
+    "richmond"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2014-06-24",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2014/20140624__ny__special__bronx__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140624__ny__special__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140624__ny__special__new york__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140624__ny__special__queens__precinct.csv"
+    }
+   ],
+   "label": "new york",
+   "precinct": true,
+   "precinct_counties": [
+    "bronx",
+    "kings",
+    "queens"
+   ],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2013-11-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2013/20131105__ny__special__general.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2013-11-05",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2013/20131105__ny__general__suffolk__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "suffolk"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2012-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ny__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__allegany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__bronx__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__broome__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__cattaraugus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__cayuga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__chautauqua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__chenango__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__clinton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__cortland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__delaware__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__dutchess__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__erie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__essex__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__fulton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__genessee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__greene__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__herkimer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__livingston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__nassau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__new_york__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__niagara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__oneida__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__onondaga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__ontario__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__orleans__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__oswego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__otsego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__queens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__rensselaer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__richmond__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__rockland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__saratoga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__schenectady__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__schoharie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__schuyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__seneca__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__st_lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__steuben__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__suffolk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__sullivan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__tioga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__tompkins__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__ulster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__warren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__westchester__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__wyoming__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20121106__ny__general__yates__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "allegany",
+    "bronx",
+    "broome",
+    "cattaraugus",
+    "cayuga",
+    "chautauqua",
+    "chenango",
+    "clinton",
+    "columbia",
+    "cortland",
+    "delaware",
+    "dutchess",
+    "erie",
+    "essex",
+    "franklin",
+    "fulton",
+    "genessee",
+    "greene",
+    "hamilton",
+    "herkimer",
+    "jefferson",
+    "kings",
+    "lewis",
+    "livingston",
+    "madison",
+    "monroe",
+    "nassau",
+    "new_york",
+    "niagara",
+    "oneida",
+    "onondaga",
+    "ontario",
+    "orange",
+    "orleans",
+    "oswego",
+    "otsego",
+    "putnam",
+    "queens",
+    "rensselaer",
+    "richmond",
+    "rockland",
+    "saratoga",
+    "schenectady",
+    "schoharie",
+    "schuyler",
+    "seneca",
+    "st_lawrence",
+    "steuben",
+    "suffolk",
+    "sullivan",
+    "tioga",
+    "tompkins",
+    "ulster",
+    "warren",
+    "washington",
+    "wayne",
+    "westchester",
+    "wyoming",
+    "yates"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-06-26",
+   "files": [
+    {
+     "level": "county",
+     "path": "2012/20120626__ny__primary.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-04-24",
+   "files": [
+    {
+     "level": "county",
+     "path": "2012/20120424__ny__republican__primary__president.csv"
+    }
+   ],
+   "label": "primary president",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "republican"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-03-20",
+   "files": [
+    {
+     "level": "county",
+     "path": "2012/20120320__ny__special__general.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2010-11-02",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2010/20101102__ny__general__erie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__ny__general__onondaga__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "erie",
+    "onondaga"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2008-11-04",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2008/20081104__ny__general__onondaga__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "onondaga"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2006-11-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2006/20061107__ny__general.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2006-09-12",
+   "files": [
+    {
+     "level": "county",
+     "path": "2006/20060912__ny__primary.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2006-05-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2006/20060502__ny__special__general.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2006-02-28",
+   "files": [
+    {
+     "level": "county",
+     "path": "2006/20060228__ny__special__general.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2005-11-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2005/20051108__ny__special__general.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2005-09-13",
+   "files": [
+    {
+     "level": "county",
+     "path": "2005/20050913__ny__special__general.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2005-06-28",
+   "files": [
+    {
+     "level": "county",
+     "path": "2005/20050628__ny__special__general.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2005-05-24",
+   "files": [
+    {
+     "level": "county",
+     "path": "2005/20050524__ny__special__general.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2005-05-10",
+   "files": [
+    {
+     "level": "county",
+     "path": "2005/20050510__ny__special__general.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2004-11-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2004/20041102__ny__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__ny__general__onondaga__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "onondaga"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2004-09-14",
+   "files": [
+    {
+     "level": "county",
+     "path": "2004/20040914__ny__primary.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2004-03-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2004/20040302__ny__primary__president.csv"
+    }
+   ],
+   "label": "president",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2002-11-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2002/20021105__ny__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__ny__general__onondaga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__ny__general__tompkins__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "onondaga",
+    "tompkins"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2002-09-10",
+   "files": [
+    {
+     "level": "county",
+     "path": "2002/20020910__ny__primary.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2002-02-12",
+   "files": [
+    {
+     "level": "county",
+     "path": "2002/20020212__ny__special__general.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2000-11-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2000/20001107__ny__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__ny__general__tompkins__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "tompkins"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  }
+ ],
+ "generated_at": "2026-11-08T02:41:55Z",
+ "repo": "openelections-data-ny",
+ "state": "ny"
+}

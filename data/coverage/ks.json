@@ -1,0 +1,2932 @@
+{
+ "elections": [
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2020-11-03",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__allen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__anderson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__atchison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__barber__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__barton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__bourbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__brown__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__butler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__chase__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__chautauqua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__cherokee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__cheyenne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__clark__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__cloud__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__coffey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__comanche__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__cowley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__crawford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__decatur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__dickinson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__doniphan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__douglas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__edwards__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__elk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__ellis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__ellsworth__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__finney__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__ford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__geary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__gove__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__graham__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__gray__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__greeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__greenwood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__harper__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__harvey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__haskell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__hodgeman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__jewell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__kearny__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__kingman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__kiowa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__labette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__lane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__leavenworth__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__linn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__lyon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__mcpherson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__meade__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__miami__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__mitchell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__morris__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__morton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__nemaha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__neosho__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__ness__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__norton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__osage__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__osborne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__ottawa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__pawnee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__phillips__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__pottawatomie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__pratt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__rawlins__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__reno__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__republic__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__rice__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__riley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__rooks__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__rush__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__russell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__saline__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__scott__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__sedgwick__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__seward__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__shawnee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__sherman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__smith__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__stafford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__stanton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__stevens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__sumner__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__thomas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__trego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__wabaunsee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__wallace__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__wichita__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__wilson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__woodson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ks__general__wyandotte__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "allen",
+    "anderson",
+    "atchison",
+    "barber",
+    "barton",
+    "bourbon",
+    "brown",
+    "butler",
+    "chase",
+    "chautauqua",
+    "cherokee",
+    "cheyenne",
+    "clark",
+    "clay",
+    "cloud",
+    "coffey",
+    "comanche",
+    "cowley",
+    "crawford",
+    "decatur",
+    "dickinson",
+    "doniphan",
+    "douglas",
+    "edwards",
+    "elk",
+    "ellis",
+    "ellsworth",
+    "finney",
+    "ford",
+    "franklin",
+    "geary",
+    "gove",
+    "graham",
+    "grant",
+    "gray",
+    "greeley",
+    "greenwood",
+    "hamilton",
+    "harper",
+    "harvey",
+    "haskell",
+    "hodgeman",
+    "jackson",
+    "jefferson",
+    "jewell",
+    "johnson",
+    "kearny",
+    "kingman",
+    "kiowa",
+    "labette",
+    "lane",
+    "leavenworth",
+    "lincoln",
+    "linn",
+    "logan",
+    "lyon",
+    "marion",
+    "marshall",
+    "mcpherson",
+    "meade",
+    "miami",
+    "mitchell",
+    "montgomery",
+    "morris",
+    "morton",
+    "nemaha",
+    "neosho",
+    "ness",
+    "norton",
+    "osage",
+    "osborne",
+    "ottawa",
+    "pawnee",
+    "phillips",
+    "pottawatomie",
+    "pratt",
+    "rawlins",
+    "reno",
+    "republic",
+    "rice",
+    "riley",
+    "rooks",
+    "rush",
+    "russell",
+    "saline",
+    "scott",
+    "sedgwick",
+    "seward",
+    "shawnee",
+    "sheridan",
+    "sherman",
+    "smith",
+    "stafford",
+    "stanton",
+    "stevens",
+    "sumner",
+    "thomas",
+    "trego",
+    "wabaunsee",
+    "wallace",
+    "washington",
+    "wichita",
+    "wilson",
+    "woodson",
+    "wyandotte"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20181106__ks__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__allen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__anderson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__atchison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__barber__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__barton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__bourbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__brown__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__butler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__chase__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__chautauqua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__cherokee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__cheyenne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__clark__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__cloud__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__coffey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__comanche__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__cowley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__crawford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__decatur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__dickinson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__doniphan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__douglas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__edwards__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__elk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__ellis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__ellsworth__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__finney__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__ford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__geary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__gove__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__graham__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__gray__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__greeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__greenwood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__harper__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__harvey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__haskell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__hodgeman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__jewell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__kearny__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__kingman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__kiowa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__labette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__lane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__leavenworth__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__linn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__lyon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__mcpherson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__meade__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__miami__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__mitchell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__morris__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__morton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__nemaha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__neosho__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__ness__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__norton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__osage__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__osborne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__ottawa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__pawnee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__phillips__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__pottawatomie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__pratt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__rawlins__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__reno__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__republic__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__rice__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__riley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__rooks__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__rush__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__russell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__saline__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__scott__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__sedgwick__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__seward__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__shawnee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__sherman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__smith__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__stafford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__stanton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__stevens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__sumner__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__thomas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__trego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__wabaunsee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__wallace__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__wichita__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__wilson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__woodson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ks__general__wyandotte__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "allen",
+    "anderson",
+    "atchison",
+    "barber",
+    "barton",
+    "bourbon",
+    "brown",
+    "butler",
+    "chase",
+    "chautauqua",
+    "cherokee",
+    "cheyenne",
+    "clark",
+    "clay",
+    "cloud",
+    "coffey",
+    "comanche",
+    "cowley",
+    "crawford",
+    "decatur",
+    "dickinson",
+    "doniphan",
+    "douglas",
+    "edwards",
+    "elk",
+    "ellis",
+    "ellsworth",
+    "finney",
+    "ford",
+    "franklin",
+    "geary",
+    "gove",
+    "graham",
+    "grant",
+    "gray",
+    "greeley",
+    "greenwood",
+    "hamilton",
+    "harper",
+    "harvey",
+    "haskell",
+    "hodgeman",
+    "jackson",
+    "jefferson",
+    "jewell",
+    "johnson",
+    "kearny",
+    "kingman",
+    "kiowa",
+    "labette",
+    "lane",
+    "leavenworth",
+    "lincoln",
+    "linn",
+    "logan",
+    "lyon",
+    "marion",
+    "marshall",
+    "mcpherson",
+    "meade",
+    "miami",
+    "mitchell",
+    "montgomery",
+    "morris",
+    "morton",
+    "nemaha",
+    "neosho",
+    "ness",
+    "norton",
+    "osage",
+    "osborne",
+    "ottawa",
+    "pawnee",
+    "phillips",
+    "pottawatomie",
+    "pratt",
+    "rawlins",
+    "reno",
+    "republic",
+    "rice",
+    "riley",
+    "rooks",
+    "rush",
+    "russell",
+    "saline",
+    "scott",
+    "sedgwick",
+    "seward",
+    "shawnee",
+    "sheridan",
+    "sherman",
+    "smith",
+    "stafford",
+    "stanton",
+    "stevens",
+    "sumner",
+    "thomas",
+    "trego",
+    "wabaunsee",
+    "wallace",
+    "washington",
+    "wichita",
+    "wilson",
+    "woodson",
+    "wyandotte"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-08-07",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20180807__ks__primary__allen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__ks__primary__cherokee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__ks__primary__cowley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__ks__primary__douglas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__ks__primary__ford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__ks__primary__pottawatomie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__ks__primary__riley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__ks__primary__shawnee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180807__ks__primary__wyandotte__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "allen",
+    "cherokee",
+    "cowley",
+    "douglas",
+    "ford",
+    "pottawatomie",
+    "riley",
+    "shawnee",
+    "wyandotte"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2017-04-17",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2017/20170417__ks__special__general__butler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170417__ks__special__general__elk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170417__ks__special__general__greenwood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170417__ks__special__general__harper__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170417__ks__special__general__harvey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170417__ks__special__general__kingman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170417__ks__special__general__pratt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170417__ks__special__general__sedgwick__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170417__ks__special__general__stafford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170417__ks__special__general__sumner__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [
+    "butler",
+    "elk",
+    "greenwood",
+    "harper",
+    "harvey",
+    "kingman",
+    "pratt",
+    "sedgwick",
+    "stafford",
+    "sumner"
+   ],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2017-04-11",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2017/20170411__ks__special__general__barber__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170411__ks__special__general__chautauqua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170411__ks__special__general__comanche__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2017/20170411__ks__special__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170411__ks__special__general__cowley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170411__ks__special__general__edwards__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170411__ks__special__general__kiowa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170411__ks__special__general__pawnee__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [
+    "barber",
+    "chautauqua",
+    "comanche",
+    "cowley",
+    "edwards",
+    "kiowa",
+    "pawnee"
+   ],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2016-11-08",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2016/20161108__ks__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__allen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__anderson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__atchison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__barber__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__barton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__bourbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__brown__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__butler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__chase__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__chautauqua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__cherokee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__cheyenne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__clark__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__cloud__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__coffey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__comanche__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__cowley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__crawford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__decatur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__dickinson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__doniphan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__douglas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__edwards__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__elk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__ellis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__ellsworth__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__finney__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__ford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__geary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__gove__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__graham__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__gray__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__greeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__greenwood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__harper__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__harvey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__haskell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__hodgeman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__jewell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__kearny__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__kingman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__kiowa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__labette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__lane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__leavenworth__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__linn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__lyon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__mcpherson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__meade__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__miami__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__mitchell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__morris__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__morton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__nemaha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__neosho__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__ness__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__norton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__osage__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__osborne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__ottawa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__pawnee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__phillips__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__pottawatomie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__pratt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__rawlins__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__reno__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__republic__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__rice__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__riley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__rooks__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__rush__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__russell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__saline__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__scott__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__sedgwick__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__seward__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__shawnee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__sherman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__smith__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__stafford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__stanton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__stevens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__sumner__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__thomas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__trego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__wabaunsee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__wallace__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__wichita__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__wilson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__woodson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ks__general__wyandotte__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "allen",
+    "anderson",
+    "atchison",
+    "barber",
+    "barton",
+    "bourbon",
+    "brown",
+    "butler",
+    "chase",
+    "chautauqua",
+    "cherokee",
+    "cheyenne",
+    "clark",
+    "clay",
+    "cloud",
+    "coffey",
+    "comanche",
+    "cowley",
+    "crawford",
+    "decatur",
+    "dickinson",
+    "doniphan",
+    "douglas",
+    "edwards",
+    "elk",
+    "ellis",
+    "ellsworth",
+    "finney",
+    "ford",
+    "franklin",
+    "geary",
+    "gove",
+    "graham",
+    "grant",
+    "gray",
+    "greeley",
+    "greenwood",
+    "hamilton",
+    "harper",
+    "harvey",
+    "haskell",
+    "hodgeman",
+    "jackson",
+    "jefferson",
+    "jewell",
+    "johnson",
+    "kearny",
+    "kingman",
+    "kiowa",
+    "labette",
+    "lane",
+    "leavenworth",
+    "lincoln",
+    "linn",
+    "logan",
+    "lyon",
+    "marion",
+    "marshall",
+    "mcpherson",
+    "meade",
+    "miami",
+    "mitchell",
+    "montgomery",
+    "morris",
+    "morton",
+    "nemaha",
+    "neosho",
+    "ness",
+    "norton",
+    "osage",
+    "osborne",
+    "ottawa",
+    "pawnee",
+    "phillips",
+    "pottawatomie",
+    "pratt",
+    "rawlins",
+    "reno",
+    "republic",
+    "rice",
+    "riley",
+    "rooks",
+    "rush",
+    "russell",
+    "saline",
+    "scott",
+    "sedgwick",
+    "seward",
+    "shawnee",
+    "sheridan",
+    "sherman",
+    "smith",
+    "stafford",
+    "stanton",
+    "stevens",
+    "sumner",
+    "thomas",
+    "trego",
+    "wabaunsee",
+    "wallace",
+    "washington",
+    "wichita",
+    "wilson",
+    "woodson",
+    "wyandotte"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2016-08-02",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2016/20160802__ks__primary__edwards__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160802__ks__primary__gray__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160802__ks__primary__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160802__ks__primary__riley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160802__ks__primary__wabaunsee__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "edwards",
+    "gray",
+    "logan",
+    "riley",
+    "wabaunsee"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2014-11-04",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ks__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__allen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__anderson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__atchison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__barber__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__barton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__bourbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__brown__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__butler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__chase__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__chautauqua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__cherokee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__cheyenne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__clark__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__cloud__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__coffey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__comanche__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__cowley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__crawford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__decatur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__dickinson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__doniphan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__douglas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__edwards__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__elk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__ellis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__ellsworth__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__finney__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__ford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__geary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__gove__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__graham__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__gray__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__greeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__greenwood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__harper__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__harvey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__haskell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__hodgeman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__jewell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__kearny__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__kingman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__kiowa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__labette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__lane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__leavenworth__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__linn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__lyon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__mcpherson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__meade__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__miami__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__mitchell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__morris__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__morton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__nemaha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__neosho__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__ness__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__norton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__osage__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__osborne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__ottawa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__pawnee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__phillips__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__pottawatomie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__pratt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__rawlins__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__reno__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__republic__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__rice__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__riley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__rooks__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__rush__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__russell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__saline__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__scott__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__sedgwick__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__seward__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__shawnee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__sherman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__smith__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__stafford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__stanton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__stevens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__sumner__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__thomas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__trego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__wabaunsee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__wallace__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__wichita__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__wilson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__woodson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__ks__general__wyandotte__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "allen",
+    "anderson",
+    "atchison",
+    "barber",
+    "barton",
+    "bourbon",
+    "brown",
+    "butler",
+    "chase",
+    "chautauqua",
+    "cherokee",
+    "cheyenne",
+    "clark",
+    "clay",
+    "cloud",
+    "coffey",
+    "comanche",
+    "cowley",
+    "crawford",
+    "decatur",
+    "dickinson",
+    "doniphan",
+    "douglas",
+    "edwards",
+    "elk",
+    "ellis",
+    "ellsworth",
+    "finney",
+    "ford",
+    "franklin",
+    "geary",
+    "gove",
+    "graham",
+    "grant",
+    "gray",
+    "greeley",
+    "greenwood",
+    "hamilton",
+    "harper",
+    "harvey",
+    "haskell",
+    "hodgeman",
+    "jackson",
+    "jefferson",
+    "jewell",
+    "johnson",
+    "kearny",
+    "kingman",
+    "kiowa",
+    "labette",
+    "lane",
+    "leavenworth",
+    "lincoln",
+    "linn",
+    "logan",
+    "lyon",
+    "marion",
+    "marshall",
+    "mcpherson",
+    "meade",
+    "miami",
+    "mitchell",
+    "montgomery",
+    "morris",
+    "morton",
+    "nemaha",
+    "neosho",
+    "ness",
+    "norton",
+    "osage",
+    "osborne",
+    "ottawa",
+    "pawnee",
+    "phillips",
+    "pottawatomie",
+    "pratt",
+    "rawlins",
+    "reno",
+    "republic",
+    "rice",
+    "riley",
+    "rooks",
+    "rush",
+    "russell",
+    "saline",
+    "scott",
+    "sedgwick",
+    "seward",
+    "shawnee",
+    "sheridan",
+    "sherman",
+    "smith",
+    "stafford",
+    "stanton",
+    "stevens",
+    "sumner",
+    "thomas",
+    "trego",
+    "wabaunsee",
+    "wallace",
+    "washington",
+    "wichita",
+    "wilson",
+    "woodson",
+    "wyandotte"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__allen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__anderson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__atchison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__barber__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__barton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__bourbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__brown__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__butler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__chase__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__chautauqua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__cherokee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__cheyenne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__clark__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__cloud__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__coffey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__comanche__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2012/20121106__ks__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__cowley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__crawford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__decatur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__dickinson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__doniphan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__douglas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__edwards__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__elk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__ellis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__ellsworth__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__finney__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__ford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__geary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__gove__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__graham__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__gray__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__greeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__greenwood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__harper__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__harvey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__haskell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__hodgeman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__jewell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__kearny__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__kingman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__kiowa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__labette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__lane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__leavenworth__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__linn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__lyon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__mcpherson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__meade__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__miami__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__mitchell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__morris__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__morton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__nemaha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__neosho__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__ness__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__norton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__osage__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__osborne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__ottawa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__pawnee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__phillips__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__pottawatomie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__pratt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__president__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__rawlins__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__reno__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__republic__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__rice__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__riley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__rooks__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__rush__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__russell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__saline__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__scott__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__sedgwick__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__seward__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__shawnee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__sherman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__smith__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__stafford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__stanton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__stevens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__sumner__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__thomas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__trego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__wabaunsee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__wallace__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__wichita__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__wilson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__woodson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__ks__general__wyandotte__precinct.csv"
+    }
+   ],
+   "label": "president",
+   "precinct": true,
+   "precinct_counties": [
+    "allen",
+    "anderson",
+    "atchison",
+    "barber",
+    "barton",
+    "bourbon",
+    "brown",
+    "butler",
+    "chase",
+    "chautauqua",
+    "cherokee",
+    "cheyenne",
+    "clark",
+    "clay",
+    "cloud",
+    "coffey",
+    "comanche",
+    "cowley",
+    "crawford",
+    "decatur",
+    "dickinson",
+    "doniphan",
+    "douglas",
+    "edwards",
+    "elk",
+    "ellis",
+    "ellsworth",
+    "finney",
+    "ford",
+    "franklin",
+    "geary",
+    "gove",
+    "graham",
+    "grant",
+    "gray",
+    "greeley",
+    "greenwood",
+    "hamilton",
+    "harper",
+    "harvey",
+    "haskell",
+    "hodgeman",
+    "jackson",
+    "jefferson",
+    "jewell",
+    "johnson",
+    "kearny",
+    "kingman",
+    "kiowa",
+    "labette",
+    "lane",
+    "leavenworth",
+    "lincoln",
+    "linn",
+    "logan",
+    "lyon",
+    "marion",
+    "marshall",
+    "mcpherson",
+    "meade",
+    "miami",
+    "mitchell",
+    "montgomery",
+    "morris",
+    "morton",
+    "nemaha",
+    "neosho",
+    "ness",
+    "norton",
+    "osage",
+    "osborne",
+    "ottawa",
+    "pawnee",
+    "phillips",
+    "pottawatomie",
+    "pratt",
+    "rawlins",
+    "reno",
+    "republic",
+    "rice",
+    "riley",
+    "rooks",
+    "rush",
+    "russell",
+    "saline",
+    "scott",
+    "sedgwick",
+    "seward",
+    "shawnee",
+    "sheridan",
+    "sherman",
+    "smith",
+    "stafford",
+    "stanton",
+    "stevens",
+    "sumner",
+    "thomas",
+    "trego",
+    "wabaunsee",
+    "wallace",
+    "washington",
+    "wichita",
+    "wilson",
+    "woodson",
+    "wyandotte"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  }
+ ],
+ "generated_at": "2026-11-08T02:41:55Z",
+ "repo": "openelections-data-ks",
+ "state": "ks"
+}

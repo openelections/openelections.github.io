@@ -1,0 +1,1467 @@
+{
+ "elections": [
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2022-11-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2022/20221108__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2021-07-13",
+   "files": [
+    {
+     "level": "county",
+     "path": "2021/20210713__wi__special__general__ward.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2021-04-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "2021/20210406__wi__special__general__ward.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2021-04-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "2021/20210406__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-11-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2020/20201103__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-08-11",
+   "files": [
+    {
+     "level": "county",
+     "path": "2020/20200811__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-05-12",
+   "files": [
+    {
+     "level": "county",
+     "path": "2020/20200512__wi__special__general__ward.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-04-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2020/20200407__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-04-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2020/20200407__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-02-18",
+   "files": [
+    {
+     "level": "county",
+     "path": "2020/20200218__wi__special__primary__ward.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-02-18",
+   "files": [
+    {
+     "level": "county",
+     "path": "2020/20200218__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2019-04-30",
+   "files": [
+    {
+     "level": "county",
+     "path": "2019/20190430__wi__special__general__ward.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2019-04-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2019/20190402__wi__special__primary__ward.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2019-04-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2019/20190402__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2019-02-19",
+   "files": [
+    {
+     "level": "county",
+     "path": "2019/20190219__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2018-11-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "2018/20181106__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2018-08-14",
+   "files": [
+    {
+     "level": "county",
+     "path": "2018/20180814__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2018-06-12",
+   "files": [
+    {
+     "level": "county",
+     "path": "2018/20180612__wi__special__general__ward.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2018-05-15",
+   "files": [
+    {
+     "level": "county",
+     "path": "2018/20180515__wi__special__primary__ward.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2018-04-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2018/20180403__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2018-02-20",
+   "files": [
+    {
+     "level": "county",
+     "path": "2018/20180220__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2018-01-16",
+   "files": [
+    {
+     "level": "county",
+     "path": "2018/20180116__wi__special__general__ward.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2017-12-19",
+   "files": [
+    {
+     "level": "county",
+     "path": "2017/20171219__wi__special__primary__ward.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2017-04-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2017/20170404__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2017-02-21",
+   "files": [
+    {
+     "level": "county",
+     "path": "2017/20170221__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-11-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20161108__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-08-09",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20160809__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-04-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20160405__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-04-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20160405__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-02-16",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20160216__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2015-09-29",
+   "files": [
+    {
+     "level": "county",
+     "path": "2015/20150929__wi__special__general__ward.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2015-09-01",
+   "files": [
+    {
+     "level": "county",
+     "path": "2015/20150901__wi__special__primary__ward.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2015-07-21",
+   "files": [
+    {
+     "level": "county",
+     "path": "2015/20150721__wi__special__general__ward.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2015-06-23",
+   "files": [
+    {
+     "level": "county",
+     "path": "2015/20150623__wi__special__primary__ward.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2015-04-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2015/20150407__wi__special__general__ward.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2015-04-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2015/20150407__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2015-02-17",
+   "files": [
+    {
+     "level": "county",
+     "path": "2015/20150217__wi__special__primary__ward.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-11-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2014/20141104__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-08-12",
+   "files": [
+    {
+     "level": "county",
+     "path": "2014/20140812__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-04-01",
+   "files": [
+    {
+     "level": "county",
+     "path": "2014/20140401__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-02-18",
+   "files": [
+    {
+     "level": "county",
+     "path": "2014/20140218__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2013-12-17",
+   "files": [
+    {
+     "level": "county",
+     "path": "2013/20131217__wi__special__general__ward.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2013-11-19",
+   "files": [
+    {
+     "level": "county",
+     "path": "2013/20131119__wi__special__general__ward.csv"
+    },
+    {
+     "level": "county",
+     "path": "2013/20131119__wi__special__primary__ward.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2013-10-22",
+   "files": [
+    {
+     "level": "county",
+     "path": "2013/20131022__wi__special__primary__ward.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2013-04-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2013/20130402__wi__special__general__ward.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2013-04-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2013/20130402__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2013-02-19",
+   "files": [
+    {
+     "level": "county",
+     "path": "2013/20130219__wi__special__primary__ward.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2013-02-19",
+   "files": [
+    {
+     "level": "county",
+     "path": "2013/20130219__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-12-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2012/20121204__wi__special__general__ward.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-11-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "2012/20121106__wi__special__primary__ward.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-11-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "2012/20121106__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-08-14",
+   "files": [
+    {
+     "level": "county",
+     "path": "2012/20120814__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-06-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2012/20120605__wi__general-recall__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general-recall"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-05-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2012/20120508__wi__primary-recall__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary-recall"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-04-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2012/20120403__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-02-21",
+   "files": [
+    {
+     "level": "county",
+     "path": "2012/20120221__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2011-11-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2011/20111108__wi__special__general__ward.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2011-10-11",
+   "files": [
+    {
+     "level": "county",
+     "path": "2011/20111011__wi__special__primary__ward.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2011-08-16",
+   "files": [
+    {
+     "level": "county",
+     "path": "2011/20110816__wi__general-recall__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general-recall"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2011-08-09",
+   "files": [
+    {
+     "level": "county",
+     "path": "2011/20110809__wi__special__general__ward.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2011-08-09",
+   "files": [
+    {
+     "level": "county",
+     "path": "2011/20110809__wi__general-recall__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general-recall"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2011-07-19",
+   "files": [
+    {
+     "level": "county",
+     "path": "2011/20110719__wi__primary-recall__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary-recall"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2011-07-19",
+   "files": [
+    {
+     "level": "county",
+     "path": "2011/20110719__wi__general-recall__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general-recall"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2011-07-12",
+   "files": [
+    {
+     "level": "county",
+     "path": "2011/20110712__wi__special__primary__ward.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2011-07-12",
+   "files": [
+    {
+     "level": "county",
+     "path": "2011/20110712__wi__primary-recall__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary-recall"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2011-05-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2011/20110503__wi__special__general__ward.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2011-04-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2011/20110405__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2011-02-15",
+   "files": [
+    {
+     "level": "county",
+     "path": "2011/20110215__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2010-11-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2010/20101102__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2010-09-14",
+   "files": [
+    {
+     "level": "county",
+     "path": "2010/20100914__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2010-04-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "2010/20100406__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2010-02-16",
+   "files": [
+    {
+     "level": "county",
+     "path": "2010/20100216__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2009-04-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2009/20090407__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2009-02-17",
+   "files": [
+    {
+     "level": "county",
+     "path": "2009/20090217__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2008-11-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2008/20081104__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2008-09-09",
+   "files": [
+    {
+     "level": "county",
+     "path": "2008/20080909__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2008-04-01",
+   "files": [
+    {
+     "level": "county",
+     "path": "2008/20080401__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2008-02-19",
+   "files": [
+    {
+     "level": "county",
+     "path": "2008/20080219__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2007-04-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2007/20070403__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2007-02-20",
+   "files": [
+    {
+     "level": "county",
+     "path": "2007/20070220__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2006-11-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2006/20061107__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2006-09-12",
+   "files": [
+    {
+     "level": "county",
+     "path": "2006/20060912__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2006-04-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2006/20060404__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2006-02-21",
+   "files": [
+    {
+     "level": "county",
+     "path": "2006/20060221__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2006-01-10",
+   "files": [
+    {
+     "level": "county",
+     "path": "2006/20060110__wi__special__general__ward.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2005-12-13",
+   "files": [
+    {
+     "level": "county",
+     "path": "2005/20051213__wi__special__primary__ward.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2005-04-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2005/20050405__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2004-11-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2004/20041102__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2002-11-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2002/20021105__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2002-09-10",
+   "files": [
+    {
+     "level": "county",
+     "path": "2002/20020910__wi__primary__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2000-11-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2000/20001107__wi__general__ward.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  }
+ ],
+ "generated_at": "2026-11-08T02:41:55Z",
+ "repo": "openelections-data-wi",
+ "state": "wi"
+}

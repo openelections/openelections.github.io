@@ -1,0 +1,2795 @@
+{
+ "elections": [
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2026-06-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2026/20260602__ca__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__alameda__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__amador__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__butte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__calaveras__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__colusa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__contra_costa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__el_dorado__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__fresno__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__humboldt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__imperial__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__inyo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__lake__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__los_angeles__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__madera__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__marin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__mendocino__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__merced__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__modoc__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__mono__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__monterey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__nevada__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__placer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__riverside__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__sacramento__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__san_benito__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__san_diego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__san_francisco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__san_luis_obispo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__san_mateo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__santa_barbara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__santa_clara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__shasta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__sierra__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__siskiyou__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__sonoma__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__stanislaus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__sutter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__tehama__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__trinity__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__tulare__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__ventura__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__yolo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260602__ca__primary__yuba__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "alameda",
+    "amador",
+    "butte",
+    "calaveras",
+    "colusa",
+    "contra_costa",
+    "el_dorado",
+    "fresno",
+    "humboldt",
+    "imperial",
+    "inyo",
+    "kings",
+    "lake",
+    "los_angeles",
+    "madera",
+    "marin",
+    "mendocino",
+    "merced",
+    "modoc",
+    "mono",
+    "monterey",
+    "nevada",
+    "orange",
+    "placer",
+    "riverside",
+    "sacramento",
+    "san_benito",
+    "san_diego",
+    "san_francisco",
+    "san_luis_obispo",
+    "san_mateo",
+    "santa_barbara",
+    "santa_clara",
+    "shasta",
+    "sierra",
+    "siskiyou",
+    "sonoma",
+    "stanislaus",
+    "sutter",
+    "tehama",
+    "trinity",
+    "tulare",
+    "ventura",
+    "yolo",
+    "yuba"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2024-11-05",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__alameda__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__butte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__calaveras__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__colusa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__contra_costa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__fresno__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__glenn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__humboldt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__imperial__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__inyo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__kern__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__lake__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__los_angeles__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__madera__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__marin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__mendocino__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__merced__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__modoc__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__monterey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__napa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__nevada__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__placer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__plumas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__riverside__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__sacramento__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__san_benito__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__san_bernardino__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__san_francisco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__san_joaquin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__san_luis_obispo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__san_mateo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__santa_barbara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__santa_clara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__santa_cruz__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__shasta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__sierra__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__siskiyou__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__solano__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__sonoma__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__stanislaus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__sutter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__tehama__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__trinity__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__tulare__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__tuolumne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__ventura__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__yolo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__ca__general__yuba__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "alameda",
+    "butte",
+    "calaveras",
+    "colusa",
+    "contra_costa",
+    "fresno",
+    "glenn",
+    "humboldt",
+    "imperial",
+    "inyo",
+    "kern",
+    "lake",
+    "los_angeles",
+    "madera",
+    "marin",
+    "mendocino",
+    "merced",
+    "modoc",
+    "monterey",
+    "napa",
+    "nevada",
+    "placer",
+    "plumas",
+    "riverside",
+    "sacramento",
+    "san_benito",
+    "san_bernardino",
+    "san_francisco",
+    "san_joaquin",
+    "san_luis_obispo",
+    "san_mateo",
+    "santa_barbara",
+    "santa_clara",
+    "santa_cruz",
+    "shasta",
+    "sierra",
+    "siskiyou",
+    "solano",
+    "sonoma",
+    "stanislaus",
+    "sutter",
+    "tehama",
+    "trinity",
+    "tulare",
+    "tuolumne",
+    "ventura",
+    "yolo",
+    "yuba"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-11-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2020/20201103__ca__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__ca__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__alameda__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__alpine__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__amador__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__butte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__calaveras__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__colusa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__contra_costa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__del_norte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__el_dorado__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__fresno__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__glenn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__humboldt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__imperial__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__inyo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__kern__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__lake__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__lassen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__los_angeles__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__madera__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__marin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__mariposa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__mendocino__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__merced__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__modoc__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__mono__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__monterey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__napa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__nevada__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__placer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__plumas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__sacramento__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__san_benito__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__san_bernardino__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__san_diego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__san_francisco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__san_joaquin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__san_luis_obispo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__san_mateo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__santa_barbara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__santa_clara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__santa_cruz__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__shasta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__sierra__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__siskiyou__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__solano__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__sonoma__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__sutter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__tehama__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__trinity__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__tulare__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__tuolumne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__ventura__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__yolo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__ca__general__yuba__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "alameda",
+    "alpine",
+    "amador",
+    "butte",
+    "calaveras",
+    "colusa",
+    "contra_costa",
+    "del_norte",
+    "el_dorado",
+    "fresno",
+    "glenn",
+    "humboldt",
+    "imperial",
+    "inyo",
+    "kern",
+    "kings",
+    "lake",
+    "lassen",
+    "los_angeles",
+    "madera",
+    "marin",
+    "mariposa",
+    "mendocino",
+    "merced",
+    "modoc",
+    "mono",
+    "monterey",
+    "napa",
+    "nevada",
+    "orange",
+    "placer",
+    "plumas",
+    "sacramento",
+    "san_benito",
+    "san_bernardino",
+    "san_diego",
+    "san_francisco",
+    "san_joaquin",
+    "san_luis_obispo",
+    "san_mateo",
+    "santa_barbara",
+    "santa_clara",
+    "santa_cruz",
+    "shasta",
+    "sierra",
+    "siskiyou",
+    "solano",
+    "sonoma",
+    "sutter",
+    "tehama",
+    "trinity",
+    "tulare",
+    "tuolumne",
+    "ventura",
+    "yolo",
+    "yuba"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2020-03-03",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2020/20200303__ca__primary__amador__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200303__ca__primary__imperial__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200303__ca__primary__tulare__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200303__ca__primary__yuba__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ca__primary__siskiyou__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200303__ca__primary__tuolumne__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "amador",
+    "imperial",
+    "siskiyou",
+    "tulare",
+    "tuolumne",
+    "yuba"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__alameda__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__alpine__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__amador__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__butte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__calaveras__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__colusa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__contra_costa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__del_norte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__el_dorado__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__fresno__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__glenn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__humboldt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__imperial__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__inyo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__kern__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__lake__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__lassen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__los_angeles__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__madera__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__marin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__mariposa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__mendocino__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__merced__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__modoc__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__mono__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__monterey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__napa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__nevada__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__placer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__plumas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__riverside__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__sacramento__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__san_benito__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__san_bernardino__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__san_diego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__san_francisco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__san_joaquin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__san_luis_obispo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__san_mateo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__santa_barbara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__santa_clara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__santa_cruz__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__shasta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__sierra__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__siskiyou__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__solano__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__sonoma__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__stanislaus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__sutter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__tehama__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__trinity__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__tulare__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__tuolumne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__ventura__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__yolo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__ca__general__yuba__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "alameda",
+    "alpine",
+    "amador",
+    "butte",
+    "calaveras",
+    "colusa",
+    "contra_costa",
+    "del_norte",
+    "el_dorado",
+    "fresno",
+    "glenn",
+    "humboldt",
+    "imperial",
+    "inyo",
+    "kern",
+    "kings",
+    "lake",
+    "lassen",
+    "los_angeles",
+    "madera",
+    "marin",
+    "mariposa",
+    "mendocino",
+    "merced",
+    "modoc",
+    "mono",
+    "monterey",
+    "napa",
+    "nevada",
+    "orange",
+    "placer",
+    "plumas",
+    "riverside",
+    "sacramento",
+    "san_benito",
+    "san_bernardino",
+    "san_diego",
+    "san_francisco",
+    "san_joaquin",
+    "san_luis_obispo",
+    "san_mateo",
+    "santa_barbara",
+    "santa_clara",
+    "santa_cruz",
+    "shasta",
+    "sierra",
+    "siskiyou",
+    "solano",
+    "sonoma",
+    "stanislaus",
+    "sutter",
+    "tehama",
+    "trinity",
+    "tulare",
+    "tuolumne",
+    "ventura",
+    "yolo",
+    "yuba"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-06-05",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180605__ca__primary__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180605__ca__primary__mariposa__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "kings",
+    "mariposa"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2017-12-05",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2017/20171205__ca__special__general__los_angeles__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [
+    "los_angeles"
+   ],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2017-10-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2017/20171003__ca__special__primary.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20171003__ca__special__primary__los_angeles__precinct.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": true,
+   "precinct_counties": [
+    "los_angeles"
+   ],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2017-06-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "2017/20170606__ca__special__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170606__ca__special__general__los_angeles__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [
+    "los_angeles"
+   ],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2017-04-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2017/20170404__ca__special__primary.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2017/20170404__ca__special__primary__los_angeles__precinct.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": true,
+   "precinct_counties": [
+    "los_angeles"
+   ],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-11-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20161108__ca__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__ca__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__alameda__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__alpine__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__amador__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__butte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__calaveras__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__colusa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__contra_costa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__del_norte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__el_dorado__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__fresno__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__glenn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__humboldt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__imperial__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__inyo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__kern__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__lake__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__lassen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__los_angeles__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__madera__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__marin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__mariposa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__mendocino__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__merced__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__modoc__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__mono__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__monterey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__napa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__nevada__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__placer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__plumas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__riverside__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__sacramento__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__san_benito__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__san_bernardino__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__san_diego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__san_francisco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__san_joaquin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__san_luis_obispo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__san_mateo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__santa_barbara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__santa_clara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__santa_cruz__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__shasta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__sierra__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__siskiyou__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__solano__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__sonoma__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__stanislaus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__sutter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__tehama__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__trinity__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__tulare__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__tuolumne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__ventura__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__yolo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20161108__ca__general__yuba__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "alameda",
+    "alpine",
+    "amador",
+    "butte",
+    "calaveras",
+    "colusa",
+    "contra_costa",
+    "del_norte",
+    "el_dorado",
+    "fresno",
+    "glenn",
+    "humboldt",
+    "imperial",
+    "inyo",
+    "kern",
+    "kings",
+    "lake",
+    "lassen",
+    "los_angeles",
+    "madera",
+    "marin",
+    "mariposa",
+    "mendocino",
+    "merced",
+    "modoc",
+    "mono",
+    "monterey",
+    "napa",
+    "nevada",
+    "orange",
+    "placer",
+    "plumas",
+    "riverside",
+    "sacramento",
+    "san_benito",
+    "san_bernardino",
+    "san_diego",
+    "san_francisco",
+    "san_joaquin",
+    "san_luis_obispo",
+    "san_mateo",
+    "santa_barbara",
+    "santa_clara",
+    "santa_cruz",
+    "shasta",
+    "sierra",
+    "siskiyou",
+    "solano",
+    "sonoma",
+    "stanislaus",
+    "sutter",
+    "tehama",
+    "trinity",
+    "tulare",
+    "tuolumne",
+    "ventura",
+    "yolo",
+    "yuba"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-06-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20160607__ca__primary.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160607__ca__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__alameda__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__alpine__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__amador__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__butte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__calaveras__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__colusa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__contra_costa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__del_norte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__el_dorado__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__fresno__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__glenn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__humboldt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__imperial__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__inyo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__kern__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__lake__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__lassen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__los_angeles__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__madera__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__marin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__mariposa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__mendocino__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__merced__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__modoc__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__mono__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__monterey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__napa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__nevada__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__placer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__plumas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__riverside__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__sacramento__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__san_benito__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__san_bernardino__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__san_diego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__san_francisco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__san_joaquin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__san_luis_obispo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__san_mateo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__santa_barbara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__santa_clara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__santa_cruz__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__shasta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__sierra__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__siskiyou__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__solano__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__sonoma__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__stanislaus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__sutter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__tehama__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__trinity__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__tulare__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__tuolumne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__ventura__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__yolo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/counties/20160607__ca__primary__yuba__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "alameda",
+    "alpine",
+    "amador",
+    "butte",
+    "calaveras",
+    "colusa",
+    "contra_costa",
+    "del_norte",
+    "el_dorado",
+    "fresno",
+    "glenn",
+    "humboldt",
+    "imperial",
+    "inyo",
+    "kern",
+    "kings",
+    "lake",
+    "lassen",
+    "los_angeles",
+    "madera",
+    "marin",
+    "mariposa",
+    "mendocino",
+    "merced",
+    "modoc",
+    "mono",
+    "monterey",
+    "napa",
+    "nevada",
+    "orange",
+    "placer",
+    "plumas",
+    "riverside",
+    "sacramento",
+    "san_benito",
+    "san_bernardino",
+    "san_diego",
+    "san_francisco",
+    "san_joaquin",
+    "san_luis_obispo",
+    "san_mateo",
+    "santa_barbara",
+    "santa_clara",
+    "santa_cruz",
+    "shasta",
+    "sierra",
+    "siskiyou",
+    "solano",
+    "sonoma",
+    "stanislaus",
+    "sutter",
+    "tehama",
+    "trinity",
+    "tulare",
+    "tuolumne",
+    "ventura",
+    "yolo",
+    "yuba"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-04-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20160405__ca__special__primary.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160405__ca__special__primary__fresno__precinct.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": true,
+   "precinct_counties": [
+    "fresno"
+   ],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2015-05-19",
+   "files": [
+    {
+     "level": "county",
+     "path": "2015/20150519__ca__special__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2015/20150519__ca__special__general__alameda__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2015/20150519__ca__special__general__contra_costa__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [
+    "alameda",
+    "contra_costa"
+   ],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2015-03-17",
+   "files": [
+    {
+     "level": "county",
+     "path": "2015/20150317__ca__special__primary.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2015/20150317__ca__special__primary__alameda__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2015/20150317__ca__special__primary__contra_costa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2015/20150317__ca__special__primary__los_angeles__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2015/20150317__ca__special__primary__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2015/20150317__ca__special__primary__san_bernardino__precinct.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": true,
+   "precinct_counties": [
+    "alameda",
+    "contra_costa",
+    "los_angeles",
+    "orange",
+    "san_bernardino"
+   ],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-11-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2014/20141104__ca__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__alameda__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__alpine__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__amador__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__butte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__calaveras__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__colusa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__contra_costa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__del_norte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__el_dorado__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__fresno__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__glenn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__humboldt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__imperial__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__inyo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__kern__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__lake__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__lassen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__los_angeles__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__madera__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__marin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__mariposa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__mendocino__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__merced__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__modoc__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__mono__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__monterey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__napa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__nevada__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__placer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__plumas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__riverside__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__sacramento__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__san_benito__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__san_bernardino__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__san_diego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__san_francisco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__san_joaquin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__san_luis_obispo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__san_mateo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__santa_barbara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__santa_clara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__santa_cruz__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__shasta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__sierra__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__siskiyou__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__solano__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__sonoma__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__stanislaus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__sutter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__tehama__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__trinity__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__tulare__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__tuolumne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__ventura__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__yolo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__ca__general__yuba__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "alameda",
+    "alpine",
+    "amador",
+    "butte",
+    "calaveras",
+    "colusa",
+    "contra_costa",
+    "del_norte",
+    "el_dorado",
+    "fresno",
+    "glenn",
+    "humboldt",
+    "imperial",
+    "inyo",
+    "kern",
+    "kings",
+    "lake",
+    "lassen",
+    "los_angeles",
+    "madera",
+    "marin",
+    "mariposa",
+    "mendocino",
+    "merced",
+    "modoc",
+    "mono",
+    "monterey",
+    "napa",
+    "nevada",
+    "orange",
+    "placer",
+    "plumas",
+    "riverside",
+    "sacramento",
+    "san_benito",
+    "san_bernardino",
+    "san_diego",
+    "san_francisco",
+    "san_joaquin",
+    "san_luis_obispo",
+    "san_mateo",
+    "santa_barbara",
+    "santa_clara",
+    "santa_cruz",
+    "shasta",
+    "sierra",
+    "siskiyou",
+    "solano",
+    "sonoma",
+    "stanislaus",
+    "sutter",
+    "tehama",
+    "trinity",
+    "tulare",
+    "tuolumne",
+    "ventura",
+    "yolo",
+    "yuba"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-06-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2014/20140603__ca__primary.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__alameda__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__alpine__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__amador__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__butte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__calaveras__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__colusa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__contra_costa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__del_norte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__el_dorado__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__fresno__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__glenn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__humboldt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__imperial__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__inyo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__kern__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__kings__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__lake__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__lassen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__los_angeles__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__madera__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__marin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__mariposa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__mendocino__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__merced__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__modoc__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__mono__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__monterey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__napa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__nevada__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__placer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__plumas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__riverside__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__sacramento__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__san_benito__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__san_bernardino__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__san_diego__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__san_francisco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__san_joaquin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__san_luis_obispo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__san_mateo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__santa_barbara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__santa_clara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__santa_cruz__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__shasta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__sierra__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__siskiyou__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__solano__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__sonoma__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__stanislaus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__sutter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__tehama__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__trinity__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__tulare__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__tuolumne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__ventura__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__yolo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140603__ca__primary__yuba__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "alameda",
+    "alpine",
+    "amador",
+    "butte",
+    "calaveras",
+    "colusa",
+    "contra_costa",
+    "del_norte",
+    "el_dorado",
+    "fresno",
+    "glenn",
+    "humboldt",
+    "imperial",
+    "inyo",
+    "kern",
+    "kings",
+    "lake",
+    "lassen",
+    "los_angeles",
+    "madera",
+    "marin",
+    "mariposa",
+    "mendocino",
+    "merced",
+    "modoc",
+    "mono",
+    "monterey",
+    "napa",
+    "nevada",
+    "orange",
+    "placer",
+    "plumas",
+    "riverside",
+    "sacramento",
+    "san_benito",
+    "san_bernardino",
+    "san_diego",
+    "san_francisco",
+    "san_joaquin",
+    "san_luis_obispo",
+    "san_mateo",
+    "santa_barbara",
+    "santa_clara",
+    "santa_cruz",
+    "shasta",
+    "sierra",
+    "siskiyou",
+    "solano",
+    "sonoma",
+    "stanislaus",
+    "sutter",
+    "tehama",
+    "trinity",
+    "tulare",
+    "tuolumne",
+    "ventura",
+    "yolo",
+    "yuba"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-11-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "2012/20121106__ca__general.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2010-11-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2010/20101102__ca__general.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2008-11-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2008/20081104__ca__general__congress.csv"
+    },
+    {
+     "level": "county",
+     "path": "2008/20081104__ca__general__president.csv"
+    },
+    {
+     "level": "county",
+     "path": "2008/20081104__ca__general__state_assembly.csv"
+    },
+    {
+     "level": "county",
+     "path": "2008/20081104__ca__general__state_senate.csv"
+    }
+   ],
+   "label": "president",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2006-11-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2006/20061107__ca__general__attorney_general.csv"
+    },
+    {
+     "level": "county",
+     "path": "2006/20061107__ca__general__board_of_equalization.csv"
+    },
+    {
+     "level": "county",
+     "path": "2006/20061107__ca__general__controller.csv"
+    },
+    {
+     "level": "county",
+     "path": "2006/20061107__ca__general__governor.csv"
+    },
+    {
+     "level": "county",
+     "path": "2006/20061107__ca__general__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "2006/20061107__ca__general__insurance_commissioner.csv"
+    },
+    {
+     "level": "county",
+     "path": "2006/20061107__ca__general__lieutenant_governor.csv"
+    },
+    {
+     "level": "county",
+     "path": "2006/20061107__ca__general__secretary_of_state.csv"
+    },
+    {
+     "level": "county",
+     "path": "2006/20061107__ca__general__senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "2006/20061107__ca__general__state_assembly.csv"
+    },
+    {
+     "level": "county",
+     "path": "2006/20061107__ca__general__state_senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "2006/20061107__ca__general__treasurer.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2004-11-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2004/20041102__ca__general__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20041102__ca__general__president.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20041102__ca__general__senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20041102__ca__general__state_assembly.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20041102__ca__general__state_senate.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2002-11-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2002/20021105__ca__general__attorney_general.csv"
+    },
+    {
+     "level": "county",
+     "path": "2002/20021105__ca__general__board_of_equalization.csv"
+    },
+    {
+     "level": "county",
+     "path": "2002/20021105__ca__general__controller.csv"
+    },
+    {
+     "level": "county",
+     "path": "2002/20021105__ca__general__governor.csv"
+    },
+    {
+     "level": "county",
+     "path": "2002/20021105__ca__general__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "2002/20021105__ca__general__insurance_commissioner.csv"
+    },
+    {
+     "level": "county",
+     "path": "2002/20021105__ca__general__lieutenant_governor.csv"
+    },
+    {
+     "level": "county",
+     "path": "2002/20021105__ca__general__secretary_of_state.csv"
+    },
+    {
+     "level": "county",
+     "path": "2002/20021105__ca__general__state_assembly.csv"
+    },
+    {
+     "level": "county",
+     "path": "2002/20021105__ca__general__state_senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "2002/20021105__ca__general__superintendent_of_public_instruction.csv"
+    },
+    {
+     "level": "county",
+     "path": "2002/20021105__ca__general__treasurer.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  }
+ ],
+ "generated_at": "2026-11-08T02:41:55Z",
+ "repo": "openelections-data-ca",
+ "state": "ca"
+}

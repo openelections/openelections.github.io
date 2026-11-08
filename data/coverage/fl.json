@@ -1,0 +1,1418 @@
+{
+ "elections": [
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2022-11-08",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2022/20221108__fl__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__alachua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__baker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__bay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__bradford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__brevard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__broward__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__charlotte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__citrus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__collier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__desoto__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__dixie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__duval__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__escambia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__flagler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__gadsden__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__gilchrist__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__glades__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__gulf__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__hardee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__hendry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__hernando__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__highlands__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__hillsborough__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__holmes__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__indian_river__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__lafayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__lake__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__lee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__leon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__levy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__liberty__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__manatee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__martin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__miami_dade__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__nassau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__okaloosa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__okeechobee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__osceola__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__palm_beach__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__pasco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__pinellas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__polk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__santa_rosa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__sarasota__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__seminole__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__st_johns__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__st_lucie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__sumter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__suwannee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__union__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__volusia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__wakulla__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__walton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__fl__general__washington__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "alachua",
+    "baker",
+    "bay",
+    "bradford",
+    "brevard",
+    "broward",
+    "calhoun",
+    "charlotte",
+    "citrus",
+    "clay",
+    "collier",
+    "columbia",
+    "desoto",
+    "dixie",
+    "duval",
+    "escambia",
+    "flagler",
+    "franklin",
+    "gadsden",
+    "gilchrist",
+    "glades",
+    "gulf",
+    "hamilton",
+    "hardee",
+    "hendry",
+    "hernando",
+    "highlands",
+    "hillsborough",
+    "holmes",
+    "indian_river",
+    "jackson",
+    "jefferson",
+    "lafayette",
+    "lake",
+    "lee",
+    "leon",
+    "levy",
+    "liberty",
+    "madison",
+    "manatee",
+    "marion",
+    "martin",
+    "miami_dade",
+    "monroe",
+    "nassau",
+    "okaloosa",
+    "okeechobee",
+    "orange",
+    "osceola",
+    "palm_beach",
+    "pasco",
+    "pinellas",
+    "polk",
+    "putnam",
+    "santa_rosa",
+    "sarasota",
+    "seminole",
+    "st_johns",
+    "st_lucie",
+    "sumter",
+    "suwannee",
+    "taylor",
+    "union",
+    "volusia",
+    "wakulla",
+    "walton",
+    "washington"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2022-08-23",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2022/20220823__fl__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__alachua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__baker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__bay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__bradford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__brevard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__broward__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__charlotte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__citrus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__collier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__desoto__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__dixie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__duval__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__escambia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__flagler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__gadsden__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__gilchrist__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__glades__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__gulf__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__hardee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__hendry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__hernando__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__highlands__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__hillsborough__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__holmes__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__indian_river__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__lafayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__lake__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__lee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__leon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__levy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__liberty__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__manatee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__martin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__miami_dade__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__nassau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__okaloosa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__okeechobee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__osceola__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__palm_beach__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__pasco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__pinellas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__polk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__santa_rosa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__sarasota__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__seminole__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__st_johns__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__st_lucie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__sumter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__suwannee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__union__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__volusia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__wakulla__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__walton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220823__fl__primary__washington__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "alachua",
+    "baker",
+    "bay",
+    "bradford",
+    "brevard",
+    "broward",
+    "calhoun",
+    "charlotte",
+    "citrus",
+    "clay",
+    "collier",
+    "columbia",
+    "desoto",
+    "dixie",
+    "duval",
+    "escambia",
+    "flagler",
+    "franklin",
+    "gadsden",
+    "gilchrist",
+    "glades",
+    "gulf",
+    "hamilton",
+    "hardee",
+    "hendry",
+    "hernando",
+    "highlands",
+    "hillsborough",
+    "holmes",
+    "indian_river",
+    "jackson",
+    "jefferson",
+    "lafayette",
+    "lake",
+    "lee",
+    "leon",
+    "levy",
+    "liberty",
+    "madison",
+    "manatee",
+    "marion",
+    "martin",
+    "miami_dade",
+    "monroe",
+    "nassau",
+    "okaloosa",
+    "okeechobee",
+    "orange",
+    "osceola",
+    "palm_beach",
+    "pasco",
+    "pinellas",
+    "polk",
+    "putnam",
+    "santa_rosa",
+    "sarasota",
+    "seminole",
+    "st_johns",
+    "st_lucie",
+    "sumter",
+    "suwannee",
+    "taylor",
+    "union",
+    "volusia",
+    "wakulla",
+    "walton",
+    "washington"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-11-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2020/20201103__fl__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__fl__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__alachua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__baker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__bay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__bradford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__brevard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__broward__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__charlotte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__citrus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__collier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__desoto__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__dixie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__duval__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__escambia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__flagler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__gadsden__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__gilchrist__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__glades__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__gulf__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__hardee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__hendry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__hernando__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__highlands__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__hillsborough__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__holmes__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__indian river__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__lafayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__lake__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__lee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__leon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__levy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__liberty__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__manatee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__martin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__miami_dade__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__nassau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__okaloosa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__okeechobee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__osceola__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__palm_beach__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__pasco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__pinellas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__polk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__santa_rosa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__sarasota__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__seminole__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__st_johns__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__st_lucie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__sumter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__suwannee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__union__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__volusia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__wakulla__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__walton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__fl__general__washington__precinct.csv"
+    }
+   ],
+   "label": "indian river",
+   "precinct": true,
+   "precinct_counties": [
+    "alachua",
+    "baker",
+    "bay",
+    "bradford",
+    "brevard",
+    "broward",
+    "calhoun",
+    "charlotte",
+    "citrus",
+    "clay",
+    "collier",
+    "columbia",
+    "desoto",
+    "dixie",
+    "duval",
+    "escambia",
+    "flagler",
+    "franklin",
+    "gadsden",
+    "gilchrist",
+    "glades",
+    "gulf",
+    "hamilton",
+    "hardee",
+    "hendry",
+    "hernando",
+    "highlands",
+    "hillsborough",
+    "holmes",
+    "jackson",
+    "jefferson",
+    "lafayette",
+    "lake",
+    "lee",
+    "leon",
+    "levy",
+    "liberty",
+    "madison",
+    "manatee",
+    "marion",
+    "martin",
+    "miami_dade",
+    "monroe",
+    "nassau",
+    "okaloosa",
+    "okeechobee",
+    "orange",
+    "osceola",
+    "palm_beach",
+    "pasco",
+    "pinellas",
+    "polk",
+    "putnam",
+    "santa_rosa",
+    "sarasota",
+    "seminole",
+    "st_johns",
+    "st_lucie",
+    "sumter",
+    "suwannee",
+    "taylor",
+    "union",
+    "volusia",
+    "wakulla",
+    "walton",
+    "washington"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20181106__fl__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__alachua__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__baker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__bay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__bradford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__brevard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__broward__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__charlotte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__citrus__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__collier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__columbia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__desoto__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__dixie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__duval__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__escambia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__flagler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__gadsden__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__gilchrist__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__glades__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__gulf__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__hardee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__hendry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__hernando__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__highlands__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__hillsborough__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__holmes__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__indian_river__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__lafayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__lake__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__lee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__leon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__levy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__liberty__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__manatee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__martin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__miami_dade__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__nassau__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__okaloosa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__okeechobee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__osceola__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__palm_beach__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__pasco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__pinellas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__polk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__santa_rosa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__sarasota__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__seminole__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__st_johns__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__st_lucie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__sumter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__suwannee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__union__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__volusia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__wakulla__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__walton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__fl__general__washington__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "alachua",
+    "baker",
+    "bay",
+    "bradford",
+    "brevard",
+    "broward",
+    "calhoun",
+    "charlotte",
+    "citrus",
+    "clay",
+    "collier",
+    "columbia",
+    "desoto",
+    "dixie",
+    "duval",
+    "escambia",
+    "flagler",
+    "franklin",
+    "gadsden",
+    "gilchrist",
+    "glades",
+    "gulf",
+    "hamilton",
+    "hardee",
+    "hendry",
+    "hernando",
+    "highlands",
+    "hillsborough",
+    "holmes",
+    "indian_river",
+    "jackson",
+    "jefferson",
+    "lafayette",
+    "lake",
+    "lee",
+    "leon",
+    "levy",
+    "liberty",
+    "madison",
+    "manatee",
+    "marion",
+    "martin",
+    "miami_dade",
+    "monroe",
+    "nassau",
+    "okaloosa",
+    "okeechobee",
+    "orange",
+    "osceola",
+    "palm_beach",
+    "pasco",
+    "pinellas",
+    "polk",
+    "putnam",
+    "santa_rosa",
+    "sarasota",
+    "seminole",
+    "st_johns",
+    "st_lucie",
+    "sumter",
+    "suwannee",
+    "taylor",
+    "union",
+    "volusia",
+    "wakulla",
+    "walton",
+    "washington"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  }
+ ],
+ "generated_at": "2026-11-08T02:41:55Z",
+ "repo": "openelections-data-fl",
+ "state": "fl"
+}

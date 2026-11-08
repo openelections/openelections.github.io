@@ -175,6 +175,24 @@ if (stateSelect) {
     }
   });
 }
+
+// Election coverage data for the currently loaded state (set by loadStateData)
+let coverageElections = null;
+let coverageRepo = null;
+
+// Event delegation: the coverage <select> lives inside innerHTML-injected cards
+const stateCardsEl = document.getElementById('state-cards');
+if (stateCardsEl) {
+  stateCardsEl.addEventListener('change', function(e) {
+    if (e.target.id === 'coverage-select' && coverageElections) {
+      const election = coverageElections[parseInt(e.target.value, 10)];
+      if (election) {
+        document.getElementById('coverage-detail').innerHTML = renderCoverageDetail(election, coverageRepo);
+      }
+    }
+  });
+}
+
 if (stateAbbr) {
   const stateNames = {
     'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona', 'AR': 'Arkansas', 'CA': 'California',
@@ -196,6 +214,7 @@ if (stateAbbr) {
   document.getElementById('hero-repos').textContent = '--';
 }
 
+
 async function loadStateData(abbr) {
   const loading = document.getElementById('state-loading');
   const error = document.getElementById('state-error');
@@ -203,11 +222,13 @@ async function loadStateData(abbr) {
   const cards = document.getElementById('state-cards');
   const heroRepos = document.getElementById('hero-repos');
   const heroYears = document.getElementById('hero-years');
-  
+
   loading.classList.remove('d-none');
   error.classList.add('d-none');
   content.classList.add('d-none');
   cards.innerHTML = '';
+  coverageElections = null;
+  coverageRepo = null;
   
   let repoCount = 0;
   let totalYears = 0;
@@ -244,6 +265,22 @@ async function loadStateData(abbr) {
         }
       }
       
+      // Election Coverage Card (static JSON built by scripts/build_coverage.py;
+      // a state without a coverage file just gets no card)
+      try {
+        const covRes = await fetch(`/data/coverage/${abbr}.json`);
+        if (covRes.ok) {
+          const coverage = await covRes.json();
+          if (coverage.elections && coverage.elections.length) {
+            coverageElections = coverage.elections;
+            coverageRepo = coverage.repo;
+            cards.innerHTML += renderCoverageCard(coverage);
+          }
+        }
+      } catch (e) {
+        console.warn('No coverage data for ' + abbr, e);
+      }
+
       // Recent Changes Card
       const commitsRes = await fetch(`https://api.github.com/repos/openelections/${dataRepo}/commits?per_page=5`);
       if (commitsRes.ok) {
@@ -336,6 +373,98 @@ function renderYearsCard(years) {
   `;
 }
 
+function coverageTypeLabel(election) {
+  const parts = [election.type.replace(/_/g, ' ')];
+  if (election.label) parts.push(election.label);
+  return parts.join(' ').replace(/\b\w/g, c => c.toUpperCase()).trim();
+}
+
+function renderCoverageCard(coverage) {
+  const elections = coverage.elections.slice().sort((a, b) =>
+    (a.date < b.date) - (b.date < a.date) || (a.type < b.type ? -1 : a.type > b.type ? 1 : 0));
+  coverageElections = elections;
+  coverageRepo = coverage.repo;
+  const currentYear = elections[0].date.slice(0, 4);
+  const options = elections.map((e, i) => ({
+    year: e.date.slice(0, 4),
+    text: `${e.date} — ${coverageTypeLabel(e)}`,
+    index: i
+  }));
+
+  // group options by year, newest year first, using <optgroup>
+  let lastYear = null;
+  let optionsHtml = '';
+  const yearsSeen = [];
+  const groups = {};
+  options.forEach(o => {
+    if (!groups[o.year]) { groups[o.year] = []; yearsSeen.push(o.year); }
+    groups[o.year].push(o);
+  });
+  yearsSeen.sort((a, b) => b - a);
+  yearsSeen.forEach(year => {
+    optionsHtml += `<optgroup label="${year}">${groups[year].map(o =>
+      `<option value="${o.index}"${o.year === currentYear && o.index === 0 ? ' selected' : ''}>${o.text}</option>`
+    ).join('')}</optgroup>`;
+  });
+
+  return `
+    <div class="col-12 mb-4">
+      <div class="card border-0 shadow-sm">
+        <div class="card-header bg-white border-bottom py-3">
+          <div class="d-flex align-items-center">
+            <div class="text-danger me-3">
+              <i class="fas fa-check-double fa-lg"></i>
+            </div>
+            <h5 class="mb-0">Election Coverage</h5>
+            <small class="text-muted ms-auto">Generated ${new Date(coverage.generated_at).toLocaleDateString()}</small>
+          </div>
+        </div>
+        <div class="card-body p-4">
+          <div class="row g-3 align-items-center">
+            <div class="col-lg-5">
+              <label class="form-label small text-muted mb-1" for="coverage-select">Choose an election:</label>
+              <select class="form-select" id="coverage-select">
+                ${optionsHtml}
+              </select>
+            </div>
+            <div class="col-lg-7">
+              <div id="coverage-detail">
+                ${renderCoverageDetail(elections[0], coverage.repo)}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function renderCoverageDetail(election, repo) {
+  const countyBadge = election.county
+    ? '<span class="badge bg-success fs-6 px-3 py-2"><i class="fas fa-check me-1"></i>County-level available</span>'
+    : election.county_derivable
+      ? '<span class="badge bg-warning text-dark fs-6 px-3 py-2" title="County totals can be aggregated from the precinct data"><i class="fas fa-adjust me-1"></i>Derivable from precinct data</span>'
+      : '<span class="badge bg-secondary fs-6 px-3 py-2"><i class="fas fa-times me-1"></i>No county-level results</span>';
+  const precinctBadge = election.precinct_statewide
+    ? '<span class="badge bg-success fs-6 px-3 py-2"><i class="fas fa-check me-1"></i>Precinct-level available</span>'
+    : election.precinct_counties && election.precinct_counties.length
+      ? `<span class="badge bg-warning text-dark fs-6 px-3 py-2" title="${election.precinct_counties.join(', ')}"><i class="fas fa-adjust me-1"></i>Precinct-level in ${election.precinct_counties.length} counties</span>`
+      : '<span class="badge bg-secondary fs-6 px-3 py-2"><i class="fas fa-times me-1"></i>No precinct-level results</span>';
+  const base = `https://github.com/openelections/${repo}/blob/master/`;
+  const filesHtml = election.files.map(f =>
+    `<li class="small mb-1"><a href="${base}${f.path}" target="_blank">${f.path}</a> <span class="badge bg-light text-dark border">${f.level}</span></li>`
+  ).join('');
+  return `
+    <div class="d-flex flex-wrap gap-2 mb-3">
+      ${countyBadge}
+      ${precinctBadge}
+    </div>
+    <details>
+      <summary class="text-primary small">${election.files.length} result file${election.files.length !== 1 ? 's' : ''} <i class="fas fa-chevron-down ms-1"></i></summary>
+      <ul class="list-unstyled ms-3 mt-2 mb-0">${filesHtml}</ul>
+    </details>
+  `;
+}
 function renderCommitsCard(commits, label = 'Recent Changes') {
   return `
     <div class="col-12 mb-4">

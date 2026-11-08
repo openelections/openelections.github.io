@@ -1,0 +1,505 @@
+{
+ "elections": [
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20181106__oh__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-08-07",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20180807__oh__special__general__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-05-08",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20180508__oh__primary__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-11-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20161108__oh__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__oh__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-06-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20160607__oh__special__general__house__8.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160607__oh__special__general__house__8__precinct.csv"
+    }
+   ],
+   "label": "general house 8",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-03-15",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20160315__oh__primary__democratic.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160315__oh__primary__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2016/20160315__oh__primary__republican.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-11-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2014/20141104__oh__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__oh__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-05-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "2014/20140506__oh__primary.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140506__oh__primary__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-11-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "2012/20121106__oh__general__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "2012/20121106__oh__general__president.csv"
+    },
+    {
+     "level": "county",
+     "path": "2012/20121106__oh__general__senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "2012/20121106__oh__general__state_house.csv"
+    },
+    {
+     "level": "county",
+     "path": "2012/20121106__oh__general__state_senate.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2012-03-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2012/20120306__oh__primary_precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "primary_precinct"
+   ],
+   "precinct_statewide": false,
+   "type": "election"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2011-12-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2007/20111207__oh__special__general__house__5.csv"
+    }
+   ],
+   "label": "general house 5",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2011-11-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "2007/20111106__oh__special__primary__house__5.csv"
+    }
+   ],
+   "label": "primary house 5",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2010-11-02",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2010/20101102__oh__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2010-07-13",
+   "files": [
+    {
+     "level": "county",
+     "path": "2010/20100713__oh__democratic__special__primary__house__3.csv"
+    }
+   ],
+   "label": "special primary house 3",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "democratic"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2010-05-04",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2010/20100504__oh__primary__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2008-11-18",
+   "files": [
+    {
+     "level": "county",
+     "path": "2008/20081118__oh__special__general__house__11.csv"
+    }
+   ],
+   "label": "general house 11",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2008-11-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2008/20081104__oh__general.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2008-03-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2008/20080304__oh__primary.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2004-03-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2004/20040302__oh__primary.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2002-11-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2002/20021105__oh__general.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2000-11-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2000/20001107__oh__general__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20001107__oh__general__president.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20001107__oh__general__senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20001107__oh__general__state_senate.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2000-03-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2000/20000307__oh__republican__primary__president.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20000307__oh__republican__primary__state_house.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20000307__oh__republican__primary__state_senate.csv"
+    }
+   ],
+   "label": "primary president",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "republican"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2000-03-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2000/20000307__oh__primary__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20000307__oh__primary__senate.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2000-03-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2000/20000307__oh__natural_law__primary__state_house.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20000307__oh__natural_law__primary__state_senate.csv"
+    }
+   ],
+   "label": "primary state house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "natural_law"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2000-03-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2000/20000307__oh__libertarian__primary__state_house.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20000307__oh__libertarian__primary__state_senate.csv"
+    }
+   ],
+   "label": "primary state house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "libertarian"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2000-03-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2000/20000307__oh__democratic__primary__president.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20000307__oh__democratic__primary__state_house.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20000307__oh__democratic__primary__state_senate.csv"
+    }
+   ],
+   "label": "primary president",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "democratic"
+  }
+ ],
+ "generated_at": "2026-11-08T02:41:55Z",
+ "repo": "openelections-data-oh",
+ "state": "oh"
+}

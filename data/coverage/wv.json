@@ -1,0 +1,5356 @@
+{
+ "elections": [
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2026-05-13",
+   "files": [
+    {
+     "level": "county",
+     "path": "2026/20260513__wv__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260513__wv__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__berkeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__braxton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__brooke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__cabell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__doddridge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__fayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__gilmer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__greenbrier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__hampshire__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__hancock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__hardy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__harrison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__kanawha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__mcdowell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__mercer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__mineral__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__mingo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__monongalia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__morgan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__nicholas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__ohio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__pendleton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__pleasants__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__pocahontas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__preston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__raleigh__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__ritchie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__roane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__summers__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__tucker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__tyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__upshur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__wetzel__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__wirt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__wood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260513__wv__primary__precinct__wyoming__precinct.csv"
+    }
+   ],
+   "label": "precinct",
+   "precinct": true,
+   "precinct_counties": [
+    "barbour",
+    "berkeley",
+    "boone",
+    "braxton",
+    "brooke",
+    "cabell",
+    "calhoun",
+    "clay",
+    "doddridge",
+    "fayette",
+    "gilmer",
+    "grant",
+    "greenbrier",
+    "hampshire",
+    "hancock",
+    "hardy",
+    "harrison",
+    "jackson",
+    "jefferson",
+    "kanawha",
+    "lewis",
+    "lincoln",
+    "logan",
+    "marion",
+    "marshall",
+    "mason",
+    "mcdowell",
+    "mercer",
+    "mineral",
+    "mingo",
+    "monongalia",
+    "monroe",
+    "morgan",
+    "nicholas",
+    "ohio",
+    "pendleton",
+    "pleasants",
+    "pocahontas",
+    "preston",
+    "putnam",
+    "raleigh",
+    "randolph",
+    "ritchie",
+    "roane",
+    "summers",
+    "taylor",
+    "tucker",
+    "tyler",
+    "upshur",
+    "wayne",
+    "webster",
+    "wetzel",
+    "wirt",
+    "wood",
+    "wyoming"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2024-11-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2024/20241105__wv__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wv__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__berkeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__braxton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__brooke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__cabell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__doddridge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__fayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__gilmer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__greenbrier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__hampshire__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__hancock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__hardy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__harrison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__kanawha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__mcdowell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__mercer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__mineral__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__mingo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__monongalia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__morgan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__nicholas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__ohio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__pendleton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__pleasants__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__pocahontas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__preston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__raleigh__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__ritchie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__roane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__summers__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__tucker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__tyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__upshur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__wetzel__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__wirt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__wood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20241105__wv__general__wyoming__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "barbour",
+    "berkeley",
+    "boone",
+    "braxton",
+    "brooke",
+    "cabell",
+    "calhoun",
+    "clay",
+    "doddridge",
+    "fayette",
+    "gilmer",
+    "grant",
+    "greenbrier",
+    "hampshire",
+    "hancock",
+    "hardy",
+    "harrison",
+    "jackson",
+    "jefferson",
+    "kanawha",
+    "lewis",
+    "lincoln",
+    "logan",
+    "marion",
+    "marshall",
+    "mason",
+    "mcdowell",
+    "mercer",
+    "mineral",
+    "mingo",
+    "monongalia",
+    "monroe",
+    "morgan",
+    "nicholas",
+    "ohio",
+    "pendleton",
+    "pleasants",
+    "pocahontas",
+    "preston",
+    "putnam",
+    "raleigh",
+    "randolph",
+    "ritchie",
+    "roane",
+    "summers",
+    "taylor",
+    "tucker",
+    "tyler",
+    "upshur",
+    "wayne",
+    "webster",
+    "wetzel",
+    "wirt",
+    "wood",
+    "wyoming"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2024-05-14",
+   "files": [
+    {
+     "level": "county",
+     "path": "2024/20240514__wv__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240514__wv__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__berkeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__brooke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__cabell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__doddridge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__fayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__gilmer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__greenbrier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__hampshire__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__hancock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__hardy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__harrison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__kanawha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__mcdowell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__mercer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__mineral__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__mingo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__monongalia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__morgan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__nicholas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__ohio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__pendleton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__pleasants__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__pocahontas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__preston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__raleigh__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__ritchie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__summers__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__tucker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__tyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__upshur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__wetzel__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__wirt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__wood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/counties/20240514__wv__primary__wyoming__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "barbour",
+    "berkeley",
+    "boone",
+    "brooke",
+    "cabell",
+    "calhoun",
+    "clay",
+    "doddridge",
+    "fayette",
+    "gilmer",
+    "grant",
+    "greenbrier",
+    "hampshire",
+    "hancock",
+    "hardy",
+    "harrison",
+    "jackson",
+    "jefferson",
+    "kanawha",
+    "lewis",
+    "lincoln",
+    "logan",
+    "marion",
+    "marshall",
+    "mason",
+    "mcdowell",
+    "mercer",
+    "mineral",
+    "mingo",
+    "monongalia",
+    "monroe",
+    "morgan",
+    "nicholas",
+    "ohio",
+    "pendleton",
+    "pleasants",
+    "pocahontas",
+    "preston",
+    "putnam",
+    "raleigh",
+    "randolph",
+    "ritchie",
+    "summers",
+    "taylor",
+    "tucker",
+    "tyler",
+    "upshur",
+    "wayne",
+    "webster",
+    "wetzel",
+    "wirt",
+    "wood",
+    "wyoming"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2022-11-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2022/20221108__wv__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wv__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__berkeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__braxton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__brooke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__cabell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__doddridge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__fayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__gilmer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__greenbrier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__hampshire__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__hancock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__hardy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__harrison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__kanawha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__mcdowell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__mercer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__mineral__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__mingo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__monongalia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__morgan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__nicholas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__ohio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__pendleton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__pleasants__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__pocahontas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__preston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__raleigh__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__ritchie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__roane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__summers__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__tucker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__tyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__upshur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__wetzel__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__wirt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__wood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20221108__wv__general__wyoming__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "barbour",
+    "berkeley",
+    "boone",
+    "braxton",
+    "brooke",
+    "cabell",
+    "calhoun",
+    "clay",
+    "doddridge",
+    "fayette",
+    "gilmer",
+    "grant",
+    "greenbrier",
+    "hampshire",
+    "hancock",
+    "hardy",
+    "harrison",
+    "jackson",
+    "jefferson",
+    "kanawha",
+    "lewis",
+    "lincoln",
+    "logan",
+    "marion",
+    "marshall",
+    "mason",
+    "mcdowell",
+    "mercer",
+    "mineral",
+    "mingo",
+    "monongalia",
+    "monroe",
+    "morgan",
+    "nicholas",
+    "ohio",
+    "pendleton",
+    "pleasants",
+    "pocahontas",
+    "preston",
+    "putnam",
+    "raleigh",
+    "randolph",
+    "ritchie",
+    "roane",
+    "summers",
+    "taylor",
+    "tucker",
+    "tyler",
+    "upshur",
+    "wayne",
+    "webster",
+    "wetzel",
+    "wirt",
+    "wood",
+    "wyoming"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2022-05-10",
+   "files": [
+    {
+     "level": "county",
+     "path": "2022/20220510__wv__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__berkeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__braxton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__brooke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__cabell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__doddridge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__fayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__gilmer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__greenbrier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__hampshire__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__hancock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__hardy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__harrison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__kanawha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__mcdowell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__mercer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__mineral__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__mingo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__monongalia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__morgan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__nicholas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__ohio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__pendleton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__pleasants__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__pocahontas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__preston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__raleigh__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__ritchie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__roane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__summers__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__tucker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__tyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__upshur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__wetzel__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__wirt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__wood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/counties/20220510__wv__primary__wyoming__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "barbour",
+    "berkeley",
+    "boone",
+    "braxton",
+    "brooke",
+    "cabell",
+    "calhoun",
+    "clay",
+    "doddridge",
+    "fayette",
+    "gilmer",
+    "grant",
+    "greenbrier",
+    "hampshire",
+    "hancock",
+    "hardy",
+    "harrison",
+    "jackson",
+    "jefferson",
+    "kanawha",
+    "lewis",
+    "lincoln",
+    "logan",
+    "marion",
+    "marshall",
+    "mason",
+    "mcdowell",
+    "mercer",
+    "mineral",
+    "mingo",
+    "monongalia",
+    "monroe",
+    "morgan",
+    "nicholas",
+    "ohio",
+    "pendleton",
+    "pleasants",
+    "pocahontas",
+    "preston",
+    "putnam",
+    "raleigh",
+    "randolph",
+    "ritchie",
+    "roane",
+    "summers",
+    "taylor",
+    "tucker",
+    "tyler",
+    "upshur",
+    "wayne",
+    "webster",
+    "wetzel",
+    "wirt",
+    "wood",
+    "wyoming"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2022-05-10",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2022/20220510__wv__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-11-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2020/20201103__wv__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wv__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__berkeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__braxton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__brooke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__cabell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__doddridge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__fayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__gilmer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__greenbrier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__hampshire__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__hancock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__hardy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__harrison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__kanawha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__mcdowell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__mercer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__mineral__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__mingo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__monongalia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__morgan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__nicholas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__ohio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__pendleton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__pleasants__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__pocahontas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__preston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__raleigh__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__ritchie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__roane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__summers__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__tucker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__tyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__upshur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__wetzel__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__wirt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__wood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20201103__wv__general__wyoming__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "barbour",
+    "berkeley",
+    "boone",
+    "braxton",
+    "brooke",
+    "cabell",
+    "calhoun",
+    "clay",
+    "doddridge",
+    "fayette",
+    "gilmer",
+    "grant",
+    "greenbrier",
+    "hampshire",
+    "hancock",
+    "hardy",
+    "harrison",
+    "jackson",
+    "jefferson",
+    "kanawha",
+    "lewis",
+    "lincoln",
+    "logan",
+    "marion",
+    "marshall",
+    "mason",
+    "mcdowell",
+    "mercer",
+    "mineral",
+    "mingo",
+    "monongalia",
+    "monroe",
+    "morgan",
+    "nicholas",
+    "ohio",
+    "pendleton",
+    "pleasants",
+    "pocahontas",
+    "preston",
+    "putnam",
+    "raleigh",
+    "randolph",
+    "ritchie",
+    "roane",
+    "summers",
+    "taylor",
+    "tucker",
+    "tyler",
+    "upshur",
+    "wayne",
+    "webster",
+    "wetzel",
+    "wirt",
+    "wood",
+    "wyoming"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-06-09",
+   "files": [
+    {
+     "level": "county",
+     "path": "2020/20200609__wv__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200609__wv__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__berkeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__braxton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__brooke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__cabell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__doddridge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__fayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__gilmer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__greenbrier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__hampshire__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__hancock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__hardy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__harrison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__kanawha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__mcdowell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__mercer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__mineral__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__mingo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__monongalia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__morgan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__nicholas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__ohio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__pendleton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__pleasants__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__pocahontas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__preston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__raleigh__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__ritchie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__roane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__summers__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__tucker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__tyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__upshur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__wetzel__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__wirt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__wood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/counties/20200609__wv__primary__wyoming__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "barbour",
+    "berkeley",
+    "boone",
+    "braxton",
+    "brooke",
+    "cabell",
+    "calhoun",
+    "clay",
+    "doddridge",
+    "fayette",
+    "gilmer",
+    "grant",
+    "greenbrier",
+    "hampshire",
+    "hancock",
+    "hardy",
+    "harrison",
+    "jackson",
+    "jefferson",
+    "kanawha",
+    "lewis",
+    "lincoln",
+    "logan",
+    "marion",
+    "marshall",
+    "mason",
+    "mcdowell",
+    "mercer",
+    "mineral",
+    "mingo",
+    "monongalia",
+    "monroe",
+    "morgan",
+    "nicholas",
+    "ohio",
+    "pendleton",
+    "pleasants",
+    "pocahontas",
+    "preston",
+    "putnam",
+    "raleigh",
+    "randolph",
+    "ritchie",
+    "roane",
+    "summers",
+    "taylor",
+    "tucker",
+    "tyler",
+    "upshur",
+    "wayne",
+    "webster",
+    "wetzel",
+    "wirt",
+    "wood",
+    "wyoming"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wv__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__berkeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__braxton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__brooke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__cabell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__doddridge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__fayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__gilmer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__greenbrier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__hampshire__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__hancock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__hardy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__harrison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__kanawha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__mcdowell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__mercer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__mineral__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__mingo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__monongalia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__morgan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__nicholas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__ohio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__pendleton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__pleasants__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__pocahontas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__preston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__raleigh__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__ritchie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__roane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__summers__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__tucker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__tyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__upshur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__wetzel__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__wirt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__wood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20181106__wv__general__wyoming__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "barbour",
+    "berkeley",
+    "boone",
+    "braxton",
+    "brooke",
+    "cabell",
+    "calhoun",
+    "clay",
+    "doddridge",
+    "fayette",
+    "gilmer",
+    "grant",
+    "greenbrier",
+    "hampshire",
+    "hancock",
+    "hardy",
+    "harrison",
+    "jackson",
+    "jefferson",
+    "kanawha",
+    "lewis",
+    "lincoln",
+    "logan",
+    "marion",
+    "marshall",
+    "mason",
+    "mcdowell",
+    "mercer",
+    "mineral",
+    "mingo",
+    "monongalia",
+    "monroe",
+    "morgan",
+    "nicholas",
+    "ohio",
+    "pendleton",
+    "pleasants",
+    "pocahontas",
+    "preston",
+    "putnam",
+    "raleigh",
+    "randolph",
+    "ritchie",
+    "roane",
+    "summers",
+    "taylor",
+    "tucker",
+    "tyler",
+    "upshur",
+    "wayne",
+    "webster",
+    "wetzel",
+    "wirt",
+    "wood",
+    "wyoming"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2018-05-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2018/20180508__wv__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180508__wv__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__berkeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__braxton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__brooke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__cabell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__doddridge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__fayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__gilmer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__greenbrier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__hampshire__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__hancock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__hardy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__harrison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__kanawha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__mcdowell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__mercer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__mineral__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__mingo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__monongalia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__morgan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__nicholas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__ohio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__pendleton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__pleasants__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__pocahontas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__preston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__raleigh__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__ritchie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__roane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__summers__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__tucker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__tyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__upshur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__wetzel__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__wirt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__wood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/counties/20180508__wv__primary__wyoming__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "barbour",
+    "berkeley",
+    "boone",
+    "braxton",
+    "brooke",
+    "cabell",
+    "calhoun",
+    "clay",
+    "doddridge",
+    "fayette",
+    "gilmer",
+    "grant",
+    "greenbrier",
+    "hampshire",
+    "hancock",
+    "hardy",
+    "harrison",
+    "jackson",
+    "jefferson",
+    "kanawha",
+    "lewis",
+    "lincoln",
+    "logan",
+    "marion",
+    "marshall",
+    "mason",
+    "mcdowell",
+    "mercer",
+    "mineral",
+    "mingo",
+    "monongalia",
+    "monroe",
+    "morgan",
+    "nicholas",
+    "ohio",
+    "pendleton",
+    "pleasants",
+    "pocahontas",
+    "preston",
+    "putnam",
+    "raleigh",
+    "randolph",
+    "ritchie",
+    "roane",
+    "summers",
+    "taylor",
+    "tucker",
+    "tyler",
+    "upshur",
+    "wayne",
+    "webster",
+    "wetzel",
+    "wirt",
+    "wood",
+    "wyoming"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2018-05-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2018/20180508__wv__general__county.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-11-08",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wv__general__cabell__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2016/20161108__wv__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wv__general__doddridge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wv__general__kanawha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wv__general__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wv__general__nicholas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wv__general__webster__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "cabell",
+    "doddridge",
+    "kanawha",
+    "marshall",
+    "nicholas",
+    "webster"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-05-10",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20160510__wv__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160510__wv__primary__webster__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "webster"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-11-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2014/20141104__wv__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__berkeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__braxton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__brooke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__cabell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__doddridge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__fayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__gilmer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__greenbrier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__hampshire__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__hancock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__hardy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__harrison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__kanawha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__mcdowell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__mercer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__mineral__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__mingo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__monongalia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__morgan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__nicholas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__ohio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__pendleton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__pleasants__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__pocahontas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__preston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__raleigh__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__ritchie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__roane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__summers__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__tucker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__tyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__upshur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__wetzel__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__wirt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__wood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20141104__wv__general__wyoming__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "barbour",
+    "berkeley",
+    "boone",
+    "braxton",
+    "brooke",
+    "cabell",
+    "calhoun",
+    "clay",
+    "doddridge",
+    "fayette",
+    "gilmer",
+    "grant",
+    "greenbrier",
+    "hampshire",
+    "hancock",
+    "hardy",
+    "harrison",
+    "jackson",
+    "jefferson",
+    "kanawha",
+    "lewis",
+    "lincoln",
+    "logan",
+    "marion",
+    "marshall",
+    "mason",
+    "mcdowell",
+    "mercer",
+    "mineral",
+    "mingo",
+    "monongalia",
+    "monroe",
+    "morgan",
+    "nicholas",
+    "ohio",
+    "pendleton",
+    "pleasants",
+    "pocahontas",
+    "preston",
+    "putnam",
+    "raleigh",
+    "randolph",
+    "ritchie",
+    "roane",
+    "summers",
+    "taylor",
+    "tucker",
+    "tyler",
+    "upshur",
+    "wayne",
+    "webster",
+    "wetzel",
+    "wirt",
+    "wood",
+    "wyoming"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-05-13",
+   "files": [
+    {
+     "level": "county",
+     "path": "2014/20140513__wv__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__berkeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__braxton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__brooke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__cabell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__doddridge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__fayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__gilmer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__greenbrier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__hampshire__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__hancock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__hardy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__harrison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__kanawha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__mcdowell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__mercer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__mineral__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__mingo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__monongalia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__morgan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__nicholas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__ohio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__pendleton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__pleasants__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__pocahontas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__preston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__raleigh__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__ritchie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__roane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__summers__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__tucker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__tyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__upshur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__wetzel__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__wirt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__wood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/counties/20140513__wv__primary__wyoming__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "barbour",
+    "berkeley",
+    "boone",
+    "braxton",
+    "brooke",
+    "cabell",
+    "calhoun",
+    "clay",
+    "doddridge",
+    "fayette",
+    "gilmer",
+    "grant",
+    "greenbrier",
+    "hampshire",
+    "hancock",
+    "hardy",
+    "harrison",
+    "jackson",
+    "jefferson",
+    "kanawha",
+    "lewis",
+    "lincoln",
+    "logan",
+    "marion",
+    "marshall",
+    "mason",
+    "mcdowell",
+    "mercer",
+    "mineral",
+    "mingo",
+    "monongalia",
+    "monroe",
+    "morgan",
+    "nicholas",
+    "ohio",
+    "pendleton",
+    "pleasants",
+    "pocahontas",
+    "preston",
+    "putnam",
+    "raleigh",
+    "randolph",
+    "ritchie",
+    "roane",
+    "summers",
+    "taylor",
+    "tucker",
+    "tyler",
+    "upshur",
+    "wayne",
+    "webster",
+    "wetzel",
+    "wirt",
+    "wood",
+    "wyoming"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2012-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__brooke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__doddridge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__gilmer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__hancock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__hardy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__harrison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__kanawha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__mineral__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__monongalia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__ohio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__pleasants__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__pocohontas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__preston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__ritchie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__roane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__tucker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__tyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__wetzel__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wv__general__wood__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "barbour",
+    "brooke",
+    "clay",
+    "doddridge",
+    "gilmer",
+    "grant",
+    "hancock",
+    "hardy",
+    "harrison",
+    "kanawha",
+    "marion",
+    "marshall",
+    "mineral",
+    "monongalia",
+    "ohio",
+    "pleasants",
+    "pocohontas",
+    "preston",
+    "ritchie",
+    "roane",
+    "taylor",
+    "tucker",
+    "tyler",
+    "webster",
+    "wetzel",
+    "wood"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2012-05-08",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__cabell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__doddridge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__fayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__hampshire__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__kanawha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__mercer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__mineral__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__mingo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__nicholas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__ohio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__pendleton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__pocohontas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__ritchie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__summers__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__tucker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__wetzel__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__wirt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120508__wv__primary__wood__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "barbour",
+    "boone",
+    "cabell",
+    "calhoun",
+    "doddridge",
+    "fayette",
+    "hampshire",
+    "jefferson",
+    "kanawha",
+    "lewis",
+    "logan",
+    "marshall",
+    "mason",
+    "mercer",
+    "mineral",
+    "mingo",
+    "monroe",
+    "nicholas",
+    "ohio",
+    "pendleton",
+    "pocohontas",
+    "putnam",
+    "ritchie",
+    "summers",
+    "taylor",
+    "tucker",
+    "webster",
+    "wetzel",
+    "wirt",
+    "wood"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2011-10-04",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__berkeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__cabell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__doddridge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__fayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__hampshire__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__hancock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__kanawha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__mineral__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__mingo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__monongalia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__morgan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__ohio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__pendleton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__pocohontas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__roane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__summers__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__tucker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__upshur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__wetzel__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__wirt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20111004__wv__special__general__wyoming__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [
+    "barbour",
+    "berkeley",
+    "boone",
+    "cabell",
+    "calhoun",
+    "doddridge",
+    "fayette",
+    "hampshire",
+    "hancock",
+    "jackson",
+    "jefferson",
+    "kanawha",
+    "lewis",
+    "lincoln",
+    "logan",
+    "marshall",
+    "mason",
+    "mineral",
+    "mingo",
+    "monongalia",
+    "monroe",
+    "morgan",
+    "ohio",
+    "pendleton",
+    "pocohontas",
+    "putnam",
+    "roane",
+    "summers",
+    "taylor",
+    "tucker",
+    "upshur",
+    "wayne",
+    "webster",
+    "wetzel",
+    "wirt",
+    "wyoming"
+   ],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2011-05-14",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__berkeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__cabell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__fayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__hampshire__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__hancock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__mercer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__mineral__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__monongalia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__morgan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__nicholas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__pendleton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__ritchie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__roane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__summers__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__tucker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__tyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__upshur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__wetzel__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__wirt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2011/20110514__wv__special__primary__wood__precinct.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": true,
+   "precinct_counties": [
+    "barbour",
+    "berkeley",
+    "cabell",
+    "calhoun",
+    "fayette",
+    "hampshire",
+    "hancock",
+    "jackson",
+    "jefferson",
+    "lewis",
+    "lincoln",
+    "logan",
+    "marion",
+    "mason",
+    "mercer",
+    "mineral",
+    "monongalia",
+    "morgan",
+    "nicholas",
+    "pendleton",
+    "putnam",
+    "randolph",
+    "ritchie",
+    "roane",
+    "summers",
+    "taylor",
+    "tucker",
+    "tyler",
+    "upshur",
+    "wayne",
+    "webster",
+    "wetzel",
+    "wirt",
+    "wood"
+   ],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2010-11-02",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__berkeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__braxton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__cabell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__doddridge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__fayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__hampshire__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__kanawha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__mercer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__mineral__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__mingo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__monongalia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__morgan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__nicholas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__ohio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__pendleton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__summers__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__tucker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__tyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wv__general__wood__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "barbour",
+    "berkeley",
+    "boone",
+    "braxton",
+    "cabell",
+    "doddridge",
+    "fayette",
+    "hampshire",
+    "jackson",
+    "jefferson",
+    "kanawha",
+    "lewis",
+    "logan",
+    "marion",
+    "marshall",
+    "mason",
+    "mercer",
+    "mineral",
+    "mingo",
+    "monongalia",
+    "morgan",
+    "nicholas",
+    "ohio",
+    "pendleton",
+    "putnam",
+    "randolph",
+    "summers",
+    "taylor",
+    "tucker",
+    "tyler",
+    "wayne",
+    "webster",
+    "wood"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2010-08-28",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__braxton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__cabell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__doddridge__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__fayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__hampshire__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__mineral__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__morgan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__nicholas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__ohio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__pendleton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__summers__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__tucker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__upshur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__wirt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100828__wv__special__primary__wood__precinct.csv"
+    }
+   ],
+   "label": "primary",
+   "precinct": true,
+   "precinct_counties": [
+    "barbour",
+    "braxton",
+    "cabell",
+    "doddridge",
+    "fayette",
+    "hampshire",
+    "jefferson",
+    "lewis",
+    "logan",
+    "mineral",
+    "morgan",
+    "nicholas",
+    "ohio",
+    "pendleton",
+    "putnam",
+    "summers",
+    "tucker",
+    "upshur",
+    "wayne",
+    "webster",
+    "wirt",
+    "wood"
+   ],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2010-05-11",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2010/20100511__wv__primary__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100511__wv__primary__braxton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100511__wv__primary__gilmer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100511__wv__primary__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100511__wv__primary__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100511__wv__primary__mineral__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100511__wv__primary__nicholas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100511__wv__primary__pocahontas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100511__wv__primary__webster__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "barbour",
+    "braxton",
+    "gilmer",
+    "jefferson",
+    "mason",
+    "mineral",
+    "nicholas",
+    "pocahontas",
+    "webster"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2008-11-04",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__berkeley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__boone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__braxton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__cabell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__fayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__gilmer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__grant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__greenbrier__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__hampshire__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__hardy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__harrison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__kanawha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__lewis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__logan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__mason__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__mcdowell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__mercer__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__mingo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__monongalia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__nicholas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__ohio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__pendleton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__pleasants__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__pocahontas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__preston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__putnam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__raleigh__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__randolph__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__ritchie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__roane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__summers__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__tucker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__tyler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__upshur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__wetzel__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__wirt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__wood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wv__general__wyoming__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "barbour",
+    "berkeley",
+    "boone",
+    "braxton",
+    "cabell",
+    "calhoun",
+    "clay",
+    "fayette",
+    "gilmer",
+    "grant",
+    "greenbrier",
+    "hampshire",
+    "hardy",
+    "harrison",
+    "jackson",
+    "jefferson",
+    "kanawha",
+    "lewis",
+    "logan",
+    "marion",
+    "marshall",
+    "mason",
+    "mcdowell",
+    "mercer",
+    "mingo",
+    "monongalia",
+    "monroe",
+    "nicholas",
+    "ohio",
+    "pendleton",
+    "pleasants",
+    "pocahontas",
+    "preston",
+    "putnam",
+    "raleigh",
+    "randolph",
+    "ritchie",
+    "roane",
+    "summers",
+    "taylor",
+    "tucker",
+    "tyler",
+    "upshur",
+    "wayne",
+    "webster",
+    "wetzel",
+    "wirt",
+    "wood",
+    "wyoming"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2006-11-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2006/20061107__wv__general__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "2006/20061107__wv__general__house_of_delegates.csv"
+    },
+    {
+     "level": "county",
+     "path": "2006/20061107__wv__general__senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "2006/20061107__wv__general__state_senate.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2006-05-09",
+   "files": [
+    {
+     "level": "county",
+     "path": "2006/20060509__wv__primary__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "2006/20060509__wv__primary__senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "2006/20060509__wv__primary__state_senate.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2004-11-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "2004/20041102__wv__general__attorney_general.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20041102__wv__general__auditor.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20041102__wv__general__commissioner_of_agriculture.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20041102__wv__general__governor.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20041102__wv__general__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20041102__wv__general__house_of_delegates.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wv__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20041102__wv__general__president.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20041102__wv__general__secretary_of_state.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20041102__wv__general__state_senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20041102__wv__general__state_treasurer.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": true,
+   "precinct_counties": [
+    "jefferson"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2004-05-11",
+   "files": [
+    {
+     "level": "county",
+     "path": "2004/20040511__wv__primary__attorney_general.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20040511__wv__primary__auditor.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20040511__wv__primary__commissioner_of_agriculture.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20040511__wv__primary__governor.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20040511__wv__primary__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20040511__wv__primary__house_of_delegates.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20040511__wv__primary__president.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20040511__wv__primary__secretary_of_state.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20040511__wv__primary__state_senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20040511__wv__primary__state_treasurer.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2002-11-05",
+   "files": [
+    {
+     "level": "county",
+     "path": "2002/20021105__wv__general__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "2002/20021105__wv__general__house_of_delegates.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wv__general__monongalia__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2002/20021105__wv__general__senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "2002/20021105__wv__general__state_senate.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": true,
+   "precinct_counties": [
+    "monongalia"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2002-05-14",
+   "files": [
+    {
+     "level": "county",
+     "path": "2002/20020514__wv__primary__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "2002/20020514__wv__primary__house_of_delegates.csv"
+    },
+    {
+     "level": "county",
+     "path": "2002/20020514__wv__primary__senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "2002/20020514__wv__primary__state_senate.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2000-11-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2000/20001107__wv__special__general__state_senate__11.csv"
+    }
+   ],
+   "label": "general state senate 11",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2000-11-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2000/20001107__wv__general__attorney_general.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20001107__wv__general__auditor.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20001107__wv__general__commissioner_of_agriculture.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20001107__wv__general__governor.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20001107__wv__general__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20001107__wv__general__house_of_delegates.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20001107__wv__general__president.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20001107__wv__general__secretary_of_state.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20001107__wv__general__senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20001107__wv__general__state_senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20001107__wv__general__state_treasurer.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2000-05-09",
+   "files": [
+    {
+     "level": "county",
+     "path": "2000/20000509__wv__special__primary__state_senate__11.csv"
+    }
+   ],
+   "label": "primary state senate 11",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2000-05-09",
+   "files": [
+    {
+     "level": "county",
+     "path": "2000/20000509__wv__primary__attorney_general.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20000509__wv__primary__auditor.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20000509__wv__primary__commissioner_of_agriculture.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20000509__wv__primary__governor.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20000509__wv__primary__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20000509__wv__primary__house_of_delegates.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20000509__wv__primary__president.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20000509__wv__primary__secretary_of_state.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20000509__wv__primary__senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20000509__wv__primary__state_senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20000509__wv__primary__state_treasurer.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "1988-11-08",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "1988/19881108__wv__general__kanawha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "1988/19881108__wv__general__monongalia__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "kanawha",
+    "monongalia"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "1984-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "1984/19841106__wv__general__kanawha__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "kanawha"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "1980-11-04",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "1980/19801104__wv__general__monongalia__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "monongalia"
+   ],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "1960-11-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "1960/19601108__wv__general__attorney_general.csv"
+    },
+    {
+     "level": "county",
+     "path": "1960/19601108__wv__general__auditor.csv"
+    },
+    {
+     "level": "county",
+     "path": "1960/19601108__wv__general__commissioner_of_agriculture.csv"
+    },
+    {
+     "level": "county",
+     "path": "1960/19601108__wv__general__governor.csv"
+    },
+    {
+     "level": "county",
+     "path": "1960/19601108__wv__general__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "1960/19601108__wv__general__judge_of_the_supreme_court_of_appeals.csv"
+    },
+    {
+     "level": "county",
+     "path": "1960/19601108__wv__general__president.csv"
+    },
+    {
+     "level": "county",
+     "path": "1960/19601108__wv__general__secretary_of_state.csv"
+    },
+    {
+     "level": "county",
+     "path": "1960/19601108__wv__general__senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "1960/19601108__wv__general__state_treasurer.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "1958-11-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "1958/19581104__wv__general__circuit_judge.csv"
+    },
+    {
+     "level": "county",
+     "path": "1958/19581104__wv__general__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "1958/19581104__wv__general__judge_of_common_pleas_court.csv"
+    },
+    {
+     "level": "county",
+     "path": "1958/19581104__wv__general__judge_of_criminal_court.csv"
+    },
+    {
+     "level": "county",
+     "path": "1958/19581104__wv__general__judge_of_the_supreme_court_of_appeals.csv"
+    },
+    {
+     "level": "county",
+     "path": "1958/19581104__wv__general__secretary_of_state.csv"
+    },
+    {
+     "level": "county",
+     "path": "1958/19581104__wv__general__senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "1958/19581104__wv__general__state_senate.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "1956-11-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "1956/19561106__wv__general__attorney_general.csv"
+    },
+    {
+     "level": "county",
+     "path": "1956/19561106__wv__general__auditor.csv"
+    },
+    {
+     "level": "county",
+     "path": "1956/19561106__wv__general__circuit_judge.csv"
+    },
+    {
+     "level": "county",
+     "path": "1956/19561106__wv__general__commissioner_of_agriculture.csv"
+    },
+    {
+     "level": "county",
+     "path": "1956/19561106__wv__general__governor.csv"
+    },
+    {
+     "level": "county",
+     "path": "1956/19561106__wv__general__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "1956/19561106__wv__general__judge_of_the_supreme_court_of_appeals.csv"
+    },
+    {
+     "level": "county",
+     "path": "1956/19561106__wv__general__president.csv"
+    },
+    {
+     "level": "county",
+     "path": "1956/19561106__wv__general__secretary_of_state.csv"
+    },
+    {
+     "level": "county",
+     "path": "1956/19561106__wv__general__senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "1956/19561106__wv__general__state_senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "1956/19561106__wv__general__superintendent_of_schools.csv"
+    },
+    {
+     "level": "county",
+     "path": "1956/19561106__wv__general__treasurer.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "1954-11-02",
+   "files": [
+    {
+     "level": "county",
+     "path": "1954/19541102__wv__general__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "1954/19541102__wv__general__senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "1954/19541102__wv__general__state_senate.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "1952-11-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "1952/19521104__wv__general__attorney_general.csv"
+    },
+    {
+     "level": "county",
+     "path": "1952/19521104__wv__general__auditor.csv"
+    },
+    {
+     "level": "county",
+     "path": "1952/19521104__wv__general__circuit_judge.csv"
+    },
+    {
+     "level": "county",
+     "path": "1952/19521104__wv__general__commisioner_of_agriculture.csv"
+    },
+    {
+     "level": "county",
+     "path": "1952/19521104__wv__general__governor.csv"
+    },
+    {
+     "level": "county",
+     "path": "1952/19521104__wv__general__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "1952/19521104__wv__general__house_of_delegates.csv"
+    },
+    {
+     "level": "county",
+     "path": "1952/19521104__wv__general__judge_of_common_pleas_court.csv"
+    },
+    {
+     "level": "county",
+     "path": "1952/19521104__wv__general__judge_of_criminal_court.csv"
+    },
+    {
+     "level": "county",
+     "path": "1952/19521104__wv__general__judge_of_the_supreme_court_of_appeals.csv"
+    },
+    {
+     "level": "county",
+     "path": "1952/19521104__wv__general__secretary_of_state.csv"
+    },
+    {
+     "level": "county",
+     "path": "1952/19521104__wv__general__senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "1952/19521104__wv__general__state_senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "1952/19521104__wv__general__state_treasurer.csv"
+    },
+    {
+     "level": "county",
+     "path": "1952/19521104__wv__general__superintendent_of_schools.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "1950-02-23",
+   "files": [
+    {
+     "level": "county",
+     "path": "1950/19500223__wv__general__attorney_general.csv"
+    },
+    {
+     "level": "county",
+     "path": "1950/19500223__wv__general__circuit_judge.csv"
+    },
+    {
+     "level": "county",
+     "path": "1950/19500223__wv__general__house.csv"
+    },
+    {
+     "level": "county",
+     "path": "1950/19500223__wv__general__judge_of_the_supreme_court_of_appeals.csv"
+    },
+    {
+     "level": "county",
+     "path": "1950/19500223__wv__general__state_senate.csv"
+    },
+    {
+     "level": "county",
+     "path": "1950/19500223__wv__general__state_treasurer.csv"
+    }
+   ],
+   "label": "house",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  }
+ ],
+ "generated_at": "2026-11-08T02:41:55Z",
+ "repo": "openelections-data-wv",
+ "state": "wv"
+}

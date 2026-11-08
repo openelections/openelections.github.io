@@ -18,6 +18,7 @@ exclude:
     - vendor
     - node_modules
     - .ruby-version
+    - scripts
 
 # Output
 destination: _site

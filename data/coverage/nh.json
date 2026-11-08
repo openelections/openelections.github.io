@@ -1,0 +1,199 @@
+{
+ "elections": [
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2020-11-03",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2020/20201103__nh__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-02-11",
+   "files": [
+    {
+     "level": "county",
+     "path": "2020/20200211__nh__primary__president__town.csv"
+    }
+   ],
+   "label": "president",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20181106__nh__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-11-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20161108__nh__general__president__town.csv"
+    },
+    {
+     "level": "county",
+     "path": "2016/20161108__nh__general__town.csv"
+    }
+   ],
+   "label": "president",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-11-04",
+   "files": [
+    {
+     "level": "county",
+     "path": "2014/general/20141104__nh__general__town.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-09-09",
+   "files": [
+    {
+     "level": "county",
+     "path": "2014/primary/20140909__nh__primary__town.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-11-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "2012/20121106__nh__general__executive__council__town.csv"
+    },
+    {
+     "level": "county",
+     "path": "2012/20121106__nh__general__governor__town.csv"
+    },
+    {
+     "level": "county",
+     "path": "2012/20121106__nh__general__house__1__town.csv"
+    },
+    {
+     "level": "county",
+     "path": "2012/20121106__nh__general__house__2__town.csv"
+    },
+    {
+     "level": "county",
+     "path": "2012/20121106__nh__general__president__town.csv"
+    },
+    {
+     "level": "county",
+     "path": "2012/20121106__nh__general__state__house__town.csv"
+    },
+    {
+     "level": "county",
+     "path": "2012/20121106__nh__general__state__senate__town.csv"
+    },
+    {
+     "level": "county",
+     "path": "2012/20121106__nh__general__town.csv"
+    }
+   ],
+   "label": "house 1",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2000-09-12",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2000/20000912__nh__democratic__primary__governor__precinct.csv"
+    }
+   ],
+   "label": "primary governor",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "democratic"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2000-02-01",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2000/20000201__nh__republican__primary__president__precinct.csv"
+    }
+   ],
+   "label": "primary president",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "republican"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2000-02-01",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2000/20000201__nh__democratic__primary__president__precinct.csv"
+    }
+   ],
+   "label": "primary president",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "democratic"
+  }
+ ],
+ "generated_at": "2026-11-08T02:41:55Z",
+ "repo": "openelections-data-nh",
+ "state": "nh"
+}

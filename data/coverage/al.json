@@ -1,0 +1,523 @@
+{
+ "elections": [
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2026-08-11",
+   "files": [
+    {
+     "level": "county",
+     "path": "2026/20260811__al__special__county.csv"
+    }
+   ],
+   "label": "",
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_statewide": false,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2026-05-19",
+   "files": [
+    {
+     "level": "county",
+     "path": "2026/20260519__al__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__autauga__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__baldwin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__barbour__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__bibb__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__blount__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__bullock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__butler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__chambers__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__cherokee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__chilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__clarke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__cleburne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__coffee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__colbert__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__conecuh__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__coosa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__covington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__crenshaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__cullman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__dale__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__dallas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__dekalb__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__elmore__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__escambia__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__etowah__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__fayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__geneva__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__greene__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__hale__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__henry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__houston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__lamar__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__lauderdale__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__lee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__limestone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__lowndes__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__macon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__marengo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__mobile__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__morgan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__perry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__pickens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__pike__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__russell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__shelby__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__st_clair__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__sumter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__talladega__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__tallapoosa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__tuscaloosa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__walker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260519__al__primary__winston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties_paddleocr/20260519__al__primary__dallas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties_paddleocr/20260519__al__primary__etowah__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties_paddleocr/20260519__al__primary__lauderdale__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties_paddleocr/20260519__al__primary__lee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties_paddleocr/20260519__al__primary__mobile__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "autauga",
+    "baldwin",
+    "barbour",
+    "bibb",
+    "blount",
+    "bullock",
+    "butler",
+    "chambers",
+    "cherokee",
+    "chilton",
+    "clarke",
+    "clay",
+    "cleburne",
+    "coffee",
+    "colbert",
+    "conecuh",
+    "coosa",
+    "covington",
+    "crenshaw",
+    "cullman",
+    "dale",
+    "dallas",
+    "dekalb",
+    "elmore",
+    "escambia",
+    "etowah",
+    "fayette",
+    "franklin",
+    "geneva",
+    "greene",
+    "hale",
+    "henry",
+    "houston",
+    "jackson",
+    "jefferson",
+    "lamar",
+    "lauderdale",
+    "lawrence",
+    "lee",
+    "limestone",
+    "lowndes",
+    "macon",
+    "madison",
+    "marengo",
+    "marion",
+    "marshall",
+    "mobile",
+    "monroe",
+    "montgomery",
+    "morgan",
+    "perry",
+    "pickens",
+    "pike",
+    "russell",
+    "shelby",
+    "st_clair",
+    "sumter",
+    "talladega",
+    "tallapoosa",
+    "tuscaloosa",
+    "walker",
+    "washington",
+    "winston"
+   ],
+   "precinct_statewide": false,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2020-11-03",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2020/20201103__al__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2020-03-03",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2020/20200303__al__primary__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20181106__al__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2018-06-05",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20180605__al__primary__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2017-12-12",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2017/20171212__al__special__general__precinct.csv"
+    }
+   ],
+   "label": "general",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-11-08",
+   "files": [
+    {
+     "level": "county",
+     "path": "2016/20161108__al__general.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__al__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2016-03-01",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2016/20160301__al__primary__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2014-11-04",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2014/20141104__al__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_derivable": true,
+   "date": "2012-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2012/20121106__al__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_statewide": true,
+   "type": "general"
+  }
+ ],
+ "generated_at": "2026-11-08T02:41:55Z",
+ "repo": "openelections-data-al",
+ "state": "al"
+}

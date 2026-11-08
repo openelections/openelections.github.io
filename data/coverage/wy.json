@@ -1,0 +1,3407 @@
+{
+ "elections": [
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2026-08-18",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2026/20260818__wy__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260818__wy__primary__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2024-11-05",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2024/20241105__wy__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20241105__wy__general__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2024-08-20",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2024/20240820__wy__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2024/20240820__wy__primary__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2022-11-08",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2022/20221108__wy__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__wy__general__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2022-08-16",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2022/20220816__wy__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20220816__wy__primary__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-11-03",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2020/20201103__wy__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__wy__general__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2020-08-18",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2020/20200818__wy__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20200818__wy__primary__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2018-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2018/20181106__wy__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20181106__wy__general__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2018-08-21",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2018/20180821__wy__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2018/20180821__wy__primary__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-11-08",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2016/20161108__wy__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20161108__wy__general__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2016-08-16",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2016/20160816__wy__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2016/20160816__wy__primary__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-11-04",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2014/20141104__wy__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20141104__wy__general__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2014-08-19",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2014/20140819__wy__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2014/20140819__wy__primary__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2012/20121106__wy__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20121106__wy__general__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2012-08-21",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2012/20120821__wy__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/20120821__wy__primary__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2010-11-02",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2010/20101102__wy__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20101102__wy__general__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2010-08-17",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2010/20100817__wy__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2010/20100817__wy__primary__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2008-11-04",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2008/20081104__wy__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20081104__wy__general__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2008-08-19",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2008/20080819__wy__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2008/20080819__wy__primary__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2004-11-02",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20041102__wy__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20041102__wy__general__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2004-08-17",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2004/20040817__wy__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2004/20040817__wy__primary__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2002-11-05",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2002/20021105__wy__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20021105__wy__general__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2002-08-20",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2002/20020820__wy__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2002/20020820__wy__primary__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2000-11-07",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20001107__wy__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20001107__wy__general__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": true,
+   "county_derivable": false,
+   "date": "2000-08-22",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__albany__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__big_horn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__campbell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__carbon__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__converse__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2000/20000822__wy__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__crook__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__fremont__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__goshen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__hot_springs__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__johnson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__laramie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__natrona__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__niobrara__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__park__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__platte__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__sheridan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__sublette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__sweetwater__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__teton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__uinta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__washakie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2000/20000822__wy__primary__weston__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "albany",
+    "big_horn",
+    "campbell",
+    "carbon",
+    "converse",
+    "crook",
+    "fremont",
+    "goshen",
+    "hot_springs",
+    "johnson",
+    "laramie",
+    "lincoln",
+    "natrona",
+    "niobrara",
+    "park",
+    "platte",
+    "sheridan",
+    "sublette",
+    "sweetwater",
+    "teton",
+    "uinta",
+    "washakie",
+    "weston"
+   ],
+   "precinct_statewide": true,
+   "type": "primary"
+  }
+ ],
+ "generated_at": "2026-11-08T02:41:55Z",
+ "repo": "openelections-data-wy",
+ "state": "wy"
+}
