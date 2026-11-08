@@ -232,53 +232,73 @@ async function loadStateData(abbr) {
   
   let repoCount = 0;
   let totalYears = 0;
+  let rateLimited = false;
   
   try {
-    // Check for data and sources repos
+    // Election coverage first: served from this site as static JSON, it works
+    // even when GitHub's API rate-limits the browser (60/hr unauthenticated)
+    let coverage = null;
+    try {
+      const covRes = await fetch(`/data/coverage/${abbr}.json`);
+      if (covRes.ok) {
+        const doc = await covRes.json();
+        if (doc.elections && doc.elections.length) coverage = doc;
+      }
+    } catch (e) {
+      console.warn('No coverage data for ' + abbr, e);
+    }
+
+    // Check for data and sources repos (detect rate limiting, don't just fail)
     const dataRepo = `openelections-data-${abbr}`;
     const sourcesRepo = `openelections-sources-${abbr}`;
-    
+    const ghRepo = async (repo) => {
+      try {
+        const r = await fetch(`https://api.github.com/repos/openelections/${repo}`);
+        if (r.status === 403 || r.status === 429) { rateLimited = true; return null; }
+        return r.ok ? r.json() : null;
+      } catch (e) { return null; }
+    };
+
     // Simple fetch calls
-    const [dataRes, sourcesRes] = await Promise.all([
-      fetch(`https://api.github.com/repos/openelections/${dataRepo}`).then(r => r.ok ? r.json() : null),
-      fetch(`https://api.github.com/repos/openelections/${sourcesRepo}`).then(r => r.ok ? r.json() : null)
-    ]);
-    
+    const [dataRes, sourcesRes] = await Promise.all([ghRepo(dataRepo), ghRepo(sourcesRepo)]);
+
     const dataExists = dataRes !== null;
     const sourcesExists = sourcesRes !== null;
-    
+    // GitHub API may fail transiently (or be rate limited) - coverage stays local
+    const apiUnreachable = !dataExists || !sourcesExists;
+
     if (dataExists) repoCount++;
     if (sourcesExists) repoCount++;
-    
+
+    // Years: when coverage exists we can derive them from it and skip the
+    // /contents API call entirely
+    const yearsFromCoverage = coverage
+      ? [...new Set(coverage.elections.flatMap(e => e.files.map(f => f.path.split('/')[0])))]
+          .sort((a, b) => b - a)
+      : null;
+
     // Data Card
     if (dataExists) {
       cards.innerHTML += renderRepoCard(dataRes, 'Data Repository', 'fa-database', 'primary');
-      
-      // Years Card - get directory listing
-      const yearsRes = await fetch(`https://api.github.com/repos/openelections/${dataRepo}/contents`);
-      if (yearsRes.ok) {
-        const files = await yearsRes.json();
-        const years = files.filter(f => f.type === 'dir' && /^\d{4}$/.test(f.name)).map(f => f.name);
-        if (years.length) {
-          totalYears = years.length;
-          cards.innerHTML += renderYearsCard(years);
+
+      // Years Card - from coverage data if we have it, else the contents API
+      let years = yearsFromCoverage;
+      if (!years) {
+        const yearsRes = await fetch(`https://api.github.com/repos/openelections/${dataRepo}/contents`);
+        if (yearsRes.ok) {
+          const files = await yearsRes.json();
+          years = files.filter(f => f.type === 'dir' && /^\d{4}$/.test(f.name)).map(f => f.name).sort((a, b) => b - a);
         }
       }
-      
+      if (years && years.length) {
+        totalYears = years.length;
+        cards.innerHTML += renderYearsCard(years);
+      }
+
       // Election Coverage Card (static JSON built by scripts/build_coverage.py;
       // a state without a coverage file just gets no card)
-      try {
-        const covRes = await fetch(`/data/coverage/${abbr}.json`);
-        if (covRes.ok) {
-          const coverage = await covRes.json();
-          if (coverage.elections && coverage.elections.length) {
-            coverageElections = coverage.elections;
-            coverageRepo = coverage.repo;
-            cards.innerHTML += renderCoverageCard(coverage);
-          }
-        }
-      } catch (e) {
-        console.warn('No coverage data for ' + abbr, e);
+      if (coverage) {
+        cards.innerHTML += renderCoverageCard(coverage);
       }
 
       // Recent Changes Card
@@ -287,12 +307,20 @@ async function loadStateData(abbr) {
         const commits = await commitsRes.json();
         cards.innerHTML += renderCommitsCard(commits, 'Data Changes');
       }
+    } else if (coverage) {
+      // The API could not confirm the repo (rate limit or network), but the
+      // coverage and year data are local and reliable - show what we can
+      if (yearsFromCoverage.length) {
+        totalYears = yearsFromCoverage.length;
+        cards.innerHTML += renderYearsCard(yearsFromCoverage);
+      }
+      cards.innerHTML += renderCoverageCard(coverage);
     }
-    
+
     // Sources Card
     if (sourcesExists) {
       cards.innerHTML += renderRepoCard(sourcesRes, 'Sources Repository', 'fa-file-alt', 'info');
-      
+
       // Recent Changes Card
       const commitsRes = await fetch(`https://api.github.com/repos/openelections/${sourcesRepo}/commits?per_page=5`);
       if (commitsRes.ok) {
@@ -300,13 +328,24 @@ async function loadStateData(abbr) {
         cards.innerHTML += renderCommitsCard(commits, 'Source Changes');
       }
     }
-    
+
     // Update hero stats
-    heroRepos.textContent = repoCount;
+    if (rateLimited && !repoCount) {
+      heroRepos.textContent = '--';
+    } else {
+      heroRepos.textContent = repoCount;
+    }
     heroYears.textContent = totalYears || '--';
-    
+
     if (!dataExists && !sourcesExists) {
-      cards.innerHTML = `<div class='col-12'><div class='card border-0 shadow-sm'><div class='card-body text-center py-5'><div class='text-muted mb-3'><i class='fas fa-info-circle fa-3x'></i></div><h4 class='text-muted mb-3'>No Data Available Yet</h4><p class='text-muted mb-4'>We haven't created repositories for this state yet, but we're working on it!</p><a href='https://github.com/openelections' class='btn btn-primary' target='_blank'><i class='fab fa-github me-2'></i>View All Repositories</a></div></div></div>`;
+      // the coverage card (if any) is already on the page - append a note card
+      // rather than replacing it
+      const heading = rateLimited
+        ? `<h4 class='text-warning mb-3'>GitHub API rate limit reached</h4><p class='text-muted mb-4'>This page makes unauthenticated GitHub API requests, which are capped at 60 per hour per visitor. Please try again in a little while.</p>`
+        : `<h4 class='text-muted mb-3'>GitHub couldn't be reached</h4><p class='text-muted mb-4'>Repository details and recent changes load from the GitHub API, and a request just failed. Retry in a moment.</p>`;
+      cards.innerHTML += `<div class='col-12'><div class='card border-0 shadow-sm'><div class='card-body text-center py-5'><div class='text-${rateLimited ? 'warning' : 'muted'} mb-3'><i class='fas ${rateLimited ? 'fa-hourglass-half' : 'fa-cloud'} fa-3x'></i></div>${heading}${coverage ? '' : "<p class='text-muted'>Election coverage is not available for this state yet.</p>"}<a href='https://github.com/openelections' class='btn btn-primary' target='_blank'><i class='fab fa-github me-2'></i>View All Repositories</a></div></div></div>`;
+    } else if (apiUnreachable && coverage) {
+      cards.innerHTML += `<div class='col-12'><div class='card border-0 shadow-sm'><div class='card-body text-center py-3 text-warning'><i class='fas fa-hourglass-half me-2'></i>Some GitHub API requests failed, so part of this page is incomplete. Election coverage below is unaffected.</div></div></div>`;
     }
     loading.classList.add('d-none');
     content.classList.remove('d-none');
@@ -314,8 +353,24 @@ async function loadStateData(abbr) {
     console.error('Error loading state data:', e);
     heroRepos.textContent = '--';
     heroYears.textContent = '--';
-    loading.classList.add('d-none');
-    error.classList.remove('d-none');
+    // The coverage card is local and independent of the API - still show it
+    try {
+      const covRes = await fetch(`/data/coverage/${abbr}.json`);
+      if (covRes.ok) {
+        const doc = await covRes.json();
+        if (doc.elections && doc.elections.length) {
+          cards.innerHTML = '<div class="col-12 mb-4"><div class="card border-0 shadow-sm"><div class="card-body text-center py-4"><h5 class="text-warning mb-2"><i class="fas fa-hourglass-half me-2"></i>GitHub API request failed</h5><p class="text-muted mb-0">Repository details could not be loaded, but election coverage is still available below.</p></div></div></div>';
+          cards.innerHTML += renderCoverageCard(doc);
+        }
+      }
+    } catch (e2) { console.warn('Coverage fallback failed', e2); }
+    if (cards.innerHTML) {
+      loading.classList.add('d-none');
+      content.classList.remove('d-none');
+    } else {
+      loading.classList.add('d-none');
+      error.classList.remove('d-none');
+    }
   }
 }
 function renderRepoCard(repo, label, icon, color) {
