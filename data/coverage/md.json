@@ -1,6 +1,7 @@
 {
  "elections": [],
- "generated_at": "2026-11-08T11:44:51Z",
+ "generated_at": "2026-11-09T16:33:29Z",
  "repo": "openelections-data-md",
- "state": "md"
+ "state": "md",
+ "total_counties": 23
 }

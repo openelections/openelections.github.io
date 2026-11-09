@@ -653,334 +653,6 @@
     },
     {
      "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__adams__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__alcorn__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__amite__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__attala__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__benton__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__bolivar__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__calhoun__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__carroll__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__chickasaw__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__choctaw__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__claiborne__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__clarke__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__clay__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__coahoma__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__copiah__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__covington__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__desoto__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__forrest__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__franklin__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__george__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__greene__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__grenada__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__hancock__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__harrison__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__hinds__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__holmes__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__humphreys__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__issaquena__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__itawamba__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__jackson__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__jasper__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__jeff_davis__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__jefferson__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__jones__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__kemper__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__lafayette__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__lamar__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__lauderdale__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__lawrence__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__leake__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__lee__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__leflore__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__lincoln__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__lowndes__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__madison__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__marion__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__marshall__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__monroe__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__montgomery__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__neshoba__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__newton__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__noxubee__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__oktibbeha__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__panola__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__pearl_river__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__perry__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__pike__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__pontotoc__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__prentiss__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__quitman__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__rankin__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__scott__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__sharkey__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__simpson__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__smith__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__stone__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__sunflower__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__tallahatchie__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__tate__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__tippah__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__tishomingo__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__tunica__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__union__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__walthall__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__warren__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__washington__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__wayne__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__webster__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__wilkinson__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__winston__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__yalobusha__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties-staging/20241105__ms__general__yazoo__precinct.csv"
-    },
-    {
-     "level": "precinct",
      "path": "2024/counties/20241105__ms__general__adams__precinct.csv"
     },
     {
@@ -1392,8 +1064,7 @@
     "Wilkinson County",
     "Winston County",
     "Yalobusha County",
-    "Yazoo County",
-    "jeff davis"
+    "Yazoo County"
    ],
    "precinct_missing": [],
    "precinct_statewide": true,
@@ -1863,230 +1534,64 @@
     {
      "level": "county",
      "path": "2023/20230808__ms__republican__primary__county.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__adams__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__amite__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__benton__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__bolivar__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__carroll__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__chickasaw__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__claiborne__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__clarke__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__coahoma__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__copiah__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__covington__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__forrest__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__franklin__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__greene__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__holmes__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__humphreys__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__issaquena__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__jasper__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__jeff_davis__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__jefferson__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__kemper__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__lee__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__marion__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__marshall__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__montgomery__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__noxubee__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__quitman__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__sharkey__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__sunflower__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__tallahatchie__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__tishomingo__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__tunica__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__walthall__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__washington__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__wayne__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__wilkinson__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__winston__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-gop-primary/20230808__ms__republican__primary__yalobusha__precinct.csv"
     }
    ],
    "label": "primary",
-   "precinct": true,
-   "precinct_counties": [
+   "precinct": false,
+   "precinct_counties": [],
+   "precinct_missing": [
     "Adams County",
+    "Alcorn County",
     "Amite County",
+    "Attala County",
     "Benton County",
     "Bolivar County",
+    "Calhoun County",
     "Carroll County",
     "Chickasaw County",
+    "Choctaw County",
     "Claiborne County",
     "Clarke County",
+    "Clay County",
     "Coahoma County",
     "Copiah County",
     "Covington County",
+    "DeSoto County",
     "Forrest County",
     "Franklin County",
-    "Greene County",
-    "Holmes County",
-    "Humphreys County",
-    "Issaquena County",
-    "Jasper County",
-    "Jefferson County",
-    "Kemper County",
-    "Lee County",
-    "Marion County",
-    "Marshall County",
-    "Montgomery County",
-    "Noxubee County",
-    "Quitman County",
-    "Sharkey County",
-    "Sunflower County",
-    "Tallahatchie County",
-    "Tishomingo County",
-    "Tunica County",
-    "Walthall County",
-    "Washington County",
-    "Wayne County",
-    "Wilkinson County",
-    "Winston County",
-    "Yalobusha County",
-    "jeff davis"
-   ],
-   "precinct_missing": [
-    "Alcorn County",
-    "Attala County",
-    "Calhoun County",
-    "Choctaw County",
-    "Clay County",
-    "DeSoto County",
     "George County",
+    "Greene County",
     "Grenada County",
     "Hancock County",
     "Harrison County",
     "Hinds County",
+    "Holmes County",
+    "Humphreys County",
+    "Issaquena County",
     "Itawamba County",
     "Jackson County",
+    "Jasper County",
+    "Jefferson County",
     "Jefferson Davis County",
     "Jones County",
+    "Kemper County",
     "Lafayette County",
     "Lamar County",
     "Lauderdale County",
     "Lawrence County",
     "Leake County",
+    "Lee County",
     "Leflore County",
     "Lincoln County",
     "Lowndes County",
     "Madison County",
+    "Marion County",
+    "Marshall County",
     "Monroe County",
+    "Montgomery County",
     "Neshoba County",
     "Newton County",
+    "Noxubee County",
     "Oktibbeha County",
     "Panola County",
     "Pearl River County",
@@ -2094,16 +1599,28 @@
     "Pike County",
     "Pontotoc County",
     "Prentiss County",
+    "Quitman County",
     "Rankin County",
     "Scott County",
+    "Sharkey County",
     "Simpson County",
     "Smith County",
     "Stone County",
+    "Sunflower County",
+    "Tallahatchie County",
     "Tate County",
     "Tippah County",
+    "Tishomingo County",
+    "Tunica County",
     "Union County",
+    "Walthall County",
     "Warren County",
+    "Washington County",
+    "Wayne County",
     "Webster County",
+    "Wilkinson County",
+    "Winston County",
+    "Yalobusha County",
     "Yazoo County"
    ],
    "precinct_statewide": false,
@@ -2124,422 +1641,11 @@
     {
      "level": "precinct",
      "path": "2023/20230808__ms__democratic__primary__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__adams__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__alcorn__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__amite__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__attala__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__benton__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__bolivar__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__calhoun__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__carroll__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__chickasaw__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__choctaw__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__claiborne__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__clarke__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__clay__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__coahoma__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__copiah__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__covington__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__desoto__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__forrest__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__franklin__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__george__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__greene__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__grenada__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__hancock__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__harrison__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__hinds__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__holmes__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__humphreys__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__issaquena__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__itawamba__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__jackson__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__jasper__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__jeff_davis__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__jefferson__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__jones__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__kemper__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__lafayette__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__lamar__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__lauderdale__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__lawrence__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__leake__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__lee__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__leflore__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__lincoln__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__lowndes__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__madison__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__marion__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__marshall__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__monroe__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__montgomery__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__neshoba__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__newton__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__noxubee__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__oktibbeha__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__panola__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__pearl_river__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__perry__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__pike__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__pontotoc__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__prentiss__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__quitman__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__rankin__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__scott__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__sharkey__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__simpson__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__smith__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__stone__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__sunflower__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__tallahatchie__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__tate__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__tippah__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__tishomingo__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__tunica__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__union__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__walthall__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__warren__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__washington__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__wayne__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__webster__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__wilkinson__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__winston__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__yalobusha__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2023/counties-staging-dem-primary/20230808__ms__democratic__primary__yazoo__precinct.csv"
     }
    ],
    "label": "primary",
    "precinct": true,
-   "precinct_counties": [
-    "Adams County",
-    "Alcorn County",
-    "Amite County",
-    "Attala County",
-    "Benton County",
-    "Bolivar County",
-    "Calhoun County",
-    "Carroll County",
-    "Chickasaw County",
-    "Choctaw County",
-    "Claiborne County",
-    "Clarke County",
-    "Clay County",
-    "Coahoma County",
-    "Copiah County",
-    "Covington County",
-    "DeSoto County",
-    "Forrest County",
-    "Franklin County",
-    "George County",
-    "Greene County",
-    "Grenada County",
-    "Hancock County",
-    "Harrison County",
-    "Hinds County",
-    "Holmes County",
-    "Humphreys County",
-    "Issaquena County",
-    "Itawamba County",
-    "Jackson County",
-    "Jasper County",
-    "Jefferson County",
-    "Jones County",
-    "Kemper County",
-    "Lafayette County",
-    "Lamar County",
-    "Lauderdale County",
-    "Lawrence County",
-    "Leake County",
-    "Lee County",
-    "Leflore County",
-    "Lincoln County",
-    "Lowndes County",
-    "Madison County",
-    "Marion County",
-    "Marshall County",
-    "Monroe County",
-    "Montgomery County",
-    "Neshoba County",
-    "Newton County",
-    "Noxubee County",
-    "Oktibbeha County",
-    "Panola County",
-    "Pearl River County",
-    "Perry County",
-    "Pike County",
-    "Pontotoc County",
-    "Prentiss County",
-    "Quitman County",
-    "Rankin County",
-    "Scott County",
-    "Sharkey County",
-    "Simpson County",
-    "Smith County",
-    "Stone County",
-    "Sunflower County",
-    "Tallahatchie County",
-    "Tate County",
-    "Tippah County",
-    "Tishomingo County",
-    "Tunica County",
-    "Union County",
-    "Walthall County",
-    "Warren County",
-    "Washington County",
-    "Wayne County",
-    "Webster County",
-    "Wilkinson County",
-    "Winston County",
-    "Yalobusha County",
-    "Yazoo County",
-    "jeff davis"
-   ],
+   "precinct_counties": [],
    "precinct_missing": [],
    "precinct_statewide": true,
    "type": "democratic"
@@ -17329,7 +16435,7 @@
    "type": "democratic"
   }
  ],
- "generated_at": "2026-11-08T12:18:29Z",
+ "generated_at": "2026-11-09T16:33:37Z",
  "repo": "openelections-data-ms",
  "state": "ms",
  "total_counties": 82

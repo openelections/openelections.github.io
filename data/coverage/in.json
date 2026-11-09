@@ -1,11 +1,11 @@
 {
  "elections": [
   {
-   "county": true,
+   "county": false,
    "county_counties": [],
-   "county_derivable": false,
+   "county_derivable": true,
    "county_missing": [],
-   "county_statewide": true,
+   "county_statewide": false,
    "date": "2024-11-05",
    "files": [
     {
@@ -47,10 +47,6 @@
     {
      "level": "precinct",
      "path": "2024/counties/20241105__in__general__clark__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2024/counties/20241105__in__general__clark__precinct.parsed.csv"
     },
     {
      "level": "precinct",
@@ -385,7 +381,7 @@
      "path": "2024/counties/20241105__in__general__whitley__precinct.csv"
     }
    ],
-   "label": "clark precinct.parsed",
+   "label": "",
    "precinct": true,
    "precinct_counties": [
     "Adams County",
@@ -482,7 +478,7 @@
     "Whitley County"
    ],
    "precinct_missing": [],
-   "precinct_statewide": true,
+   "precinct_statewide": false,
    "type": "general"
   },
   {
@@ -3703,7 +3699,7 @@
    "type": "primary"
   }
  ],
- "generated_at": "2026-11-08T12:18:29Z",
+ "generated_at": "2026-11-09T16:33:22Z",
  "repo": "openelections-data-in",
  "state": "in",
  "total_counties": 92

@@ -2,7 +2,10 @@
  "elections": [
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2018-11-06",
    "files": [
     {
@@ -13,12 +16,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2016-11-08",
    "files": [
     {
@@ -37,12 +44,16 @@
    "label": "district",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2008-02-12",
    "files": [
     {
@@ -61,12 +72,16 @@
    "label": "president",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2007-08-21",
    "files": [
     {
@@ -77,12 +92,18 @@
    "label": "general",
    "precinct": false,
    "precinct_counties": [],
+   "precinct_missing": [
+    "District of Columbia"
+   ],
    "precinct_statewide": false,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2007-05-01",
    "files": [
     {
@@ -93,12 +114,16 @@
    "label": "general",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "special"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2006-11-07",
    "files": [
     {
@@ -117,12 +142,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2006-09-12",
    "files": [
     {
@@ -141,12 +170,16 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "primary"
   },
   {
    "county": false,
+   "county_counties": [],
    "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2004-11-02",
    "files": [
     {
@@ -165,11 +198,13 @@
    "label": "",
    "precinct": true,
    "precinct_counties": [],
+   "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
   }
  ],
- "generated_at": "2026-11-08T11:44:36Z",
+ "generated_at": "2026-11-09T16:33:13Z",
  "repo": "openelections-data-dc",
- "state": "dc"
+ "state": "dc",
+ "total_counties": 1
 }

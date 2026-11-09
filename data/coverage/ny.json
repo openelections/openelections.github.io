@@ -10,10 +10,6 @@
    "files": [
     {
      "level": "precinct",
-     "path": "2026/20260623__ny__primary__precinct.csv"
-    },
-    {
-     "level": "precinct",
      "path": "2026/counties/20260623__ny__primary__allegany__precinct.csv"
     },
     {
@@ -192,8 +188,36 @@
     "Washington County",
     "Westchester County"
    ],
-   "precinct_missing": [],
-   "precinct_statewide": true,
+   "precinct_missing": [
+    "Albany County",
+    "Broome County",
+    "Cayuga County",
+    "Clinton County",
+    "Delaware County",
+    "Franklin County",
+    "Genesee County",
+    "Greene County",
+    "Hamilton County",
+    "Herkimer County",
+    "Jefferson County",
+    "Lewis County",
+    "Nassau County",
+    "Onondaga County",
+    "Ontario County",
+    "Rockland County",
+    "Schenectady County",
+    "Schoharie County",
+    "Schuyler County",
+    "Seneca County",
+    "Steuben County",
+    "Suffolk County",
+    "Tompkins County",
+    "Ulster County",
+    "Wayne County",
+    "Wyoming County",
+    "Yates County"
+   ],
+   "precinct_statewide": false,
    "type": "primary"
   },
   {
@@ -6392,7 +6416,7 @@
    "type": "general"
   }
  ],
- "generated_at": "2026-11-08T12:18:30Z",
+ "generated_at": "2026-11-09T16:33:52Z",
  "repo": "openelections-data-ny",
  "state": "ny",
  "total_counties": 62

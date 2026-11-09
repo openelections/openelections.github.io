@@ -1,101 +1,6 @@
 {
  "elections": [
   {
-   "county": true,
-   "county_counties": [],
-   "county_derivable": false,
-   "county_missing": [],
-   "county_statewide": true,
-   "date": "2026-06-02",
-   "files": [
-    {
-     "level": "county",
-     "path": "2026/20260602__nj__primary__county.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__atlantic__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__burlington__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__camden__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__cape_may__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__essex__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__hunterdon__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__middlesex__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__monmouth__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__ocean__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__passaic__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__somerset__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__union__precinct.csv"
-    },
-    {
-     "level": "precinct",
-     "path": "2026/counties/20260602__nj__primary__warren__precinct.csv"
-    }
-   ],
-   "label": "",
-   "precinct": true,
-   "precinct_counties": [
-    "Atlantic County",
-    "Burlington County",
-    "Camden County",
-    "Cape May County",
-    "Essex County",
-    "Hunterdon County",
-    "Middlesex County",
-    "Monmouth County",
-    "Ocean County",
-    "Passaic County",
-    "Somerset County",
-    "Union County",
-    "Warren County"
-   ],
-   "precinct_missing": [
-    "Bergen County",
-    "Cumberland County",
-    "Gloucester County",
-    "Hudson County",
-    "Mercer County",
-    "Morris County",
-    "Salem County",
-    "Sussex County"
-   ],
-   "precinct_statewide": false,
-   "type": "primary"
-  },
-  {
    "county": false,
    "county_counties": [],
    "county_derivable": true,
@@ -286,10 +191,6 @@
     },
     {
      "level": "precinct",
-     "path": "2020/20201103__nj__general__burlington__precinct.csv"
-    },
-    {
-     "level": "precinct",
      "path": "2020/20201103__nj__general__camden__precinct.csv"
     },
     {
@@ -338,7 +239,6 @@
    "precinct_counties": [
     "Atlantic County",
     "Bergen County",
-    "Burlington County",
     "Camden County",
     "Essex County",
     "Gloucester County",
@@ -352,6 +252,7 @@
     "Warren County"
    ],
    "precinct_missing": [
+    "Burlington County",
     "Cape May County",
     "Cumberland County",
     "Hunterdon County",
@@ -1607,7 +1508,7 @@
    "type": "primary"
   }
  ],
- "generated_at": "2026-11-08T12:18:30Z",
+ "generated_at": "2026-11-09T16:33:43Z",
  "repo": "openelections-data-nj",
  "state": "nj",
  "total_counties": 21

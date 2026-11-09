@@ -1,11 +1,11 @@
 {
  "elections": [
   {
-   "county": false,
+   "county": true,
    "county_counties": [],
-   "county_derivable": true,
+   "county_derivable": false,
    "county_missing": [],
-   "county_statewide": false,
+   "county_statewide": true,
    "date": "2020-11-03",
    "files": [
     {
@@ -15,6 +15,10 @@
     {
      "level": "precinct",
      "path": "2020/20201103__id__general__camas__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2020/20201103__id__general__county.csv"
     },
     {
      "level": "precinct",
@@ -31,6 +35,10 @@
     {
      "level": "precinct",
      "path": "2020/20201103__id__general__owyhee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__id__general__precinct.csv"
     }
    ],
    "label": "",
@@ -43,47 +51,8 @@
     "Idaho County",
     "Owyhee County"
    ],
-   "precinct_missing": [
-    "Ada County",
-    "Adams County",
-    "Bannock County",
-    "Bear Lake County",
-    "Benewah County",
-    "Bingham County",
-    "Blaine County",
-    "Boise County",
-    "Bonner County",
-    "Bonneville County",
-    "Boundary County",
-    "Canyon County",
-    "Caribou County",
-    "Cassia County",
-    "Clark County",
-    "Clearwater County",
-    "Elmore County",
-    "Franklin County",
-    "Fremont County",
-    "Gooding County",
-    "Jefferson County",
-    "Jerome County",
-    "Kootenai County",
-    "Latah County",
-    "Lemhi County",
-    "Lewis County",
-    "Lincoln County",
-    "Madison County",
-    "Minidoka County",
-    "Nez Perce County",
-    "Oneida County",
-    "Payette County",
-    "Power County",
-    "Shoshone County",
-    "Teton County",
-    "Twin Falls County",
-    "Valley County",
-    "Washington County"
-   ],
-   "precinct_statewide": false,
+   "precinct_missing": [],
+   "precinct_statewide": true,
    "type": "general"
   },
   {
@@ -817,7 +786,7 @@
    "type": "primary"
   }
  ],
- "generated_at": "2026-11-08T12:18:29Z",
+ "generated_at": "2026-11-09T16:33:21Z",
  "repo": "openelections-data-id",
  "state": "id",
  "total_counties": 44

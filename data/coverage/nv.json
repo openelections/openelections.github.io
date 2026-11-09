@@ -6,6 +6,26 @@
    "county_derivable": true,
    "county_missing": [],
    "county_statewide": false,
+   "date": "2022-11-08",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2022/20221108__nv__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_missing": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_counties": [],
+   "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2020-11-03",
    "files": [
     {
@@ -2487,7 +2507,7 @@
    "type": "primary"
   }
  ],
- "generated_at": "2026-11-08T12:18:30Z",
+ "generated_at": "2026-11-09T16:33:51Z",
  "repo": "openelections-data-nv",
  "state": "nv",
  "total_counties": 17

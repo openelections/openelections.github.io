@@ -1,6 +1,7 @@
 {
  "elections": [],
- "generated_at": "2026-11-08T11:45:24Z",
+ "generated_at": "2026-11-09T16:34:09Z",
  "repo": "openelections-data-va",
- "state": "va"
+ "state": "va",
+ "total_counties": 129
 }

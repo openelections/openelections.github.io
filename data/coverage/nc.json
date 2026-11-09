@@ -1,6 +1,7 @@
 {
  "elections": [],
- "generated_at": "2026-11-08T11:44:59Z",
+ "generated_at": "2026-11-09T16:33:39Z",
  "repo": "openelections-data-nc",
- "state": "nc"
+ "state": "nc",
+ "total_counties": 100
 }

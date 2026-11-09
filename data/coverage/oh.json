@@ -1,6 +1,30 @@
 {
  "elections": [
   {
+   "county": true,
+   "county_counties": [],
+   "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
+   "date": "2020-11-03",
+   "files": [
+    {
+     "level": "county",
+     "path": "2020/20201103__oh__general__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2020/20201103__oh__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_missing": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
    "county": false,
    "county_counties": [],
    "county_derivable": true,
@@ -2119,7 +2143,7 @@
    "type": "democratic"
   }
  ],
- "generated_at": "2026-11-08T12:18:30Z",
+ "generated_at": "2026-11-09T16:33:54Z",
  "repo": "openelections-data-oh",
  "state": "oh",
  "total_counties": 88
