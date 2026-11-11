@@ -21621,48 +21621,601 @@
     {
      "level": "county",
      "path": "2012/20120529__tx__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__anderson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__angelina__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__atascosa__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__austin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__bee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__bell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__bexar__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__bosque__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__bowie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__brazoria__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__burleson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__burnet__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__cameron__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__cherokee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__childress__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__coke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__coleman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__collin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__colorado__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__comal__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__cooke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__coryell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__crane__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__dallas__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__delta__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__democratic__brewster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__democratic__concho__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__democratic__mcculloch__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__democratic__medina__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__democratic__nolan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__democratic__presidio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__democratic__sherman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__democratic__stonewall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__democratic__terrell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__democratic__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__democratic__willacy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__democratic__zapata__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__denton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__dewitt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__dickens__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__eastland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__ector__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__el_paso__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__ellis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__falls__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__fannin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__fort_bend__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__freestone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__garza__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__gonzales__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__gray__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__grayson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__gregg__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__hale__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__hamilton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__harris__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__harrison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__hays__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__hidalgo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__hood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__hopkins__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__hunt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__irion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__jack__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__jim_wells__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__jones__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__kaufman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__kendall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__kerr__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__lamar__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__lavaca__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__liberty__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__limestone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__lubbock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__matagorda__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__mclennan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__mcmullen__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__menard__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__midland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__milam__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__mitchell__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__montague__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__morris__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__nacogdoches__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__navarro__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__nueces__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__orange__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__palo_pinto__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__parker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__polk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__potter__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__randall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__reagan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__refugio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__republican__blanco__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__republican__callahan__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__republican__cass__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__republican__cochran__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__republican__concho__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__republican__erath__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__republican__fisher__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__republican__gaines__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__republican__goliad__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__republican__hall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__republican__hansford__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__republican__hockley__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__republican__oldham__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__republican__panola__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__republican__roberts__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__republican__val_verde__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__republican__willacy__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__robertson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__rusk__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__san_augustine__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__san_jacinto__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__san_patricio__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__schleicher__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__scurry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__shelby__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__smith__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__sterling__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__sutton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__tarrant__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__taylor__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__tom_green__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__travis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__upshur__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__uvalde__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__van_zandt__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__victoria__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__walker__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__wharton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__wheeler__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__williamson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__wise__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__wood__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2012/counties/20120529__tx__primary__young__precinct.csv"
     }
    ],
-   "label": "",
-   "precinct": false,
-   "precinct_counties": [],
-   "precinct_missing": [
+   "label": "republican",
+   "precinct": true,
+   "precinct_counties": [
     "Anderson County",
-    "Andrews County",
     "Angelina County",
-    "Aransas County",
-    "Archer County",
-    "Armstrong County",
     "Atascosa County",
     "Austin County",
-    "Bailey County",
-    "Bandera County",
-    "Bastrop County",
-    "Baylor County",
     "Bee County",
     "Bell County",
     "Bexar County",
     "Blanco County",
-    "Borden County",
     "Bosque County",
     "Bowie County",
     "Brazoria County",
-    "Brazos County",
     "Brewster County",
-    "Briscoe County",
-    "Brooks County",
-    "Brown County",
     "Burleson County",
     "Burnet County",
-    "Caldwell County",
     "Calhoun County",
     "Callahan County",
     "Cameron County",
-    "Camp County",
-    "Carson County",
     "Cass County",
-    "Castro County",
-    "Chambers County",
     "Cherokee County",
     "Childress County",
     "Clay County",
@@ -21670,122 +22223,62 @@
     "Coke County",
     "Coleman County",
     "Collin County",
-    "Collingsworth County",
     "Colorado County",
     "Comal County",
-    "Comanche County",
     "Concho County",
     "Cooke County",
     "Coryell County",
-    "Cottle County",
     "Crane County",
-    "Crockett County",
-    "Crosby County",
-    "Culberson County",
-    "Dallam County",
     "Dallas County",
-    "Dawson County",
     "DeWitt County",
-    "Deaf Smith County",
     "Delta County",
     "Denton County",
     "Dickens County",
-    "Dimmit County",
-    "Donley County",
-    "Duval County",
     "Eastland County",
     "Ector County",
-    "Edwards County",
     "El Paso County",
     "Ellis County",
     "Erath County",
     "Falls County",
     "Fannin County",
-    "Fayette County",
     "Fisher County",
-    "Floyd County",
-    "Foard County",
     "Fort Bend County",
-    "Franklin County",
     "Freestone County",
-    "Frio County",
     "Gaines County",
-    "Galveston County",
     "Garza County",
-    "Gillespie County",
-    "Glasscock County",
     "Goliad County",
     "Gonzales County",
     "Gray County",
     "Grayson County",
     "Gregg County",
-    "Grimes County",
-    "Guadalupe County",
     "Hale County",
     "Hall County",
     "Hamilton County",
     "Hansford County",
-    "Hardeman County",
-    "Hardin County",
     "Harris County",
     "Harrison County",
-    "Hartley County",
-    "Haskell County",
     "Hays County",
-    "Hemphill County",
-    "Henderson County",
     "Hidalgo County",
-    "Hill County",
     "Hockley County",
     "Hood County",
     "Hopkins County",
-    "Houston County",
-    "Howard County",
-    "Hudspeth County",
     "Hunt County",
-    "Hutchinson County",
     "Irion County",
     "Jack County",
-    "Jackson County",
-    "Jasper County",
-    "Jeff Davis County",
     "Jefferson County",
-    "Jim Hogg County",
     "Jim Wells County",
-    "Johnson County",
     "Jones County",
-    "Karnes County",
     "Kaufman County",
     "Kendall County",
-    "Kenedy County",
-    "Kent County",
     "Kerr County",
-    "Kimble County",
-    "King County",
-    "Kinney County",
-    "Kleberg County",
-    "Knox County",
-    "La Salle County",
     "Lamar County",
-    "Lamb County",
-    "Lampasas County",
     "Lavaca County",
-    "Lee County",
-    "Leon County",
     "Liberty County",
     "Limestone County",
-    "Lipscomb County",
-    "Live Oak County",
-    "Llano County",
-    "Loving County",
     "Lubbock County",
-    "Lynn County",
     "Madison County",
     "Marion County",
-    "Martin County",
-    "Mason County",
     "Matagorda County",
-    "Maverick County",
     "McCulloch County",
     "McLennan County",
     "McMullen County",
@@ -21793,93 +22286,173 @@
     "Menard County",
     "Midland County",
     "Milam County",
-    "Mills County",
     "Mitchell County",
     "Montague County",
     "Montgomery County",
-    "Moore County",
     "Morris County",
-    "Motley County",
     "Nacogdoches County",
     "Navarro County",
-    "Newton County",
     "Nolan County",
     "Nueces County",
-    "Ochiltree County",
     "Oldham County",
     "Orange County",
     "Palo Pinto County",
     "Panola County",
     "Parker County",
-    "Parmer County",
-    "Pecos County",
     "Polk County",
     "Potter County",
     "Presidio County",
-    "Rains County",
     "Randall County",
     "Reagan County",
-    "Real County",
-    "Red River County",
-    "Reeves County",
     "Refugio County",
     "Roberts County",
     "Robertson County",
-    "Rockwall County",
-    "Runnels County",
     "Rusk County",
-    "Sabine County",
     "San Augustine County",
     "San Jacinto County",
     "San Patricio County",
-    "San Saba County",
     "Schleicher County",
     "Scurry County",
-    "Shackelford County",
     "Shelby County",
     "Sherman County",
     "Smith County",
-    "Somervell County",
-    "Starr County",
-    "Stephens County",
     "Sterling County",
     "Stonewall County",
     "Sutton County",
-    "Swisher County",
     "Tarrant County",
     "Taylor County",
     "Terrell County",
-    "Terry County",
-    "Throckmorton County",
-    "Titus County",
     "Tom Green County",
     "Travis County",
-    "Trinity County",
-    "Tyler County",
     "Upshur County",
-    "Upton County",
     "Uvalde County",
     "Val Verde County",
     "Van Zandt County",
     "Victoria County",
     "Walker County",
-    "Waller County",
-    "Ward County",
     "Washington County",
-    "Webb County",
     "Wharton County",
     "Wheeler County",
-    "Wichita County",
-    "Wilbarger County",
     "Willacy County",
     "Williamson County",
-    "Wilson County",
-    "Winkler County",
     "Wise County",
     "Wood County",
-    "Yoakum County",
     "Young County",
-    "Zapata County",
+    "Zapata County"
+   ],
+   "precinct_missing": [
+    "Andrews County",
+    "Aransas County",
+    "Archer County",
+    "Armstrong County",
+    "Bailey County",
+    "Bandera County",
+    "Bastrop County",
+    "Baylor County",
+    "Borden County",
+    "Brazos County",
+    "Briscoe County",
+    "Brooks County",
+    "Brown County",
+    "Caldwell County",
+    "Camp County",
+    "Carson County",
+    "Castro County",
+    "Chambers County",
+    "Collingsworth County",
+    "Comanche County",
+    "Cottle County",
+    "Crockett County",
+    "Crosby County",
+    "Culberson County",
+    "Dallam County",
+    "Dawson County",
+    "Deaf Smith County",
+    "Dimmit County",
+    "Donley County",
+    "Duval County",
+    "Edwards County",
+    "Fayette County",
+    "Floyd County",
+    "Foard County",
+    "Franklin County",
+    "Frio County",
+    "Galveston County",
+    "Gillespie County",
+    "Glasscock County",
+    "Grimes County",
+    "Guadalupe County",
+    "Hardeman County",
+    "Hardin County",
+    "Hartley County",
+    "Haskell County",
+    "Hemphill County",
+    "Henderson County",
+    "Hill County",
+    "Houston County",
+    "Howard County",
+    "Hudspeth County",
+    "Hutchinson County",
+    "Jackson County",
+    "Jasper County",
+    "Jeff Davis County",
+    "Jim Hogg County",
+    "Johnson County",
+    "Karnes County",
+    "Kenedy County",
+    "Kent County",
+    "Kimble County",
+    "King County",
+    "Kinney County",
+    "Kleberg County",
+    "Knox County",
+    "La Salle County",
+    "Lamb County",
+    "Lampasas County",
+    "Lee County",
+    "Leon County",
+    "Lipscomb County",
+    "Live Oak County",
+    "Llano County",
+    "Loving County",
+    "Lynn County",
+    "Martin County",
+    "Mason County",
+    "Maverick County",
+    "Mills County",
+    "Moore County",
+    "Motley County",
+    "Newton County",
+    "Ochiltree County",
+    "Parmer County",
+    "Pecos County",
+    "Rains County",
+    "Real County",
+    "Red River County",
+    "Reeves County",
+    "Rockwall County",
+    "Runnels County",
+    "Sabine County",
+    "San Saba County",
+    "Shackelford County",
+    "Somervell County",
+    "Starr County",
+    "Stephens County",
+    "Swisher County",
+    "Terry County",
+    "Throckmorton County",
+    "Titus County",
+    "Trinity County",
+    "Tyler County",
+    "Upton County",
+    "Waller County",
+    "Ward County",
+    "Webb County",
+    "Wichita County",
+    "Wilbarger County",
+    "Wilson County",
+    "Winkler County",
+    "Yoakum County",
     "Zavala County"
    ],
    "precinct_statewide": false,
@@ -36683,7 +37256,7 @@
    "type": "special"
   }
  ],
- "generated_at": "2026-11-10T15:00:37Z",
+ "generated_at": "2026-11-11T14:31:30Z",
  "repo": "openelections-data-tx",
  "state": "tx",
  "total_counties": 254
