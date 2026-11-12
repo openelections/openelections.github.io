@@ -2848,9 +2848,29 @@
    ],
    "precinct_statewide": false,
    "type": "primary"
+  },
+  {
+   "county": false,
+   "county_counties": [],
+   "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
+   "date": "2012-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2012/20121106__sd__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_missing": [],
+   "precinct_statewide": true,
+   "type": "general"
   }
  ],
- "generated_at": "2026-11-11T14:31:26Z",
+ "generated_at": "2026-11-12T15:24:42Z",
  "repo": "openelections-data-sd",
  "state": "sd",
  "total_counties": 66
