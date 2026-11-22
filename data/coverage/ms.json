@@ -1,6 +1,433 @@
 {
  "elections": [
   {
+   "county": false,
+   "county_counties": [],
+   "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
+   "date": "2026-11-03",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__adams__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__alcorn__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__amite__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__attala__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__benton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__bolivar__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__calhoun__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__carroll__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__chickasaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__choctaw__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__claiborne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__clarke__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__clay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__coahoma__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__copiah__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__covington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__desoto__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__forrest__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__franklin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__george__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__greene__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__grenada__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__hancock__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__harrison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__hinds__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__holmes__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__humphreys__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__issaquena__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__itawamba__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__jackson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__jasper__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__jefferson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__jefferson_davis__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__jones__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__kemper__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__lafayette__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__lamar__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__lauderdale__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__lawrence__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__leake__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__lee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__leflore__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__lincoln__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__lowndes__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__madison__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__marion__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__marshall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__monroe__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__montgomery__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__neshoba__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__newton__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__noxubee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__oktibbeha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__panola__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__pearl_river__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__perry__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__pike__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__pontotoc__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__prentiss__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__quitman__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__rankin__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__scott__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__sharkey__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__simpson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__smith__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__stone__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__sunflower__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__tallahatchie__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__tate__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__tippah__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__tishomingo__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__tunica__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__union__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__walthall__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__warren__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__washington__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__wayne__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__webster__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__wilkinson__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__winston__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__yalobusha__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20261103__ms__general__yazoo__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [
+    "Adams County",
+    "Alcorn County",
+    "Amite County",
+    "Attala County",
+    "Benton County",
+    "Bolivar County",
+    "Calhoun County",
+    "Carroll County",
+    "Chickasaw County",
+    "Choctaw County",
+    "Claiborne County",
+    "Clarke County",
+    "Clay County",
+    "Coahoma County",
+    "Copiah County",
+    "Covington County",
+    "DeSoto County",
+    "Forrest County",
+    "Franklin County",
+    "George County",
+    "Greene County",
+    "Grenada County",
+    "Hancock County",
+    "Harrison County",
+    "Hinds County",
+    "Holmes County",
+    "Humphreys County",
+    "Issaquena County",
+    "Itawamba County",
+    "Jackson County",
+    "Jasper County",
+    "Jefferson County",
+    "Jefferson Davis County",
+    "Jones County",
+    "Kemper County",
+    "Lafayette County",
+    "Lamar County",
+    "Lauderdale County",
+    "Lawrence County",
+    "Leake County",
+    "Lee County",
+    "Leflore County",
+    "Lincoln County",
+    "Lowndes County",
+    "Madison County",
+    "Marion County",
+    "Marshall County",
+    "Monroe County",
+    "Montgomery County",
+    "Neshoba County",
+    "Newton County",
+    "Noxubee County",
+    "Oktibbeha County",
+    "Panola County",
+    "Pearl River County",
+    "Perry County",
+    "Pike County",
+    "Pontotoc County",
+    "Prentiss County",
+    "Quitman County",
+    "Rankin County",
+    "Scott County",
+    "Sharkey County",
+    "Simpson County",
+    "Smith County",
+    "Stone County",
+    "Sunflower County",
+    "Tallahatchie County",
+    "Tate County",
+    "Tippah County",
+    "Tishomingo County",
+    "Tunica County",
+    "Union County",
+    "Walthall County",
+    "Warren County",
+    "Washington County",
+    "Wayne County",
+    "Webster County",
+    "Wilkinson County",
+    "Winston County",
+    "Yalobusha County",
+    "Yazoo County"
+   ],
+   "precinct_missing": [],
+   "precinct_statewide": false,
+   "type": "general"
+  },
+  {
    "county": true,
    "county_counties": [],
    "county_derivable": false,
@@ -16435,7 +16862,7 @@
    "type": "democratic"
   }
  ],
- "generated_at": "2026-11-21T14:45:31Z",
+ "generated_at": "2026-11-22T14:42:17Z",
  "repo": "openelections-data-ms",
  "state": "ms",
  "total_counties": 82

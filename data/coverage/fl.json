@@ -6,6 +6,26 @@
    "county_derivable": true,
    "county_missing": [],
    "county_statewide": false,
+   "date": "2024-11-05",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2024/20241105__fl__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_missing": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_counties": [],
+   "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
    "date": "2022-11-08",
    "files": [
     {
@@ -1426,9 +1446,69 @@
    "precinct_missing": [],
    "precinct_statewide": true,
    "type": "general"
+  },
+  {
+   "county": false,
+   "county_counties": [],
+   "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
+   "date": "2016-11-08",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2016/20161108__fl__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_missing": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_counties": [],
+   "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
+   "date": "2014-11-04",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2014/20141104__fl__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_missing": [],
+   "precinct_statewide": true,
+   "type": "general"
+  },
+  {
+   "county": false,
+   "county_counties": [],
+   "county_derivable": true,
+   "county_missing": [],
+   "county_statewide": false,
+   "date": "2012-11-06",
+   "files": [
+    {
+     "level": "precinct",
+     "path": "2012/20121106__fl__general__precinct.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_missing": [],
+   "precinct_statewide": true,
+   "type": "general"
   }
  ],
- "generated_at": "2026-11-21T14:45:13Z",
+ "generated_at": "2026-11-22T14:41:57Z",
  "repo": "openelections-data-fl",
  "state": "fl",
  "total_counties": 67
