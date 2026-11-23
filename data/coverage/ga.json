@@ -6,6 +6,126 @@
    "county_derivable": false,
    "county_missing": [],
    "county_statewide": true,
+   "date": "2026-04-07",
+   "files": [
+    {
+     "level": "county",
+     "path": "2026/20260407__ga__special__county-level.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260407__ga__special__precinct-level.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_missing": [],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_counties": [],
+   "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
+   "date": "2026-03-10",
+   "files": [
+    {
+     "level": "county",
+     "path": "2026/20260310__ga__special__county-level.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260310__ga__special__precinct-level.csv"
+    }
+   ],
+   "label": "",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_missing": [],
+   "precinct_statewide": true,
+   "type": "special"
+  },
+  {
+   "county": true,
+   "county_counties": [],
+   "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
+   "date": "2026-02-17",
+   "files": [
+    {
+     "level": "county",
+     "path": "2026/20260217__ga__state__senate__18__special__runoff__county-level.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260217__ga__state__senate__18__special__runoff__precinct-level.csv"
+    }
+   ],
+   "label": "senate 18 special runoff",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_missing": [],
+   "precinct_statewide": true,
+   "type": "state"
+  },
+  {
+   "county": true,
+   "county_counties": [],
+   "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
+   "date": "2026-01-20",
+   "files": [
+    {
+     "level": "county",
+     "path": "2026/20260120__ga__state__senate__18__special__county-level.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260120__ga__state__senate__18__special__precinct-level.csv"
+    }
+   ],
+   "label": "senate 18 special",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_missing": [],
+   "precinct_statewide": true,
+   "type": "state"
+  },
+  {
+   "county": true,
+   "county_counties": [],
+   "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
+   "date": "2026-01-06",
+   "files": [
+    {
+     "level": "county",
+     "path": "2026/20260106__ga__state__house__23__special__runoff__county-level.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260106__ga__state__house__23__special__runoff__precinct-level.csv"
+    }
+   ],
+   "label": "house 23 special runoff",
+   "precinct": true,
+   "precinct_counties": [],
+   "precinct_missing": [],
+   "precinct_statewide": true,
+   "type": "state"
+  },
+  {
+   "county": true,
+   "county_counties": [],
+   "county_derivable": false,
+   "county_missing": [],
+   "county_statewide": true,
    "date": "2025-12-16",
    "files": [
     {
@@ -25816,7 +25936,7 @@
    "type": "special"
   }
  ],
- "generated_at": "2026-11-22T14:42:01Z",
+ "generated_at": "2026-11-23T18:23:55Z",
  "repo": "openelections-data-ga",
  "state": "ga",
  "total_counties": 159
