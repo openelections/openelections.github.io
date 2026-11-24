@@ -123,11 +123,11 @@
    "type": "general"
   },
   {
-   "county": false,
+   "county": true,
    "county_counties": [],
-   "county_derivable": true,
+   "county_derivable": false,
    "county_missing": [],
-   "county_statewide": false,
+   "county_statewide": true,
    "date": "2022-11-08",
    "files": [
     {
@@ -141,28 +141,47 @@
     {
      "level": "precinct",
      "path": "2022/20221108__nj__general__capemay__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__nj__general__cumberland__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__nj__general__hunterdon__municipal.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__nj__general__passaic__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__nj__general__salem__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__nj__general__somerset__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__nj__general__sussex__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__nj__general__union__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2022/20221108__nj__general__warren__precinct.csv"
     }
    ],
-   "label": "",
+   "label": "hunterdon municipal",
    "precinct": true,
    "precinct_counties": [
     "Bergen County",
     "Camden County",
-    "Cape May County"
-   ],
-   "precinct_missing": [
-    "Atlantic County",
-    "Burlington County",
+    "Cape May County",
     "Cumberland County",
-    "Essex County",
-    "Gloucester County",
-    "Hudson County",
-    "Hunterdon County",
-    "Mercer County",
-    "Middlesex County",
-    "Monmouth County",
-    "Morris County",
-    "Ocean County",
     "Passaic County",
     "Salem County",
     "Somerset County",
@@ -170,7 +189,8 @@
     "Union County",
     "Warren County"
    ],
-   "precinct_statewide": false,
+   "precinct_missing": [],
+   "precinct_statewide": true,
    "type": "general"
   },
   {
@@ -1508,7 +1528,7 @@
    "type": "primary"
   }
  ],
- "generated_at": "2026-11-23T18:24:18Z",
+ "generated_at": "2026-11-24T17:54:49Z",
  "repo": "openelections-data-nj",
  "state": "nj",
  "total_counties": 21
