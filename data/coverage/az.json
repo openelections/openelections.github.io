@@ -118,7 +118,9 @@
   },
   {
    "county": true,
-   "county_counties": [],
+   "county_counties": [
+    "Graham County"
+   ],
    "county_derivable": false,
    "county_missing": [],
    "county_statewide": true,
@@ -127,6 +129,10 @@
     {
      "level": "county",
      "path": "2026/20260721__az__primary__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/20260721__az__primary__precinct.csv"
     },
     {
      "level": "precinct",
@@ -142,7 +148,23 @@
     },
     {
      "level": "precinct",
+     "path": "2026/counties/20260721__az__primary__gila__precinct.csv"
+    },
+    {
+     "level": "county",
+     "path": "2026/counties/20260721__az__primary__graham__county.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260721__az__primary__graham__precinct.csv"
+    },
+    {
+     "level": "precinct",
      "path": "2026/counties/20260721__az__primary__greenlee__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260721__az__primary__la_paz__precinct.csv"
     },
     {
      "level": "precinct",
@@ -158,11 +180,19 @@
     },
     {
      "level": "precinct",
+     "path": "2026/counties/20260721__az__primary__pima__precinct.csv"
+    },
+    {
+     "level": "precinct",
      "path": "2026/counties/20260721__az__primary__pinal__precinct.csv"
     },
     {
      "level": "precinct",
      "path": "2026/counties/20260721__az__primary__santa_cruz__precinct.csv"
+    },
+    {
+     "level": "precinct",
+     "path": "2026/counties/20260721__az__primary__yavapai__precinct.csv"
     },
     {
      "level": "precinct",
@@ -175,22 +205,21 @@
     "Apache County",
     "Cochise County",
     "Coconino County",
+    "Gila County",
+    "Graham County",
     "Greenlee County",
+    "La Paz County",
     "Maricopa County",
     "Mohave County",
     "Navajo County",
+    "Pima County",
     "Pinal County",
     "Santa Cruz County",
+    "Yavapai County",
     "Yuma County"
    ],
-   "precinct_missing": [
-    "Gila County",
-    "Graham County",
-    "La Paz County",
-    "Pima County",
-    "Yavapai County"
-   ],
-   "precinct_statewide": false,
+   "precinct_missing": [],
+   "precinct_statewide": true,
    "type": "primary"
   },
   {
@@ -1919,7 +1948,7 @@
    "type": "primary"
   }
  ],
- "generated_at": "2026-11-26T17:01:47Z",
+ "generated_at": "2026-11-27T16:46:58Z",
  "repo": "openelections-data-az",
  "state": "az",
  "total_counties": 15
